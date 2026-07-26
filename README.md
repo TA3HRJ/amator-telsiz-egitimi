@@ -39,7 +39,7 @@ Bu doğrulama sürecinde kaynak soru bankasının kendisinde birkaç **gerçek h
 **doğru fizik/hesap gösterilmiş**, resmî anahtardan farkı sarı/turuncu bir uyarı kutusuyla açıkça
 belirtilmiştir — gerçek sınavda resmî anahtarın ne diyebileceği not edilmiştir.
 
-## KEGM'ye sunulan düzeltme önerisi
+## KEGM'ye sunulacak düzeltme önerisi
 
 `KEGM_Soru_Bankasi_Duzeltme_Onerisi_v1.0.pptx`, yukarıda açıklanan doğrulama sürecinde tespit edilen
 4 bulguyu (İşletme'de 1, Teknik'te 3) — orijinal soru, resmî işaretli cevap, gerekçe/hesap ve
