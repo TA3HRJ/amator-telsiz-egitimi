@@ -18,6 +18,7 @@ formüle atıfla açıklar.
 | **Teknik (v1.0)** | 172 soru — devre analizi, anten, propagasyon, temel elektrik/elektronik formülleri |
 | **Tüm Konular (PDF, v1.0)** | Yukarıdaki üç sunumun tamamı tek PDF'te (429 sayfa) — PowerPoint gerektirmeden görüntüleme/yazdırma için |
 | **Soru_Bankalari/** | Orijinal KEGM soru bankaları (cevap anahtarsız) — pratik sınav olarak kullanılabilir |
+| **Soru Bankası Düzeltme Önerisi (v1.0)** | KEGM Telsiz İşletme Müdürlüğü'ne sunulmak üzere hazırlanmış, 4 bulgu içeren düzeltme önerisi (bkz. aşağıda) |
 
 ## Format
 
@@ -37,6 +38,13 @@ Bu doğrulama sürecinde kaynak soru bankasının kendisinde birkaç **gerçek h
 (örn. bir rezonans frekansı hesabı, bir anten kısalma faktörü açıklaması). Bu sorularda slaytta
 **doğru fizik/hesap gösterilmiş**, resmî anahtardan farkı sarı/turuncu bir uyarı kutusuyla açıkça
 belirtilmiştir — gerçek sınavda resmî anahtarın ne diyebileceği not edilmiştir.
+
+## KEGM'ye sunulan düzeltme önerisi
+
+`KEGM_Soru_Bankasi_Duzeltme_Onerisi_v1.0.pptx`, yukarıda açıklanan doğrulama sürecinde tespit edilen
+4 bulguyu (İşletme'de 1, Teknik'te 3) — orijinal soru, resmî işaretli cevap, gerekçe/hesap ve
+önerilen düzeltmeyle — KEGM Telsiz İşletme Müdürlüğü'ne sunulmak üzere derler. Ulusal ve
+Uluslararası Düzenlemeler bankasında (67 soru) herhangi bir hata bulunmamıştır.
 
 ## Hazırlanış
 
