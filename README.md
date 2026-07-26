@@ -16,6 +16,7 @@ formüle atıfla açıklar.
 | **Ulusal ve Uluslararası Düzenlemeler (v1.0)** | 67 soru — KEGM Sınav ve Belgelendirme Yönetmeliği (RG 27482), CEPT/ITU |
 | **İşletme (v1.0)** | 151 soru — Q-kodları, fonetik alfabe, mors, çağrı işareti kuralları, işletme adabı |
 | **Teknik (v1.0)** | 172 soru — devre analizi, anten, propagasyon, temel elektrik/elektronik formülleri |
+| **Tüm Konular (PDF, v1.0)** | Yukarıdaki üç sunumun tamamı tek PDF'te (429 sayfa) — PowerPoint gerektirmeden görüntüleme/yazdırma için |
 | **Soru_Bankalari/** | Orijinal KEGM soru bankaları (cevap anahtarsız) — pratik sınav olarak kullanılabilir |
 
 ## Format
