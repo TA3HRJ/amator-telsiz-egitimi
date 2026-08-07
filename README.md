@@ -1,6 +1,6 @@
 # Amatör Telsizcilik — Sınav Hazırlık Seti
 
-**Sürüm 1.0 · 26 Temmuz 2026**
+**Sürüm 1.1 · 7 Ağustos 2026**
 
 Türkiye'de Amatör Telsizcilik Belgesi (A/B/C sınıfı) sınavına hazırlananlar için, KEGM'nin resmî
 soru bankalarına dayanan, **soru + açıklama + kaynak** formatında üç sunum seti.
@@ -13,12 +13,17 @@ formüle atıfla açıklar.
 
 | Belge | Kapsam |
 |-------|--------|
-| **Ulusal ve Uluslararası Düzenlemeler (v1.0)** | 67 soru — KEGM Sınav ve Belgelendirme Yönetmeliği (RG 27482), CEPT/ITU |
-| **İşletme (v1.0)** | 151 soru — Q-kodları, fonetik alfabe, mors, çağrı işareti kuralları, işletme adabı |
-| **Teknik (v1.0)** | 172 soru — devre analizi, anten, propagasyon, temel elektrik/elektronik formülleri |
-| **Tüm Konular (PDF, v1.0)** | Yukarıdaki üç sunumun tamamı tek PDF'te (429 sayfa) — PowerPoint gerektirmeden görüntüleme/yazdırma için |
+| **Ulusal ve Uluslararası Düzenlemeler (v1.1)** | 67 soru — KEGM Sınav ve Belgelendirme Yönetmeliği (RG 27482), CEPT/ITU |
+| **İşletme (v1.1)** | 151 soru — Q-kodları, fonetik alfabe, mors, çağrı işareti kuralları, işletme adabı |
+| **Teknik (v1.1)** | 172 soru — devre analizi, anten, propagasyon, temel elektrik/elektronik formülleri |
+| **Tüm Konular (PDF, v1.1)** | Yukarıdaki üç sunumun tamamı tek PDF'te (429 sayfa) — PowerPoint gerektirmeden görüntüleme/yazdırma için |
 | **Soru_Bankalari/** | Orijinal KEGM soru bankaları (cevap anahtarsız) — pratik sınav olarak kullanılabilir |
-| **Soru Bankası Düzeltme Önerisi (v1.0)** | KEGM Telsiz İşletme Müdürlüğü'ne sunulmak üzere hazırlanmış, 4 bulgu içeren düzeltme önerisi (bkz. aşağıda) |
+| **Soru Bankası Düzeltme Önerisi (v1.1)** | KEGM Telsiz İşletme Müdürlüğü'ne sunulmak üzere hazırlanmış, 9 bulgu içeren düzeltme önerisi (bkz. aşağıda) |
+
+> **Sürüm 1.1'de ne değişti:** Soruların dayandığı yönetmelik hükümlerinin bugün yürürlükte olup
+> olmadığı Resmî Gazete metinleri üzerinden denetlendi. Bu denetimden çıkan **beş yeni bulgu**
+> (Düzenlemeler 17, 42, 60 ve İşletme 22, 89) hem ilgili soru slaytlarına uyarı kutusu olarak işlendi
+> hem de KEGM düzeltme önerisine eklendi. Düzeltme önerisi 4 bulgudan **9 bulguya** çıktı.
 
 ## Format
 
@@ -41,10 +46,23 @@ belirtilmiştir — gerçek sınavda resmî anahtarın ne diyebileceği not edil
 
 ## KEGM'ye sunulacak düzeltme önerisi
 
-`KEGM_Soru_Bankasi_Duzeltme_Onerisi_v1.0.pptx`, yukarıda açıklanan doğrulama sürecinde tespit edilen
-4 bulguyu (İşletme'de 1, Teknik'te 3) — orijinal soru, resmî işaretli cevap, gerekçe/hesap ve
-önerilen düzeltmeyle — KEGM Telsiz İşletme Müdürlüğü'ne sunulmak üzere derler. Ulusal ve
-Uluslararası Düzenlemeler bankasında (67 soru) herhangi bir hata bulunmamıştır.
+`KEGM_Soru_Bankasi_Duzeltme_Onerisi_v1.1.pptx`, üç bankada tespit edilen **9 bulguyu** — orijinal soru,
+resmî işaretli cevap, gerekçe/hesap ve önerilen düzeltmeyle — KEGM Telsiz İşletme Müdürlüğü'ne
+sunulmak üzere derler. Bulgular iki ayrı denetimden gelir:
+
+| Denetim | Bulgu |
+|---|---|
+| **Cevap anahtarı ve hesap** | İşletme 43 (CQ mod zorunluluğu); Teknik 46 (RMS → tepeden tepeye), 66 (LC rezonans), 120 (dipol kısalma sebebi) |
+| **Mevzuat güncelliği** | Düzenlemeler 17 ve 42 (mülga Özel Telsiz Sistemleri Yönetmeliği'ne atıf); Düzenlemeler 60 ve İşletme 22 (ITU Region / CQ Zone / ITU Zone karışıklığı); İşletme 89 (dernek çağrı işareti ön eki — 20/2/2011 Yönetmelik değişikliği) |
+
+Mevzuat güncelliği denetimi, soruların dayandığı hükümlerin bugün yürürlükte olup olmadığını Resmî
+Gazete metinleri üzerinden kontrol eder. En belirgin bulgu, Özel Telsiz Sistemleri Yönetmeliği'nin
+(RG 27292) FTM Yönetmeliği (RG 30608) Md.9/2 ile **27/11/2018'de yürürlükten kaldırılmış** olmasına
+rağmen iki sorunun hâlâ bu yönetmeliği doğru cevap olarak göstermesidir.
+
+Bu bulguların dokuzu da eğitim sunumlarında ilgili soru slaytına **turuncu uyarı kutusu** olarak
+işlenmiştir: slaytta doğru bilgi/hesap gösterilir, resmî anahtarın ne dediği ve gerçek sınavda ne
+beklenebileceği ayrıca belirtilir.
 
 ## Hazırlanış
 
