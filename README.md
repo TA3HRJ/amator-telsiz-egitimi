@@ -53,6 +53,11 @@ ve genel elektrik/elektronik/telsiz işletme referanslarından (İşletme, Tekni
 
 **Yazar:** Claude Sonnet 5 (Anthropic) · **Editör / Hata Kontrolü:** H. Erhan Özkan, TA3HRJ
 
+## İlgili çalışma
+
+Aynı camiaya yönelik mevzuat analizi ve kurumlara talep çalışması ayrı bir repoda yayımlanmaktadır:
+[github.com/TA3HRJ/amator-telsiz-mevzuat](https://github.com/TA3HRJ/amator-telsiz-mevzuat)
+
 ## Sorumluluk Reddi
 
 Bu set, amatör telsiz camiasına katkı amacıyla gönüllü olarak hazırlanmıştır. **Sınav hazırlık
