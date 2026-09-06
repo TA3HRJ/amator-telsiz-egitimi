@@ -58,7 +58,10 @@ def anahtarla(metin):
     dusmustur. Ayni donusum slayt metnine de uygulanirsa iki taraf ayni tabanda
     bulusur. c/o/u iki tarafta da dogru oldugu icin korunur.
     """
-    metin = metin.replace("İ", "i").replace("I", "ı").lower()
+    # Buyuk I-noktali (İ) de bankada tamamen dusuyor ("İstasyon" -> "stasyon",
+    # "İngiltere" -> "ngiltere"), i-noktasiz ise "i"ye donusuyor. Slayt metnine ayni
+    # donusumu uygulamak icin İ silinir, i'ye cevrilmez.
+    metin = metin.replace("İ", "").replace("I", "ı").lower()
     metin = metin.replace("ı", "i").replace("ş", "").replace("ğ", "")
     return re.sub(r"[^a-z0-9çöü]+", "", metin)
 

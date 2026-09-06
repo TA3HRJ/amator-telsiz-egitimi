@@ -1,0 +1,342 @@
+{
+  "_hakkinda": [
+    "C sinifi Isletme sunumu icin SIFIRDAN yazilan aciklamalar (faz 3).",
+    "Bicim ve alan anlamlari icin bkz. icerik/C_Duzenlemeler.json."
+  ],
+  "konu": "Isletme",
+  "sinif": "C",
+  "sorular": [
+    {
+      "no": 19,
+      "blok": "Acil Durum ve Öncelik",
+      "govde": "Hangi tip trafik en yüksek önceliğe sahiptir?",
+      "siklar": {
+        "a": "Acil durum trafiği",
+        "b": "Öncelik trafiği",
+        "c": "Sağlık ve sosyal yardım trafiği",
+        "d": "Rutin trafik"
+      },
+      "cevap": "A",
+      "aciklama": "Telsiz haberleşmesinde trafik türleri sabit bir öncelik sırasına dizilmiştir: en üstte can ve mal güvenliğinin doğrudan tehlikede olduğu acil durum (tehlike) trafiği, sonra öncelik (ivedilik) trafiği, ardından sağlık ve sosyal yardım trafiği, en sonda rutin trafik gelir. Şıklar zaten bu sıranın kendisidir; en üstteki acil durum trafiğidir.",
+      "kaynak": "ITU Radyo Tüzüğü, Madde 53 — haberleşmelerin öncelik sırası.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 25,
+      "blok": "Çağrı İşareti Ön Ekleri",
+      "govde": "Aşağıdaki çağrı işareti ön eklerinden hangisi Türkiye'ye aittir?",
+      "siklar": {
+        "a": "SM",
+        "b": "OH",
+        "c": "TL",
+        "d": "Hiçbiri"
+      },
+      "cevap": "D",
+      "aciklama": "ITU, çağrı işareti serilerini ülkelere blok blok tahsis eder. Buradaki üç ön ek de başka ülkelerindir: SM İsveç, OH Finlandiya, TL ise Orta Afrika Cumhuriyeti'ne aittir. Türkiye'ye tahsis edilen seriler TA-TC olduğundan listede yoktur; doğru cevap \"hiçbiri\"dir. TL ile TA'nın aynı harfle başlaması yanıltmamalı: tahsis tek harfe göre değil, iki karakterlik seriye göre yapılır.",
+      "kaynak": "ITU Radyo Tüzüğü Ek 42 — çağrı işareti serilerinin ülkelere tahsis tablosu.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 31,
+      "blok": "Raporlama",
+      "govde": "Amatör telsiz haberleşmesinde kullanılan RST raporunda R (okunabilirlik) 5 olarak veriliyor. Bunun anlamı nedir?",
+      "siklar": {
+        "a": "Zor okunuyor",
+        "b": "Mükemmel okunuyor",
+        "c": "Kısmen okunuyor",
+        "d": "Anlaşılmıyor"
+      },
+      "cevap": "B",
+      "aciklama": "RST raporunun ilk harfi R (Readability — okunabilirlik) 1'den 5'e kadar derecelendirilir ve 5 en yüksek değerdir: \"mükemmel, hiç zorlanmadan okunuyor\" demektir. Üç harfin ölçekleri farklıdır; yalnızca R 5'e kadar gider, S (sinyal şiddeti) ve T (ton) 9'a kadar çıkar. Bu yüzden \"59\" raporu okunabilirlikte tavan, sinyal şiddetinde de tavan anlamına gelir.",
+      "kaynak": "RST raporlama sistemi.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 34,
+      "blok": "Amatör Bantlar",
+      "govde": "Aşağıdakilerden hangisi amatör frekans bandı değildir?",
+      "siklar": {
+        "a": "142 - 144 GHz",
+        "b": "5150 - 5450 MHz",
+        "c": "144 - 146 MHz",
+        "d": "430 - 440 MHz"
+      },
+      "cevap": "B",
+      "aciklama": "5150-5450 MHz amatör hizmete tahsisli değildir; bu aralık kablosuz erişim sistemlerinin (RLAN/Wi-Fi) kullanımındadır. Millî Frekans Planı'nın amatör arayüz belgesinde 5 GHz civarındaki amatör tahsisleri 5650-5670 MHz ile 5820-5850 MHz aralıklarıdır. Şıklardan 144-146 MHz (2 m) ve 430-440 MHz (70 cm) ise amatör bantlardır.",
+      "kaynak": "BTK Millî Frekans Planı — Amatör Sistemleri Telsiz Arayüzü Özellikleri Dokümanları (TAD08-01) frekans bandı listesi.",
+      "uyari": "Sorunun iki doğru cevabı görünmektedir. Şıkkı (a) 142-144 GHz de amatör bant değildir: Millî Frekans Planı'nın amatör tahsis listesi 100 GHz üzerinde 134-136 GHz ve 136-142 GHz aralıklarıyla biter, 142-144 GHz listede yer almaz. Sınavda resmî cevap anahtarı esas alınır; sorunun tek doğru cevaplı hâle getirilmesi gerekir.",
+      "bulgu_adayi": true
+    },
+    {
+      "no": 37,
+      "blok": "Çağrı İşareti Ön Ekleri",
+      "govde": "VE çağrı işareti ön eki aşağıdaki ülkelerden hangisine aittir?",
+      "siklar": {
+        "a": "İngiltere",
+        "b": "Kanada",
+        "c": "Japonya",
+        "d": "Avustralya"
+      },
+      "cevap": "B",
+      "aciklama": "ITU tahsis tablosunda VE serisi Kanada'ya aittir; Kanada'nın kullandığı seriler VA-VG, VO ve VX-VY'dir. Diğer şıkların serileri farklıdır: İngiltere G ve M, Japonya JA-JS, Avustralya ise VK serisini kullanır. VE ile VK sık karıştırılır — ikisi de V ile başlar ama ayrı ülkelere tahsislidir.",
+      "kaynak": "ITU Radyo Tüzüğü Ek 42 — çağrı işareti serilerinin ülkelere tahsis tablosu.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 38,
+      "blok": "Fonetik Alfabe",
+      "govde": "DEPREM'in uluslararası fonetik alfabeye göre hecelenmesi nasıldır?",
+      "siklar": {
+        "a": "Delta - Egg - Pipe - Roma - Egg - Miami",
+        "b": "Delta - Echo - Piano - Roam - Echo - Mike",
+        "c": "Delta - Echo - Papa - Romeo - Echo - Mike",
+        "d": "Done - Eye - Papa - Rival - Eye - Mors"
+      },
+      "cevap": "C",
+      "aciklama": "Uluslararası fonetik alfabede harflerin karşılığı sırasıyla D-Delta, E-Echo, P-Papa, R-Romeo, E-Echo, M-Mike'tır. Diğer şıklar alfabede yeri olmayan uydurma kelimeler taşır (Egg, Pipe, Roma, Piano, Roam, Done, Eye, Rival, Mors). Fonetik alfabenin kelimeleri sabittir: aynı harfle başlayan başka bir kelimeyle değiştirilemez, çünkü amaç kötü duyulan bir kanalda kelimenin bütün olarak tanınmasıdır.",
+      "kaynak": "ITU Radyo Tüzüğü Ek 14 — fonetik alfabe ve rakamların okunuşu.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 39,
+      "blok": "Kısaltmalar",
+      "govde": "UTC kısaltmasının açık anlamı nedir?",
+      "siklar": {
+        "a": "Uluslararası Telekomünikasyon Birliği",
+        "b": "Uluslararası saat",
+        "c": "Uluslararası Telsiz Amatörleri Birliği",
+        "d": "İstasyonun bulunduğu mevki"
+      },
+      "cevap": "B",
+      "aciklama": "UTC (Coordinated Universal Time — Eşgüdümlü Evrensel Zaman), dünya genelinde ortak kullanılan zaman ölçeğidir. Amatör telsizcilikte log kayıtları ve randevu (sked) saatleri UTC ile verilir; böylece farklı zaman dilimlerindeki istasyonlar aynı anı kasteder. Diğer şıklar başka kısaltmaların karşılığıdır: Uluslararası Telekomünikasyon Birliği ITU, Uluslararası Telsiz Amatörleri Birliği IARU, istasyonun bulunduğu mevki ise QTH'dir.",
+      "kaynak": "UTC zaman ölçeği; karşılaştırma için ITU, IARU ve QTH tanımları.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 50,
+      "blok": "Zaman ve Boylam",
+      "govde": "90 derece batı boylamında yerel saat 14:10 iken 30 derece batı boylamında saat kaç olur?",
+      "siklar": {
+        "a": "20:10",
+        "b": "19:10",
+        "c": "10:10",
+        "d": "18:10"
+      },
+      "cevap": "C",
+      "aciklama": "Yerel saat doğuya gidildikçe ilerler, batıya gidildikçe geri kalır; her 15 derece boylam 1 saate karşılık gelir. 90° batı ile 30° batı arasında 60 derece, yani 4 saatlik fark vardır. 30° batı boylamı, 90° batıya göre doğuda kalır — batıya doğru sayıldığında 30, 90'dan daha küçüktür. Dolayısıyla oradaki saat 4 saat ileridir: 14:10 + 4:00 = 18:10.",
+      "kaynak": "Boylam-saat ilişkisi (15° = 1 saat).",
+      "uyari": "Resmî cevap anahtarı (c) 10:10'u işaretlemektedir; bu değer, 4 saatin ileri değil geri alınmasıyla — yani 30° batının 90° batıya göre batıda olduğu varsayımıyla — elde edilir. Oysa 30° batı, 90° batının doğusundadır. Aynı soru bankasının kendi soruları da yönü bu şekilde uygular: A/B İşletme 70'te 90° batıdan 90° doğuya geçilirken saat ileri alınmakta, A/B İşletme 49'da 30° doğudan 30° batıya geçilirken geri alınmaktadır. Şıklar arasındaki doğru değer (d) 18:10'dur. Sınavda resmî cevap anahtarı esas alınır.",
+      "bulgu_adayi": true
+    },
+    {
+      "no": 52,
+      "blok": "Emisyon Tipleri",
+      "govde": "144-146 MHz frekans bandında aşağıdaki emisyon tiplerinden hangisi kullanılmaz?",
+      "siklar": {
+        "a": "F1A",
+        "b": "F1B",
+        "c": "F2A",
+        "d": "K1A"
+      },
+      "cevap": "D",
+      "aciklama": "Emisyon tanımının ilk karakteri taşıyıcının modülasyon türünü gösterir: F frekans modülasyonu, A genlik modülasyonu, J tek yan banttır. K ise genliği modüle edilmiş darbe (pulse) dizisini gösterir; darbeli emisyonlar radyolokasyon gibi hizmetlerin işidir. Millî Frekans Planı'nın 144-146 MHz amatör arayüz belgesinde izin verilen modülasyonlar arasında F1A, F1B ve F2A sayılmış, K ile başlayan hiçbir emisyon listeye alınmamıştır.",
+      "kaynak": "ITU Radyo Tüzüğü Ek 1 — emisyonların sınıflandırılması; BTK Millî Frekans Planı, Amatör TAD08-01 (144-146 MHz için izin verilen modülasyon listesi).",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 59,
+      "blok": "Q Kodları",
+      "govde": "QRQ kelimesinin anlamı nedir?",
+      "siklar": {
+        "a": "Sinyal şiddetim ne?",
+        "b": "Frekansım değişiyor mu?",
+        "c": "Meşgul müsünüz?",
+        "d": "Daha çabuk göndereyim mi?"
+      },
+      "cevap": "D",
+      "aciklama": "QRQ, soru biçiminde \"daha çabuk göndereyim mi?\", yanıt biçiminde \"daha çabuk gönder\" demektir; karşıtı QRS'tir (daha yavaş gönder). Diğer şıklar başka Q kodlarına aittir: sinyal şiddeti QSA, frekansın kayıp kaymadığı QRH, meşguliyet ise QRL ile sorulur.",
+      "kaynak": "ITU Radyo Tüzüğü Ek 14 — Q kodları.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 64,
+      "blok": "Fonetik Alfabe",
+      "govde": "ALİ kelimesinin uluslararası fonetik alfabeye göre hecelenmesi aşağıdakilerden hangisidir?",
+      "siklar": {
+        "a": "Ahmet - Lima - İndia",
+        "b": "Ankara - Lüleburgaz - İzmir",
+        "c": "Alpha - Lima - İndia",
+        "d": "Alpha - Lima - Trabzon"
+      },
+      "cevap": "C",
+      "aciklama": "Uluslararası fonetik alfabede A-Alpha, L-Lima, İ/I-India'dır; üç kelimenin de aynı listeden gelmesi gerekir. Şıkkı (b) baştan sona millî (Türkçe) fonetik alfabedir. Şıkları (a) ve (d) ise iki alfabeyi karıştırır: Ahmet ve Trabzon millî alfabenin kelimeleridir. Soru \"uluslararası\" dediği için karışık listeler elenir.",
+      "kaynak": "ITU Radyo Tüzüğü Ek 14 — uluslararası fonetik alfabe; karşılaştırma için millî fonetik alfabe.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 65,
+      "blok": "Q Kodları",
+      "govde": "QRM'nin açılımı nedir?",
+      "siklar": {
+        "a": "Enterferans var mı?",
+        "b": "Daha yavaş göndereyim mi?",
+        "c": "Beni kim arıyor?",
+        "d": "Hazır mısın?"
+      },
+      "cevap": "A",
+      "aciklama": "QRM, başka istasyonlardan kaynaklanan karışmayı (enterferansı) sorar veya bildirir. Karışmanın kaynağı doğal gürültü ise — atmosferik boşalma, cihaz gürültüsü — bunun kodu QRN'dir; ikisi sık karıştırılır. Diğer şıklar başka kodlara aittir: daha yavaş gönderme QRS, \"beni kim arıyor\" QRZ, \"hazır mısın\" QRV.",
+      "kaynak": "ITU Radyo Tüzüğü Ek 14 — Q kodları.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 66,
+      "blok": "Amatör Bantlar",
+      "govde": "144-146 MHz bandında çalışacağı zaman dalga boyu kaç metre olmalıdır?",
+      "siklar": {
+        "a": "2 m",
+        "b": "6 m",
+        "c": "10 m",
+        "d": "12 m"
+      },
+      "cevap": "A",
+      "aciklama": "Dalga boyu, ışık hızının frekansa bölünmesiyle bulunur; pratik bağıntı λ (metre) = 300 / f (MHz) şeklindedir. Bandın ortası olan 145 MHz için λ = 300/145 ≈ 2,07 metredir, bu yüzden 144-146 MHz \"2 metre bandı\" diye anılır. Diğer şıklar başka bantların adıdır: 6 m 50 MHz, 10 m 28 MHz, 12 m ise 24 MHz bandına karşılık gelir. Bant adları yuvarlatılmış dalga boyudur, kesin ölçü değildir.",
+      "kaynak": "λ = c / f bağıntısı; BTK Millî Frekans Planı amatör bant listesi (144-146 MHz).",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 68,
+      "blok": "İşletme Kuralları",
+      "govde": "Amatör bir istasyonun, bilgiyi halka yayınlamasına ne zaman izin verilir?",
+      "siklar": {
+        "a": "Hiçbir zaman",
+        "b": "Yalnızca operatör parası ödendiğinde",
+        "c": "Yalnızca yayın 10 dakikadan fazla sürdüğünde",
+        "d": "Yalnızca yayın 15 dakikadan fazla sürdüğünde"
+      },
+      "cevap": "A",
+      "aciklama": "Amatör telsizcilik, tanımı gereği kişisel yetişme ve amatörler arası haberleşme amacı taşır; genel halka yönelik yayıncılık (broadcasting) amatör hizmetin kapsamı dışındadır ve hiçbir koşulda izin verilmez. Süre ya da ödeme gibi bir istisna yoktur — diğer üç şık, böyle bir istisna varmış izlenimi vermek için konmuştur. Ayrıca ücret karşılığı yayın, amatör tanımındaki \"maddi çıkar gözetmeme\" şartını da doğrudan ihlal eder.",
+      "kaynak": "5809 sayılı Elektronik Haberleşme Kanunu, Madde 43 (amatör telsizcilik tanımı); ITU Radyo Tüzüğü Madde 25 — amatör hizmet.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 69,
+      "blok": "İşletme Kuralları",
+      "govde": "Amatör bir istasyon ne zaman yanlış ve yanıltıcı sinyaller gönderebilir?",
+      "siklar": {
+        "a": "Hiçbir zaman",
+        "b": "Bir beacon vericisini çalıştırırken",
+        "c": "Yalnızca tanımlanmamış yayımlar yapıldığında",
+        "d": "Gizlilik için bir mesajın anlamının gizlenmesi gerektiğinde"
+      },
+      "cevap": "A",
+      "aciklama": "Yanlış veya yanıltıcı sinyal göndermek hiçbir koşulda serbest değildir; sahte tehlike ya da acil durum işareti göndermek bunun en ağır hâlidir, çünkü arama kurtarma kaynaklarını boşa harcatır. Şıkkı (b) beacon (işaret vericisi) çalıştırmayı istisna gibi gösterir; oysa beacon yayını tanımlı, kimliğini bildiren ve yayılım gözlemi için kurulmuş meşru bir yayındır, yanıltıcı sinyal değildir. Şıkkı (d) ise ayrı bir yasağa girer: amatör haberleşmede mesajın anlamını gizlemek (şifreleme) de yasaktır.",
+      "kaynak": "ITU Radyo Tüzüğü Madde 25 — amatör hizmet; yanlış veya aldatıcı sinyal gönderme yasağı.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 70,
+      "blok": "İşletme Kuralları",
+      "govde": "Aşağıdakilerden hangisi amatör telsiz hizmetinde özellikle yasaklanmıştır?",
+      "siklar": {
+        "a": "Politik tartışmalar",
+        "b": "Yayın istasyonunda programların tartışılması",
+        "c": "Ahlaksız ve müstehcen dil",
+        "d": "Mors alfabesi uygulaması"
+      },
+      "cevap": "C",
+      "aciklama": "Amatör bantlarda ahlaka aykırı, müstehcen dil kullanımı açıkça yasaktır; bantlar herkese açıktır ve dinleyen kitle sınırlanamaz. Diğer şıklar bu anlamda \"özellikle yasaklanmış\" değildir: mors alfabesi uygulaması amatör hizmetin doğal parçasıdır, program veya konu sohbetinin sınırı ise ticari çıkar güdülmemesi ve yayıncılık niteliği taşımamasıdır. Şıkkı (a) için bir incelik var: 5809 sayılı Kanun amatör faaliyeti \"siyasi çıkar gözetmeden\" yürütülen uğraş olarak tanımlar, yani siyasi propaganda tanımın dışında kalır; ancak sorunun aradığı, doğrudan ve açık yasak olan müstehcen dildir.",
+      "kaynak": "5809 sayılı Elektronik Haberleşme Kanunu, Madde 43; amatör telsiz işletme adabı ve ITU Radyo Tüzüğü Madde 25.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 71,
+      "blok": "İstasyon Tanımlama",
+      "govde": "Kendi amatör istasyonunuzu tanımlamak için neyi yayınlamalısınız?",
+      "siklar": {
+        "a": "TC kimlik no",
+        "b": "Çağrı işaretinizi",
+        "c": "İlk isminiz ve yerinizi",
+        "d": "Tam isminiz"
+      },
+      "cevap": "B",
+      "aciklama": "Bir telsiz istasyonunun resmî kimliği çağrı işaretidir; tanımlama da çağrı işareti yayımlanarak yapılır. Çağrı işareti tek başına hem istasyonu hem ülkeyi ve bölgeyi belirtir, dolayısıyla dinleyen herkes kaynağı ayırt edebilir. Ad, soyad veya kimlik numarası gibi kişisel bilgiler kimliklendirme aracı değildir; bunları yayımlama zorunluluğu yoktur ve gereksiz yere kişisel veri açığa çıkarır.",
+      "kaynak": "ITU Radyo Tüzüğü Madde 19 — istasyonların tanımlanması; KEGM Sınav ve Belgelendirme Yönetmeliği çağrı işareti hükümleri.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 72,
+      "blok": "İstasyon Tanımlama",
+      "govde": "Amatör bir istasyon tahsis edilmiş çağrı işaretini ne sıklıkla gönderir?",
+      "siklar": {
+        "a": "Her yayının başında ve haberleşme sırasında her 10 dakikada bir",
+        "b": "Haberleşme süresince her 10 dakikada bir ve haberleşmenin sonunda",
+        "c": "Her yayının sonunda",
+        "d": "Yalnızca haberleşmenin sonunda"
+      },
+      "cevap": "B",
+      "aciklama": "Çağrı işareti, haberleşme sürerken belirli aralıklarla — on dakikada bir — ve haberleşmenin sonunda yayımlanır. Amaç, frekansı sonradan dinlemeye başlayan üçüncü kişilerin de istasyonu kısa sürede tanıyabilmesi ve görüşmenin kime ait olduğunun kayıt altına alınabilmesidir. Şıkkı (a) ara tanımlamaları doğru verir ama bitişteki tanımlamayı atlar; (c) ve (d) ise uzun bir görüşme boyunca istasyonu tanımsız bırakır.",
+      "kaynak": "ITU Radyo Tüzüğü Madde 19 — istasyonların tanımlanması; amatör işletme uygulaması.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 73,
+      "blok": "Acil Durum ve Öncelik",
+      "govde": "Acil durum mesajları gönderilirken aşağıdakilerden hangisinin olması gerekir?",
+      "siklar": {
+        "a": "Mesaj geçen tüm istasyonların çağrı işaretleri",
+        "b": "Mesajı başlatan kişinin ismi",
+        "c": "Durum raporu",
+        "d": "Mesaj başlığı"
+      },
+      "cevap": "B",
+      "aciklama": "Acil durum mesajı, mesajı başlatan kişinin — yani asıl kaynağın — adını taşımalıdır. Böylece bilginin kimden çıktığı bellidir, gerektiğinde doğrulanabilir ve geri dönülebilir; kaynağı belirsiz bir acil durum bildirimi müdahale edenler için kullanılamaz. Mesajın elden ele geçtiği bütün ara istasyonların çağrı işaretlerini eklemek, ayrı bir durum raporu veya biçimsel mesaj başlığı ise zorunlu unsur değildir.",
+      "kaynak": "Amatör telsiz acil durum trafiği işletme adabı — mesaj kaynağının kimliklendirilmesi.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 76,
+      "blok": "Çağrı İşareti Yapısı",
+      "govde": "Yürürlükteki yönetmeliğe göre, Amatör Telsiz çağrı işaretinde yer alan bölge numaralarından ADALAR'ın bölge numarası kaçtır?",
+      "siklar": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "3"
+      },
+      "cevap": "A",
+      "aciklama": "Yönetmeliğin Ek-1'i, çağrı işaretlerindeki bölge numaralarının kapsadığı illeri listeler. Bu listede 0 numaralı bölgenin karşılığı tek satırdır: \"TÜM ADALAR\". 1'den 9'a kadar olan numaralar il gruplarına ayrılmıştır — örneğin 1 Trakya ile İstanbul'un Avrupa yakasını, 3 İzmir-Bursa-Balıkesir çevresini, 9 doğu illerini kapsar. Adaların ayrı bir numara alması, ada istasyonlarının çağrı işaretinden tanınmasını sağlar.",
+      "kaynak": "KEGM Telsiz İşletme Müdürlüğü Sınav ve Belgelendirme Yönetmeliği (RG 3/2/2010, 27482), Ek-1 — bölge numaralarının kapsadığı illerin listesi.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 78,
+      "blok": "Acil Durum ve Öncelik",
+      "govde": "Amatör telsiz hizmetinde hangi tür haberleşme her zaman önceliğe sahiptir?",
+      "siklar": {
+        "a": "Yineleyici haberleşmesi",
+        "b": "Acil durum haberleşmesi",
+        "c": "Tek yönlü haberleşme",
+        "d": "Üçüncü şahıs haberleşmesi"
+      },
+      "cevap": "B",
+      "aciklama": "Can ve mal güvenliğini ilgilendiren acil durum haberleşmesi her zaman önceliklidir; böyle bir çağrı duyulduğunda sürmekte olan görüşme derhal bırakılır ve frekans boşaltılır. Diğer şıklardaki haberleşme türlerinin — yineleyici (röle) üzerinden yapılan, tek yönlü veya üçüncü şahıs adına yapılan haberleşmenin — böyle bir üstünlüğü yoktur; bunlar haberleşmenin biçimini anlatır, önceliğini değil.",
+      "kaynak": "ITU Radyo Tüzüğü, Madde 53 (öncelik sırası) ve Madde 25 (amatör hizmet).",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 82,
+      "blok": "Acil Durum ve Öncelik",
+      "govde": "Amatör istasyonundan \"SOS\" veya \"MAYDAY\" sinyali hangi durumlarda gönderilir?",
+      "siklar": {
+        "a": "Sadece denizde bir gemiden iletim yapıyorken",
+        "b": "Sadece bir saatin 15. ve 30. dakikalarında",
+        "c": "İnsan yaşamına ve mala mevcut bir tehdit olması durumunda",
+        "d": "Ulusal Meteoroloji Dairesi bir meteoroloji uyarısı açıkladığı zaman"
+      },
+      "cevap": "C",
+      "aciklama": "SOS (telgraf/mors) ve MAYDAY (telsiz telefon), yalnızca insan yaşamına veya mala yönelik gerçek ve o an var olan bir tehdit hâlinde gönderilen tehlike işaretleridir. Denizde bulunma şartı yoktur; bir kara istasyonu da gerçek bir tehlike durumunda bu işaretleri kullanabilir. Belirli dakikalarda gönderim (sessizlik periyodu uygulaması) tehlike işaretinin şartı değil, dinleme düzeniyle ilgili ayrı bir kuraldır; meteoroloji uyarısı ise emniyet haberleşmesinin konusudur, tehlike işareti sebebi değildir. Gerçek olmayan tehlike işareti göndermek yasaktır.",
+      "kaynak": "ITU Radyo Tüzüğü — tehlike ve emniyet haberleşmesi hükümleri (Madde 30-33); ayrıca bkz. bu setin 69 numaralı sorusu.",
+      "bulgu_adayi": false
+    }
+  ]
+}
