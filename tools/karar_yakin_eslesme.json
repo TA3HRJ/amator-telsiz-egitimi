@@ -1,0 +1,76 @@
+{
+  "_aciklama": [
+    "Yakin eslesme (benzerlik esigi asildi ama birebir degil) satirlarinin insan karari.",
+    "esleme.py bu dosyayi okur; karari olmayan yakin eslesme YAKIN ESLESME - DOGRULA",
+    "olarak kalir. Anahtar bicimi: '<Konu>/<C soru no>'.",
+    "karar = 'ayni'  -> soru A-B'deki ile ayni sayilir, slayt kaynak olarak kullanilir.",
+    "karar = 'farkli' -> ayri sorudur, sifirdan aciklama yazilir."
+  ],
+
+  "Duzenlemeler/12": {
+    "ab_no": 23, "karar": "ayni",
+    "gerekce": "Tek fark 'plana' / 'plan' cekim eki. Siklar ve resmi cevap ayni."
+  },
+  "Duzenlemeler/26": {
+    "ab_no": 40, "karar": "farkli",
+    "gerekce": "Mantik TERS: C 'sinava tabi olurlar', A-B 'tabi olmazlar'. Sik kumeleri de farkli (C: Fizik/Elektrik/Haberlesme/Kimya, A-B: Fizik/Biyoloji/Kimya/Insaat)."
+  },
+  "Duzenlemeler/36": {
+    "ab_no": 41, "karar": "farkli",
+    "gerekce": "C sinifi 50 soruda 60 puan sorusu; A-B karsiligi A sinifi icin 75 puan. Esik degeri sinifa gore degisiyor."
+  },
+
+  "Isletme/4": {
+    "ab_no": 8, "karar": "ayni",
+    "gerekce": "'neyi anlatir' / 'neyi ifade eder'. Siklar ve cevap ayni."
+  },
+  "Isletme/22": {
+    "ab_no": 57, "karar": "ayni",
+    "gerekce": "'VHF bandindaki haberlesmede' / 'VHF bandinda haberlesme icin'. Siklar ve cevap ayni."
+  },
+  "Isletme/25": {
+    "ab_no": 92, "karar": "farkli",
+    "gerekce": "C Turkiye'ye ait on eki soruyor (cevap 'Hicbiri'), A-B Ispanya'yi soruyor (cevap EA). Sik kumeleri tamamen farkli."
+  },
+  "Isletme/36": {
+    "ab_no": 76, "karar": "ayni",
+    "gerekce": "'AFET'in' / 'AFET kelimesinin'. Siklar ve cevap ayni."
+  },
+  "Isletme/37": {
+    "ab_no": 60, "karar": "farkli",
+    "gerekce": "Farkli on ek: C 'VE' (Kanada), A-B 'VK' (Avustralya). Sik kumesi ayni oldugu icin benzerlik 0.98 ciktiyor; iki cevap da kendi sorusu icin dogru."
+  },
+  "Isletme/38": {
+    "ab_no": 80, "karar": "farkli",
+    "gerekce": "C 'DEPREM' hecelemesi, A-B 'QSX' hecelemesi. Ayri kelimeler."
+  },
+  "Isletme/39": {
+    "ab_no": 117, "karar": "farkli",
+    "gerekce": "C 'UTC' kisaltmasi, A-B 'UR' kisaltmasi. Ilgisiz iki terim."
+  },
+  "Isletme/54": {
+    "ab_no": 100, "karar": "ayni",
+    "gerekce": "'onay icin gonderilen' / 'onaylatmak icin gonderilen'. Siklar ve cevap ayni (QSL karti)."
+  },
+  "Isletme/59": {
+    "ab_no": 105, "karar": "farkli",
+    "gerekce": "C 'QRQ' (daha cabuk gondereyim mi), A-B 'QRZ' (beni kim cagiriyor). Uc sik ortak oldugu icin benzerlik yuksek, sorular farkli."
+  },
+  "Isletme/65": {
+    "ab_no": 115, "karar": "farkli",
+    "gerekce": "C 'QRM' (enterferans), A-B 'QSY' (frekans degistirme). Farkli Q kodlari."
+  },
+
+  "Teknik/3": {
+    "ab_no": 15, "karar": "ayni",
+    "gerekce": "'yayilim' / 'yayilim kalibi'. Siklar ve cevap ayni. A-B slaydinda sekil sozle tarif edilmis; o metin dogrudan kullanilabilir."
+  },
+  "Teknik/54": {
+    "ab_no": 99, "karar": "ayni",
+    "gerekce": "Ayni devre sorusu. Cikarimda A-B tarafinda d sikki dusmus gorunuyor ama A-B SLAYTINDA d) 4 A var; yani banka eksigi degil, cizim alanindaki konumlanma yuzunden cikarim kaybi. Sik kumeleri gercekte ayni."
+  },
+  "Teknik/135": {
+    "ab_no": 154, "karar": "farkli",
+    "gerekce": "Ohm kanunu sorusu ayni kalipta ama sayilar farkli: C 1 A (10 V), A-B 2 A (20 V). Hesap yeniden yapilmali."
+  }
+}

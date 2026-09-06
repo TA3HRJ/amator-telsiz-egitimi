@@ -2,6 +2,8 @@
   "Duzenlemeler": [
     {
       "c_no": 1,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -18,6 +20,8 @@
     },
     {
       "c_no": 2,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -34,6 +38,8 @@
     },
     {
       "c_no": 3,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -50,6 +56,8 @@
     },
     {
       "c_no": 4,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -66,6 +74,8 @@
     },
     {
       "c_no": 5,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -82,6 +92,8 @@
     },
     {
       "c_no": 6,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -98,6 +110,8 @@
     },
     {
       "c_no": 7,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -114,6 +128,8 @@
     },
     {
       "c_no": 8,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -130,6 +146,8 @@
     },
     {
       "c_no": 9,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -146,6 +164,8 @@
     },
     {
       "c_no": 10,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -162,6 +182,8 @@
     },
     {
       "c_no": 11,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -178,6 +200,8 @@
     },
     {
       "c_no": 12,
+      "yakin_karar": "ayni",
+      "yakin_gerekce": "Tek fark 'plana' / 'plan' cekim eki. Siklar ve resmi cevap ayni.",
       "durum": "yakin",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -190,10 +214,12 @@
       "ab_cevap": "B",
       "ab_slaytta_isaretli": "B",
       "ab_bulgu_devrediyor": false,
-      "eylem": "YAKIN ESLESME - DOGRULA"
+      "eylem": "SLAYTI KOPYALA"
     },
     {
       "c_no": 13,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -210,6 +236,8 @@
     },
     {
       "c_no": 14,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -226,6 +254,8 @@
     },
     {
       "c_no": 15,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -242,6 +272,8 @@
     },
     {
       "c_no": 16,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -258,6 +290,8 @@
     },
     {
       "c_no": 17,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -274,6 +308,8 @@
     },
     {
       "c_no": 18,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -290,6 +326,8 @@
     },
     {
       "c_no": 19,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -306,6 +344,8 @@
     },
     {
       "c_no": 20,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -322,6 +362,8 @@
     },
     {
       "c_no": 21,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -338,6 +380,8 @@
     },
     {
       "c_no": 22,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -354,6 +398,8 @@
     },
     {
       "c_no": 23,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -370,6 +416,8 @@
     },
     {
       "c_no": 24,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -386,6 +434,8 @@
     },
     {
       "c_no": 25,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -402,6 +452,8 @@
     },
     {
       "c_no": 26,
+      "yakin_karar": "farkli",
+      "yakin_gerekce": "Mantik TERS: C 'sinava tabi olurlar', A-B 'tabi olmazlar'. Sik kumeleri de farkli (C: Fizik/Elektrik/Haberlesme/Kimya, A-B: Fizik/Biyoloji/Kimya/Insaat).",
       "durum": "yakin",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -414,10 +466,12 @@
       "ab_cevap": "A",
       "ab_slaytta_isaretli": "A",
       "ab_bulgu_devrediyor": false,
-      "eylem": "YAKIN ESLESME - DOGRULA"
+      "eylem": "YENI ACIKLAMA"
     },
     {
       "c_no": 27,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -434,6 +488,8 @@
     },
     {
       "c_no": 28,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -450,6 +506,8 @@
     },
     {
       "c_no": 29,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -466,6 +524,8 @@
     },
     {
       "c_no": 30,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -482,6 +542,8 @@
     },
     {
       "c_no": 31,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -498,6 +560,8 @@
     },
     {
       "c_no": 32,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -514,6 +578,8 @@
     },
     {
       "c_no": 33,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -530,6 +596,8 @@
     },
     {
       "c_no": 34,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -546,6 +614,8 @@
     },
     {
       "c_no": 35,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -562,6 +632,8 @@
     },
     {
       "c_no": 36,
+      "yakin_karar": "farkli",
+      "yakin_gerekce": "C sinifi 50 soruda 60 puan sorusu; A-B karsiligi A sinifi icin 75 puan. Esik degeri sinifa gore degisiyor.",
       "durum": "yakin",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -574,10 +646,12 @@
       "ab_cevap": "C",
       "ab_slaytta_isaretli": "C",
       "ab_bulgu_devrediyor": false,
-      "eylem": "YAKIN ESLESME - DOGRULA"
+      "eylem": "YENI ACIKLAMA"
     },
     {
       "c_no": 37,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -594,6 +668,8 @@
     },
     {
       "c_no": 38,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -610,6 +686,8 @@
     },
     {
       "c_no": 39,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -626,6 +704,8 @@
     },
     {
       "c_no": 40,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -642,6 +722,8 @@
     },
     {
       "c_no": 41,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -658,6 +740,8 @@
     },
     {
       "c_no": 42,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -674,6 +758,8 @@
     },
     {
       "c_no": 43,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -690,6 +776,8 @@
     },
     {
       "c_no": 44,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -706,6 +794,8 @@
     },
     {
       "c_no": 45,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -722,6 +812,8 @@
     },
     {
       "c_no": 46,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -738,6 +830,8 @@
     },
     {
       "c_no": 47,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -754,6 +848,8 @@
     },
     {
       "c_no": 48,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -770,6 +866,8 @@
     },
     {
       "c_no": 49,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -788,6 +886,8 @@
   "Isletme": [
     {
       "c_no": 1,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -804,6 +904,8 @@
     },
     {
       "c_no": 2,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -820,6 +922,8 @@
     },
     {
       "c_no": 3,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -836,6 +940,8 @@
     },
     {
       "c_no": 4,
+      "yakin_karar": "ayni",
+      "yakin_gerekce": "'neyi anlatir' / 'neyi ifade eder'. Siklar ve cevap ayni.",
       "durum": "yakin",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -848,10 +954,12 @@
       "ab_cevap": "C",
       "ab_slaytta_isaretli": "C",
       "ab_bulgu_devrediyor": false,
-      "eylem": "YAKIN ESLESME - DOGRULA"
+      "eylem": "SLAYTI KOPYALA"
     },
     {
       "c_no": 5,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -868,6 +976,8 @@
     },
     {
       "c_no": 6,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -884,6 +994,8 @@
     },
     {
       "c_no": 7,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -900,6 +1012,8 @@
     },
     {
       "c_no": 8,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -916,6 +1030,8 @@
     },
     {
       "c_no": 9,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -932,6 +1048,8 @@
     },
     {
       "c_no": 10,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -948,6 +1066,8 @@
     },
     {
       "c_no": 11,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -964,6 +1084,8 @@
     },
     {
       "c_no": 12,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -980,6 +1102,8 @@
     },
     {
       "c_no": 13,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -996,6 +1120,8 @@
     },
     {
       "c_no": 14,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -1012,6 +1138,8 @@
     },
     {
       "c_no": 15,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1028,6 +1156,8 @@
     },
     {
       "c_no": 16,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1044,6 +1174,8 @@
     },
     {
       "c_no": 17,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1060,6 +1192,8 @@
     },
     {
       "c_no": 18,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1076,6 +1210,8 @@
     },
     {
       "c_no": 19,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -1092,6 +1228,8 @@
     },
     {
       "c_no": 20,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1108,6 +1246,8 @@
     },
     {
       "c_no": 21,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -1124,6 +1264,8 @@
     },
     {
       "c_no": 22,
+      "yakin_karar": "ayni",
+      "yakin_gerekce": "'VHF bandindaki haberlesmede' / 'VHF bandinda haberlesme icin'. Siklar ve cevap ayni.",
       "durum": "yakin",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1136,10 +1278,12 @@
       "ab_cevap": "C",
       "ab_slaytta_isaretli": "C",
       "ab_bulgu_devrediyor": false,
-      "eylem": "YAKIN ESLESME - DOGRULA"
+      "eylem": "SLAYTI KOPYALA"
     },
     {
       "c_no": 23,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -1156,6 +1300,8 @@
     },
     {
       "c_no": 24,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -1172,6 +1318,8 @@
     },
     {
       "c_no": 25,
+      "yakin_karar": "farkli",
+      "yakin_gerekce": "C Turkiye'ye ait on eki soruyor (cevap 'Hicbiri'), A-B Ispanya'yi soruyor (cevap EA). Sik kumeleri tamamen farkli.",
       "durum": "yakin",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -1184,10 +1332,12 @@
       "ab_cevap": "A",
       "ab_slaytta_isaretli": "A",
       "ab_bulgu_devrediyor": false,
-      "eylem": "YAKIN ESLESME - DOGRULA"
+      "eylem": "YENI ACIKLAMA"
     },
     {
       "c_no": 26,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -1204,6 +1354,8 @@
     },
     {
       "c_no": 27,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1220,6 +1372,8 @@
     },
     {
       "c_no": 28,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1236,6 +1390,8 @@
     },
     {
       "c_no": 29,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1252,6 +1408,8 @@
     },
     {
       "c_no": 30,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1268,6 +1426,8 @@
     },
     {
       "c_no": 31,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1284,6 +1444,8 @@
     },
     {
       "c_no": 32,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1300,6 +1462,8 @@
     },
     {
       "c_no": 33,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1316,6 +1480,8 @@
     },
     {
       "c_no": 34,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1332,6 +1498,8 @@
     },
     {
       "c_no": 35,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1348,6 +1516,8 @@
     },
     {
       "c_no": 36,
+      "yakin_karar": "ayni",
+      "yakin_gerekce": "'AFET'in' / 'AFET kelimesinin'. Siklar ve cevap ayni.",
       "durum": "yakin",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -1360,10 +1530,12 @@
       "ab_cevap": "D",
       "ab_slaytta_isaretli": "D",
       "ab_bulgu_devrediyor": false,
-      "eylem": "YAKIN ESLESME - DOGRULA"
+      "eylem": "SLAYTI KOPYALA"
     },
     {
       "c_no": 37,
+      "yakin_karar": "farkli",
+      "yakin_gerekce": "Farkli on ek: C 'VE' (Kanada), A-B 'VK' (Avustralya). Sik kumesi ayni oldugu icin benzerlik 0.98 ciktiyor; iki cevap da kendi sorusu icin dogru.",
       "durum": "yakin",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1376,10 +1548,12 @@
       "ab_cevap": "D",
       "ab_slaytta_isaretli": "D",
       "ab_bulgu_devrediyor": false,
-      "eylem": "YAKIN ESLESME - DOGRULA"
+      "eylem": "YENI ACIKLAMA"
     },
     {
       "c_no": 38,
+      "yakin_karar": "farkli",
+      "yakin_gerekce": "C 'DEPREM' hecelemesi, A-B 'QSX' hecelemesi. Ayri kelimeler.",
       "durum": "yakin",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1392,10 +1566,12 @@
       "ab_cevap": "B",
       "ab_slaytta_isaretli": "B",
       "ab_bulgu_devrediyor": false,
-      "eylem": "YAKIN ESLESME - DOGRULA"
+      "eylem": "YENI ACIKLAMA"
     },
     {
       "c_no": 39,
+      "yakin_karar": "farkli",
+      "yakin_gerekce": "C 'UTC' kisaltmasi, A-B 'UR' kisaltmasi. Ilgisiz iki terim.",
       "durum": "yakin",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1408,10 +1584,12 @@
       "ab_cevap": "A",
       "ab_slaytta_isaretli": "A",
       "ab_bulgu_devrediyor": false,
-      "eylem": "YAKIN ESLESME - DOGRULA"
+      "eylem": "YENI ACIKLAMA"
     },
     {
       "c_no": 40,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1428,6 +1606,8 @@
     },
     {
       "c_no": 41,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1444,6 +1624,8 @@
     },
     {
       "c_no": 42,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1460,6 +1642,8 @@
     },
     {
       "c_no": 43,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1476,6 +1660,8 @@
     },
     {
       "c_no": 44,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1492,6 +1678,8 @@
     },
     {
       "c_no": 45,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -1508,6 +1696,8 @@
     },
     {
       "c_no": 46,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1524,6 +1714,8 @@
     },
     {
       "c_no": 47,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -1540,6 +1732,8 @@
     },
     {
       "c_no": 48,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -1556,6 +1750,8 @@
     },
     {
       "c_no": 49,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1572,6 +1768,8 @@
     },
     {
       "c_no": 50,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1588,6 +1786,8 @@
     },
     {
       "c_no": 51,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -1604,6 +1804,8 @@
     },
     {
       "c_no": 52,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -1620,6 +1822,8 @@
     },
     {
       "c_no": 53,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -1636,6 +1840,8 @@
     },
     {
       "c_no": 54,
+      "yakin_karar": "ayni",
+      "yakin_gerekce": "'onay icin gonderilen' / 'onaylatmak icin gonderilen'. Siklar ve cevap ayni (QSL karti).",
       "durum": "yakin",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1648,10 +1854,12 @@
       "ab_cevap": "B",
       "ab_slaytta_isaretli": "B",
       "ab_bulgu_devrediyor": false,
-      "eylem": "YAKIN ESLESME - DOGRULA"
+      "eylem": "SLAYTI KOPYALA"
     },
     {
       "c_no": 55,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -1668,6 +1876,8 @@
     },
     {
       "c_no": 56,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -1684,6 +1894,8 @@
     },
     {
       "c_no": 57,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1700,6 +1912,8 @@
     },
     {
       "c_no": 58,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1716,6 +1930,8 @@
     },
     {
       "c_no": 59,
+      "yakin_karar": "farkli",
+      "yakin_gerekce": "C 'QRQ' (daha cabuk gondereyim mi), A-B 'QRZ' (beni kim cagiriyor). Uc sik ortak oldugu icin benzerlik yuksek, sorular farkli.",
       "durum": "yakin",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -1728,10 +1944,12 @@
       "ab_cevap": "D",
       "ab_slaytta_isaretli": "D",
       "ab_bulgu_devrediyor": false,
-      "eylem": "YAKIN ESLESME - DOGRULA"
+      "eylem": "YENI ACIKLAMA"
     },
     {
       "c_no": 60,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1748,6 +1966,8 @@
     },
     {
       "c_no": 61,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1764,6 +1984,8 @@
     },
     {
       "c_no": 62,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1780,6 +2002,8 @@
     },
     {
       "c_no": 63,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1796,6 +2020,8 @@
     },
     {
       "c_no": 64,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1812,6 +2038,8 @@
     },
     {
       "c_no": 65,
+      "yakin_karar": "farkli",
+      "yakin_gerekce": "C 'QRM' (enterferans), A-B 'QSY' (frekans degistirme). Farkli Q kodlari.",
       "durum": "yakin",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -1824,10 +2052,12 @@
       "ab_cevap": "A",
       "ab_slaytta_isaretli": "A",
       "ab_bulgu_devrediyor": false,
-      "eylem": "YAKIN ESLESME - DOGRULA"
+      "eylem": "YENI ACIKLAMA"
     },
     {
       "c_no": 66,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -1844,6 +2074,8 @@
     },
     {
       "c_no": 67,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -1860,6 +2092,8 @@
     },
     {
       "c_no": 68,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -1876,6 +2110,8 @@
     },
     {
       "c_no": 69,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -1892,6 +2128,8 @@
     },
     {
       "c_no": 70,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -1908,6 +2146,8 @@
     },
     {
       "c_no": 71,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1924,6 +2164,8 @@
     },
     {
       "c_no": 72,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1940,6 +2182,8 @@
     },
     {
       "c_no": 73,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1956,6 +2200,8 @@
     },
     {
       "c_no": 74,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -1972,6 +2218,8 @@
     },
     {
       "c_no": 75,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -1988,6 +2236,8 @@
     },
     {
       "c_no": 76,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -2004,6 +2254,8 @@
     },
     {
       "c_no": 77,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -2020,6 +2272,8 @@
     },
     {
       "c_no": 78,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -2036,6 +2290,8 @@
     },
     {
       "c_no": 79,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -2052,6 +2308,8 @@
     },
     {
       "c_no": 80,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -2068,6 +2326,8 @@
     },
     {
       "c_no": 81,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -2084,6 +2344,8 @@
     },
     {
       "c_no": 82,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -2102,6 +2364,8 @@
   "Teknik": [
     {
       "c_no": 1,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -2118,6 +2382,8 @@
     },
     {
       "c_no": 2,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -2134,6 +2400,8 @@
     },
     {
       "c_no": 3,
+      "yakin_karar": "ayni",
+      "yakin_gerekce": "'yayilim' / 'yayilim kalibi'. Siklar ve cevap ayni. A-B slaydinda sekil sozle tarif edilmis; o metin dogrudan kullanilabilir.",
       "durum": "yakin",
       "c_cevap": "A",
       "elle_aktarilmali": true,
@@ -2146,10 +2414,12 @@
       "ab_cevap": "A",
       "ab_slaytta_isaretli": "A",
       "ab_bulgu_devrediyor": false,
-      "eylem": "YAKIN ESLESME - DOGRULA"
+      "eylem": "SLAYTI KOPYALA"
     },
     {
       "c_no": 4,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -2166,6 +2436,8 @@
     },
     {
       "c_no": 5,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": true,
@@ -2182,6 +2454,8 @@
     },
     {
       "c_no": 6,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -2198,6 +2472,8 @@
     },
     {
       "c_no": 7,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -2214,6 +2490,8 @@
     },
     {
       "c_no": 8,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -2230,6 +2508,8 @@
     },
     {
       "c_no": 9,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -2246,6 +2526,8 @@
     },
     {
       "c_no": 10,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": true,
@@ -2262,6 +2544,8 @@
     },
     {
       "c_no": 11,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -2278,6 +2562,8 @@
     },
     {
       "c_no": 12,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -2294,6 +2580,8 @@
     },
     {
       "c_no": 13,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": true,
@@ -2310,6 +2598,8 @@
     },
     {
       "c_no": 14,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": true,
@@ -2326,6 +2616,8 @@
     },
     {
       "c_no": 15,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": true,
@@ -2342,6 +2634,8 @@
     },
     {
       "c_no": 16,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": true,
@@ -2358,6 +2652,8 @@
     },
     {
       "c_no": 17,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -2374,6 +2670,8 @@
     },
     {
       "c_no": 18,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": true,
@@ -2390,6 +2688,8 @@
     },
     {
       "c_no": 19,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -2406,6 +2706,8 @@
     },
     {
       "c_no": 20,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -2422,6 +2724,8 @@
     },
     {
       "c_no": 21,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -2438,6 +2742,8 @@
     },
     {
       "c_no": 22,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -2454,6 +2760,8 @@
     },
     {
       "c_no": 23,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -2470,6 +2778,8 @@
     },
     {
       "c_no": 24,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -2486,6 +2796,8 @@
     },
     {
       "c_no": 25,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -2502,6 +2814,8 @@
     },
     {
       "c_no": 26,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -2518,6 +2832,8 @@
     },
     {
       "c_no": 27,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -2534,6 +2850,8 @@
     },
     {
       "c_no": 28,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -2550,6 +2868,8 @@
     },
     {
       "c_no": 29,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -2566,6 +2886,8 @@
     },
     {
       "c_no": 30,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -2582,6 +2904,8 @@
     },
     {
       "c_no": 31,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -2598,6 +2922,8 @@
     },
     {
       "c_no": 32,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -2614,6 +2940,8 @@
     },
     {
       "c_no": 33,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -2630,6 +2958,8 @@
     },
     {
       "c_no": 34,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -2646,6 +2976,8 @@
     },
     {
       "c_no": 35,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": true,
@@ -2662,6 +2994,8 @@
     },
     {
       "c_no": 36,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -2678,6 +3012,8 @@
     },
     {
       "c_no": 37,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -2694,6 +3030,8 @@
     },
     {
       "c_no": 38,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -2710,6 +3048,8 @@
     },
     {
       "c_no": 39,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -2726,6 +3066,8 @@
     },
     {
       "c_no": 40,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -2742,6 +3084,8 @@
     },
     {
       "c_no": 41,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -2758,6 +3102,8 @@
     },
     {
       "c_no": 42,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": true,
@@ -2774,6 +3120,8 @@
     },
     {
       "c_no": 43,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": true,
@@ -2790,6 +3138,8 @@
     },
     {
       "c_no": 44,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": true,
@@ -2806,6 +3156,8 @@
     },
     {
       "c_no": 45,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -2822,6 +3174,8 @@
     },
     {
       "c_no": 46,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -2838,6 +3192,8 @@
     },
     {
       "c_no": 47,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -2854,6 +3210,8 @@
     },
     {
       "c_no": 48,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": true,
@@ -2870,6 +3228,8 @@
     },
     {
       "c_no": 49,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -2886,6 +3246,8 @@
     },
     {
       "c_no": 50,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -2902,6 +3264,8 @@
     },
     {
       "c_no": 51,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -2918,6 +3282,8 @@
     },
     {
       "c_no": 52,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": true,
@@ -2934,6 +3300,8 @@
     },
     {
       "c_no": 53,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": true,
@@ -2950,6 +3318,8 @@
     },
     {
       "c_no": 54,
+      "yakin_karar": "ayni",
+      "yakin_gerekce": "Ayni devre sorusu. Cikarimda A-B tarafinda d sikki dusmus gorunuyor ama A-B SLAYTINDA d) 4 A var; yani banka eksigi degil, cizim alanindaki konumlanma yuzunden cikarim kaybi. Sik kumeleri gercekte ayni.",
       "durum": "yakin",
       "c_cevap": "C",
       "elle_aktarilmali": true,
@@ -2962,10 +3332,12 @@
       "ab_cevap": "C",
       "ab_slaytta_isaretli": "C",
       "ab_bulgu_devrediyor": false,
-      "eylem": "YAKIN ESLESME - DOGRULA"
+      "eylem": "KOPYALA + SIKLARI C'DEN AL"
     },
     {
       "c_no": 55,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": true,
@@ -2982,6 +3354,8 @@
     },
     {
       "c_no": 56,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -2998,6 +3372,8 @@
     },
     {
       "c_no": 57,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -3014,6 +3390,8 @@
     },
     {
       "c_no": 58,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -3030,6 +3408,8 @@
     },
     {
       "c_no": 59,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -3046,6 +3426,8 @@
     },
     {
       "c_no": 60,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": true,
@@ -3062,6 +3444,8 @@
     },
     {
       "c_no": 61,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -3078,6 +3462,8 @@
     },
     {
       "c_no": 62,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": true,
@@ -3094,6 +3480,8 @@
     },
     {
       "c_no": 63,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": true,
@@ -3110,6 +3498,8 @@
     },
     {
       "c_no": 64,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": true,
@@ -3126,6 +3516,8 @@
     },
     {
       "c_no": 65,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": true,
@@ -3142,6 +3534,8 @@
     },
     {
       "c_no": 66,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": true,
@@ -3158,6 +3552,8 @@
     },
     {
       "c_no": 67,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -3174,6 +3570,8 @@
     },
     {
       "c_no": 68,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": true,
@@ -3190,6 +3588,8 @@
     },
     {
       "c_no": 69,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -3206,6 +3606,8 @@
     },
     {
       "c_no": 70,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -3222,6 +3624,8 @@
     },
     {
       "c_no": 71,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -3238,6 +3642,8 @@
     },
     {
       "c_no": 72,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -3254,6 +3660,8 @@
     },
     {
       "c_no": 73,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": true,
@@ -3270,6 +3678,8 @@
     },
     {
       "c_no": 74,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": true,
@@ -3286,6 +3696,8 @@
     },
     {
       "c_no": 75,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -3302,6 +3714,8 @@
     },
     {
       "c_no": 76,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": true,
@@ -3318,6 +3732,8 @@
     },
     {
       "c_no": 77,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": true,
@@ -3334,6 +3750,8 @@
     },
     {
       "c_no": 78,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -3350,6 +3768,8 @@
     },
     {
       "c_no": 79,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -3366,6 +3786,8 @@
     },
     {
       "c_no": 80,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -3382,6 +3804,8 @@
     },
     {
       "c_no": 81,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -3398,6 +3822,8 @@
     },
     {
       "c_no": 82,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -3414,6 +3840,8 @@
     },
     {
       "c_no": 83,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": true,
@@ -3430,6 +3858,8 @@
     },
     {
       "c_no": 84,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -3446,6 +3876,8 @@
     },
     {
       "c_no": 85,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -3462,6 +3894,8 @@
     },
     {
       "c_no": 86,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -3478,6 +3912,8 @@
     },
     {
       "c_no": 87,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -3494,6 +3930,8 @@
     },
     {
       "c_no": 88,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": true,
@@ -3510,6 +3948,8 @@
     },
     {
       "c_no": 89,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -3526,6 +3966,8 @@
     },
     {
       "c_no": 90,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -3542,6 +3984,8 @@
     },
     {
       "c_no": 91,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": true,
@@ -3558,6 +4002,8 @@
     },
     {
       "c_no": 92,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": true,
@@ -3574,6 +4020,8 @@
     },
     {
       "c_no": 93,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": true,
@@ -3590,6 +4038,8 @@
     },
     {
       "c_no": 94,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "C",
       "elle_aktarilmali": true,
@@ -3606,6 +4056,8 @@
     },
     {
       "c_no": 95,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": true,
@@ -3622,6 +4074,8 @@
     },
     {
       "c_no": 96,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -3638,6 +4092,8 @@
     },
     {
       "c_no": 97,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -3654,6 +4110,8 @@
     },
     {
       "c_no": 98,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": true,
@@ -3670,6 +4128,8 @@
     },
     {
       "c_no": 99,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -3686,6 +4146,8 @@
     },
     {
       "c_no": 100,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -3702,6 +4164,8 @@
     },
     {
       "c_no": 101,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -3718,6 +4182,8 @@
     },
     {
       "c_no": 102,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -3734,6 +4200,8 @@
     },
     {
       "c_no": 103,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "birebir",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -3750,6 +4218,8 @@
     },
     {
       "c_no": 104,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -3766,6 +4236,8 @@
     },
     {
       "c_no": 105,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -3782,6 +4254,8 @@
     },
     {
       "c_no": 106,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -3798,6 +4272,8 @@
     },
     {
       "c_no": 107,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -3814,6 +4290,8 @@
     },
     {
       "c_no": 108,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -3830,6 +4308,8 @@
     },
     {
       "c_no": 109,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -3846,6 +4326,8 @@
     },
     {
       "c_no": 110,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -3862,6 +4344,8 @@
     },
     {
       "c_no": 111,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -3878,6 +4362,8 @@
     },
     {
       "c_no": 112,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -3894,6 +4380,8 @@
     },
     {
       "c_no": 113,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -3910,6 +4398,8 @@
     },
     {
       "c_no": 114,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -3926,6 +4416,8 @@
     },
     {
       "c_no": 115,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -3942,6 +4434,8 @@
     },
     {
       "c_no": 116,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -3958,6 +4452,8 @@
     },
     {
       "c_no": 117,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -3974,6 +4470,8 @@
     },
     {
       "c_no": 118,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -3990,6 +4488,8 @@
     },
     {
       "c_no": 119,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -4006,6 +4506,8 @@
     },
     {
       "c_no": 120,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -4022,6 +4524,8 @@
     },
     {
       "c_no": 121,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -4038,6 +4542,8 @@
     },
     {
       "c_no": 122,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -4054,6 +4560,8 @@
     },
     {
       "c_no": 123,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -4070,6 +4578,8 @@
     },
     {
       "c_no": 124,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -4086,6 +4596,8 @@
     },
     {
       "c_no": 125,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -4102,6 +4614,8 @@
     },
     {
       "c_no": 126,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -4118,6 +4632,8 @@
     },
     {
       "c_no": 127,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -4134,6 +4650,8 @@
     },
     {
       "c_no": 128,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -4150,6 +4668,8 @@
     },
     {
       "c_no": 129,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -4166,6 +4686,8 @@
     },
     {
       "c_no": 130,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -4182,6 +4704,8 @@
     },
     {
       "c_no": 131,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -4198,6 +4722,8 @@
     },
     {
       "c_no": 132,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -4214,6 +4740,8 @@
     },
     {
       "c_no": 133,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "B",
       "elle_aktarilmali": false,
@@ -4230,6 +4758,8 @@
     },
     {
       "c_no": 134,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -4246,6 +4776,8 @@
     },
     {
       "c_no": 135,
+      "yakin_karar": "farkli",
+      "yakin_gerekce": "Ohm kanunu sorusu ayni kalipta ama sayilar farkli: C 1 A (10 V), A-B 2 A (20 V). Hesap yeniden yapilmali.",
       "durum": "yakin",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -4258,10 +4790,12 @@
       "ab_cevap": "A",
       "ab_slaytta_isaretli": "A",
       "ab_bulgu_devrediyor": false,
-      "eylem": "YAKIN ESLESME - DOGRULA"
+      "eylem": "YENI ACIKLAMA"
     },
     {
       "c_no": 136,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,
@@ -4278,6 +4812,8 @@
     },
     {
       "c_no": 137,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "D",
       "elle_aktarilmali": false,
@@ -4294,6 +4830,8 @@
     },
     {
       "c_no": 138,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -4310,6 +4848,8 @@
     },
     {
       "c_no": 139,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "C",
       "elle_aktarilmali": false,
@@ -4326,6 +4866,8 @@
     },
     {
       "c_no": 140,
+      "yakin_karar": null,
+      "yakin_gerekce": null,
       "durum": "yeni",
       "c_cevap": "A",
       "elle_aktarilmali": false,

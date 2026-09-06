@@ -28,6 +28,7 @@ from pathlib import Path
 
 KOK = Path(__file__).resolve().parent.parent
 CIKTI = Path(__file__).resolve().parent / "cikti"
+KARAR_DOSYASI = Path(__file__).resolve().parent / "karar_yakin_eslesme.json"
 YAKINLIK_ESIGI = 0.85
 
 KONULAR = [
@@ -156,7 +157,10 @@ def eylem_belirle(s):
     if s["durum"] == "yeni":
         return "YENI ACIKLAMA"
     if s["durum"] == "yakin":
-        return "YAKIN ESLESME - DOGRULA"
+        if s["yakin_karar"] == "farkli":
+            return "YENI ACIKLAMA"
+        if s["yakin_karar"] != "ayni":
+            return "YAKIN ESLESME - DOGRULA"
     if s["ab_bulgu_devrediyor"]:
         return "BULGU DEVREDIYOR"
     if s["siklar_ayni"]:
@@ -164,7 +168,15 @@ def eylem_belirle(s):
     return "KOPYALA + SIKLARI C'DEN AL"
 
 
-def esle(c_banka, ab_banka, deck):
+def kararlari_oku():
+    """Yakin eslesmelerin insan karari. Anahtar: '<Konu>/<C no>'."""
+    if not KARAR_DOSYASI.exists():
+        return {}
+    ham = json.loads(KARAR_DOSYASI.read_text(encoding="utf-8"))
+    return dict((k, v) for k, v in ham.items() if not k.startswith("_"))
+
+
+def esle(c_banka, ab_banka, deck, konu, kararlar):
     """C bankasini A-B BANKASI ile eslestirir; slayt numarasini sonradan ekler.
 
     Esleme sunum metniyle DEGIL banka metniyle yapilir. Iki sebep: (1) sunumda cizime
@@ -192,9 +204,12 @@ def esle(c_banka, ab_banka, deck):
                 durum = "yakin"
                 benzerlik = round(difflib.SequenceMatcher(None, ca, yakin[0]).ratio(), 3)
 
+        karar = kararlar.get("%s/%d" % (konu, c["no"]), {})
         slayt = deck.get(ab_no) if ab_no else None
         satir = {
             "c_no": c["no"],
+            "yakin_karar": karar.get("karar"),
+            "yakin_gerekce": karar.get("gerekce"),
             "durum": durum,
             "c_cevap": c["cevap"],
             "elle_aktarilmali": c["elle_aktarilmali"],
@@ -256,6 +271,10 @@ def markdown(tum, genel):
             "  resmi anahtardan farkli) ve ayni hata C bankasinda da duruyor.",
             "",
             "`elle` sutunu faz 1'den gelir: metin katmani yetmiyor, soru PDF'e bakilarak aktarilmali.",
+            "",
+            "Yakin eslesmelerin insan karari ve gerekcesi `tools/karar_yakin_eslesme.json`",
+            "dosyasindadir; karari olmayan yakin eslesme tabloda `YAKIN ESLESME - DOGRULA`",
+            "olarak kalir.",
             ""]
     for konu in tum:
         satirlar = tum[konu]
@@ -281,6 +300,7 @@ def main():
     tum = {}
     genel = {}
     uyari = []
+    kararlar = kararlari_oku()
 
     for konu, c_dosya, ab_dosya, deck_dosya in KONULAR:
         c_banka = json.loads((CIKTI / (c_dosya + ".json")).read_text(encoding="utf-8"))
@@ -290,7 +310,7 @@ def main():
         for u in deck_bankayla_tutuyor_mu(deck, ab_banka):
             uyari.append("%s: %s" % (konu, u))
 
-        satirlar = esle(c_banka, ab_banka, deck)
+        satirlar = esle(c_banka, ab_banka, deck, konu, kararlar)
         tum[konu] = satirlar
         sayim = {}
         for s in satirlar:

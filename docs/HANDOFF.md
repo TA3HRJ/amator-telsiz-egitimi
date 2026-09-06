@@ -136,13 +136,12 @@ ayrıca gözle kontrol edilmeli.
 
 | Eylem | Soru |
 |---|---|
-| `SLAYTI KOPYALA` | 138 |
-| `KOPYALA + SIKLARI C'DEN AL` | 11 |
-| `YAKIN ESLESME - DOGRULA` | 16 |
-| `YENI ACIKLAMA` | 106 |
+| `SLAYTI KOPYALA` | 144 |
+| `KOPYALA + SIKLARI C'DEN AL` | 12 |
+| `YENI ACIKLAMA` | 115 |
 
-Konu dağılımı: yeni açıklama gerektiren 106 sorunun **87'si Teknik**, 16'sı İşletme, 3'ü
-Düzenlemeler. Düzenlemeler ve İşletme neredeyse tümüyle mevcut slaytlardan karşılanıyor.
+(16 yakın eşleşme incelenip dağıtıldı, aşağıya bakınız.) Yeni açıklama gerektiren 115 sorunun
+**88'i Teknik**, 22'si İşletme, 5'i Düzenlemeler.
 
 ### Önemli keşif — A-B sunumları temiz Türkçe metni zaten taşıyor
 
@@ -162,6 +161,24 @@ slayt gövdeleri yukarıdaki gibi yeniden yazıldığı için eşleşmiyorlar, �
 zenginleştirilmiş ("32" yerine "32 Ω"). Eşleme **C bankası ↔ A-B bankası** arasında yapılıyor
 (iki taraf aynı karakter bozulmasını taşıdığı için karşılaştırma adil), slayt numarası
 sonradan soru numarasından ekleniyor.
+
+### 16 yakın eşleşme incelendi — 6 aynı, 10 farklı
+
+Karar ve gerekçeler `tools/karar_yakin_eslesme.json` dosyasında; `esleme.py` bunu okuyup
+tabloyu yeniden üretiyor, karar verilmemiş yakın eşleşme tabloda beklemede kalır.
+
+Aynı sayılanlar yalnızca çekim eki / yeniden ifade farkı taşıyor (ör. "plana"/"plan",
+"neyi anlatır"/"neyi ifade eder"). Farklı sayılanlar ise gerçekten ayrı sorular: Q kodu değişik
+(QRQ↔QRZ, QRM↔QSY), ön ek değişik (VE↔VK, Türkiye↔İspanya), hecelenen kelime değişik
+(DEPREM↔QSX), sayı değişik (Ohm sorusunda 1 A↔2 A) — ve biri **mantık olarak ters**:
+Düzenlemeler C26 "sınava tabi **olurlar**", A-B 40 "tabi **olmazlar**".
+
+Bir yanlış bulgudan da bu incelemede dönüldü: çıkarım A-B Teknik 99'da d şıkkını bulamıyordu
+ve bu "bankada eksik şık" bulgusu gibi duruyordu. A-B **slaydında** d) 4 A duruyor — yani şık
+PDF'te var, çizim alanındaki konumu yüzünden çıkarımda düşmüş. Banka hatası değil.
+
+**Güncel dağılım:** `SLAYTI KOPYALA` 144, `KOPYALA + SIKLARI C'DEN AL` 12,
+`YENI ACIKLAMA` 115 (88'i Teknik, 22'si İşletme, 5'i Düzenlemeler).
 
 ### Ölçülmüş tuzak — yakın eşleşme otomatik kullanılamaz
 

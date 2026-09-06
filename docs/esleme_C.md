@@ -10,10 +10,9 @@ harf uzerinden degil sik metni uzerinden** yapilir.
 
 | Eylem | Soru |
 |---|---|
-| KOPYALA + SIKLARI C'DEN AL | 11 |
-| SLAYTI KOPYALA | 138 |
-| YAKIN ESLESME - DOGRULA | 16 |
-| YENI ACIKLAMA | 106 |
+| KOPYALA + SIKLARI C'DEN AL | 12 |
+| SLAYTI KOPYALA | 144 |
+| YENI ACIKLAMA | 115 |
 
 **Eylemler**
 
@@ -33,6 +32,10 @@ harf uzerinden degil sik metni uzerinden** yapilir.
 
 `elle` sutunu faz 1'den gelir: metin katmani yetmiyor, soru PDF'e bakilarak aktarilmali.
 
+Yakin eslesmelerin insan karari ve gerekcesi `tools/karar_yakin_eslesme.json`
+dosyasindadir; karari olmayan yakin eslesme tabloda `YAKIN ESLESME - DOGRULA`
+olarak kalir.
+
 ## Duzenlemeler
 
 | C # | Durum | A-B # | Slayt | Benzerlik | Siklar ayni | C cevap | A-B cevap | elle | Eylem |
@@ -48,7 +51,7 @@ harf uzerinden degil sik metni uzerinden** yapilir.
 | 9 | birebir | 54 | 63 | 1.00 | evet | C | C |  | SLAYTI KOPYALA |
 | 10 | birebir | 21 | 26 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
 | 11 | birebir | 22 | 27 | 1.00 | evet | D | D |  | SLAYTI KOPYALA |
-| 12 | yakin | 23 | 28 | 0.99 | evet | B | B |  | YAKIN ESLESME - DOGRULA |
+| 12 | yakin | 23 | 28 | 0.99 | evet | B | B |  | SLAYTI KOPYALA |
 | 13 | birebir | 24 | 29 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
 | 14 | birebir | 25 | 30 | 1.00 | evet | C | C |  | SLAYTI KOPYALA |
 | 15 | birebir | 26 | 31 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
@@ -62,7 +65,7 @@ harf uzerinden degil sik metni uzerinden** yapilir.
 | 23 | birebir | 37 | 44 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
 | 24 | birebir | 38 | 45 | 1.00 | evet | D | D |  | SLAYTI KOPYALA |
 | 25 | birebir | 39 | 46 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
-| 26 | yakin | 40 | 47 | 0.97 | HAYIR | D | A |  | YAKIN ESLESME - DOGRULA |
+| 26 | yakin | 40 | 47 | 0.97 | HAYIR | D | A |  | YENI ACIKLAMA |
 | 27 | birebir | 42 | 49 | 1.00 | evet | A | A |  | SLAYTI KOPYALA |
 | 28 | birebir | 43 | 51 | 1.00 | evet | D | D |  | SLAYTI KOPYALA |
 | 29 | birebir | 44 | 52 | 1.00 | evet | D | D |  | SLAYTI KOPYALA |
@@ -72,7 +75,7 @@ harf uzerinden degil sik metni uzerinden** yapilir.
 | 33 | birebir | 48 | 56 | 1.00 | evet | D | D |  | SLAYTI KOPYALA |
 | 34 | birebir | 50 | 59 | 1.00 | evet | D | D |  | SLAYTI KOPYALA |
 | 35 | birebir | 45 | 53 | 1.00 | evet | A | A |  | SLAYTI KOPYALA |
-| 36 | yakin | 41 | 48 | 0.97 | HAYIR | B | C |  | YAKIN ESLESME - DOGRULA |
+| 36 | yakin | 41 | 48 | 0.97 | HAYIR | B | C |  | YENI ACIKLAMA |
 | 37 | birebir | 60 | 70 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
 | 38 | birebir | 57 | 67 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
 | 39 | birebir | 58 | 68 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
@@ -94,7 +97,7 @@ harf uzerinden degil sik metni uzerinden** yapilir.
 | 1 | birebir | 3 | 5 | 1.00 | evet | A | A |  | SLAYTI KOPYALA |
 | 2 | birebir | 4 | 6 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
 | 3 | birebir | 5 | 7 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
-| 4 | yakin | 8 | 10 | 0.92 | evet | C | C |  | YAKIN ESLESME - DOGRULA |
+| 4 | yakin | 8 | 10 | 0.92 | evet | C | C |  | SLAYTI KOPYALA |
 | 5 | birebir | 9 | 11 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
 | 6 | birebir | 12 | 14 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
 | 7 | birebir | 15 | 18 | 1.00 | evet | A | A |  | SLAYTI KOPYALA |
@@ -112,10 +115,10 @@ harf uzerinden degil sik metni uzerinden** yapilir.
 | 19 | yeni | - | - | - | - | A | - |  | YENI ACIKLAMA |
 | 20 | birebir | 55 | 61 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
 | 21 | birebir | 56 | 62 | 1.00 | evet | A | A |  | SLAYTI KOPYALA |
-| 22 | yakin | 57 | 63 | 0.95 | evet | C | C |  | YAKIN ESLESME - DOGRULA |
+| 22 | yakin | 57 | 63 | 0.95 | evet | C | C |  | SLAYTI KOPYALA |
 | 23 | birebir | 58 | 64 | 1.00 | evet | A | A |  | SLAYTI KOPYALA |
 | 24 | birebir | 59 | 65 | 1.00 | evet | D | D |  | SLAYTI KOPYALA |
-| 25 | yakin | 92 | 101 | 0.87 | HAYIR | D | A |  | YAKIN ESLESME - DOGRULA |
+| 25 | yakin | 92 | 101 | 0.87 | HAYIR | D | A |  | YENI ACIKLAMA |
 | 26 | birebir | 60 | 67 | 1.00 | evet | D | D |  | SLAYTI KOPYALA |
 | 27 | birebir | 61 | 68 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
 | 28 | birebir | 62 | 69 | 1.00 | evet | C | C |  | SLAYTI KOPYALA |
@@ -126,10 +129,10 @@ harf uzerinden degil sik metni uzerinden** yapilir.
 | 33 | birebir | 69 | 76 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
 | 34 | yeni | - | - | - | - | B | - |  | YENI ACIKLAMA |
 | 35 | birebir | 74 | 82 | 1.00 | HAYIR | C | C |  | KOPYALA + SIKLARI C'DEN AL |
-| 36 | yakin | 76 | 84 | 0.92 | evet | D | D |  | YAKIN ESLESME - DOGRULA |
-| 37 | yakin | 60 | 67 | 0.98 | evet | B | D |  | YAKIN ESLESME - DOGRULA |
-| 38 | yakin | 80 | 88 | 0.92 | HAYIR | C | B |  | YAKIN ESLESME - DOGRULA |
-| 39 | yakin | 117 | 128 | 0.88 | HAYIR | B | A |  | YAKIN ESLESME - DOGRULA |
+| 36 | yakin | 76 | 84 | 0.92 | evet | D | D |  | SLAYTI KOPYALA |
+| 37 | yakin | 60 | 67 | 0.98 | evet | B | D |  | YENI ACIKLAMA |
+| 38 | yakin | 80 | 88 | 0.92 | HAYIR | C | B |  | YENI ACIKLAMA |
+| 39 | yakin | 117 | 128 | 0.88 | HAYIR | B | A |  | YENI ACIKLAMA |
 | 40 | birebir | 81 | 89 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
 | 41 | birebir | 82 | 90 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
 | 42 | birebir | 83 | 91 | 1.00 | evet | C | C |  | SLAYTI KOPYALA |
@@ -144,18 +147,18 @@ harf uzerinden degil sik metni uzerinden** yapilir.
 | 51 | birebir | 96 | 105 | 1.00 | evet | A | A |  | SLAYTI KOPYALA |
 | 52 | yeni | - | - | - | - | D | - |  | YENI ACIKLAMA |
 | 53 | birebir | 99 | 109 | 1.00 | evet | D | D |  | SLAYTI KOPYALA |
-| 54 | yakin | 100 | 110 | 0.98 | evet | B | B |  | YAKIN ESLESME - DOGRULA |
+| 54 | yakin | 100 | 110 | 0.98 | evet | B | B |  | SLAYTI KOPYALA |
 | 55 | birebir | 101 | 111 | 1.00 | evet | A | A |  | SLAYTI KOPYALA |
 | 56 | birebir | 102 | 112 | 1.00 | evet | A | A |  | SLAYTI KOPYALA |
 | 57 | birebir | 103 | 113 | 1.00 | evet | C | C |  | SLAYTI KOPYALA |
 | 58 | birebir | 104 | 114 | 1.00 | evet | C | C |  | SLAYTI KOPYALA |
-| 59 | yakin | 105 | 115 | 0.96 | HAYIR | D | D |  | YAKIN ESLESME - DOGRULA |
+| 59 | yakin | 105 | 115 | 0.96 | HAYIR | D | D |  | YENI ACIKLAMA |
 | 60 | birebir | 106 | 116 | 1.00 | evet | C | C |  | SLAYTI KOPYALA |
 | 61 | birebir | 107 | 117 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
 | 62 | birebir | 108 | 118 | 1.00 | evet | C | C |  | SLAYTI KOPYALA |
 | 63 | birebir | 110 | 121 | 1.00 | evet | C | C |  | SLAYTI KOPYALA |
 | 64 | yeni | - | - | - | - | C | - |  | YENI ACIKLAMA |
-| 65 | yakin | 115 | 126 | 0.89 | HAYIR | A | A |  | YAKIN ESLESME - DOGRULA |
+| 65 | yakin | 115 | 126 | 0.89 | HAYIR | A | A |  | YENI ACIKLAMA |
 | 66 | yeni | - | - | - | - | A | - |  | YENI ACIKLAMA |
 | 67 | birebir | 140 | 153 | 1.00 | evet | D | D |  | SLAYTI KOPYALA |
 | 68 | yeni | - | - | - | - | A | - |  | YENI ACIKLAMA |
@@ -180,7 +183,7 @@ harf uzerinden degil sik metni uzerinden** yapilir.
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | yeni | - | - | - | - | C | - |  | YENI ACIKLAMA |
 | 2 | birebir | 14 | 17 | 1.00 | evet | A | A |  | SLAYTI KOPYALA |
-| 3 | yakin | 15 | 18 | 0.93 | evet | A | A | evet | YAKIN ESLESME - DOGRULA |
+| 3 | yakin | 15 | 18 | 0.93 | evet | A | A | evet | SLAYTI KOPYALA |
 | 4 | birebir | 16 | 19 | 1.00 | HAYIR | D | D |  | KOPYALA + SIKLARI C'DEN AL |
 | 5 | birebir | 20 | 23 | 1.00 | evet | D | D | evet | SLAYTI KOPYALA |
 | 6 | yeni | - | - | - | - | A | - |  | YENI ACIKLAMA |
@@ -231,7 +234,7 @@ harf uzerinden degil sik metni uzerinden** yapilir.
 | 51 | birebir | 95 | 104 | 1.00 | evet | B | B |  | SLAYTI KOPYALA |
 | 52 | birebir | 96 | 105 | 1.00 | evet | A | A | evet | SLAYTI KOPYALA |
 | 53 | birebir | 97 | 106 | 1.00 | evet | A | A | evet | SLAYTI KOPYALA |
-| 54 | yakin | 99 | 108 | 0.99 | HAYIR | C | C | evet | YAKIN ESLESME - DOGRULA |
+| 54 | yakin | 99 | 108 | 0.99 | HAYIR | C | C | evet | KOPYALA + SIKLARI C'DEN AL |
 | 55 | yeni | - | - | - | - | D | - | evet | YENI ACIKLAMA |
 | 56 | yeni | - | - | - | - | B | - |  | YENI ACIKLAMA |
 | 57 | birebir | 101 | 111 | 1.00 | evet | A | A |  | SLAYTI KOPYALA |
@@ -312,7 +315,7 @@ harf uzerinden degil sik metni uzerinden** yapilir.
 | 132 | yeni | - | - | - | - | C | - |  | YENI ACIKLAMA |
 | 133 | yeni | - | - | - | - | B | - |  | YENI ACIKLAMA |
 | 134 | yeni | - | - | - | - | C | - |  | YENI ACIKLAMA |
-| 135 | yakin | 154 | 167 | 0.95 | HAYIR | A | A |  | YAKIN ESLESME - DOGRULA |
+| 135 | yakin | 154 | 167 | 0.95 | HAYIR | A | A |  | YENI ACIKLAMA |
 | 136 | yeni | - | - | - | - | A | - |  | YENI ACIKLAMA |
 | 137 | yeni | - | - | - | - | D | - |  | YENI ACIKLAMA |
 | 138 | yeni | - | - | - | - | C | - |  | YENI ACIKLAMA |
