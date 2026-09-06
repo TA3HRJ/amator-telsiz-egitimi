@@ -22,11 +22,9 @@
         "d": "Hiçbiri"
       },
       "cevap": "A",
-      "aciklama": "CEPT (Avrupa Posta ve Telekomünikasyon İdareleri Birliği), amatör telsizciliğe ilişkin düzenlemelerini birbirinden ayrı belgelerde toplar: T/R 61-01 amatör istasyonların başka CEPT ülkelerinde geçici olarak çalıştırılmasını, T/R 61-02 uyumlaştırılmış sınav belgesini (HAREC) düzenler; sınav müfredatları ise ayrı raporlarda tanımlanır. Resmî cevap anahtarı, ERC 32 raporunu çıraklık (giriş) sınıfı müfredatına bağlamaktadır.",
-      "kaynak": "CEPT ERC Report 32; karşılaştırma için CEPT T/R 61-02 (HAREC) ve ECC Report 89.",
-      "uyari": "Bu atıf doğrulanmalıdır. Setin A/B bölümünde giriş/çıraklık sınıfı sınav seviyesi ECC 89 raporuna, HAREC belge düzenlemesi ise T/R 61-02'ye bağlanmıştır (A/B Düzenlemeler 11 ve 7); ERC 32'nin de çıraklık müfredatını düzenlediği yanıtı bu tabloyla çelişir. Ayrıca (a) \"Çıraklık Sınıfı\" ile (c) \"yeni başlayanlar\" aynı kavramı anlatır; iki şık eşanlamlıyken yalnızca birinin doğru sayılması soru tekniği bakımından da sorunludur. Değerlendirme, ERC Report 32'nin birincil metnine bakılarak tamamlanacaktır.",
-      "bulgu_adayi": true,
-      "dogrulama_notu": "ERC Report 32 birincil metni mevzuat arşivinde yok. Bulgu olarak düzeltme önerisine yazılmadan önce CEPT/ECO belge kütüphanesinden metin alınıp başlığı ve kapsamı doğrulanmalı."
+      "aciklama": "ERC Report 32'nin başlığı doğrudan cevabı verir: \"Amateur Radio Novice Examination Syllabus and Amateur Radio Novice Examination Certificate\" — yani çıraklık (novice) sınıfı sınav müfredatı ve sınav belgesi. Raporun girişi CEPT'teki üç amatör lisans seviyesini sıraya koyar: (1) en üstte T/R 61-02 ile düzenlenen HAREC; (2) HAREC müfredatının teknik teori düzeyi yüksek olduğu için, ondan daha düşük standartta orta seviye bir sınav olan çıraklık sınıfı — bu raporun konusu; (3) en altta ECC Report 89 ile tanımlanan giriş (entry-class) seviyesi. Şıkkı (c) \"yeni başlayanlar\" bu üçüncü seviyeyi, yani ECC 89'un konusunu tarif eder; çıraklık ile giriş sınıfı CEPT terminolojisinde ayrı iki seviyedir, eşanlamlı değildir. Rapor ayrıca çıraklık müfredatını ECC Recommendation (05)06 (CEPT Novice Radio Amateur Licence) kapsamında destekleyici belge olarak konumlandırır.",
+      "kaynak": "CEPT ERC Report 32, \"Amateur Radio Novice Examination Syllabus and Amateur Radio Novice Examination Certificate within CEPT and non-CEPT Countries\" (onay Aralık 1994; revizyon Eylül 2005 ve Ekim 2016), Bölüm 1-2 ve Ek 2. İlgili belgeler: CEPT T/R 61-02 (HAREC), ECC Report 89 (giriş sınıfı), ECC Recommendation (05)06.",
+      "bulgu_adayi": false
     },
     {
       "no": 26,
