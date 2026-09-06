@@ -67,8 +67,7 @@ Bu ayrım yapılmazsa set yanlış cevap gösterir.
 
 1. **Çıkarım hattı** — **tamamlandı**, bkz. aşağıdaki "Faz 1 sonucu".
 2. **Eşleme tablosu** — **tamamlandı**, bkz. aşağıdaki "Faz 2 sonucu".
-3. **105 yeni açıklama** — mevcut formatı bozmadan: gerekçe + yönetmelik maddesi veya formül atfı.
-   Setin varlık sebebi bu (bkz. CLAUDE.md); kısaltma yok.
+3. **115 yeni açıklama** — **tamamlandı**, bkz. aşağıdaki "Faz 3 sonucu".
 4. **Ortak soruların taşınması** — yukarıdaki tuzak kuralına göre.
 5. **Mevzuat denetimi** — v1.1'de A-B'ye uygulanan yürürlük denetimi C'ye taşınır. Mevcut beş
    bulgunun C karşılıkları aranır; C'ye özgü 105 sorudan çıkacak yeni bulgular düzeltme önerisine
@@ -201,6 +200,56 @@ bağımsız olarak geri bulması eşlemenin doğru çalıştığının işareti.
 
 **Bu dört soru C bankalarında yok**, dolayısıyla o bulgular C setine devretmiyor. C'ye özgü
 bulgular faz 5'te aranacak.
+
+## Faz 3 sonucu — 115 yeni açıklama yazıldı
+
+| Dosya | Soru |
+|---|---|
+| `icerik/C_Duzenlemeler.json` | 5 |
+| `icerik/C_Isletme.json` | 22 |
+| `icerik/C_Teknik_metin.json` | 69 |
+| `icerik/C_Teknik_gorsel.json` | 19 |
+
+Hepsi resmî cevap anahtarıyla ve eşleme tablosuyla çapraz denetlendi. Gövde ve şıklar banka
+PDF'inden alınıp eksik harfleri tamamlandı.
+
+### Çizime bağlı sorular nasıl çözüldü
+
+`pdftoppm` yok, tarayıcı da PDF'i gömülü çerçevede açtığı için sayfalara erişilemedi.
+Çözüm: **pymupdf kuruldu** (`pip install pymupdf`) ve ilgili 13 sayfa PNG'ye çevrilip
+görüntü olarak incelendi; küçük semboller ayrıca 450-600 dpi kırpılarak büyütüldü
+(transistör okunun yönü bu şekilde doğrulandı). Şekiller A-B setindeki yöntemle sözle tarif
+edilip gövdenin içine parantezle yerleştirildi; her soruda ayrıca `sekil` alanı var.
+
+### Yedi bulgu adayı
+
+| Soru | Sorun |
+|---|---|
+| Düzenlemeler 30 | Geçici Madde 1/(2) 2011'de değişip süre yerine sabit tarih (1/3/2012) öngörüyor; o tarih de geçmiş. Dört şıkkın hiçbiri yürürlükteki metni karşılamıyor. |
+| İşletme 34 | Resmî cevap (5150-5450 MHz) doğru ama şık (a) 142-144 GHz de amatör bant değil. İki doğru cevap. |
+| İşletme 50 | 90° batıda 14:10 iken 30° batıda saat 18:10; resmî cevap 10:10 farkı ters yönde alıyor. Bankanın kendi soruları (A/B İşletme 49, 70) yönü doğru uyguluyor. |
+| Teknik 73 | Dengesiz Wheatstone köprüsü; doğru sonuç ≈2,86 A, şıklarda yok. Resmî 2 A yalnızca üst kol sayılırsa çıkar. |
+| Teknik 74 | Dengesiz Wheatstone köprüsü; doğru sonuç 33,6 V, şıklarda yok. Resmî 24 V, köprü direnci uçlara paralel sanılırsa çıkar. |
+| Teknik 76 | Faz modülasyonunun harfi G'dir, şıklarda yok. Resmî cevap F ise frekans modülasyonudur. |
+| Teknik 86 | "Bir saniyede alınan yol" hızdır, şıklarda hız yok. Resmî cevap "periyot" bir süredir. |
+
+Teknik 73 ve 74'ün ikisi de dengesiz köprü ve ikisinin de eşdeğer direnci 4,2 ohm çıkıyor
+(sol üçgen her ikisinde 4/6/10 ohm). Üçgen-yıldız dönüşümüyle çözüldü.
+
+### Yolda düzeltilen çıkarım hataları
+
+- **Büyük İ harfi** bankada tamamen düşüyor. Eşleme normalizasyonu onu "i"ye çeviriyordu;
+  düzeltildi. Aynı hata İşletme 64'ün gerçekte **ALİ** olduğunu ortaya çıkardı — banka
+  çıktısında "AL" görünüyordu.
+- **Mikro simgesi** düşüyor: Teknik 40'ın periyodu "50 s" görünüyordu, doğrusu 50 µs
+  (resmî cevap 20 kHz bunu doğruluyor).
+- **Son şıkka sızan çizim etiketleri:** Teknik 9, 47, 61 ve 67'nin (d) şıkkına bir sonraki
+  sorunun şekil etiketleri karışmıştı; temizlendi.
+
+### Bulgu sayılmayan not
+
+Teknik 138'in şıklarında FAA ve FCC geçiyor — soru yabancı bir havuzdan çevrilmiş. Cevabı
+etkilemediği için bulgu değil; slayta aktarım notu olarak düşüldü.
 
 ## Yol üstünde düzeltilecekler
 

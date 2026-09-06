@@ -1,0 +1,187 @@
+{
+  "_hakkinda": [
+    "C sinifi Teknik sunumu icin SIFIRDAN yazilan aciklamalar -- CIZIME BAGLI sorular (faz 3).",
+    "Sekiller PDF sayfalari goruntu olarak acilip incelenerek yazildi.",
+    "'sekil' alani, A-B setindeki yontemin aynisidir: cizim sozle tarif edilir ve slaytta",
+    "soru govdesinin icine parantez olarak yerlestirilir, boylece slayt tek basina anlasilir.",
+    "Bicim ve alan anlamlari icin bkz. icerik/C_Duzenlemeler.json."
+  ],
+  "konu": "Teknik",
+  "sinif": "C",
+  "sorular": [
+    {
+      "no": 10, "blok": "Güç Kaynağı",
+      "sekil": "220 V yerine 250 V ile beslenen, 5:1 düşürücü transformatör; sekonderde seri bir diyot ve ardından paralel süzgeç kondansatörü bulunan yarım dalga doğrultucu",
+      "govde": "Yukarıdaki besleme devresinde (250 V alternatif kaynak → 5:1 düşürücü transformatör → seri diyot → paralel süzgeç kondansatörü) bulunan doğrultucu diyot en az kaç voltluk olmalıdır?",
+      "siklar": {"a": "25 V", "b": "71 V", "c": "50 V", "d": "10 V"},
+      "cevap": "B",
+      "aciklama": "Önce sekonder gerilimi bulunur: 5:1 düşürücü transformatörde 250 V girişten 250/5 = 50 V etkin (RMS) değer çıkar. Diyot ise etkin değeri değil tepe değeri görür: Vtepe = 50 × √2 ≈ 70,7 ≈ 71 volt. Bu yüzden diyotun dayanma gerilimi en az 71 V olmalıdır. Şıkkı (c) 50 V, etkin değerle yetinildiğinde seçilir ve diyotu yetersiz bırakır. Uygulamada süzgeç kondansatörlü yarım dalga doğrultucuda diyotun ters gerilimi tepe değerin yaklaşık iki katına kadar çıkabildiğinden, gerçek tasarımda daha yüksek dayanımlı diyot seçmek gerekir.",
+      "kaynak": "Transformatör sarım oranı; Vtepe = Vetkin × √2.", "bulgu_adayi": false
+    },
+    {
+      "no": 13, "blok": "Transformatör",
+      "sekil": "Primeri N1 = 500 sarım ve V1 = 2 V, sekonderi N2 = 5000 sarım olan, sekonderine 50 ohmluk yük bağlı transformatör; V2 sekonder gerilimi",
+      "govde": "Şekildeki devrede (N1 = 500 sarım, V1 = 2 V, N2 = 5000 sarım, sekonderde 50 ohmluk yük) V2 voltajının değeri nedir?",
+      "siklar": {"a": "2 volt", "b": "200 volt", "c": "20 volt", "d": "Hiçbiri"},
+      "cevap": "C",
+      "aciklama": "İdeal transformatörde gerilim oranı sarım oranına eşittir: V2 = V1 × (N2/N1) = 2 × (5000/500) = 2 × 10 = 20 volt. Sekonder sarımı primerin 10 katı olduğu için bu bir yükseltici transformatördür. Sekonderdeki 50 ohmluk yük gerilim oranını değiştirmez; yalnızca çekilen akımı belirler. Şıkkı (b) 200 volt, oran yanlışlıkla 100 alındığında çıkar.",
+      "kaynak": "Transformatör sarım-gerilim oranı V1/V2 = N1/N2.", "bulgu_adayi": false
+    },
+    {
+      "no": 35, "blok": "Yarı İletkenler",
+      "sekil": "Daire içine çizilmiş transistör sembolü; taban (baz) solda düşey çubuk, kollektör sağ üstte, emiter sağ altta ve emiter oku TABANA DOĞRU (içeri) yönelmiş",
+      "govde": "Şekilde görülen sembol (daire içinde transistör; emiter oku tabana doğru, yani içeri yönelmiş);",
+      "siklar": {"a": "PNP transistördür", "b": "NPN transistördür", "c": "P tip FET transistördür", "d": "N tip FET transistördür"},
+      "cevap": "A",
+      "aciklama": "Bipolar transistörün türünü emiter üzerindeki okun yönü belirler: ok tabana doğru (içeri) bakıyorsa PNP, tabandan dışarı bakıyorsa NPN'dir. Şekildeki okun ucu tabana dönük olduğuna göre eleman PNP transistördür. Hatırlatıcı olarak \"NPN — Not Pointing iN\" (ok içeri bakmaz) kalıbı kullanılır. FET sembolleri bambaşkadır: onlarda emiter-kollektör yerine kaynak (source), oluk (drain) ve kapı (gate) bulunur, kapı ucu kanala dik bir çizgi olarak çizilir.",
+      "kaynak": "Bipolar transistör sembolleri ve emiter oku kuralı.", "bulgu_adayi": false
+    },
+    {
+      "no": 42, "blok": "Anten ve Polarizasyon",
+      "sekil": "Kafes direk üzerine oturtulmuş beam (Yagi) anteni; yatay taşıyıcı boruya dik, yani DÜŞEY konumda dizilmiş elemanlar",
+      "govde": "Şekilde bir beam anteni görülmektedir (yatay taşıyıcı boru üzerine düşey konumda dizilmiş elemanlar). Bu antenden gönderilen sinyaller:",
+      "siklar": {"a": "Düşey polarizelidir", "b": "Yatay polarizelidir", "c": "Eliptik polarizelidir", "d": "Polarizeli değildir"},
+      "cevap": "A",
+      "aciklama": "Bir antenin polarizasyonunu, ışıyan elemanının yeryüzüne göre konumu belirler: elemanlar düşey ise yayılan elektrik alan da düşeydir, yani yayın düşey polarizelidir. Şekildeki beam anteninin elemanları taşıyıcı boruya dik, yere göre düşey durduğundan yayın düşey polarizelidir. Karşı istasyonun da aynı polarizasyonda çalışması önemlidir; polarizasyon uyumsuzluğu VHF/UHF'de 20 dB'ye varan kayıp getirebilir.",
+      "kaynak": "Anten polarizasyonu ve ışıyan eleman konumu.", "bulgu_adayi": false
+    },
+    {
+      "no": 48, "blok": "Transformatör",
+      "sekil": "Primeri 220 V ve n1 = 22000 sarım olan transformatör; sekonderde A, B, C, D uçları ve VAB = 5 V, VAC = 10 V, VAD = 15 V ara uç gerilimleri",
+      "govde": "Şekildeki devrede (primer 220 V ve 22000 sarım; sekonder ara uçları A, B, C, D ile VAB = 5 V, VAC = 10 V, VAD = 15 V) A ve C uçları arasındaki sarım sayısı kaçtır?",
+      "siklar": {"a": "1100", "b": "2200", "c": "1000", "d": "2000"},
+      "cevap": "C",
+      "aciklama": "Bir transformatörde sarım başına düşen gerilim her sargıda aynıdır. Primerden hesaplanır: 220 V / 22000 sarım = 0,01 volt/sarım. A ile C arasındaki gerilim 10 volt olduğuna göre gereken sarım sayısı 10 / 0,01 = 1000'dir. Aynı yolla A-B arası 500, A-D arası 1500 sarım bulunur. Şıkkı (a) 1100, sarım başına gerilim yanlışlıkla primerin onda biri alındığında ortaya çıkar.",
+      "kaynak": "Transformatörde sarım başına gerilim (volt/sarım) ilkesi.", "bulgu_adayi": false
+    },
+    {
+      "no": 55, "blok": "Devre Hesabı",
+      "sekil": "50 V kaynağa hepsi PARALEL bağlı beş adet 5 ohmluk direnç (R1-R5); voltmetre R5'in uçlarında",
+      "govde": "Aşağıdaki devrede (50 V kaynağa paralel bağlı beş adet 5 ohmluk direnç; voltmetre R5 uçlarında) R5 direnci uçları arasındaki voltmetre kaç voltu gösterir?",
+      "siklar": {"a": "1 V", "b": "5 V", "c": "10 V", "d": "50 V"},
+      "cevap": "D",
+      "aciklama": "Paralel bağlı elemanların hepsi aynı iki düğüm arasındadır, dolayısıyla hepsinin uçlarındaki gerilim aynıdır ve kaynak gerilimine eşittir. Beş direncin tamamı 50 V kaynağa paralel bağlı olduğuna göre R5'in uçlarında da 50 V görülür. Direnç sayısının artması bu gerilimi değiştirmez; yalnızca kaynaktan çekilen toplam akımı artırır. Şıkkı (c) 10 V, gerilim beş dirence bölünüyor sanıldığında — yani seri bağlama ile karıştırıldığında — seçilir.",
+      "kaynak": "Paralel bağlı elemanlarda gerilimin ortak olması.", "bulgu_adayi": false
+    },
+    {
+      "no": 62, "blok": "Devre Hesabı",
+      "sekil": "100 V kaynak; paralel bağlı 6 ohm ile 12 ohm, bunlara seri bağlı R direnci ve devreden geçen akımı gösteren ampermetre",
+      "govde": "Yukarıdaki devrede (100 V kaynak; paralel bağlı 6 ohm ve 12 ohm, bunlara seri bağlı R direnci) ampermetre 10 A gösterdiğine göre R direncinin değerini hesaplayınız?",
+      "siklar": {"a": "6 ohm", "b": "12 ohm", "c": "10 ohm", "d": "8 ohm"},
+      "cevap": "A",
+      "aciklama": "Üç adımda çözülür. Önce paralel ikili: 6 × 12 / (6 + 12) = 72 / 18 = 4 ohm. Sonra devrenin toplam direnci Ohm Kanunu'ndan: R toplam = V / I = 100 / 10 = 10 ohm. Son olarak seri bağlı olduklarına göre R = 10 − 4 = 6 ohm. Ampermetre devreye seri bağlandığı için gösterdiği akım toplam akımdır; bu, toplam direnci bulmayı mümkün kılan bilgidir.",
+      "kaynak": "Paralel direnç bağıntısı ve Ohm Kanunu.", "bulgu_adayi": false
+    },
+    {
+      "no": 64, "blok": "Alternatif Akım",
+      "sekil": "Aynı eksende çizilmiş, eşit genlikli ve eşit frekanslı iki sinüs işareti; biri düz, diğeri kesikli çizgi ile gösterilmiş ve aralarında çeyrek periyotluk kayma var",
+      "govde": "Şekilde görülen (eşit genlikli ve eşit frekanslı, aralarında çeyrek periyotluk kayma bulunan) iki sinyal arasındaki faz farkı kaç derecedir?",
+      "siklar": {"a": "90 °", "b": "45 °", "c": "60 °", "d": "180 °"},
+      "cevap": "A",
+      "aciklama": "Bir tam periyot 360 dereceye karşılık gelir. İki işaret arasındaki kayma bir periyodun dörtte biri kadarsa faz farkı 360 / 4 = 90 derecedir; şekilde bir işaretin tepe noktası diğerinin sıfır geçişine denk düşmektedir, bu da çeyrek periyot demektir. 180 derecelik fark, işaretlerin birbirinin tam tersi olması (biri tepedeyken diğerinin dipte olması) anlamına gelirdi. Direnç-bobin ve direnç-kondansatör devrelerinde akım ile gerilim arasındaki fark da bu 90 derecelik kaymadır.",
+      "kaynak": "Faz farkı ve periyot ilişkisi (bir periyot = 360°).", "bulgu_adayi": false
+    },
+    {
+      "no": 65, "blok": "Yarı İletkenler",
+      "sekil": "Soldan sağa dizilmiş dört diyot sembolü; ikincisinde katot çubuğu çift çizgi (kondansatör plakası) biçiminde, üçüncüsünde katot çubuğunun uçları kıvrık, dördüncüsünde üçüncü bir uç (kapı) var",
+      "govde": "Yukarıdaki sembolleri verilen diyot çeşitlerinin doğru sırası ile adları aşağıdakilerden hangisidir?",
+      "siklar": {"a": "Tünel diyot, Varikap, Zener diyot, Tristör", "b": "Tünel diyot, Varikap, Tristör, Zener diyot", "c": "Tünel diyot, Tristör, Zener diyot, Varikap", "d": "Tristör, Varikap, Zener diyot, Tünel diyot"},
+      "cevap": "A",
+      "aciklama": "Semboller ayırt edici işaretlerinden tanınır. Varikap (kapasitif diyot), katot çubuğunun yanına eklenen ikinci bir çizgiyle — yani kondansatör plakasıyla — çizilir; adı gibi gerilime göre değişen sığa sunar. Zener diyotta katot çubuğunun uçları kıvrıktır. Tristör (SCR), diyottan farklı olarak üçüncü bir uç, kapı (gate) taşır. Geriye kalan düz katot çubuklu sembol tünel diyottur. Bu ayırt edici işaretlere bakıldığında sıralama tünel diyot, varikap, zener diyot, tristör olarak çıkar.",
+      "kaynak": "Yarı iletken devre elemanı sembolleri.", "bulgu_adayi": false
+    },
+    {
+      "no": 66, "blok": "Transformatör",
+      "sekil": "Sekonderinde 20 turluk sarımın 4 V verdiği, aynı sargının 6,2 V'a tamamlanmasının istendiği transformatör",
+      "govde": "Bir transformatörün 4 volt olan sekonderi 20 turdur. Sekonderi 6,2 volta tamamlamak için kaç tur daha sarılmalıdır?",
+      "siklar": {"a": "15", "b": "3", "c": "11", "d": "110"},
+      "cevap": "C",
+      "aciklama": "Sarım başına gerilim sabittir: 4 V / 20 tur = 0,2 volt/tur. 6,2 volt için gereken toplam tur sayısı 6,2 / 0,2 = 31'dir. Sargıda hâlihazırda 20 tur bulunduğuna göre eklenecek tur sayısı 31 − 20 = 11'dir. Sorunun \"kaç tur daha\" demesine dikkat: toplam turu (31) değil, farkı ister. Şıkkı (a) 15, gerilim farkı olan 2,2 volt yerine 3 volt alındığında; (d) 110 ise ondalık kaydırma hatasıyla çıkar.",
+      "kaynak": "Transformatörde sarım başına gerilim (volt/tur) ilkesi.", "bulgu_adayi": false
+    },
+    {
+      "no": 68, "blok": "Devre Hesabı",
+      "sekil": "Sol uçta düşey 3 ohm; üst kolda seri 5 + 5 ohm, orta kolda 10 ohm, alt kolda seri 4 + 4 ohm bulunan direnç ağı",
+      "govde": "Şekildeki devrede (üst kolda seri 5 + 5 ohm, orta kolda 10 ohm, alt kolda seri 4 + 4 ohm ve sol uçta düşey 3 ohm) eşdeğer direncin (Reş) değeri nedir?",
+      "siklar": {"a": "2 Ω", "b": "4 Ω", "c": "6 Ω", "d": "8 Ω"},
+      "cevap": "B",
+      "aciklama": "Önce seri kollar toplanır: üst kol 5 + 5 = 10 ohm, alt kol 4 + 4 = 8 ohm. Üst kol ile orta koldaki 10 ohm aynı iki düğüm arasında paralel olduğundan 10 × 10 / 20 = 5 ohm verir. Bu 5 ohm, sol uçtaki 3 ohm ile seri gelir: 5 + 3 = 8 ohm. Son olarak bu 8 ohmluk yol, alt koldaki 8 ohm ile paralel bağlanır: 8 × 8 / 16 = 4 ohm. Karışık ağlarda yöntem hep aynıdır: içten dışa doğru, önce seriler toplanır, sonra paraleller sadeleştirilir.",
+      "kaynak": "Seri ve paralel direnç sadeleştirme adımları.", "bulgu_adayi": false
+    },
+    {
+      "no": 73, "blok": "Devre Hesabı",
+      "sekil": "Wheatstone köprüsü: 12 V kaynak sol ve sağ köşelere bağlı; sol-üst kol 4 ohm, üst-sağ kol 2 ohm, sol-alt kol 6 ohm, alt-sağ kol 9 ohm ve üst ile alt düğüm arasında köprü olarak 10 ohm",
+      "govde": "Şekildeki devreden (12 V kaynak köprünün sol ve sağ köşelerinde; kollar 4, 2, 6 ve 9 ohm, üst ile alt düğüm arasında köprü direnci 10 ohm) geçen I akımının değeri nedir?",
+      "siklar": {"a": "1 A", "b": "2 A", "c": "4 A", "d": "6 A"},
+      "cevap": "B",
+      "aciklama": "Devre bir Wheatstone köprüsüdür ve dengede değildir: denge için 4 × 9 ile 2 × 6 çarpımlarının eşit olması gerekirdi (36 ≠ 12), bu yüzden köprüdeki 10 ohmluk direnç üzerinden akım geçer ve basit seri-paralel sadeleştirme uygulanamaz. Üçgen-yıldız (delta-yıldız) dönüşümüyle çözülür: sol üçgendeki 4, 6 ve 10 ohm yıldıza çevrilir (1,2 / 2 / 3 ohm), ardından üst dal 2 + 2 = 4 ohm, alt dal 3 + 9 = 12 ohm olur; bunların paraleli 3 ohm, buna seri 1,2 ohm eklenince eşdeğer direnç 4,2 ohm bulunur. Akım I = 12 / 4,2 ≈ 2,86 amperdir.",
+      "kaynak": "Wheatstone köprüsü denge koşulu; üçgen-yıldız (delta-yıldız) dönüşümü; Ohm Kanunu.",
+      "uyari": "Devrenin doğru çözümü yaklaşık 2,86 amperdir ve bu değer şıklar arasında yoktur. Resmî cevap anahtarının işaretlediği 2 amper, ancak yalnızca üstteki 4 + 2 = 6 ohmluk yol hesaba katılırsa elde edilir; alt kol ile köprü direnci yok sayılmış olur. Köprü dengede olsaydı bile (o durumda 10 ohm devre dışı kalırdı) sonuç 6 ile 15 ohmun paraleli üzerinden 2,8 amper çıkardı, yine 2 amper değil. Sınavda resmî cevap anahtarı esas alınır; sorunun sayıları tek doğru cevap verecek şekilde düzeltilmelidir.",
+      "bulgu_adayi": true
+    },
+    {
+      "no": 74, "blok": "Devre Hesabı",
+      "sekil": "Wheatstone köprüsü: 8 A akım kaynağı sol ve sağ uçlara bağlı; üst kolda seri 4 + 4 ohm, alt kolda seri 6 + 3 ohm ve iki kolun orta düğümleri arasında köprü olarak 10 ohm",
+      "govde": "Şekildeki devrenin (8 A kaynak; üst kolda seri 4 + 4 ohm, alt kolda seri 6 + 3 ohm, iki kolun orta düğümleri arasında köprü direnci 10 ohm) uçlarındaki gerilim değeri nedir?",
+      "siklar": {"a": "4 V", "b": "6 V", "c": "12 V", "d": "24 V"},
+      "cevap": "D",
+      "aciklama": "Bu devre de dengesiz bir Wheatstone köprüsüdür: 4/4 oranı ile 6/3 oranı eşit olmadığından köprüdeki 10 ohm üzerinden akım geçer. Üçgen-yıldız dönüşümüyle çözüldüğünde (4, 6 ve 10 ohmluk üçgen 1,2 / 2 / 3 ohma çevrilir; üst dal 2 + 4 = 6, alt dal 3 + 3 = 6, paralelleri 3 ohm, seri 1,2 ohm eklenir) eşdeğer direnç 4,2 ohm bulunur. Uçlardaki gerilim V = I × R = 8 × 4,2 = 33,6 volttur.",
+      "kaynak": "Wheatstone köprüsü; üçgen-yıldız dönüşümü; Ohm Kanunu.",
+      "uyari": "Devrenin doğru çözümü 33,6 volttur ve bu değer şıklar arasında yoktur. Resmî cevap anahtarının işaretlediği 24 volt, üç kol (8 ohm, 9 ohm ve 10 ohm) uçlar arasında paralelmiş gibi alındığında çıkar (eşdeğer ≈ 3 ohm, 8 × 3 = 24 V). Oysa 10 ohmluk direnç uçlara değil, iki kolun ORTA düğümleri arasına bağlıdır; bu yüzden devre paralel değil köprü devresidir. Sınavda resmî cevap anahtarı esas alınır; sorunun düzeltilmesi gerekir.",
+      "bulgu_adayi": true
+    },
+    {
+      "no": 76, "blok": "Emisyon Tipleri",
+      "govde": "Faz modülasyonlu bir elektromanyetik dalgada, emisyonu gösteren üç karakterli sembollerin ilki, hangi harf ile gösterilir?",
+      "siklar": {"a": "B", "b": "D", "c": "F", "d": "P"},
+      "cevap": "C",
+      "aciklama": "Emisyon tanımının ilk karakteri, taşıyıcının ana modülasyon türünü gösterir. Uluslararası sınıflandırmada faz modülasyonunun karşılığı G, frekans modülasyonunun karşılığı ise F harfidir; ikisi birlikte açı modülasyonu ailesini oluşturduğu için sıkça karıştırılır. Diğer şıklar başka türleri gösterir: B bağımsız yan bantları, D genlik ile açı modülasyonunun birlikte kullanılmasını, P ise modüle edilmemiş darbe dizisini belirtir.",
+      "kaynak": "ITU Radyo Tüzüğü Ek 1 — emisyonların sınıflandırılması (F: frekans modülasyonu, G: faz modülasyonu).",
+      "uyari": "Soru faz modülasyonunu sorduğu hâlde, doğru karşılık olan G harfi şıklar arasında bulunmamaktadır. Resmî cevap anahtarının işaretlediği F, faz değil frekans modülasyonunun harfidir. Millî Frekans Planı'nın amatör arayüz belgesinde izin verilen emisyonlar arasında yer alan G3E de bunu doğrular: G ile başlayan emisyon faz modülasyonludur. Ya soru gövdesi \"frekans modülasyonlu\" olarak düzeltilmeli ya da şıklara G eklenmelidir. Sınavda resmî cevap anahtarı esas alınır.",
+      "bulgu_adayi": true
+    },
+    {
+      "no": 77, "blok": "Emisyon Tipleri",
+      "govde": "Genlik modülasyonlu bir elektromanyetik dalgada, emisyonu gösteren üç karakterli sembollerin ilki, hangi harf ile gösterilir?",
+      "siklar": {"a": "A", "b": "B", "c": "F", "d": "G"},
+      "cevap": "A",
+      "aciklama": "Emisyon tanımının ilk karakteri modülasyon türünü verir; çift yan bantlı genlik modülasyonunun karşılığı A harfidir. Amatör bantlarda sık görülen A1A (mors telgraf) ve A3E (genlik modülasyonlu telefon) bu harfle başlar. Diğer şıklar başka türlerdir: B bağımsız yan bant, F frekans modülasyonu, G ise faz modülasyonudur. Tek yan bant çalışmanın harfi ise J'dir (örneğin J3E).",
+      "kaynak": "ITU Radyo Tüzüğü Ek 1 — emisyonların sınıflandırılması.", "bulgu_adayi": false
+    },
+    {
+      "no": 88, "blok": "Yarı İletkenler",
+      "sekil": "İki uçlu, bir çubuğa dayanan içi dolu üçgenden oluşan devre elemanı sembolü",
+      "govde": "Şekildeki (bir çubuğa dayanan içi dolu üçgen biçimindeki, iki uçlu) devre elemanının adı aşağıdakilerden hangisidir?",
+      "siklar": {"a": "Transistör", "b": "Diyot", "c": "Direnç", "d": "Tristör"},
+      "cevap": "B",
+      "aciklama": "Bu, diyotun standart sembolüdür: üçgen akımın geçebildiği yönü (anottan katoda) gösterir, üçgenin ucundaki çubuk ise katodu belirtir ve akımı ters yönde durdurur. Elemanın yalnızca iki uçlu olması da belirleyicidir: transistörün üç ucu (emiter, baz, kollektör), tristörün de üç ucu (anot, katot, kapı) vardır. Direnç ise dikdörtgen veya zikzak çizgiyle gösterilir, yön belirtmez.",
+      "kaynak": "Devre elemanı sembolleri.", "bulgu_adayi": false
+    },
+    {
+      "no": 91, "blok": "Modülasyon",
+      "sekil": "Genlik modülasyonlu bir işaretin zamana göre değişimi; zarfın en geniş yeri Vmax, en dar yeri Vmin olarak işaretlenmiş",
+      "govde": "Şekildeki genlik modülasyonlu bir işarette (zarfın en geniş yeri Vmax, en dar yeri Vmin) Vmax = 70 V, Vmin = 30 V olduğuna göre bu işaretin modülasyon yüzdesi nedir?",
+      "siklar": {"a": "% 20", "b": "% 30", "c": "% 40", "d": "% 50"},
+      "cevap": "C",
+      "aciklama": "Genlik modülasyonunda modülasyon derinliği m = (Vmax − Vmin) / (Vmax + Vmin) bağıntısıyla bulunur. Değerler yerine konursa m = (70 − 30) / (70 + 30) = 40 / 100 = 0,40, yani %40. Modülasyon yüzdesinin %100'ü aşması istenmez: aşırı modülasyon işaretin dip noktasında kırpılmasına, bant genişliğinin büyümesine ve komşu kanallara karışmaya yol açar. Şıkkı (b) %30, yalnızca Vmin değerinin okunmasıyla; (a) %20 ise farkın toplama değil Vmax'a bölünmesiyle çıkar.",
+      "kaynak": "AM modülasyon derinliği bağıntısı m = (Vmax − Vmin) / (Vmax + Vmin).", "bulgu_adayi": false
+    },
+    {
+      "no": 93, "blok": "Dalga Yayılımı",
+      "govde": "Aşağıdaki ifadelerden hangileri doğrudur? I) Dalga boyu büyürse, frekans da büyür. II) Ses dalgalarının havadaki hızı 300 km/sn'dir. III) Dalga boyu büyürse, frekans küçülür. IV) Dalga boyu büyürse, anten boyu büyür. V) Frekans ve dalga boyunun çarpımı elektromanyetik dalganın hızını verir.",
+      "siklar": {"a": "I-II-III", "b": "I-III-V", "c": "II-IV-V", "d": "III-IV-V"},
+      "cevap": "D",
+      "aciklama": "Beş ifade tek bir bağıntıya dayanarak elenir: c = f × λ. Hız sabit olduğu için frekans ile dalga boyu ters orantılıdır — bu yüzden III doğru, I yanlıştır (ikisi aynı anda büyüyemez). V, bağıntının kendisidir ve doğrudur. IV de doğrudur: anten boyu dalga boyunun belirli bir kesri (yarısı, çeyreği) olarak seçilir, dalga boyu büyüdükçe anten uzar — 3,5 MHz anteninin 145 MHz antenine göre çok daha büyük olması bundandır. II yanlıştır: 300 km/sn değeri ışık hızıyla karıştırılmıştır, sesin havadaki hızı yaklaşık 340 metre/saniyedir. Doğru ifadeler III, IV ve V'tir.",
+      "kaynak": "c = f × λ bağıntısı; sesin havadaki hızı (≈ 340 m/s).", "bulgu_adayi": false
+    },
+    {
+      "no": 98, "blok": "Alıcı",
+      "sekil": "FM alıcı blok şeması: Anten → RF AMP → MİXER → IF AMP → [2] → Diskriminatör → veri işareti; [1] numaralı blok alttan mikserin ikinci girişini besliyor",
+      "govde": "Şekilde verilen Frekans Modüleli (FM) alıcı blok şemasında (Anten → RF AMP → MİXER → IF AMP → [2] → Diskriminatör; [1] numaralı blok mikserin ikinci girişini besler) sırasıyla verilen 1 ve 2 nolu bloklar hangileridir?",
+      "siklar": {"a": "IC - Sürücü", "b": "IF filtre - Osilatör", "c": "Çarpıcı - Limitör", "d": "Local Osilatör - Limitör"},
+      "cevap": "D",
+      "aciklama": "Bloklar konumlarından tanınır. Mikseri alttan besleyen 1 numaralı blok yerel osilatördür (local oscillator): gelen sinyalle karıştırılacak ikinci frekansı üretir, fark frekansı da sabit ara frekans (IF) olur. IF yükseltecinden sonra, diskriminatörden hemen önce gelen 2 numaralı blok ise limitördür: FM'de bilgi genlikte değil frekansta taşındığı için, işaretin genlik değişimleri burada kırpılır ve gürültünün diskriminatöre ulaşması engellenir. FM alıcıyı AM alıcıdan ayıran belirgin özellik, tam bu limitör-diskriminatör ikilisidir.",
+      "kaynak": "Süperheterodin FM alıcı blok yapısı.", "bulgu_adayi": false
+    }
+  ]
+}
