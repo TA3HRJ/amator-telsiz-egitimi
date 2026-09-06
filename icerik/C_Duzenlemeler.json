@@ -1,0 +1,93 @@
+{
+  "_hakkinda": [
+    "C sinifi Duzenlemeler sunumu icin SIFIRDAN yazilan aciklamalar (faz 3).",
+    "Yalnizca esleme tablosunda 'YENI ACIKLAMA' isaretli sorular burada; A-B'de",
+    "karsiligi olanlarin metni faz 4'te slayttan tasinir.",
+    "govde ve siklar, banka PDF'inden alinip eksik harfleri (i-noktasiz, s-cedilli,",
+    "g-yumusak) tamamlanmis hallerdir; PDF'e karsi gozle dogrulanmistir.",
+    "'uyari' alani, slayta turuncu uyari kutusu olarak dusen metindir.",
+    "'bulgu_adayi' true ise soru KEGM duzeltme onerisine C seti bulgusu adayidir."
+  ],
+  "konu": "Ulusal ve Uluslararasi Duzenlemeler",
+  "sinif": "C",
+  "sorular": [
+    {
+      "no": 3,
+      "blok": "CEPT Belgeleri",
+      "govde": "CEPT yönetimleri tarafından çıkarılan ERC 32 raporu neyi düzenler?",
+      "siklar": {
+        "a": "Amatör Telsizcilik Çıraklık Sınıfı için yapılacak sınav müfredatını",
+        "b": "Amatör Telsizcilik HAREC Sınıfı için yapılacak sınav müfredatını",
+        "c": "Amatör Telsizciliğe yeni başlayanlar için yapılacak sınav müfredatını",
+        "d": "Hiçbiri"
+      },
+      "cevap": "A",
+      "aciklama": "CEPT (Avrupa Posta ve Telekomünikasyon İdareleri Birliği), amatör telsizciliğe ilişkin düzenlemelerini birbirinden ayrı belgelerde toplar: T/R 61-01 amatör istasyonların başka CEPT ülkelerinde geçici olarak çalıştırılmasını, T/R 61-02 uyumlaştırılmış sınav belgesini (HAREC) düzenler; sınav müfredatları ise ayrı raporlarda tanımlanır. Resmî cevap anahtarı, ERC 32 raporunu çıraklık (giriş) sınıfı müfredatına bağlamaktadır.",
+      "kaynak": "CEPT ERC Report 32; karşılaştırma için CEPT T/R 61-02 (HAREC) ve ECC Report 89.",
+      "uyari": "Bu atıf doğrulanmalıdır. Setin A/B bölümünde giriş/çıraklık sınıfı sınav seviyesi ECC 89 raporuna, HAREC belge düzenlemesi ise T/R 61-02'ye bağlanmıştır (A/B Düzenlemeler 11 ve 7); ERC 32'nin de çıraklık müfredatını düzenlediği yanıtı bu tabloyla çelişir. Ayrıca (a) \"Çıraklık Sınıfı\" ile (c) \"yeni başlayanlar\" aynı kavramı anlatır; iki şık eşanlamlıyken yalnızca birinin doğru sayılması soru tekniği bakımından da sorunludur. Değerlendirme, ERC Report 32'nin birincil metnine bakılarak tamamlanacaktır.",
+      "bulgu_adayi": true,
+      "dogrulama_notu": "ERC Report 32 birincil metni mevzuat arşivinde yok. Bulgu olarak düzeltme önerisine yazılmadan önce CEPT/ECO belge kütüphanesinden metin alınıp başlığı ve kapsamı doğrulanmalı."
+    },
+    {
+      "no": 26,
+      "blok": "Sınav Şartları",
+      "govde": "Yürürlükteki yönetmeliğe göre, lisans düzeyinde hangi bölümde okuyan adaylar teknik konulardan sınava tabi olurlar?",
+      "siklar": {
+        "a": "Fizik",
+        "b": "Elektrik",
+        "c": "Haberleşme",
+        "d": "Kimya"
+      },
+      "cevap": "D",
+      "aciklama": "Yönetmelik bu konuyu muafiyet sayarak düzenler: haberleşme, elektrik, elektronik ve fizik dallarından birinde en az lisans düzeyinde yüksek öğrenim görmüş adaylar teknik konulardan sınava tabi tutulmaz. Soru bunun tersini sorduğu için, şıklar arasında muafiyet listesinde yer almayan tek bölüm aranır: kimya. Muafiyet listesi tahdididir (sayma yoluyla sınırlıdır); teknik görünen ama listede olmayan bölümler — kimya, makine, bilgisayar gibi — muafiyet kapsamında değildir. Muafiyetin \"en az lisans\" düzeyine bağlı olduğuna da dikkat edilmeli: ön lisans yeterli değildir.",
+      "kaynak": "KEGM Telsiz İşletme Müdürlüğü Sınav ve Belgelendirme Yönetmeliği (RG 3/2/2010, 27482), Madde 16/(8).",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 30,
+      "blok": "Geçiş Hükümleri",
+      "govde": "Yürürlükteki yönetmeliğe göre, yönetmeliğin yayımı tarihinden önce alınmış ve geçerlilik süresi dolduğu hâlde yenilenmeyen amatör telsizcilik belgelerinin, yönetmeliğin yayımı tarihinden itibaren kaç ay içinde yenilenmesi zorunludur?",
+      "siklar": {
+        "a": "3 ay",
+        "b": "6 ay",
+        "c": "9 ay",
+        "d": "12 ay"
+      },
+      "cevap": "A",
+      "aciklama": "Soru, Yönetmeliğin Geçici 1 inci maddesinin ikinci fıkrasına dayanır. Ancak bu fıkra 20/2/2011 tarihli ve 27852 sayılı Resmî Gazete'de yayımlanan değişiklikle yeniden yazılmış, süre ölçüsü kaldırılıp yerine sabit bir tarih konmuştur: yenileme zorunluluğu artık \"1/3/2012 tarihine kadar\" şeklindedir. Yürürlükteki metinde \"kaç ay\" biçiminde bir ölçü bulunmaz. Geçici 3 üncü madde ise bu tarihe kadar yenilenmeyen belgelerin resen iptal edilmiş sayılacağını hükme bağlar. 1/3/2012 tarihi geçtiğinden hüküm tükenmiştir; bugün uygulanabilecek bir yenileme süresi kalmamıştır.",
+      "kaynak": "Aynı Yönetmelik, Geçici Madde 1/(2) ve Geçici Madde 3 — her ikisi de 20/2/2011 tarihli ve 27852 sayılı RG ile değişik.",
+      "uyari": "Soru, değiştirilmiş hükmün eski hâline dayanmaktadır. Yürürlükteki metin süre değil tarih öngördüğü ve o tarih de geçtiği için dört şıkkın hiçbiri bugünkü düzenlemeyi karşılamaz. Sınavda resmî cevap anahtarı esas alınır; ancak sorunun güncellenmesi gerekir.",
+      "bulgu_adayi": true
+    },
+    {
+      "no": 36,
+      "blok": "Sınavın Değerlendirilmesi",
+      "govde": "Yürürlükteki yönetmeliğe göre, C sınıfı için oluşturulan 50 sorudan en az kaç puan alanlar C sınıfı Amatör Telsizcilik Belgesi almaya hak kazanır?",
+      "siklar": {
+        "a": "50 puan",
+        "b": "60 puan",
+        "c": "55 puan",
+        "d": "80 puan"
+      },
+      "cevap": "B",
+      "aciklama": "Sınav, çoktan seçmeli elli sorudan oluşur ve tek oturumda yapılır. Değerlendirme sınıfa göre ayrılır: A ve B sınıfı için oluşturulan sorulardan en az 75 puan alanlar A sınıfı, 60-74 arası puan alanlar B sınıfı; C sınıfı için oluşturulan sorulardan en az 60 puan alanlar ise C sınıfı belgesi almaya hak kazanır. 60 sayısının iki yerde birden geçmesi karıştırılmamalı: A/B sınavında 60 puan B sınıfının alt sınırıdır, C sınavında ise geçme barajıdır. A/B sınavı ile C sınavı ayrı soru setleridir; C sınavından 75 puan almak A sınıfı belgesi kazandırmaz.",
+      "kaynak": "Aynı Yönetmelik, Madde 16/(1) ve Madde 16/(9).",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 45,
+      "blok": "Yetkili Kurum",
+      "govde": "Amatör Telsizcilik Sınavları hangi kuruluş tarafından yapılır?",
+      "siklar": {
+        "a": "Telekomünikasyon Kurumu",
+        "b": "TRT Genel Müdürlüğü",
+        "c": "Kıyı Emniyeti Genel Müdürlüğü",
+        "d": "Radyo Televizyon Yüksek Kurulu"
+      },
+      "cevap": "C",
+      "aciklama": "5809 sayılı Elektronik Haberleşme Kanunu'nun 43 üncü maddesi, amatör telsizcilik belgesinin \"Telsiz İşletme Müdürlüğü tarafından belirlenen esaslara ve ücretlere göre\" verileceğini söyler. Telsiz İşletme Müdürlüğü, Kıyı Emniyeti Genel Müdürlüğü'ne (KEGM) bağlı birimdir; bu yüzden yetkili kuruluş KEGM'dir. Yönetmelik de bunu izler: sınavlar KEGM veya KEGM tarafından belirlenen eğitim kurumlarınca yılda en az iki defa yapılır ve sınavı bu kurumlarca oluşturulacak sınav komisyonları yürütür. Diğer şıklar başka alanların kurumlarıdır: \"Telekomünikasyon Kurumu\" bugünkü BTK'nın eski adıdır ve frekans/spektrum düzenlemesini yürütür, amatör sınav ve belgelendirme yetkisi onda değildir; TRT ile RTÜK ise yayıncılık kurumlarıdır.",
+      "kaynak": "5809 sayılı Elektronik Haberleşme Kanunu (RG 10/11/2008, 27050 mükerrer), Madde 43; KEGM Sınav ve Belgelendirme Yönetmeliği, Madde 11/(1) ve Madde 13/(1).",
+      "bulgu_adayi": false
+    }
+  ]
+}
