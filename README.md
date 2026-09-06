@@ -21,10 +21,10 @@ doğrudan tarayıcıda (Chrome/Safari) açın.
 
 | Belge | Kapsam |
 |-------|--------|
-| **Ulusal ve Uluslararası Düzenlemeler (v1.1)** | 67 soru — KEGM Sınav ve Belgelendirme Yönetmeliği (RG 27482), CEPT/ITU |
-| **İşletme (v1.1)** | 151 soru — Q-kodları, fonetik alfabe, mors, çağrı işareti kuralları, işletme adabı |
-| **Teknik (v1.1)** | 172 soru — devre analizi, anten, propagasyon, temel elektrik/elektronik formülleri |
-| **Tüm Konular (PDF, v1.1)** | Yukarıdaki üç sunumun tamamı tek PDF'te (429 sayfa) — PowerPoint gerektirmeden görüntüleme/yazdırma için |
+| **A/B Sınıfı — Ulusal ve Uluslararası Düzenlemeler (v1.1)** | 67 soru — KEGM Sınav ve Belgelendirme Yönetmeliği (RG 27482), CEPT/ITU |
+| **A/B Sınıfı — İşletme (v1.1)** | 151 soru — Q-kodları, fonetik alfabe, mors, çağrı işareti kuralları, işletme adabı |
+| **A/B Sınıfı — Teknik (v1.1)** | 172 soru — devre analizi, anten, propagasyon, temel elektrik/elektronik formülleri |
+| **A/B Sınıfı — Tüm Konular (PDF, v1.1)** | Yukarıdaki üç sunumun tamamı tek PDF'te (429 sayfa) — PowerPoint gerektirmeden görüntüleme/yazdırma için |
 | **Soru_Bankalari/** | Orijinal KEGM soru bankaları (cevap anahtarsız) — pratik sınav olarak kullanılabilir |
 | **Soru Bankası Düzeltme Önerisi (v1.1)** | KEGM Telsiz İşletme Müdürlüğü'ne sunulmak üzere hazırlanmış, 9 bulgu içeren düzeltme önerisi (bkz. aşağıda) |
 

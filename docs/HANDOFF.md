@@ -1,6 +1,6 @@
 # HANDOFF
 
-Son güncelleme: 6 Eylül 2026
+Son güncelleme: 6 Eylül 2026 (ikinci tur)
 
 ## Nerede kalındı
 
@@ -45,10 +45,10 @@ Bu ayrım yapılmazsa set yanlış cevap gösterir.
 
 1. **Ayrı C sunumları** üretilecek; A-B ile birleşik tek sunum yapılmayacak. C adayının A-B'ye
    özgü sorulardan geçmesi gerekmesin, setin konu-bazlı yapısı korunsun diye.
-2. **A-B dosyaları yeniden adlandırılacak** — adlarına `A-B` işareti eklenecek
-   (ör. `Amator_Telsizcilik_A-B_Teknik_Sinav_Hazirlik_v1.1.pptx`). **Sürüm numarası sabit kalır**:
-   içerik değişmiyor, yalnızca ad belirsizliği gideriliyor. Eski indirme bağlantıları kırılacak;
-   bu bilinçli kabul edildi.
+2. **A-B dosyaları yeniden adlandırıldı** (uygulandı) — üç sunumun adına `A-B` işareti eklendi
+   (`Amator_Telsizcilik_A-B_Teknik_Sinav_Hazirlik_v1.1.pptx` vb.). **Sürüm numarası sabit tutuldu**:
+   içerik değişmedi, yalnızca ad belirsizliği giderildi. Eski indirme bağlantıları kırıldı; bu
+   bilinçli kabul edildi. Toplu PDF adında `A-B` zaten vardı, dokunulmadı.
 3. **Ortak sorular için yeniden açıklama üretilmeyecek.** Mevcut açıklama slaytı kopyalanır,
    yalnızca şık listesi ve işaretli harf düzeltilir.
 4. **KEGM düzeltme önerisi tek dosya kalacak.** C setinde bulunacak hatalar ayrı bir çıktıya
@@ -59,8 +59,8 @@ Bu ayrım yapılmazsa set yanlış cevap gösterir.
 ## Fazlar
 
 1. **Çıkarım hattı** — C bankalarından soru/şık/cevap anahtarı çıkarımı ve doğrulaması.
-   *Uyarı:* `pdftotext` çıktısında Türkçe karakterler bozuluyor (ı/ş/ğ/İ kayboluyor). A-B setinde
-   bu sorun çözülmüş olmalı; **aynı yöntem kullanılmalı, yeniden icat edilmemeli.**
+   Karakter sorununun sınırı aşağıda ölçüldü; çıkarım sonrası **eksik harflerin tamamlanması
+   ayrı bir adımdır** ve sonuç PDF'e karşı gözle doğrulanmalıdır.
 2. **Eşleme tablosu** — 271 C sorusunun her biri için: hangi A-B slaytından geliyor / yeni mi,
    şık kümesi aynı mı farklı mı. Faz 3-4'ün tek doğruluk kaynağı bu tablodur.
 3. **105 yeni açıklama** — mevcut formatı bozmadan: gerekçe + yönetmelik maddesi veya formül atfı.
@@ -73,14 +73,41 @@ Bu ayrım yapılmazsa set yanlış cevap gösterir.
 
 ## Yol üstünde düzeltilecekler
 
-- `index.html` sürüm rozeti **1.0** diyor ama v1.1 dosyalarına link veriyor. Alt başlık da
-  şimdiden "A/B ve C Sınıfı" iddiasında — C çıktısı yokken bu yanlış.
+- `index.html` sürüm rozeti **1.0** diyordu ama v1.1 dosyalarına link veriyordu — 1.1 olarak
+  düzeltildi.
+- `index.html` alt başlığı hâlâ "A/B ve C Sınıfı" diyor. Şu an yalnızca C **soru bankaları**
+  sunuluyor, C sunumu yok; C çıktıları yayımlanana kadar bu ifade fazla iddialı.
 - `Soru_Bankalari/` ad tutarsızlığı: `C_sinifi_isletme...` büyük C, diğer ikisi küçük
   `c_sinifi...`. GitHub Pages büyük/küçük harfe duyarlı; düzeltilirse `index.html` bağlantıları
-  da güncellenmeli.
+  da güncellenmeli. **Henüz yapılmadı.**
+
+## PDF karakter sorunu — ölçüldü, çözüm devir dosyalarında yok
+
+A-B setinde bu sorunun nasıl çözüldüğü **hiçbir yerde yazılı değil**: repoda devir/handoff `.md`
+dosyası yoktu (bu dosya ilk), `_archive/oturum-transkriptleri/` ve
+`_shared/claude-verisi/` altındaki oturum kayıtlarında da konuyla ilgili kayıt çıkmadı.
+
+Sorunun sınırı ölçüldü:
+
+- Soru bankası PDF'lerinin metin katmanında **ı, ş, ğ (ve büyükleri) hiç yok** — karakter bozuk
+  değil, akıştan tamamen düşmüş. Üç çıkarım kipinde de aynı: `Haberleşme` → `Haberleme`.
+  Hiçbir `pdftotext` bayrağı bunu geri getiremez.
+- Buna karşılık **ç, ö, ü, Ç, Ö, Ü kurtarılabiliyor**: varsayılan UTF-8 kipinde `U+FFFD` oluyorlar,
+  ama `pdftotext -enc Latin1` ile alınıp **cp1254 olarak çözülürse** doğru geliyorlar.
+
+Pratik reçete:
+
+```
+pdftotext -enc Latin1 -layout <dosya>.pdf -   # ciktiyi cp1254 olarak decode et
+```
+
+Kalan {ı, ş, ğ, İ, Ş, Ğ} Türkçe imlâdan deterministik olarak tamamlanır (`Haberleme` →
+`Haberleşme` bağlamda tek okumaya sahiptir), ama **tamamlama sonrası metin PDF'e karşı gözle
+doğrulanmalıdır** — sette kaynak sadakati temel iddiadır.
 
 ## Açık kalanlar
 
 - C sunumlarının sürüm numarası: yeni set v1.0 olarak mı başlar, yoksa setin bütünü v1.2'ye mi
   taşınır? Karar verilmedi.
-- Faz 1'deki karakter kodlaması sorununun A-B setinde nasıl çözüldüğü repoda yazılı değil.
+- `Soru_Bankalari/` ad tutarsızlığı (`C_sinifi_isletme...` büyük C, diğer ikisi küçük `c_sinifi...`)
+  henüz düzeltilmedi.
