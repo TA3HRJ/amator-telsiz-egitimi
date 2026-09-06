@@ -15,15 +15,7 @@ formüle atıfla açıklar.
 
 GitHub'ın mobil uygulamasında ve mobil tarayıcı görünümünde "Deployments" sekmesi
 gösterilmediği için bu adrese oradan ulaşılamaz; telefondan indirmek için yukarıdaki adresi
-doğrudan tarayıcıda (Chrome/Safari) açın. Dosya bağlantıları:
-
-| Dosya | Bağlantı |
-|---|---|
-| Düzenlemeler (PPTX) | <https://ta3hrj.github.io/amator-telsiz-egitimi/Amator_Telsizcilik_Duzenlemeler_Sinav_Hazirlik_v1.1.pptx> |
-| İşletme (PPTX) | <https://ta3hrj.github.io/amator-telsiz-egitimi/Amator_Telsizcilik_Isletme_Sinav_Hazirlik_v1.1.pptx> |
-| Teknik (PPTX) | <https://ta3hrj.github.io/amator-telsiz-egitimi/Amator_Telsizcilik_Teknik_Sinav_Hazirlik_v1.1.pptx> |
-| Tüm Konular (PDF) | <https://ta3hrj.github.io/amator-telsiz-egitimi/KEGM_Amator_Telsizcilik_A-B_Sinav_Hazirlik_Tum_Konular_v1.1.pdf> |
-| KEGM Düzeltme Önerisi (PPTX) | <https://ta3hrj.github.io/amator-telsiz-egitimi/KEGM_Soru_Bankasi_Duzeltme_Onerisi_v1.1.pptx> |
+doğrudan tarayıcıda (Chrome/Safari) açın.
 
 ## İçindekiler
 
