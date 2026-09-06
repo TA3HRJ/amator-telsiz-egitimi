@@ -77,9 +77,10 @@ Bu ayrım yapılmazsa set yanlış cevap gösterir.
   düzeltildi.
 - `index.html` alt başlığı hâlâ "A/B ve C Sınıfı" diyor. Şu an yalnızca C **soru bankaları**
   sunuluyor, C sunumu yok; C çıktıları yayımlanana kadar bu ifade fazla iddialı.
-- `Soru_Bankalari/` ad tutarsızlığı: `C_sinifi_isletme...` büyük C, diğer ikisi küçük
-  `c_sinifi...`. GitHub Pages büyük/küçük harfe duyarlı; düzeltilirse `index.html` bağlantıları
-  da güncellenmeli. **Henüz yapılmadı.**
+- `Soru_Bankalari/` ad tutarsızlığı giderildi: iki dosya küçük `c_sinifi...` idi, üçü de büyük
+  `C_sinifi...` yapıldı (`A-B_sinifi...` kuralıyla uyumlu olsun diye). `index.html` bağlantıları
+  da güncellendi. Git `core.ignorecase=true` olduğu için yeniden adlandırma ara ad üzerinden
+  iki adımda yapıldı; tek adımda yapılırsa Git değişikliği görmez.
 
 ## PDF karakter sorunu — ölçüldü, çözüm devir dosyalarında yok
 
@@ -109,5 +110,3 @@ doğrulanmalıdır** — sette kaynak sadakati temel iddiadır.
 
 - C sunumlarının sürüm numarası: yeni set v1.0 olarak mı başlar, yoksa setin bütünü v1.2'ye mi
   taşınır? Karar verilmedi.
-- `Soru_Bankalari/` ad tutarsızlığı (`C_sinifi_isletme...` büyük C, diğer ikisi küçük `c_sinifi...`)
-  henüz düzeltilmedi.
