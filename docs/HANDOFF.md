@@ -51,7 +51,14 @@ Bu ayrım yapılmazsa set yanlış cevap gösterir.
    bilinçli kabul edildi. Toplu PDF adında `A-B` zaten vardı, dokunulmadı.
 3. **Ortak sorular için yeniden açıklama üretilmeyecek.** Mevcut açıklama slaytı kopyalanır,
    yalnızca şık listesi ve işaretli harf düzeltilir.
-4. **KEGM düzeltme önerisi tek dosya kalacak.** C setinde bulunacak hatalar ayrı bir çıktıya
+4. **C seti v1.0 olarak başlar.** A-B seti kendi çizgisinde v1.1'de kalır; iki set ayrı sürüm
+   hattı yürütür. Sitede "A/B Sınıfı … (v1.1)" ile "C Sınıfı … (v1.0)" yan yana duracak, bu
+   beklenen durumdur. Dosya adları A-B kuralını izler:
+   `Amator_Telsizcilik_C_Teknik_Sinav_Hazirlik_v1.0.pptx`,
+   `KEGM_Amator_Telsizcilik_C_Sinav_Hazirlik_Tum_Konular_v1.0.pdf`.
+   Düzeltme önerisi bu ikisinden bağımsızdır: tek dosya olduğu ve iki seti birden kapsadığı için
+   C bulguları eklendiğinde kendi numarası v1.2'ye çıkar.
+5. **KEGM düzeltme önerisi tek dosya kalacak.** C setinde bulunacak hatalar ayrı bir çıktıya
    değil, mevcut `KEGM_Soru_Bankasi_Duzeltme_Onerisi` dosyasına işlenecek; her bulgu **hangi
    sete ait olduğu (A-B / C) açıkça belirtilerek**. Dosya henüz KEGM'ye iletilmedi, dolayısıyla
    C bulguları eklendikten sonra tek seferde sunulabilir.
@@ -108,5 +115,4 @@ doğrulanmalıdır** — sette kaynak sadakati temel iddiadır.
 
 ## Açık kalanlar
 
-- C sunumlarının sürüm numarası: yeni set v1.0 olarak mı başlar, yoksa setin bütünü v1.2'ye mi
-  taşınır? Karar verilmedi.
+Şu an yok — plan uygulanmayı bekliyor (bkz. Fazlar).
