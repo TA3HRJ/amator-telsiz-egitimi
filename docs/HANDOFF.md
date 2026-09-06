@@ -66,8 +66,7 @@ Bu ayrım yapılmazsa set yanlış cevap gösterir.
 ## Fazlar
 
 1. **Çıkarım hattı** — **tamamlandı**, bkz. aşağıdaki "Faz 1 sonucu".
-2. **Eşleme tablosu** — 271 C sorusunun her biri için: hangi A-B slaytından geliyor / yeni mi,
-   şık kümesi aynı mı farklı mı. Faz 3-4'ün tek doğruluk kaynağı bu tablodur.
+2. **Eşleme tablosu** — **tamamlandı**, bkz. aşağıdaki "Faz 2 sonucu".
 3. **105 yeni açıklama** — mevcut formatı bozmadan: gerekçe + yönetmelik maddesi veya formül atfı.
    Setin varlık sebebi bu (bkz. CLAUDE.md); kısaltma yok.
 4. **Ortak soruların taşınması** — yukarıdaki tuzak kuralına göre.
@@ -129,6 +128,62 @@ ayrıca gözle kontrol edilmeli.
 
 **Eksik harflerin tamamlanması bu hattın işi değildir** ve yapılmadı: çıktıdaki metinlerde
 ı/ş/ğ hâlâ yok. Tamamlama faz 3'te, slayt metni yazılırken yapılacak ve PDF'e karşı doğrulanacak.
+
+## Faz 2 sonucu — eşleme tablosu
+
+`tools/esleme.py` → `tools/cikti/esleme_C.json` ve okunabilir hâli `docs/esleme_C.md`
+(271 satır, her C sorusu için bir satır).
+
+| Eylem | Soru |
+|---|---|
+| `SLAYTI KOPYALA` | 138 |
+| `KOPYALA + SIKLARI C'DEN AL` | 11 |
+| `YAKIN ESLESME - DOGRULA` | 16 |
+| `YENI ACIKLAMA` | 106 |
+
+Konu dağılımı: yeni açıklama gerektiren 106 sorunun **87'si Teknik**, 16'sı İşletme, 3'ü
+Düzenlemeler. Düzenlemeler ve İşletme neredeyse tümüyle mevcut slaytlardan karşılanıyor.
+
+### Önemli keşif — A-B sunumları temiz Türkçe metni zaten taşıyor
+
+Sunum slaytlarında ı/ş/ğ **yerinde**. Yani ortak 149 soru için eksik harf tamamlama işi
+faz 3'te yeniden yapılmayacak; slayt metni hazır kaynak. Tamamlama yalnızca 106 yeni soru
+için gerekecek.
+
+Dahası: A-B setinde **çizime bağlı soruların gövdesi bilerek yeniden yazılmış**, şekil sözle
+tarif edilmiş — örn. Teknik 15 "Şekildeki *(8 [sekiz] şeklinde iki loba sahip)* yayılım
+kalıbı…", Teknik 4 "*(TX → alçak geçiren filtre → ATU → 25m koaksiyel kablo → anten)*".
+C Teknik'in 36 görsele bağlı sorusunda **aynı yöntem izlenmeli**; yeni bir çözüm aranmasın.
+
+### Eşlemenin banka-banka yapılmasının sebebi
+
+İlk sürüm C bankasını A-B **slaytlarıyla** eşliyordu ve 121 "yeni soru" veriyordu. Yanlıştı:
+slayt gövdeleri yukarıdaki gibi yeniden yazıldığı için eşleşmiyorlar, şık metinleri de
+zenginleştirilmiş ("32" yerine "32 Ω"). Eşleme **C bankası ↔ A-B bankası** arasında yapılıyor
+(iki taraf aynı karakter bozulmasını taşıdığı için karşılaştırma adil), slayt numarası
+sonradan soru numarasından ekleniyor.
+
+### Ölçülmüş tuzak — yakın eşleşme otomatik kullanılamaz
+
+C İşletme 37 ile A-B İşletme 60'ın benzerliği **0.98** ama sorular farklı:
+"**VE** çağrı işareti ön eki" (Kanada) ile "**VK** çağrı işareti ön eki" (Avustralya).
+İkisinin de resmî cevabı kendi sorusu için doğru. Tek harflik ayrımı olan sorularda yüksek
+benzerlik yanlış eşleşme demektir. Bu yüzden yalnızca **birebir** eşleşmeler otomatik
+kullanılır; 16 yakın eşleşme insan onayına bırakıldı.
+
+`CELISKI - INCELE` de buna göre daraltıldı: yalnızca **şık kümesi aynı olduğu hâlde** iki
+bankanın resmî cevabı farklıysa çelişkidir. Şık kümesi farklıysa cevabın farklı olması zaten
+beklenir. Bu tanımla şu an çelişki yok.
+
+### Sunum ↔ resmî anahtar çapraz denetimi
+
+Hat, A-B sunumlarında işaretli şıkkı resmî cevap anahtarıyla karşılaştırıyor. Dört soruda
+fark var: **İşletme 43, Teknik 46, 66, 120**. Bunlar hata değil — düzeltme önerisindeki
+5, 7, 8 ve 9 numaralı bulgular, yani setin bilerek düzelttiği sorular. Denetimin bu dördünü
+bağımsız olarak geri bulması eşlemenin doğru çalıştığının işareti.
+
+**Bu dört soru C bankalarında yok**, dolayısıyla o bulgular C setine devretmiyor. C'ye özgü
+bulgular faz 5'te aranacak.
 
 ## Yol üstünde düzeltilecekler
 
