@@ -1,0 +1,572 @@
+{
+  "_hakkinda": [
+    "C sinifi Teknik sunumu icin SIFIRDAN yazilan aciklamalar -- METIN sorulari (faz 3).",
+    "Cizime bagli 19 soru ayri dosyada: icerik/C_Teknik_gorsel.json.",
+    "Bicim ve alan anlamlari icin bkz. icerik/C_Duzenlemeler.json.",
+    "NOT: Banka PDF'inde bazi siklara BIR SONRAKI sorunun cizim etiketleri sizmisti",
+    "(9-d, 47-d, 61-d, 67-d). Bunlar temizlendi. Ayrica mikro simgesi metin",
+    "katmaninda dustugu icin 40 numarali sorunun periyodu '50 s' gorunuyordu;",
+    "dogrusu '50 mikrosaniye'dir ve resmi cevap bunu dogrular."
+  ],
+  "konu": "Teknik",
+  "sinif": "C",
+  "sorular": [
+    {
+      "no": 1, "blok": "Osilatörler",
+      "govde": "Bir kristal osilatörün frekansı öncelikle aşağıdakilerden hangisine bağlıdır?",
+      "siklar": {"a": "Çıkış genliğine", "b": "Transistörün kazancına", "c": "Kristalin frekansına", "d": "Osilatörün tipine"},
+      "cevap": "C",
+      "aciklama": "Kristal osilatörde frekansı belirleyen, kuvars kristalinin kendi mekanik titreşim frekansıdır; kristal çok yüksek Q değerine sahip bir rezonans devresi gibi davranır. Devrenin kazancı, çıkış genliği veya kullanılan osilatör düzeni frekansı ancak çok küçük ölçüde kaydırabilir. Kristal osilatörlerin tercih sebebi zaten budur: frekans, devrenin geri kalanındaki değişimlerden büyük ölçüde bağımsızdır.",
+      "kaynak": "Kuvars kristal rezonatörün çalışma ilkesi.", "bulgu_adayi": false
+    },
+    {
+      "no": 6, "blok": "Devre Hesabı",
+      "govde": "Paralel bağlı 12 ohm, 15 ohm ve 20 ohmluk üç direncin toplam değeri (eşdeğer direnç) nedir?",
+      "siklar": {"a": "5 ohm", "b": "47 ohm", "c": "8 ohm", "d": "56 ohm"},
+      "cevap": "A",
+      "aciklama": "Paralel bağlamada eşdeğer direncin tersi, dirençlerin terslerinin toplamıdır: 1/R = 1/12 + 1/15 + 1/20. Paydaları 60'ta eşitlersek 5/60 + 4/60 + 3/60 = 12/60 = 1/5, yani R = 5 ohm. Sonucun en küçük dirençten (12 ohm) bile küçük çıkması paralel bağlamanın kuralıdır; 47 ve 56 ohm gibi değerler seri bağlama düşünülürse elde edilir.",
+      "kaynak": "Paralel direnç bağıntısı 1/R = 1/R1 + 1/R2 + 1/R3.", "bulgu_adayi": false
+    },
+    {
+      "no": 9, "blok": "Devre Hesabı",
+      "govde": "Bir pil devamlı olarak 0,5 A çekilmek şartı ile bir hafta süre ile kullanılmaktadır. Pilin kapasitesi kaç amper saat (Ah)dir?",
+      "siklar": {"a": "42", "b": "24", "c": "84", "d": "12"},
+      "cevap": "C",
+      "aciklama": "Amper saat, akım ile sürenin çarpımıdır. Bir hafta 7 × 24 = 168 saattir; 0,5 A × 168 saat = 84 Ah. Şıkkı (a) 42, hafta yerine 84 saat alındığında; (b) 24, yalnızca bir gün hesaplandığında çıkar.",
+      "kaynak": "Kapasite = akım × süre (Ah).", "bulgu_adayi": false
+    },
+    {
+      "no": 32, "blok": "İstasyon Donanımı",
+      "govde": "Telsiz cihazları arasında haberleşmeyi kolaylaştırmak amacıyla bir verici istasyonundan aldığı sinyalleri otomatik olarak başka bir frekansta alıcılara yayınlayan aktarıcılara ne ad verilir?",
+      "siklar": {"a": "Trafo", "b": "Tekrarlayıcı", "c": "El telsizi", "d": "Mobil telsiz"},
+      "cevap": "B",
+      "aciklama": "Bu cihaza tekrarlayıcı (röle, repeater) denir. Yüksek bir noktaya kurulur, bir frekanstan dinleyip başka bir frekanstan aynı anda yayınlar; böylece birbirini doğrudan duyamayan düşük güçlü istasyonlar geniş bir alanda haberleşebilir. Alış ve veriş frekanslarının farklı olması (kayma/shift) zorunludur, aksi hâlde cihaz kendi yayınını dinlemiş olur.",
+      "kaynak": "Amatör telsiz tekrarlayıcı (röle) sistemlerinin çalışma ilkesi.", "bulgu_adayi": false
+    },
+    {
+      "no": 34, "blok": "Birimler",
+      "govde": "0,1 volt, mV cinsinden nasıl gösterilir?",
+      "siklar": {"a": "1 mV", "b": "10 mV", "c": "100 mV", "d": "1000 mV"},
+      "cevap": "C",
+      "aciklama": "Mili ön eki binde bir demektir: 1 V = 1000 mV. Buradan 0,1 V = 0,1 × 1000 = 100 mV bulunur. Ön ek dönüşümlerinde yön şaşırmamak için kural basittir: daha küçük birime geçiliyorsa sayı büyür.",
+      "kaynak": "SI ön ekleri (mili = 10⁻³).", "bulgu_adayi": false
+    },
+    {
+      "no": 36, "blok": "Direnç Renk Kodu",
+      "govde": "Direnç renkleri sırasıyla Sarı, Turuncu, Kahverengi, Altın olan bir direncin değeri hangi sınırlar içindedir?",
+      "siklar": {"a": "425-435 ohm", "b": "387-473 ohm", "c": "4085-4515 ohm", "d": "408,5-451,5 ohm"},
+      "cevap": "D",
+      "aciklama": "Dört bantlı kodda ilk iki bant rakamları, üçüncü bant çarpanı, dördüncü bant toleransı verir. Sarı 4, turuncu 3, kahverengi çarpan 10, altın ise ±%5 toleranstır: 43 × 10 = 430 ohm ±%5. Tolerans payı 430 × 0,05 = 21,5 ohm olduğundan sınırlar 408,5 ile 451,5 ohm arasıdır. Şıkkı (b) ±%10, (c) ise çarpanı 100 almış hâlidir.",
+      "kaynak": "Direnç renk kodu tablosu ve tolerans hesabı.", "bulgu_adayi": false
+    },
+    {
+      "no": 37, "blok": "Devre Elemanları",
+      "govde": "Bazen transistörlerin bacağına küçük ferrit yüzükler takılır, bunun nedeni aşağıdakilerden hangisi olabilir?",
+      "siklar": {"a": "Transistör bacağını ekranlamak.", "b": "Transistör ile baskı devre arasında mesafe bırakmak.", "c": "Parazit osilasyonları önlemek.", "d": "50 ohma ayarlamak."},
+      "cevap": "C",
+      "aciklama": "Ferrit boncuk, bacağa küçük bir endüktans ve yüksek frekanslarda kayıp direnci ekler; alçak frekansta neredeyse etkisizken çok yüksek frekanslarda sinyali bastırır. Bu, transistörün çalışması istenmeyen frekanslarda kendi kendine osilasyona (parazit osilasyon) girmesini engeller. Ekranlama işini ferrit boncuk değil metal kutu veya kafes yapar.",
+      "kaynak": "Ferrit boncuğun yüksek frekansta bastırıcı davranışı.", "bulgu_adayi": false
+    },
+    {
+      "no": 38, "blok": "Transformatör",
+      "govde": "Bir transformatörün primer sargısı sekonder sargısının beş katıdır. Primer sargılarına 250 V verilirse sekonderinden kaç volt çıkar?",
+      "siklar": {"a": "10 V", "b": "25 V", "c": "50 V", "d": "1250 V"},
+      "cevap": "C",
+      "aciklama": "İdeal transformatörde gerilim oranı sarım oranına eşittir: Vp/Vs = Np/Ns. Primer sarımı sekonderin 5 katı olduğuna göre gerilim de 5 kat düşer: 250 / 5 = 50 V. Şıkkı (d) 1250 V, oranın ters uygulanmasıyla — yani yükseltici sanılmasıyla — elde edilir; sarım çoksa gerilim de çoktur, o taraf primerdir.",
+      "kaynak": "Transformatör sarım-gerilim oranı Vp/Vs = Np/Ns.", "bulgu_adayi": false
+    },
+    {
+      "no": 40, "blok": "Frekans ve Periyot",
+      "govde": "Periyodu 50 mikrosaniye olan frekans nedir?",
+      "siklar": {"a": "2 kHz", "b": "20 kHz", "c": "200 kHz", "d": "2 MHz"},
+      "cevap": "B",
+      "aciklama": "Frekans, periyodun tersidir: f = 1/T. T = 50 µs = 50 × 10⁻⁶ saniye olduğuna göre f = 1 / (50 × 10⁻⁶) = 20 000 Hz = 20 kHz. Pratik kısayol: mikrosaniye cinsinden periyot biliniyorsa f (MHz) = 1 / T (µs); burada 1/50 = 0,02 MHz = 20 kHz.",
+      "kaynak": "f = 1 / T bağıntısı.", "bulgu_adayi": false,
+      "aktarim_notu": "Banka metninde mikro simgesi düştüğü için periyot '50 s' görünüyor; resmî cevap 20 kHz olduğuna göre birim mikrosaniyedir."
+    },
+    {
+      "no": 45, "blok": "Temel Kavramlar",
+      "govde": "Ülkemizde kullanılan şehir şebekesi frekansı nedir?",
+      "siklar": {"a": "60 Hz", "b": "50 Hz", "c": "20 Hz", "d": "400 Hz"},
+      "cevap": "B",
+      "aciklama": "Türkiye'de şebeke gerilimi 230 V ve frekansı 50 Hz'dir; Avrupa şebekesinin tamamı 50 Hz ile çalışır. 60 Hz Kuzey Amerika'nın standardıdır, 400 Hz ise uçak ve gemi gibi araçların iç şebekelerinde kullanılır. Amatör için önemi, güç kaynaklarındaki süzme ve şebeke kaynaklı vızıltının 50 Hz ile katlarında ortaya çıkmasıdır.",
+      "kaynak": "Türkiye elektrik şebekesi standardı (230 V / 50 Hz).", "bulgu_adayi": false
+    },
+    {
+      "no": 46, "blok": "Devre Hesabı",
+      "govde": "İki tane direnç seri bağlandığında eşdeğer direnç 10 ohm, paralel bağlandığında 2,4 ohmdur. Bu dirençlerin değerleri aşağıdakilerden hangisidir?",
+      "siklar": {"a": "5 ve 5 ohm", "b": "2 ve 8 ohm", "c": "3 ve 7 ohm", "d": "4 ve 6 ohm"},
+      "cevap": "D",
+      "aciklama": "Seri bağlamada R1 + R2 = 10, paralel bağlamada R1·R2 / (R1 + R2) = 2,4'tür. İkinci denklemde payda 10 olduğuna göre R1·R2 = 24 bulunur. Toplamı 10, çarpımı 24 olan iki sayı 4 ile 6'dır. Diğer şıklar toplamı sağlar ama çarpımı tutturmaz: 5×5 = 25, 2×8 = 16, 3×7 = 21.",
+      "kaynak": "Seri ve paralel direnç bağıntıları.", "bulgu_adayi": false
+    },
+    {
+      "no": 47, "blok": "Birimler",
+      "govde": "Kapasitans biriminin farad olduğu bilinmektedir. 1 Farad aşağıdakilerden hangisi ile eşdeğerdedir?",
+      "siklar": {"a": "10³ mikrofarad", "b": "10⁶ pikofarad", "c": "10¹² mikrofarad", "d": "10¹² pikofarad"},
+      "cevap": "D",
+      "aciklama": "Piko ön eki 10⁻¹² demektir, dolayısıyla 1 F = 10¹² pF olur. Mikro ise 10⁻⁶'dır: 1 F = 10⁶ µF. Şıkkı (a) mikrofaradı bin kat yanlış, (b) pikofaradı milyon kat eksik, (c) ise mikro ile pikoyu birbirine karıştırmış hâlidir. Amatör pratiğinde sık kullanılan köprü şudur: 1 µF = 10⁶ pF.",
+      "kaynak": "SI ön ekleri (mikro = 10⁻⁶, piko = 10⁻¹²).", "bulgu_adayi": false
+    },
+    {
+      "no": 49, "blok": "Anten Tipleri",
+      "govde": "Delta-loop antenin tarifi aşağıdakilerden hangisine uyar?",
+      "siklar": {"a": "Üçgen elemanlı bir çeşit quad antenidir", "b": "Dikey antendir", "c": "Yatay antendir", "d": "Kamçı antendir"},
+      "cevap": "A",
+      "aciklama": "Delta-loop, bir tam dalga boyu uzunluğundaki iletkenin üçgen (delta) biçiminde kapatılmasıyla kurulan halka (loop) antendir; karesi kurulduğunda quad adını alan ailenin üçgen biçimli üyesidir. Adındaki delta, Yunan harfinin üçgen görünüşünden gelir. Dikey, yatay veya kamçı nitelemeleri antenin konumunu ya da fiziksel biçimini anlatır, halka anten ailesini tanımlamaz.",
+      "kaynak": "Halka (loop) anten ailesi: quad ve delta-loop.", "bulgu_adayi": false
+    },
+    {
+      "no": 56, "blok": "Besleme Hattı",
+      "govde": "Tipik amatör radyo kurulumlarında koaksiyel kablonun en yaygın olarak kullanılan empedansı nedir?",
+      "siklar": {"a": "8 ohm", "b": "50 ohm", "c": "600 ohm", "d": "12 ohm"},
+      "cevap": "B",
+      "aciklama": "Amatör ve profesyonel telsiz donanımında koaksiyel kablo standardı 50 ohmdur; verici çıkışları, anten girişleri ve ölçü aletleri bu değere göre üretilir. 75 ohm televizyon/video kablosunun, 600 ohm ise açık paralel hatların değeridir. Uyumun bozulması duran dalga oranını (SWR) yükseltir, bu yüzden sistemin baştan sona aynı empedansta tutulması esastır.",
+      "kaynak": "Koaksiyel besleme hattı empedans standardı.", "bulgu_adayi": false
+    },
+    {
+      "no": 58, "blok": "Anten Kuramı",
+      "govde": "Bir antenin fiziki elemanları aşağıdakilerden hangisidir?",
+      "siklar": {"a": "Kondansatör, transformatör, self, bobin", "b": "Kondansatör, bobin, direnç", "c": "Kondansatör, transistör, self, bobin", "d": "Kondansatör, transistör, direnç"},
+      "cevap": "B",
+      "aciklama": "Anten, elektriksel olarak üç pasif büyüklüğün birleşimi gibi davranır: iletkenler arasında sığa (kondansatör), iletken boyunca endüktans (bobin) ve ışıma ile kayıpları temsil eden direnç. Bu üçü antenin eşdeğer devresidir. Transistör etkin (aktif) bir elemandır ve antenin yapısında bulunmaz; onu içeren şıklar bu yüzden elenir.",
+      "kaynak": "Antenin eşdeğer devresi (R, L, C).", "bulgu_adayi": false
+    },
+    {
+      "no": 61, "blok": "Ölçü Aletleri",
+      "govde": "Bir anten sisteminde empedans uyumsuzluğunu gösterebilen alet aşağıdakilerden hangisidir?",
+      "siklar": {"a": "Alan gerilim ölçer", "b": "Wattmetre", "c": "Dalgametre", "d": "Reflektometre"},
+      "cevap": "D",
+      "aciklama": "Reflektometre, hat üzerinde ileri giden ve antenden geri dönen gücü ayrı ayrı ölçer; bu iki değerin oranından duran dalga oranı (SWR) bulunur ve empedans uyumsuzluğu görülür. Geri dönen güç, uyumsuzluğun doğrudan göstergesidir. Wattmetre yalnızca güç, dalgametre frekans, alan gerilim ölçer ise ışıyan alanın şiddeti hakkında bilgi verir.",
+      "kaynak": "Reflektometre / SWR ölçümünün çalışma ilkesi.", "bulgu_adayi": false
+    },
+    {
+      "no": 67, "blok": "İstasyon Donanımı",
+      "govde": "Paket data gönderen amatör telsiz istasyonunda aşağıdakilerden hangisi kullanılmaz?",
+      "siklar": {"a": "Anten", "b": "Güç Kaynağı", "c": "Alıcı - Verici", "d": "Mikrofon"},
+      "cevap": "D",
+      "aciklama": "Paket data yayınında ses yoktur: bilgi sayısal olarak üretilir, modem/TNC tarafından ton veya doğrudan sayısal modülasyona çevrilir ve vericiye verilir. Mikrofon yalnızca sesli (fonik) çalışmada gerekir. Anten, güç kaynağı ve alıcı-verici ise her çalışma türünde bulunur.",
+      "kaynak": "Paket radyo (packet) istasyonunun donanım zinciri.", "bulgu_adayi": false
+    },
+    {
+      "no": 70, "blok": "Devre Elemanları",
+      "govde": "İki iletken plaka ve bunların arasında yalıtkan bir malzemeden meydana gelen elemana ne ad verilir?",
+      "siklar": {"a": "Direnç", "b": "Transistör", "c": "Kondansatör", "d": "Diyot"},
+      "cevap": "C",
+      "aciklama": "Bu yapı kondansatörün tanımıdır: iki iletken plaka ve aralarındaki yalıtkan (dielektrik). Elektrik enerjisini plakalar arasındaki alanda depolar. Kapasite; plaka yüzeyi büyüdükçe ve plakalar birbirine yaklaştıkça artar, dielektrik malzemenin cinsine de bağlıdır.",
+      "kaynak": "Kondansatörün yapısı ve tanımı.", "bulgu_adayi": false
+    },
+    {
+      "no": 71, "blok": "Birimler",
+      "govde": "Kondansatörlerin kapasite değerleri hangi birim ile ifade edilir?",
+      "siklar": {"a": "Ohm", "b": "Farad", "c": "Henry", "d": "Watt"},
+      "cevap": "B",
+      "aciklama": "Kapasitenin birimi faraddır (F). Farad çok büyük bir birim olduğundan pratikte mikrofarad (µF), nanofarad (nF) ve pikofarad (pF) kullanılır. Diğer şıklar başka büyüklüklerin birimidir: ohm direncin, henry endüktansın, watt ise gücün birimidir.",
+      "kaynak": "SI birimleri: farad, ohm, henry, watt.", "bulgu_adayi": false
+    },
+    {
+      "no": 72, "blok": "Devre Hesabı",
+      "govde": "İki kondansatör paralel bağlandığı takdirde toplam kapasite değeri ne olur?",
+      "siklar": {"a": "Büyük kondansatörün kapasitesine eşit olur", "b": "Küçük kondansatörün kapasitesine eşit olur", "c": "Kapasite değerleri toplanır", "d": "Büyük kapasite değerinden küçük çıkarılır"},
+      "cevap": "C",
+      "aciklama": "Kondansatörler paralel bağlandığında plaka yüzeyleri toplanmış gibi olur, bu yüzden kapasiteler doğrudan toplanır: C = C1 + C2. Bu, dirençlerin davranışının tersidir — dirençte toplama seri bağlamada olur. Kondansatörlerde seri bağlama kapasiteyi düşürür ve terslerin toplamı kuralına uyar.",
+      "kaynak": "Paralel kondansatör bağıntısı C = C1 + C2.", "bulgu_adayi": false
+    },
+    {
+      "no": 75, "blok": "Devre Elemanları",
+      "govde": "\"Reosta\" nedir?",
+      "siklar": {"a": "Ayarlı dirençtir", "b": "Devredeki akımın değerini ölçen ölçü aletidir", "c": "Devredeki gerilim değerini ölçen ölçü aletidir", "d": "Devrenin direncini ölçen ölçü aletidir"},
+      "cevap": "A",
+      "aciklama": "Reosta, direnci elle değiştirilebilen bir ayarlı dirençtir; genellikle akım ayarı için iki uçlu kullanılır. Potansiyometre de ayarlı dirençtir ama üç uçlu bağlanıp gerilim bölücü olarak çalışır. Diğer şıklarda anlatılanlar ölçü aletleridir: ampermetre, voltmetre ve ohmmetre.",
+      "kaynak": "Ayarlı direnç (reosta) tanımı.", "bulgu_adayi": false
+    },
+    {
+      "no": 78, "blok": "Modülasyon",
+      "govde": "Ses frekansının, yüksek frekans üzerine yüklenerek uzak mesafelere gönderilebilmesi amacıyla yapılan işleve ne isim verilir?",
+      "siklar": {"a": "Modülasyon", "b": "Kuplaj", "c": "Osilasyon", "d": "Demodülasyon"},
+      "cevap": "A",
+      "aciklama": "Bilginin (ses, veri) yüksek frekanslı taşıyıcı üzerine bindirilmesine modülasyon denir. Bu gerekli çünkü ses frekansları doğrudan ışınlanamaz; hem anten boyları kullanılamayacak kadar uzun olurdu hem de kanal ayrımı yapılamazdı. Alıcıda bunun tersi olan ayırma işlemine demodülasyon (detektör) denir.",
+      "kaynak": "Modülasyon ve demodülasyon tanımları.", "bulgu_adayi": false
+    },
+    {
+      "no": 79, "blok": "Verici",
+      "govde": "Modülatör devresi, aşağıdakilerden hangi devrede bulunur?",
+      "siklar": {"a": "Alıcı devresi", "b": "Verici devresi", "c": "Osilatör devresi", "d": "Filtre devresi"},
+      "cevap": "B",
+      "aciklama": "Modülasyon işlemi gönderme tarafında yapılır, dolayısıyla modülatör vericinin katlarından biridir. Alıcı tarafta karşılığı demodülatördür. Osilatör taşıyıcıyı üretir, filtre ise istenmeyen frekansları ayıklar; ikisi de vericinin içinde bulunabilir ama modülasyon işini yapmaz.",
+      "kaynak": "Verici blok yapısı: osilatör - modülatör - yükselteç.", "bulgu_adayi": false
+    },
+    {
+      "no": 80, "blok": "Kısaltmalar",
+      "govde": "\"Duran Dalga Oranı\" hangi sembol ile gösterilir?",
+      "siklar": {"a": "DDO", "b": "SCO", "c": "CSO", "d": "SWR"},
+      "cevap": "D",
+      "aciklama": "Duran Dalga Oranı, İngilizce Standing Wave Ratio karşılığı SWR ile gösterilir; gerilim üzerinden ölçüldüğü belirtilecekse VSWR yazılır. Değeri 1'e ne kadar yakınsa anten ile besleme hattı arasındaki uyum o kadar iyidir. Diğer şıklar bir karşılığı olmayan harf gruplarıdır.",
+      "kaynak": "SWR (Standing Wave Ratio) tanımı.", "bulgu_adayi": false
+    },
+    {
+      "no": 81, "blok": "Kısaltmalar",
+      "govde": "Bir transistörlü devrede \"ara frekans katı\" hangi sembol ile ifade edilir?",
+      "siklar": {"a": "AF", "b": "MF", "c": "IF", "d": "HF"},
+      "cevap": "C",
+      "aciklama": "Ara frekans, İngilizce Intermediate Frequency karşılığı IF ile gösterilir. Süperheterodin alıcıda gelen sinyal, yerel osilatörle karıştırılarak sabit bir ara frekansa indirilir; seçicilik ve kazancın çoğu bu katta sağlanır. Diğer kısaltmalar başka şeylerdir: AF ses frekansı, HF yüksek frekans bandı, MF ise orta frekans bandıdır.",
+      "kaynak": "Süperheterodin alıcı yapısı ve IF katı.", "bulgu_adayi": false
+    },
+    {
+      "no": 84, "blok": "Yarı İletkenler",
+      "govde": "\"SCR\" olarak da tanımlanan yarı iletken devre elemanının adı nedir?",
+      "siklar": {"a": "Transistör", "b": "Diyot", "c": "Tristör", "d": "Triyak"},
+      "cevap": "C",
+      "aciklama": "SCR (Silicon Controlled Rectifier — silikon kontrollü doğrultucu) tristörün adıdır. Kapı (gate) ucuna verilen kısa bir tetikleme ile iletime geçer ve akım belli bir değerin altına düşene kadar iletimde kalır. Triyak ise iki yönde de iletebilen akrabasıdır; alternatif akımın her iki alternansını denetlemek için kullanılır.",
+      "kaynak": "Tristör (SCR) ve triyak tanımları.", "bulgu_adayi": false
+    },
+    {
+      "no": 85, "blok": "Dalga Yayılımı",
+      "govde": "Elektromanyetik dalgaların yayılma hızı nedir?",
+      "siklar": {"a": "3×10⁶ m/sn", "b": "3×10³ m/sn", "c": "3×10⁸ km/sn", "d": "3×10⁸ m/sn"},
+      "cevap": "D",
+      "aciklama": "Elektromanyetik dalgalar boşlukta ışık hızıyla, yaklaşık 3×10⁸ m/s (300 000 km/s) ile ilerler. Şıkkı (c) aynı sayıyı km/s olarak vererek hızı bin kat büyütmüş olur; birimin okunması burada belirleyicidir. Bu değer, λ = 300 / f (MHz) gibi bütün pratik dalga boyu bağıntılarının da çıkış noktasıdır.",
+      "kaynak": "Işık hızı c ≈ 3×10⁸ m/s.", "bulgu_adayi": false
+    },
+    {
+      "no": 86, "blok": "Dalga Yayılımı",
+      "govde": "Elektromanyetik dalgaların bir saniyede aldığı yola ne ad verilir?",
+      "siklar": {"a": "Peryot", "b": "Frekans", "c": "Genlik", "d": "Dalga Boyu"},
+      "cevap": "A",
+      "aciklama": "Bir dalganın belirli bir sürede aldığı yol, o dalganın hızıdır; bir saniyede alınan yol ise sayıca ışık hızına, yaklaşık 300 000 kilometreye eşittir. Bir tam salınım süresince alınan yola ise dalga boyu denir. Periyot bir tam salınımın süresidir — birimi saniyedir, metre değil; frekans saniyedeki salınım sayısı, genlik ise dalganın tepe değeridir.",
+      "kaynak": "Dalga büyüklüklerinin tanımları: hız, dalga boyu, periyot, frekans, genlik.",
+      "uyari": "Sorunun bu hâliyle doğru cevabı yoktur. Bir saniyede alınan yol hızdır ve şıklar arasında hız seçeneği bulunmamaktadır. Resmî cevap anahtarının işaretlediği \"periyot\" bir süredir, yol değildir. Soru büyük olasılıkla \"bir periyotta aldığı yol\" demek istemektedir; o hâlde doğru cevap (d) dalga boyudur. Sınavda resmî cevap anahtarı esas alınır; sorunun düzeltilmesi gerekir.",
+      "bulgu_adayi": true
+    },
+    {
+      "no": 87, "blok": "Alıcı",
+      "govde": "Heterodin nedir?",
+      "siklar": {"a": "İki ayrı frekansın karıştırılarak farklı frekans elde edilmesidir", "b": "Temel frekansın katlarındaki frekansların tümü", "c": "Küçük sinyallerde etkisini gösteren istenmeyen parazit durumu", "d": "Hiçbiri"},
+      "cevap": "A",
+      "aciklama": "Heterodin, iki frekansın doğrusal olmayan bir elemanda karıştırılarak toplam ve fark frekanslarının elde edilmesidir. Süperheterodin alıcının temeli budur: gelen sinyal yerel osilatörle karıştırılır, fark frekansı sabit ara frekans (IF) olur. Şıkkı (b) harmonikleri, (c) ise gürültüyü tarif eder.",
+      "kaynak": "Heterodin karıştırma ve süperheterodin alıcı ilkesi.", "bulgu_adayi": false
+    },
+    {
+      "no": 89, "blok": "Ölçü Aletleri",
+      "govde": "Duran Dalga ölçümü nerede yapılır?",
+      "siklar": {"a": "Yüksüz alıcı çıkışında", "b": "Verici çıkışında", "c": "Yüksüz verici çıkışında", "d": "Yükte verici-anten arasına"},
+      "cevap": "D",
+      "aciklama": "SWR, ileri ve geri giden güçlerin oranından bulunur; geri dönen gücün oluşabilmesi için hattın ucunda gerçek bir yük, yani anten bulunmalıdır. Bu yüzden ölçü aleti verici ile anten arasına, sistem yüklüyken bağlanır. Yüksüz (açık uçlu) bir çıkışta bütün güç geri döner ve ölçüm anlamsız olduğu gibi vericiye de zarar verebilir.",
+      "kaynak": "SWR ölçüm düzeneği ve reflektometrenin bağlanma noktası.", "bulgu_adayi": false
+    },
+    {
+      "no": 100, "blok": "Yükselteçler",
+      "govde": "Yüksek frekanslı devrelerde ve özellikle vericilerin çıkış katlarında kullanılan amplifikatör sınıfı aşağıdakilerden hangisidir?",
+      "siklar": {"a": "A sınıfı", "b": "B sınıfı", "c": "C sınıfı", "d": "AB sınıfı"},
+      "cevap": "C",
+      "aciklama": "C sınıfı yükselteçte eleman, giriş işaretinin yarım periyodundan da kısa bir bölümünde iletime geçer; bu yüzden verimi yüksektir (%70'in üzerine çıkabilir) ve verici çıkış katları için elverişlidir. Bedeli, çıkışın giriş dalga biçimine benzememesidir — bu yüzden yalnızca genliği sabit çalışma türlerinde (CW, FM) ve çıkışta rezonans devresiyle birlikte kullanılır. SSB gibi genliği değişen yayınlarda doğrusallık gerektiğinden AB sınıfı tercih edilir.",
+      "kaynak": "Yükselteç sınıfları (A, AB, B, C) ve iletim açısı.", "bulgu_adayi": false
+    },
+    {
+      "no": 101, "blok": "Anten Boyu",
+      "govde": "100 MHz frekansında çalışan bir alıcının çeyrek dalga gerçek anten boyu ne kadardır?",
+      "siklar": {"a": "3 cm", "b": "50 cm", "c": "75 cm", "d": "100 cm"},
+      "cevap": "C",
+      "aciklama": "Önce dalga boyu bulunur: λ = 300 / f (MHz) = 300 / 100 = 3 metre. Çeyrek dalga bunun dörtte biridir: 3 / 4 = 0,75 m, yani 75 cm. Uygulamada iletken üzerindeki hız ışık hızından biraz düşük olduğu için gerçek anten teorik boydan yaklaşık %5 kısa kesilir (burada ≈ 71 cm); şıklar arasında bu değere karşılık gelen tek seçenek yine 75 cm'dir.",
+      "kaynak": "λ = 300 / f (MHz) bağıntısı ve çeyrek dalga anten boyu.", "bulgu_adayi": false
+    },
+    {
+      "no": 104, "blok": "İşletme ve Güvenlik",
+      "govde": "Vericinizi test etmek istediğinizde havadaki enterferansı azaltmak için ne yapılır?",
+      "siklar": {"a": "Dummy Load (suni yük) kullanılır", "b": "Test anında verici antenden ayrılır", "c": "Test anında üst yan band kullanılır", "d": "Test anında simpleks frekans kullanılır."},
+      "cevap": "A",
+      "aciklama": "Suni yük, antenin yerine bağlanan ve vericinin gücünü ısıya çeviren, ışıma yapmayan bir dirençtir (genellikle 50 ohm). Verici normal koşullarda çalışır ama havaya sinyal çıkmadığı için kimseye karışma vermez. Şıkkı (b) tehlikelidir: vericiyi yüksüz çalıştırmak çıkış katına zarar verebilir — anten sökülür ama yerine mutlaka suni yük bağlanır.",
+      "kaynak": "Suni yük (dummy load) kullanımı.", "bulgu_adayi": false
+    },
+    {
+      "no": 105, "blok": "Ohm Kanunu",
+      "govde": "Bir elektrik devresinde akımı hangi formül ile hesaplarız?",
+      "siklar": {"a": "I = V x R", "b": "I = V / R", "c": "I = V + R", "d": "I = V - R"},
+      "cevap": "B",
+      "aciklama": "Ohm Kanunu'na göre akım, gerilimin dirence bölümüdür: I = V / R. Bağıntı sezgiyle de doğrulanır — aynı gerilimde direnç büyüdükçe akım azalır, yani direnç bölende değil bölünende olmalıdır. Üçlünün diğer iki yazılışı V = I × R ve R = V / I'dır.",
+      "kaynak": "Ohm Kanunu.", "bulgu_adayi": false
+    },
+    {
+      "no": 106, "blok": "Ohm Kanunu",
+      "govde": "Bir elektrik devresinde gerilimi hangi formül ile hesaplarız?",
+      "siklar": {"a": "V = I x R", "b": "V = I / R", "c": "V = I + R", "d": "V = I - R"},
+      "cevap": "A",
+      "aciklama": "Ohm Kanunu'nun gerilim için yazılışı V = I × R'dir: bir dirençten akım geçtiğinde uçlarında akım ile direncin çarpımı kadar gerilim düşer. Akım ya da direnç iki katına çıkarsa gerilim de iki katına çıkar.",
+      "kaynak": "Ohm Kanunu.", "bulgu_adayi": false
+    },
+    {
+      "no": 107, "blok": "Ölçü Aletleri",
+      "govde": "Bir elektrik devresinde akımı hangi ölçü aleti ile ölçeriz?",
+      "siklar": {"a": "Voltmetre", "b": "Ampermetre", "c": "Wattmetre", "d": "Frekansmetre"},
+      "cevap": "B",
+      "aciklama": "Akımı ampermetre ölçer ve devreye seri bağlanır, çünkü ölçülecek akımın aletin içinden geçmesi gerekir; bu yüzden iç direnci çok küçüktür. Voltmetre ise gerilimi ölçer ve paralel bağlanır. Wattmetre gücü, frekansmetre frekansı ölçer.",
+      "kaynak": "Ölçü aletlerinin görevleri ve bağlanma biçimleri.", "bulgu_adayi": false
+    },
+    {
+      "no": 108, "blok": "Frekans ve Periyot",
+      "govde": "60 Hertz ne anlama gelir?",
+      "siklar": {"a": "Saniyedeki 6000 titreşim sayısı", "b": "Saniyedeki 60 titreşim sayısı", "c": "Saniyedeki 6000 m dalga uzunluğu", "d": "Saniyedeki 60 m dalga uzunluğu"},
+      "cevap": "B",
+      "aciklama": "Hertz, saniyedeki tam salınım (titreşim) sayısıdır; 60 Hz saniyede 60 salınım demektir. Şıkları (c) ve (d) dalga uzunluğundan söz ederek birimi karıştırır: dalga boyu metre ile ölçülür ve \"saniyedeki metre\" diye bir büyüklük yoktur.",
+      "kaynak": "Hertz biriminin tanımı.", "bulgu_adayi": false
+    },
+    {
+      "no": 109, "blok": "Verici",
+      "govde": "10 Wattlık telsizin çıkışını 100 Watta hangi cihazla çıkarırız?",
+      "siklar": {"a": "Yükselteç", "b": "Besleme Kaynağı", "c": "Anten", "d": "Zayıflatıcı"},
+      "cevap": "A",
+      "aciklama": "Çıkış gücünü artıran cihaz güç yükselteci (lineer amplifikatör) olup vericinin çıkışı ile anten arasına konur. Zayıflatıcı bunun tam tersini yapar, gücü düşürür. Anten gücü artırmaz — kazancı yalnızca mevcut gücü belirli bir yöne toplar; besleme kaynağı ise cihazın çalışması için gereken doğru gerilimi sağlar.",
+      "kaynak": "Güç yükselteci ve zayıflatıcının işlevleri.", "bulgu_adayi": false
+    },
+    {
+      "no": 110, "blok": "Birimler",
+      "govde": "Frekansın birimi nedir?",
+      "siklar": {"a": "Hertz", "b": "Watt", "c": "Amper", "d": "Voltaj"},
+      "cevap": "A",
+      "aciklama": "Frekansın birimi hertzdir (Hz) ve saniyedeki salınım sayısını gösterir. Katları amatör pratiğinde sürekli kullanılır: 1 kHz = 1000 Hz, 1 MHz = 10⁶ Hz. Diğer şıklar gücün (watt), akımın (amper) ve gerilimin birimidir; ayrıca gerilimin birimi \"voltaj\" değil volttur — voltaj büyüklüğün kendi adıdır.",
+      "kaynak": "SI birimleri.", "bulgu_adayi": false
+    },
+    {
+      "no": 111, "blok": "Birimler",
+      "govde": "Direncin birimi nedir?",
+      "siklar": {"a": "Voltaj", "b": "Watt", "c": "Amper", "d": "Ohm"},
+      "cevap": "D",
+      "aciklama": "Direncin birimi ohmdur (Ω). Tanımı Ohm Kanunu'ndan gelir: uçlarına 1 volt uygulandığında üzerinden 1 amper akım geçiren iletkenin direnci 1 ohmdur.",
+      "kaynak": "SI birimleri ve Ohm Kanunu.", "bulgu_adayi": false
+    },
+    {
+      "no": 112, "blok": "İletkenler ve Yalıtkanlar",
+      "govde": "Elektriği aşağıdakilerden hangisi geçirmez?",
+      "siklar": {"a": "Cam", "b": "Bakır", "c": "Alüminyum", "d": "Cıva"},
+      "cevap": "A",
+      "aciklama": "Cam yalıtkandır: yapısında serbest elektron bulunmadığı için akımı geçirmez, bu yüzden yüksek gerilim izolatörleri camdan veya porselenden yapılır. Bakır ve alüminyum iyi iletkenlerdir; cıva ise oda sıcaklığında sıvı olmasına rağmen metaldir ve elektriği iletir.",
+      "kaynak": "İletken ve yalıtkan malzemelerin ayrımı.", "bulgu_adayi": false
+    },
+    {
+      "no": 113, "blok": "İletkenler ve Yalıtkanlar",
+      "govde": "Elektriği aşağıdakilerden hangisi geçirir?",
+      "siklar": {"a": "Cam", "b": "Plastik", "c": "Tahta", "d": "Bakır"},
+      "cevap": "D",
+      "aciklama": "Bakır metaldir ve serbest elektron bakımından zengindir; gümüşten sonra en iyi iletkendir, bu yüzden kablo ve baskı devrelerde kullanılır. Cam, plastik ve kuru tahta yalıtkandır. Tahtanın ıslandığında iletken hâle gelebileceği unutulmamalıdır — güvenlik açısından \"kuru\" olması şarttır.",
+      "kaynak": "İletken ve yalıtkan malzemelerin ayrımı.", "bulgu_adayi": false
+    },
+    {
+      "no": 114, "blok": "Birimler",
+      "govde": "Elektrik akımının birimi nedir?",
+      "siklar": {"a": "Volt", "b": "Watt", "c": "Amper", "d": "Ohm"},
+      "cevap": "C",
+      "aciklama": "Akımın birimi amperdir (A) ve birim zamanda bir kesitten geçen yük miktarını gösterir. Volt gerilimin, watt gücün, ohm ise direncin birimidir.",
+      "kaynak": "SI birimleri.", "bulgu_adayi": false
+    },
+    {
+      "no": 115, "blok": "Birimler",
+      "govde": "Elektrik gücünün birimi nedir?",
+      "siklar": {"a": "Volt", "b": "Watt", "c": "Amper", "d": "Ohm"},
+      "cevap": "B",
+      "aciklama": "Gücün birimi watttır (W) ve birim zamanda harcanan enerjiyi gösterir. Doğru akım devresinde güç, gerilim ile akımın çarpımıdır: P = V × I. Telsizde çıkış gücü de watt ile, büyük değerlerde kilowatt ile ifade edilir.",
+      "kaynak": "SI birimleri; P = V × I.", "bulgu_adayi": false
+    },
+    {
+      "no": 116, "blok": "Temel Kavramlar",
+      "govde": "Serbest elektronların iletken madde içinde akmasına ne ad verilir?",
+      "siklar": {"a": "Voltaj", "b": "Direnç", "c": "Akım", "d": "Frekans"},
+      "cevap": "C",
+      "aciklama": "Yüklerin (serbest elektronların) iletken içindeki düzenli hareketine elektrik akımı denir, birimi amperdir. Voltaj bu hareketi başlatan itici kuvvet, direnç ise harekete gösterilen karşı koymadır; üçü Ohm Kanunu ile birbirine bağlıdır.",
+      "kaynak": "Elektrik akımının tanımı.", "bulgu_adayi": false
+    },
+    {
+      "no": 117, "blok": "Temel Kavramlar",
+      "govde": "Serbest elektronları hareket ettirerek devreden elektrik akımının akmasına sebep olan kuvvete ne ad verilir?",
+      "siklar": {"a": "Voltaj", "b": "Akım", "c": "Direnç", "d": "Frekans"},
+      "cevap": "A",
+      "aciklama": "Elektronları harekete geçiren potansiyel farkına voltaj (gerilim, elektromotor kuvvet) denir; birimi volttur. Akım bu kuvvetin sonucudur, sebebi değil — sorunun ayırt edici noktası budur. Su benzetmesiyle voltaj basınç, akım debi, direnç ise borunun darlığıdır.",
+      "kaynak": "Gerilim (voltaj) tanımı.", "bulgu_adayi": false
+    },
+    {
+      "no": 118, "blok": "Temel Kavramlar",
+      "govde": "İletken cisimlerin üzerlerinden geçen akıma karşı gösterdiği mukavemete ne ad verilir?",
+      "siklar": {"a": "Akım", "b": "Voltaj", "c": "Frekans", "d": "Direnç"},
+      "cevap": "D",
+      "aciklama": "Akıma karşı gösterilen karşı koymaya direnç denir, birimi ohmdur. Direnç iletkenin cinsine, uzunluğuna ve kesitine bağlıdır: uzunluk arttıkça büyür, kesit arttıkça küçülür. Üzerinden akım geçen direnç ısınır; harcanan güç P = I² × R ile bulunur.",
+      "kaynak": "Direncin tanımı ve bağlı olduğu etkenler.", "bulgu_adayi": false
+    },
+    {
+      "no": 119, "blok": "Ohm Kanunu",
+      "govde": "Bir elektrik devresinde direnci hangi formül ile hesaplarız?",
+      "siklar": {"a": "R = V x I", "b": "R = V / I", "c": "R = V + R", "d": "R = V - R"},
+      "cevap": "B",
+      "aciklama": "Ohm Kanunu'nun direnç için yazılışı R = V / I'dır. Üçlü birbirinden türetilir: V = I × R eşitliğinin iki yanı I'ya bölünürse R = V / I elde edilir. Şıkları (c) ve (d) eşitliğin iki yanında da R geçtiği için zaten anlamsızdır.",
+      "kaynak": "Ohm Kanunu.", "bulgu_adayi": false
+    },
+    {
+      "no": 120, "blok": "Ohm Kanunu",
+      "govde": "Bir elektrik devresinde voltaj 90 Volt, geçen akım 3 amper ise devrenin direnci kaçtır?",
+      "siklar": {"a": "30 Ohm", "b": "60 Ohm", "c": "90 Ohm", "d": "270 Ohm"},
+      "cevap": "A",
+      "aciklama": "R = V / I = 90 / 3 = 30 ohm. Şıkkı (d) 270 ohm, bölme yerine çarpma yapıldığında (90 × 3) çıkar; Ohm Kanunu'nda hangi büyüklüğün arandığına göre işlemin yönü değişir.",
+      "kaynak": "Ohm Kanunu (R = V / I).", "bulgu_adayi": false
+    },
+    {
+      "no": 121, "blok": "Ohm Kanunu",
+      "govde": "Bir elektrik devresinde voltaj 120 Volt, direnç 80 Ohm ise devreden geçen akım kaç amperdir?",
+      "siklar": {"a": "1 Amper", "b": "1,5 Amper", "c": "2 Amper", "d": "3 Amper"},
+      "cevap": "B",
+      "aciklama": "I = V / R = 120 / 80 = 1,5 amper. Sonucun 1 ile 2 arasında çıkması beklenir, çünkü gerilim direncin 1,5 katıdır.",
+      "kaynak": "Ohm Kanunu (I = V / R).", "bulgu_adayi": false
+    },
+    {
+      "no": 122, "blok": "Güç Hesabı",
+      "govde": "Bir elektrik devresinde gücü hangi formül ile hesaplarız?",
+      "siklar": {"a": "P = I² x R", "b": "V = U x R", "c": "P = U / R", "d": "P = I² / R"},
+      "cevap": "A",
+      "aciklama": "Güç, P = I² × R ile hesaplanır; bu bağıntı P = V × I eşitliğinde V yerine I × R konularak elde edilir. Aynı gücün üçüncü yazılışı P = V² / R'dir. Akımın karesiyle orantılı olması, akımın iki katına çıkmasının ısınmayı dört katına çıkarması demektir — sigorta ve kablo kesiti seçiminin sebebi budur.",
+      "kaynak": "Güç bağıntıları: P = V × I = I² × R = V² / R.", "bulgu_adayi": false
+    },
+    {
+      "no": 123, "blok": "İstasyon Donanımı",
+      "govde": "Bir amatör istasyonda mikrofon nereye irtibatlandırılır?",
+      "siklar": {"a": "Vericiye", "b": "Alıcıya", "c": "Antene", "d": "Osilatöre"},
+      "cevap": "A",
+      "aciklama": "Mikrofon sesi elektrik işaretine çevirir ve bu işaret modüle edilerek gönderilir; dolayısıyla mikrofon verici tarafına bağlanır. Alıcı tarafın çıkış birimi hoparlör veya kulaklıktır. Alıcı-verici (transceiver) cihazlarda tek soket bulunsa da işlev yine verici katındadır.",
+      "kaynak": "Verici zinciri: mikrofon - modülatör - verici.", "bulgu_adayi": false
+    },
+    {
+      "no": 124, "blok": "İstasyon Donanımı",
+      "govde": "Elektrik sinyalini ses dalgasına çeviren cihazın adı nedir?",
+      "siklar": {"a": "Mikrofon", "b": "Hoparlör", "c": "Suni Yük", "d": "Osilatör"},
+      "cevap": "B",
+      "aciklama": "Hoparlör, elektrik işaretini havada ses dalgasına çeviren dönüştürücüdür; mikrofon ise bunun tersini yapar. İkisi de aynı fiziksel ilkenin (bobin-mıknatıs-diyafram) iki yönde çalışan hâlidir. Suni yük gücü ısıya çevirir, osilatör ise işaret üretir.",
+      "kaynak": "Elektroakustik dönüştürücüler: mikrofon ve hoparlör.", "bulgu_adayi": false
+    },
+    {
+      "no": 125, "blok": "Güç Kaynağı",
+      "govde": "Eğer şebeke elektriği kesilmişse 12 volt bataryayı yeniden şarj etmenin bir yolu nedir?",
+      "siklar": {"a": "Elektrik gelmedikçe bataryayı şarj edemezsiniz", "b": "Bataryaya su ekleyiniz", "c": "Bataryayı bir arabanın aküsüne bağlayınız ve motoru çalıştırınız", "d": "Bataryanızı şarj için kamu hizmeti veren bir şirkete götürünüz"},
+      "cevap": "C",
+      "aciklama": "Aracın alternatörü motor çalışırken şarj gerilimi üretir; 12 V bataryayı araç aküsüne paralel bağlayıp motoru çalıştırmak, şebeke yokken uygulanabilir bir şarj yoludur. Bu, acil durum çalışmalarında sık başvurulan yöntemdir. Bataryaya su eklemek şarj etmez — su seviyesi yalnızca bakım gerektiren kurşun-asit akülerde elektrolit tamamlamasıdır ve enerji katmaz.",
+      "kaynak": "Araç alternatöründen şarj; kurşun-asit akü bakımı.", "bulgu_adayi": false
+    },
+    {
+      "no": 126, "blok": "Temel Kavramlar",
+      "govde": "Yalnızca bir yöne akan akımın adı nedir?",
+      "siklar": {"a": "Alternatif akım", "b": "Doğru akım", "c": "Normal akım", "d": "Düz akım"},
+      "cevap": "B",
+      "aciklama": "Yönü değişmeyen akıma doğru akım (DC) denir; pil, akü ve doğrultulmuş güç kaynakları doğru akım verir. Alternatif akım (AC) ise yönünü düzenli olarak değiştirir; şehir şebekesi saniyede 50 kez bunu yapar. Telsiz cihazları DC ile beslenir, anten üzerinde taşınan yüksek frekanslı işaret ise alternatiftir.",
+      "kaynak": "Doğru akım ve alternatif akım tanımları.", "bulgu_adayi": false
+    },
+    {
+      "no": 127, "blok": "Ölçü Aletleri",
+      "govde": "Bir elektrik devresinde akım şiddetini ölçmek için kullanılan araç aşağıdakilerden hangisidir?",
+      "siklar": {"a": "Frekansmetre", "b": "SWR metre", "c": "Ampermetre", "d": "Voltmetre"},
+      "cevap": "C",
+      "aciklama": "Akım şiddetini ampermetre ölçer ve devreye seri bağlanır. Voltmetre gerilimi ölçüp paralel bağlanır, frekansmetre frekansı, SWR metre ise duran dalga oranını gösterir. Ampermetrenin yanlışlıkla paralel bağlanması kısa devre demektir ve hem aleti hem devreyi yakabilir.",
+      "kaynak": "Ölçü aletlerinin görevleri ve bağlanma biçimleri.", "bulgu_adayi": false
+    },
+    {
+      "no": 128, "blok": "Dalga Yayılımı",
+      "govde": "Bir radyo dalgası uzayda ne kadar hızla ilerler?",
+      "siklar": {"a": "Işık hızında", "b": "Ses hızında", "c": "Hızı, dalga boyuna ters orantılıdır", "d": "Frekans arttıkça hızı artar"},
+      "cevap": "A",
+      "aciklama": "Radyo dalgaları da ışık gibi elektromanyetik dalgadır ve boşlukta ışık hızıyla ilerler. Hız frekanstan ve dalga boyundan bağımsızdır; değişen şey, hız sabit kaldığı için frekans ile dalga boyunun birbirini ters orantıyla izlemesidir (c = f × λ). Ses dalgası ise mekanik dalgadır, havada saniyede yaklaşık 340 metre yol alır.",
+      "kaynak": "c = f × λ bağıntısı; elektromanyetik ve mekanik dalga ayrımı.", "bulgu_adayi": false
+    },
+    {
+      "no": 129, "blok": "İstasyon Donanımı",
+      "govde": "Radyo sinyallerini, duyabileceğimiz seslere dönüştürmek için ne kullanılır?",
+      "siklar": {"a": "Verici", "b": "Alıcı", "c": "Mikrofon", "d": "Anten"},
+      "cevap": "B",
+      "aciklama": "Antenden gelen yüksek frekanslı işareti seçen, yükselten ve demodüle ederek ses frekansına indiren birim alıcıdır. Anten dalgayı yakalar ama ses üretmez; verici bunun tersi yönde çalışır; mikrofon ise sesi elektrik işaretine çevirir.",
+      "kaynak": "Alıcı zinciri: anten - alıcı - demodülatör - hoparlör.", "bulgu_adayi": false
+    },
+    {
+      "no": 130, "blok": "Güvenlik",
+      "govde": "Bir yıldırım fırtınası bekleniyorken hangi tedbirler alınmalıdır?",
+      "siklar": {"a": "İstasyonunuzdan anten kablolarının bağlantısını kesin ve telsiz ekipmanınızdan uzağa taşıyın", "b": "AC çıkışlarından tüm güç kablolarını çekin", "c": "Telsiz ekipmanını kullanmayı bırakın ve fırtına geçene kadar diğer odaya geçin", "d": "Hepsi doğru"},
+      "cevap": "D",
+      "aciklama": "Üç önlem de aynı anda geçerlidir ve birbirini tamamlar: anten kablosu cihazdan ayrılıp uzaklaştırılır (yıldırım enerjisi besleme hattı üzerinden gelir), şebeke bağlantıları kesilir (ikinci giriş yolu budur) ve fırtına boyunca donanımdan uzak durulur. Yıldırımda birincil amaç can güvenliğidir; donanımın korunması ikinci sıradadır.",
+      "kaynak": "Yıldırımdan korunma — amatör istasyon güvenlik uygulaması.", "bulgu_adayi": false
+    },
+    {
+      "no": 131, "blok": "İstasyon Donanımı",
+      "govde": "Sesimizi, radyo sinyallerine dönüştürmek için ne kullanılır?",
+      "siklar": {"a": "Verici", "b": "Alıcı", "c": "Mikrofon", "d": "Anten"},
+      "cevap": "A",
+      "aciklama": "Sesi taşıyıcıya bindirip yayına hazır radyo işareti hâline getiren birim vericidir. Mikrofon zincirin yalnızca ilk halkasıdır: sesi elektrik işaretine çevirir ama radyo frekansı üretmez. Anten ise vericinin ürettiği işareti uzaya ışır.",
+      "kaynak": "Verici zinciri: mikrofon - modülatör - verici - anten.", "bulgu_adayi": false
+    },
+    {
+      "no": 132, "blok": "Anten Yapımı",
+      "govde": "Birçok antende neden diğer metaller yerine paslanmaz çelik malzemesi kullanılır?",
+      "siklar": {"a": "Paslanmaz çelik daha iyi bir elektrik iletkenidir", "b": "Paslanmaz çeliğin ağırlığı diğer metallerden daha azdır", "c": "Paslanmaz çelik parçalarının çürüme (korozyon) olasılığı çok daha azdır", "d": "Paslanmaz çeliğin maliyeti diğer metallerden daha azdır"},
+      "cevap": "C",
+      "aciklama": "Antenler yıllarca yağmur, tuz ve güneş altında kalır; paslanmaz çeliğin tercih sebebi korozyona dayanıklılığıdır, özellikle vida, cıvata ve bağlantı parçalarında. İletkenlik bakımından bakır ve alüminyumdan daha kötüdür ve daha ağırdır; bu yüzden ışıyan elemanlar genellikle alüminyumdan, mekanik yük taşıyan bağlantı parçaları paslanmaz çelikten yapılır. Korozyona uğramış bir bağlantı hem kayıp hem de kararsız SWR demektir.",
+      "kaynak": "Anten malzemelerinin korozyon ve iletkenlik karşılaştırması.", "bulgu_adayi": false
+    },
+    {
+      "no": 133, "blok": "Dalga Yayılımı",
+      "govde": "Radyo haberleşmelerinde uzak mesafeler ile görüşme sağlanırken atmosferin hangi bölümü radyo dalgalarına yardımcı olmaktadır?",
+      "siklar": {"a": "Troposfer", "b": "İyonosfer", "c": "Magnetosfer", "d": "Stratosfer"},
+      "cevap": "B",
+      "aciklama": "İyonosfer, Güneş ışınımıyla iyonlaşmış katmanlardan oluşur ve kısa dalga işaretlerini yeryüzüne geri kırar; uzak mesafe (DX) haberleşmesi bu yansımalarla yapılır. Katmanların yoğunluğu gündüz-gece, mevsim ve güneş etkinliğiyle değişir, bu yüzden hangi bandın ne zaman açık olduğu da değişir. Troposfer alt katmandır ve daha çok VHF/UHF'de yerel menzil uzatan olaylara yol açar.",
+      "kaynak": "İyonosferik yayılım ve katmanların davranışı.", "bulgu_adayi": false
+    },
+    {
+      "no": 134, "blok": "Ohm Kanunu",
+      "govde": "Uygulanan voltajın 12 volt ve akımın 1,5 amper olduğu bir devrede direnç kaç ohmdur?",
+      "siklar": {"a": "18 ohm", "b": "0,125 ohm", "c": "8 ohm", "d": "13,5 ohm"},
+      "cevap": "C",
+      "aciklama": "R = V / I = 12 / 1,5 = 8 ohm. Şıkkı (a) 18, bölme yerine çarpma yapıldığında; (b) 0,125 ise bölme ters çevrildiğinde (1,5 / 12) elde edilir.",
+      "kaynak": "Ohm Kanunu (R = V / I).", "bulgu_adayi": false
+    },
+    {
+      "no": 135, "blok": "Ohm Kanunu",
+      "govde": "10 ohmluk bir rezistansın içinden 1 amperlik bir akım geçerse, voltaj ne olur?",
+      "siklar": {"a": "10 volt", "b": "1 volt", "c": "11 volt", "d": "9 volt"},
+      "cevap": "A",
+      "aciklama": "V = I × R = 1 × 10 = 10 volt. Şıkları (c) ve (d) toplama ve çıkarma sonuçlarıdır; Ohm Kanunu'nda üç büyüklük çarpma-bölme ile bağlıdır, toplama-çıkarma ile değil.",
+      "kaynak": "Ohm Kanunu (V = I × R).", "bulgu_adayi": false
+    },
+    {
+      "no": 136, "blok": "Anten Kurulumu",
+      "govde": "Bir havaalanı yakınına anten dikerken, aşağıdakilerden hangisi göz önünde bulundurulmalıdır?",
+      "siklar": {"a": "Yakındaki hava alanlarıyla ilgili olarak müsaade edilen maksimum yükseklik", "b": "Uçak telsizlerine karışma olasılığı", "c": "Ürettiği sinyallerin ışınım açısı", "d": "Yayılacak sinyalin polarizasyonu"},
+      "cevap": "A",
+      "aciklama": "Havaalanı çevresinde kalkış ve iniş koridorlarını koruyan yükseklik sınırlamaları vardır; anten direği dikilirken önce bu sınıra uyulup uyulmadığı incelenir, gerekiyorsa izin alınır. Bu bir uçuş emniyeti konusudur. Işınım açısı ve polarizasyon antenin başarımını ilgilendirir, kurulum izniyle ilgisi yoktur.",
+      "kaynak": "Havaalanı çevresi yükseklik sınırlamaları (uçuş emniyeti mevzuatı).", "bulgu_adayi": false
+    },
+    {
+      "no": 137, "blok": "Güvenlik",
+      "govde": "5 amperlik sigorta yerine alıcı-vericinize 20 amperlik sigorta takarsanız ne olabilir?",
+      "siklar": {"a": "Daha büyük sigorta alıcı-vericinizi çok fazla akım kullanmaktan daha iyi koruyacaktır", "b": "Alıcı-vericiniz daha soğuk çalışacaktır", "c": "Alıcı-vericiniz RF çıkışı kadar üretemeyecektir", "d": "Aşırı akım bir yangına neden olabilir"},
+      "cevap": "D",
+      "aciklama": "Sigorta, cihazı ve kabloyu korumak için belirli bir akımda eriyip devreyi açar. Değerinin üzerinde bir sigorta takmak koruma sınırını yükseltir: arıza hâlinde akım kesilmez, kablo ısınır ve yangına yol açabilir. Sigorta her zaman cihazın öngördüğü değerde olmalıdır; sık atıyorsa çözüm büyüğünü takmak değil, arızayı bulmaktır.",
+      "kaynak": "Sigortanın koruma işlevi ve doğru değer seçimi.", "bulgu_adayi": false
+    },
+    {
+      "no": 138, "blok": "Güvenlik",
+      "govde": "Aşağıdakilerden hangisi bir anten kulesine çıkmadan önce alınması gereken en iyi tedbirdir?",
+      "siklar": {"a": "Tüm radyo vericilerini açmak", "b": "Tüm kule topraklama bağlantılarını kaldırmak", "c": "Emniyet kemeri ve koruyucu gözlükleri takmak", "d": "FAA ve FCC'yi kule üzerinde çalıştığınıza dair bilgilendirmek"},
+      "cevap": "C",
+      "aciklama": "Kuleye çıkmadan önceki en önemli tedbir kişisel koruyucu donanımdır: emniyet kemeri (paraşüt tipi emniyet kemeri) ve koruyucu gözlük. Şıkkı (a) tehlikelidir — çalışılan kulede verici açık bırakılmaz, tam tersine kapatılır ve enerjisi kesilir. Şıkkı (b) de yanlıştır: topraklama sökülmez, yerinde bırakılır.",
+      "kaynak": "Direk ve kule üzerinde çalışma güvenliği.",
+      "aktarim_notu": "Şıkkı (d)'deki FAA ve FCC ABD kurumlarıdır; soru yabancı bir soru havuzundan çevrilmiş görünüyor. Türkiye'de karşılık gelen kurumlar sivil havacılık ve telekomünikasyon idareleridir. Cevabı etkilemediği için bulgu sayılmadı, ancak slaytta bu not verilecek.",
+      "bulgu_adayi": false
+    },
+    {
+      "no": 139, "blok": "Anten Tipleri",
+      "govde": "Yeryüzüne dik olarak monte edilmiş tek bir unsurdan oluşan antene ne denir?",
+      "siklar": {"a": "Konik tek kutup", "b": "Yatay anten", "c": "Dikey anten", "d": "Yürüyen dalga anteni"},
+      "cevap": "C",
+      "aciklama": "Yere dik konumlandırılmış tek elemanlı antene dikey (vertical) anten denir; ışıması yatay düzlemde her yöne yakın eşit olduğu için sabit ve mobil çalışmada yaygındır. Yaydığı dalga dikey polarizasyonludur, bu yüzden karşı istasyonun da dikey antenle çalışması verimi artırır. Radyal veya toprak düzlemi gerektirmesi bu anten ailesinin belirgin özelliğidir.",
+      "kaynak": "Dikey anten (vertical) tanımı ve polarizasyon.", "bulgu_adayi": false
+    },
+    {
+      "no": 140, "blok": "İşletme ve Güvenlik",
+      "govde": "Suni Yükün başlıca amacı nedir?",
+      "siklar": {"a": "Testler yaparken karıştırıcı sinyaller yaymaz", "b": "Vericinizin aşırı modülasyonunu engelleyecektir", "c": "Yayındayken hata yapmanızı önler", "d": "Aşırı yüklemeleri önlemek üzere yakın çalışma için kullanılır"},
+      "cevap": "A",
+      "aciklama": "Suni yük, antenin yerini alan ışıma yapmayan bir dirençtir; vericiyi normal yükünde çalıştırırken enerjiyi havaya değil ısıya verir. Böylece ayar ve ölçüm işlemleri başka istasyonlara karışma vermeden yapılır. Modülasyon derinliğini sınırlamak veya işletme hatalarını önlemek suni yükün işi değildir.",
+      "kaynak": "Suni yük (dummy load) kullanım amacı.", "bulgu_adayi": false
+    }
+  ]
+}
