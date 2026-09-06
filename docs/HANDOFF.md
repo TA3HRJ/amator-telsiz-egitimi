@@ -65,9 +65,7 @@ Bu ayrım yapılmazsa set yanlış cevap gösterir.
 
 ## Fazlar
 
-1. **Çıkarım hattı** — C bankalarından soru/şık/cevap anahtarı çıkarımı ve doğrulaması.
-   Karakter sorununun sınırı aşağıda ölçüldü; çıkarım sonrası **eksik harflerin tamamlanması
-   ayrı bir adımdır** ve sonuç PDF'e karşı gözle doğrulanmalıdır.
+1. **Çıkarım hattı** — **tamamlandı**, bkz. aşağıdaki "Faz 1 sonucu".
 2. **Eşleme tablosu** — 271 C sorusunun her biri için: hangi A-B slaytından geliyor / yeni mi,
    şık kümesi aynı mı farklı mı. Faz 3-4'ün tek doğruluk kaynağı bu tablodur.
 3. **105 yeni açıklama** — mevcut formatı bozmadan: gerekçe + yönetmelik maddesi veya formül atfı.
@@ -77,6 +75,60 @@ Bu ayrım yapılmazsa set yanlış cevap gösterir.
    bulgunun C karşılıkları aranır; C'ye özgü 105 sorudan çıkacak yeni bulgular düzeltme önerisine
    eklenir (9 bulgudan yukarı çıkar).
 6. **Paketleme** — C toplu PDF, `index.html`, README, sürüm.
+
+## Faz 1 sonucu — çıkarım hattı kuruldu
+
+`tools/cikarim.py`. Altı bankayı da işler, `tools/cikti/*.json` üretir:
+
+```
+python tools/cikarim.py            # isle ve yaz
+python tools/cikarim.py --rapor    # yalnizca dogrulama raporu
+```
+
+Çıktı: her soru için `no`, `govde`, `siklar` (a-d), `cevap` (resmî anahtardan) ve
+`elle_aktarilmali` işareti.
+
+**Durum: ayrıştırma hatası 0.** Altı bankanın da soru sayısı ile cevap anahtarı sayısı birebir
+tutuyor (151/172/67 ve 82/140/49), numaralandırmada boşluk yok, her cevap harfi mevcut bir şıkka
+denk düşüyor.
+
+### Ayrıştırmada çözülen üç tuzak
+
+1. **Şıklar alfabetik sırada gelmiyor.** İki sütunlu dizgide `-layout` çıktısı önce `b)` ve `d)`,
+   sonra `a)` ve `c)` verebiliyor (C teknik 26). a→b→c→d sırası dayatan ilk sürüm bu soruları
+   tek şıkka düşürüyordu. Çözüm: sıra dayatma, etiketleri bulundukları yerde al.
+2. **Sayfa başlığı filtresi geçerli bir şıkkı yiyordu.** `c) Kıyı Emniyeti Genel Müdürlüğü`
+   gerçek bir şık; büyük/küçük harf duyarsız filtre bunu sayfa başlığı sanıyordu. Filtre
+   büyük harf duyarlı yapıldı.
+3. **Bitişik dizgi:** `c)3`, `d)Yozgat`. Etiket deseninde boşluk zorunluluğu kaldırıldı.
+
+### Metin katmanının yetmediği sorular — elle aktarılmalı
+
+Bunlar hattın hatası değil, kaynak PDF'in sınırı. `elle_aktarilmali` ile işaretlendi:
+
+| Banka | İşaretli | Sebep |
+|---|---|---|
+| C Düzenlemeler | 0 / 49 | — |
+| C İşletme | 0 / 82 | — |
+| **C Teknik** | **36 / 140** | devre şeması, sembol, çizim üstü etiket |
+| A-B Düzenlemeler | 0 / 67 | — |
+| A-B İşletme | 12 / 151 | mors soruları: nokta işaretleri metin katmanında yok |
+| A-B Teknik | 53 / 172 | devre şeması ve semboller |
+
+Üç algılama ölçütü: (a) boş şık — seçenek çizim; (b) şıkların yalnızca işaretten oluşması veya
+iki şıkkın aynı metne düşmesi — ayırt eden sembol (mors noktası, mikro) düşmüş; (c) gövdenin
+`?`/`:`/`;` sonrasında çizim etiketi taşıması (`... kaç amperdir? 1A 2A 0.5A I`).
+
+"ne şekilde yapılır", "yukarıdakilerden hangisi" gibi kalıplar çizim atfı sayılmaz — bunlar
+istisna listesinde; olmasaydı C İşletme'nin fonetik alfabe soruları yanlışlıkla işaretlenirdi.
+
+**Bilinen sınır:** ölçüt sezgiseldir. Elle taramada C teknik 53 gibi tek tük kaçak görüldü
+(gövdesi `:` ile bitip ardından `Empedans Z f` etiketi gelen soru sonradan yakalandı, ama benzeri
+başka kalıplar olabilir). Faz 3'te C Teknik soruları slayta dökülürken görsele bağlı olanlar
+ayrıca gözle kontrol edilmeli.
+
+**Eksik harflerin tamamlanması bu hattın işi değildir** ve yapılmadı: çıktıdaki metinlerde
+ı/ş/ğ hâlâ yok. Tamamlama faz 3'te, slayt metni yazılırken yapılacak ve PDF'e karşı doğrulanacak.
 
 ## Yol üstünde düzeltilecekler
 

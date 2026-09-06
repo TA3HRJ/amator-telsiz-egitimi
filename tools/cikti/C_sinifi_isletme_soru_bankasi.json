@@ -1,0 +1,993 @@
+{
+  "kaynak": "C_sinifi_isletme_soru_bankasi.pdf",
+  "soru_sayisi": 82,
+  "anahtar_sayisi": 82,
+  "eksik_harf_uyarisi": "Metin katmaninda i-noktasiz/s-cedilli/g-yumusak yok; tamamlama ayri adimdir ve PDF'e karsi dogrulanmalidir.",
+  "sorular": [
+    {
+      "no": 1,
+      "govde": "Herhangi bir amatör bantta dinleme yaparken kari taraftan \"Burasi TA2CP\" gibi bir çari duyduunuzda bu çarinin aaidaki merkezlerden hangisinden yapildiini anlarsiniz?",
+      "siklar": {
+        "a": "Ankara",
+        "b": "Aydin",
+        "c": "Adana",
+        "d": "Artvin"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 2,
+      "govde": "Telsiz-telgraf haberlemesinde QTR kisaltmasi aaidaki sorulardan hangisini ifade eder?",
+      "siklar": {
+        "a": "Hangi bölgedensiniz?",
+        "b": "Saatiniz tam olarak kaçtir?",
+        "c": "Bana çari adinizi verir misiniz?",
+        "d": "Nasil anten kullaniyorsunuz?"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 3,
+      "govde": "Amatörlerin belirli zamanlarda yaptiklari yarimalarin (CONTEST) gayesi nedir?",
+      "siklar": {
+        "a": "Amatörlerin hoça vakit geçirmeleri",
+        "b": "En kisa zamanda mümkün olduu kadar çok istasyonla QSO yapmak",
+        "c": "Amatörlerin cihazlari ile ilgili bilgi aliverii",
+        "d": "QTH locater saptamasi"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 4,
+      "govde": "Radyo haberlemesi yapilirken kullanilan kisaltmalardan AR kisaltmasi neyi anlatir?",
+      "siklar": {
+        "a": "Yayin tekrari",
+        "b": "Yayin balangici",
+        "c": "Yayin sonu",
+        "d": "Genel yayin"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 5,
+      "govde": "Radyo haberlemesi yapilirken kullanilan kisaltmalardan CQ kisaltmasi ne amaçla kullanilir?",
+      "siklar": {
+        "a": "Yakinda bulunabilecek istasyonlari uyarmak için",
+        "b": "Bütün istasyonlara genel çari yapmak için",
+        "c": "Yalnizca bir istasyona çari için",
+        "d": "Karidaki istasyonla görümeyi tekrarlamak için"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 6,
+      "govde": "Genel olarak herhangi bir frekans üzerinde göndermeye geçmeden önce hangi Q kodu kullanilir?",
+      "siklar": {
+        "a": "QRU",
+        "b": "QRV",
+        "c": "QRT",
+        "d": "QRZ"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 7,
+      "govde": "QRS kodunun anlami nedir?",
+      "siklar": {
+        "a": "Daha yava gönderiniz",
+        "b": "Daha hizli gönderiniz",
+        "c": "RST raporu gönderiniz",
+        "d": "stediiniz ekilde gönderiniz"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 8,
+      "govde": "Uluslararasi fonetik alfabeye göre AE6JTK'nin hecelemesi ne ekilde yapilir?",
+      "siklar": {
+        "a": "Alpha, Echo, Six, Juliet, Ticket, Kilo",
+        "b": "Alpha, Echo, Seven, January, Tango, Kilo",
+        "c": "Alpha, Echo, Six, Juliet, Tango, Kilo",
+        "d": "Alpha, Echo, Six, January, Ticket, Kilo"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 9,
+      "govde": "Telsiz telefon haberlemesinde uluslararasi kurallara göre tehlike aninda yapilan çari aaidakilerden hangisi ile balamaktadir?",
+      "siklar": {
+        "a": "Mayday",
+        "b": "SOS",
+        "c": "Help",
+        "d": "CQ"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 10,
+      "govde": "Telsiz telgraf haberlemesinde QRX kisaltmasi aaidaki sorulardan hangisini anlatir?",
+      "siklar": {
+        "a": "Göndermeye balayabilir miyim",
+        "b": "Mesajiniz var mi",
+        "c": "Megul müsünüz",
+        "d": "Beni tekrar ne zaman arayacaksiniz"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 11,
+      "govde": "Broadcast teriminin anlami aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "Tek yönlü radyo yayinidir",
+        "b": "Sayisal veri iletiimi ile telsiz telgraf haberlemesidir",
+        "c": "ki radyo istasyonunun karilikli konumasi ile ilgili radyo yayinidir",
+        "d": "stasyon programlarinin otomatik olarak yeniden gönderilmesi olayidir"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 12,
+      "govde": "Bir telsiz telefon konumasinda SEVEN ( yedi rakami) kelimesinin hecelenmesi nasildir?",
+      "siklar": {
+        "a": "Sierra - Echo - Victor - Echo - November",
+        "b": "Spain - Europa - Victor - Europa - November",
+        "c": "Sugar - Europa - Very - Europa - November",
+        "d": "Sierra - Echo - Very - Echo - November"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 13,
+      "govde": "Telsiz haberlemesinde kullanilan kisaltmalardan biri olan CL neyi ifade eder?",
+      "siklar": {
+        "a": "stasyon haberlemeye hazir",
+        "b": "Görümeyi onayliyorum",
+        "c": "Görümeyi kesiyorum",
+        "d": "stasyonumu kapatiyorum"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 14,
+      "govde": "QSL kartlari ne için kullanilir?",
+      "siklar": {
+        "a": "Amatörün ülkesindeki doal güzellikleri tanitmak için",
+        "b": "Amatör istasyonun reklami amaci ile",
+        "c": "Kari taraftaki amatöre jest için",
+        "d": "Yapilan bir görüme (QSO) sonunda görümeyi onaylamak amaci ile"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 15,
+      "govde": "Aaidakilerden hangisi rahat ve net okunabilen bir sinyal seviyesini ifade eder?",
+      "siklar": {
+        "a": "R1",
+        "b": "R5",
+        "c": "S9",
+        "d": "T9"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 16,
+      "govde": "Amatör bandda dinleme halinde iken karidan TA5A gibi bir çari iareti duyulduunda, bu çari iareti aaidaki illerin hangisinden yapilmi olabilir?",
+      "siklar": {
+        "a": "Ankara",
+        "b": "Adana",
+        "c": "Mardin",
+        "d": "Trabzon"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 17,
+      "govde": "Amatör bandda dinleme halinde iken karidan TA7AC gibi bir çari iareti duyulduunda bu çari iareti aaidaki illerin hangisinden yapilmi olabilir?",
+      "siklar": {
+        "a": "irnak",
+        "b": "Erzincan",
+        "c": "Bingöl",
+        "d": "Mardin"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 18,
+      "govde": "30 derece dou boylaminda bulunan bir ülkede saat 22:00 iken 30 derece bati boylaminda bulunan bir baka ülkede saat kaç olur?",
+      "siklar": {
+        "a": "Ayni gün 14:00",
+        "b": "Ayni gün 18:00",
+        "c": "Ertesi gün 06:00",
+        "d": "Ertesi gün 14:00"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 19,
+      "govde": "Hangi tip trafik en yüksek öncelie sahiptir?",
+      "siklar": {
+        "a": "Acil durum trafii",
+        "b": "Öncelik trafii",
+        "c": "Salik ve sosyal yardim trafii",
+        "d": "Rutin trafik"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 20,
+      "govde": "TB3CTR'nin milli fonetik alfabeye göre hecelemesi ne ekilde yapilir?",
+      "siklar": {
+        "a": "Tokat - Bolu - Üç - Çankiri - Tekirda - Rize",
+        "b": "Trabzon - Bursa - Üç - Ceyhan - Trabzon - Rize",
+        "c": "Tekirda - Bolu - Üç - Çankiri - Tekirda - Rize",
+        "d": "Tunceli - Bursa - Üç - Ceyhan - Trabzon - Rize"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 21,
+      "govde": "YM2ZIP milli fonetik alfabeye göre hecelenmesi nasil olur?",
+      "siklar": {
+        "a": "Yalova - Manisa - ki - Zonguldak - zmir - Pazar",
+        "b": "Yankee - Mula - Two - Zulu - India - Papa",
+        "c": "Yozgat - Mardin - ki - Zonguldak - zmir - Papa",
+        "d": "Yalova - Mu - ki - Zonguldak - zmir - Pazar"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 22,
+      "govde": "VHF bandindaki haberlemede elektromanyetik dalgalarin yayilimi hangi ekilde gerçekleir?",
+      "siklar": {
+        "a": "Yer dalgalari ile",
+        "b": "yonosfer yansima ile",
+        "c": "Direkt dalgalar ile",
+        "d": "Troposferik yansima ile"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 23,
+      "govde": "Crossband ne anlama gelir?",
+      "siklar": {
+        "a": "Ayri bandlarda almak ve göndermek",
+        "b": "Ayni bandda hem CW hem de SSB çalimak",
+        "c": "Bandin bir tarafinda alma, bir tarafinda gönderme yapmak",
+        "d": "Bandin uygun yerinde çalimak"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 24,
+      "govde": "Aaidakilerden hangisi ara frekans anlamina gelir?",
+      "siklar": {
+        "a": "TVI",
+        "b": "BCI",
+        "c": "RI",
+        "d": "IF"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 25,
+      "govde": "Aaidaki çari iareti ön eklerinden hangisi Türkiye'ye aittir?",
+      "siklar": {
+        "a": "SM",
+        "b": "OH",
+        "c": "TL",
+        "d": "Hiçbiri"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 26,
+      "govde": "VK çari iareti ön eki aaidaki ülkelerden hangisine aittir?",
+      "siklar": {
+        "a": "ngiltere",
+        "b": "Kanada",
+        "c": "Japonya",
+        "d": "Avustralya"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 27,
+      "govde": "Aaidaki çari iareti ön eklerinden hangisi Belçika'ya aittir?",
+      "siklar": {
+        "a": "OH",
+        "b": "ON",
+        "c": "OX",
+        "d": "EA"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 28,
+      "govde": "OSCAR kelimesinin uluslararasi fonetik alfabeye göre hecelenmesi nasildir?",
+      "siklar": {
+        "a": "Oscar - Sierra - Charlie - Alpha - Radio",
+        "b": "Oscar - Six - Charlie - Alabama - Romeo",
+        "c": "Oscar - Sierra - Charlie - Alpha - Romeo",
+        "d": "Otto - Sierra - Charlie - Alpha - Radio"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 29,
+      "govde": "QST kodunun manasi aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "Hava basinci",
+        "b": "Parazit",
+        "c": "Bülten",
+        "d": "Sinyal raporu"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 30,
+      "govde": "Aaidakilerden hangisi telsiz haberlemesinde \"megulüm\" ifadesinin Q kodu kariliidir?",
+      "siklar": {
+        "a": "QRK",
+        "b": "QRX",
+        "c": "QRL",
+        "d": "QSL"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 31,
+      "govde": "Amatör telsiz haberlemesinde kullanilan RST raporunda R (okunabilirlik) 5 olarak veriliyor. Bunun anlami nedir?",
+      "siklar": {
+        "a": "Zor okunuyor",
+        "b": "Mükemmel okunuyor",
+        "c": "Kismen okunuyor",
+        "d": "Anlailmiyor"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 32,
+      "govde": "Amatör bandda dinleme halinde iken karidan TA8YCA gibi bir çari iareti duyulduunda bu çari iareti hangi ilden yapilmi olabilir?",
+      "siklar": {
+        "a": "Nide",
+        "b": "Manisa",
+        "c": "Malatya",
+        "d": "Yozgat"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 33,
+      "govde": "Amatör bandda dinleme halinde iken karidan TA1BT gibi bir çari iareti duyulduunda bu çari iareti hangi ilden yapilmi olabilir?",
+      "siklar": {
+        "a": "Konya",
+        "b": "Edirne",
+        "c": "Ordu",
+        "d": "Adana"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 34,
+      "govde": "Aaidakilerden hangisi amatör frekans bandi deildir?",
+      "siklar": {
+        "a": "142 - 144 Ghz",
+        "b": "5150 - 5450 Mhz",
+        "c": "144 - 146 Mhz",
+        "d": "430 - 440 Mhz"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 35,
+      "govde": "TA5BI/2 çari kodu için aaidaki ifadelerden hangisi dorudur?",
+      "siklar": {
+        "a": "2.Bölgede çalian bir amatör istasyonun çari iaretidir",
+        "b": "C sinifi amatör telsizciye ait bir istasyonun çari kodudur",
+        "c": "5.Bölgeden 2.Bölgeye geçen amatör telsizcinin çari iaretidir",
+        "d": "Hiçbiri"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 36,
+      "govde": "AFET'in milli fonetik alfabeye göre hecelenmesi nasil olur?",
+      "siklar": {
+        "a": "Afyon - Fatsa - Erzurum - Tekirda",
+        "b": "Ankara - Fatsa - Erzincan - Tokat",
+        "c": "Amasya - Fatsa - Edirne - Tire",
+        "d": "Ankara - Fatsa - Edirne - Trabzon"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 37,
+      "govde": "VE çari iareti ön eki aaidaki ülkelerden hangisine aittir?",
+      "siklar": {
+        "a": "ngiltere",
+        "b": "Kanada",
+        "c": "Japonya",
+        "d": "Avustralya"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 38,
+      "govde": "DEPREM' in uluslararasi fonetik alfabeye göre hecelenmesi nasildir?",
+      "siklar": {
+        "a": "Delta - Egg - Pipe - Roma - Egg - Miami",
+        "b": "Delta -Echo - Piano - Roam - Echo - Mike",
+        "c": "Delta - Echo - Papa - Romeo - Echo - Mike",
+        "d": "Done - Eye - Papa - Rival - Eye - Mors"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 39,
+      "govde": "UTC kisaltmasinin açik anlami nedir?",
+      "siklar": {
+        "a": "Uluslararasi Telekomünikasyon Birlii",
+        "b": "Uluslararasi saat",
+        "c": "Uluslararasi Telsiz Amatörleri Birlii",
+        "d": "stasyonun bulunduu mevki"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 40,
+      "govde": "QRT kodunun manasi nedir?",
+      "siklar": {
+        "a": "Dinlemede kalin veya dinliyorum",
+        "b": "Göndermeyi durdurayim mi",
+        "c": "Mevkiiniz neresidir?",
+        "d": "Mesajim var"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 41,
+      "govde": "QRZ kodunun manasi nedir?",
+      "siklar": {
+        "a": "V serisi göndereyim mi?",
+        "b": "Beni kim çairiyor?",
+        "c": "Gücü azaltayim mi?",
+        "d": "Hazirim"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 42,
+      "govde": "73 kisaltmasi mors haberlemesinde hangi anlama karilik gelir?",
+      "siklar": {
+        "a": "Göndermenin tam ve doru olarak alindiini belirtmek",
+        "b": "CQ genel çarisi",
+        "c": "Selamlar",
+        "d": "stasyonumu kapatiyorum"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 43,
+      "govde": "Amatör bandda dinleme halinde iken karidan TA8UJ gibi bir çari iareti duyulduunda bu çari iareti aaidaki illerin hangisinden yapilmi olabilir?",
+      "siklar": {
+        "a": "Nevehir",
+        "b": "anliurfa",
+        "c": "Kars",
+        "d": "Bursa"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 44,
+      "govde": "Amatör bandda dinleme halinde iken karidan TB3CCW gibi bir çari iareti duyulduunda bu çari iareti aaidaki illerin hangisinden yapilmi olabilir?",
+      "siklar": {
+        "a": "Mersin",
+        "b": "Uak",
+        "c": "Manisa",
+        "d": "Aydin"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 45,
+      "govde": "TA5ED nin milli fonetik alfabeye göre hecelenmesi nasildir?",
+      "siklar": {
+        "a": "Trabzon - Afyon - Be - Edirne - Diyarbakir",
+        "b": "Tekirda - Ankara - Be - Edirne - Denizli",
+        "c": "Trabzon - Ankara - Be - Erzurum - Düzce",
+        "d": "Trabzon - Ankara - Be - Edirne - Denizli"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 46,
+      "govde": "LA çari iareti ön eki hangi ülkeye aittir?",
+      "siklar": {
+        "a": "Hollanda",
+        "b": "Haiti",
+        "c": "Norveç",
+        "d": "Lübnan"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 47,
+      "govde": "Aaidaki çari iareti ön eklerinden hangisi spanya'ya aittir?",
+      "siklar": {
+        "a": "EA",
+        "b": "EP",
+        "c": "ON",
+        "d": "SU"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 48,
+      "govde": "BTK' nin uluslararasi fonetik alfabeye göre hecelenmesi nasildir?",
+      "siklar": {
+        "a": "Bravo - Tango - Kilo",
+        "b": "Bravo - Tango - Kilowat",
+        "c": "Bravo - Toronto - Kilo",
+        "d": "Bravo - Tango - Golf - Mike"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 49,
+      "govde": "ki istasyon arasinda gönderilen test mesajlarinin baina ve sonuna aaidaki kelimelerden hangisi ilave edilmelidir?",
+      "siklar": {
+        "a": "Eitim",
+        "b": "Deneme",
+        "c": "Test",
+        "d": "Tatbikat"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 50,
+      "govde": "90 derece bati boylaminda yerel saat 14:10 iken 30 derece bati boylaminda saat kaç olur?",
+      "siklar": {
+        "a": "20:10",
+        "b": "19:10",
+        "c": "10:10",
+        "d": "18:10"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 51,
+      "govde": "Aaidakilerden hangisi \"selamlar\" anlamina gelmektedir?",
+      "siklar": {
+        "a": "73",
+        "b": "88",
+        "c": "66",
+        "d": "55"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 52,
+      "govde": "144-146 MHz frekans bandinda aaidaki emisyon tiplerinden hangisi kullanilmaz?",
+      "siklar": {
+        "a": "F1A",
+        "b": "F1B",
+        "c": "F2A",
+        "d": "K1A"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 53,
+      "govde": "Bir amatör telsiz istasyonu hangi hallerde ifreli haberleme yapabilir?",
+      "siklar": {
+        "a": "Sadece yüksek frekanslarda görüme yaparken",
+        "b": "Yarimalarda (contest)",
+        "c": "Olaanüstü haberleme artlarinda",
+        "d": "Amatör telsizciler ifreli haberleme yapamaz"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 54,
+      "govde": "Amatör telsizciler arasinda yapilan haberlemenin alindiini veya anlaildiini belirten ve birbirlerine bu durumu onay için gönderilen belgeye ne ad verilir?",
+      "siklar": {
+        "a": "QSO karti",
+        "b": "QSL karti",
+        "c": "QTH karti",
+        "d": "QRU karti"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 55,
+      "govde": "Bir amatör telsiz istasyonunda bulunan mesaj kayit defterine (log-book) aaida belirtilen bilgilerden hangisinin kayit edilme zorunluluu yoktur?",
+      "siklar": {
+        "a": "Hava durumu",
+        "b": "Haberleme sira numarasi",
+        "c": "Çalima frekansi",
+        "d": "Emisyon tipi"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 56,
+      "govde": "QRV kelimesinin anlami aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "Hazir misin?",
+        "b": "Bulunduun yer neresidir?",
+        "c": "Saat kaç?",
+        "d": "Baka bir konu var mi?"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 57,
+      "govde": "CALL SGN kelimesinin anlami nedir?",
+      "siklar": {
+        "a": "Güç",
+        "b": "Kontrol",
+        "c": "Çari iareti",
+        "d": "Alindi"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 58,
+      "govde": "QSV kelimesinin anlami nedir?",
+      "siklar": {
+        "a": "Hazir misin?",
+        "b": "Frekansimi deitireyim mi?",
+        "c": "Bir dizi V harfi göndereyim mi?",
+        "d": "Daha hizli göndereyim mi?"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 59,
+      "govde": "QRQ kelimesinin anlami nedir?",
+      "siklar": {
+        "a": "Sinyal iddetim ne?",
+        "b": "Frekansim deiiyor mu?",
+        "c": "Megul müsünüz?",
+        "d": "Daha çabuk göndereyim mi?"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 60,
+      "govde": "MAYDAY kelimesinin uluslararasi alfabeye göre hecelenmesi ne ekilde yapilir?",
+      "siklar": {
+        "a": "Mike - Alpha - Tosun - Delta - Alpha - Yunus",
+        "b": "Manisa - Aydin - Yankee - Delta - Afyon - Yunus",
+        "c": "Mike - Alpha - Yankee - Delta - Alpha - Yankee",
+        "d": "Manisa - Aydin -Yeliz - Demir - Aydin -Yeliz"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 61,
+      "govde": "KEGM kelimesinin uluslararasi alfabeye göre hecelenmesi ne ekilde yapilir?",
+      "siklar": {
+        "a": "Kemal - Emin - Galip - Mehmet",
+        "b": "Kilo - Echo - Golf - Mike",
+        "c": "Kilo - Echo - Golf - Mehmet",
+        "d": "Kemal - Echo - Golf - Mike"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 62,
+      "govde": "MEHMET kelimesinin ulusal fonetik alfabeye göre hecelenmesi nedir?",
+      "siklar": {
+        "a": "Mehmet - Emin - Hasan - Mehmet - Emin - Turgut",
+        "b": "Mike - Echo - Hotel - Mike - Echo - Tango",
+        "c": "Manisa - Edirne - Hopa - Manisa - Edirne - Trabzon",
+        "d": "Mike - Edirne - Hotel - Mike - Edirne - Tango"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 63,
+      "govde": "LZ çari iareti aaidaki ülkelerden hangisine aittir?",
+      "siklar": {
+        "a": "Romanya",
+        "b": "Yunanistan",
+        "c": "Bulgaristan",
+        "d": "Yugoslavya"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 64,
+      "govde": "AL kelimesinin uluslararasi fonetik alfabeye göre hecelenmesi aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "Ahmet - Lima - ndia",
+        "b": "Ankara - Lüleburgaz - zmir",
+        "c": "Alpha - Lima - ndia",
+        "d": "Alpha -Lima - Trabzon"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 65,
+      "govde": "QRM' nin açilimi nedir?",
+      "siklar": {
+        "a": "Enterferans var mi?",
+        "b": "Daha yava göndereyim mi?",
+        "c": "Beni kim ariyor?",
+        "d": "Hazir misin?"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 66,
+      "govde": "144-146 Mhz bandinda çaliacai zaman dalga boyu kaç metre olmalidir?",
+      "siklar": {
+        "a": "2 m",
+        "b": "6 m",
+        "c": "10 m",
+        "d": "12 m"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 67,
+      "govde": "Amatör Telsiz Hizmetinin be amacindan iki tanesi aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "Geçmi telsiz verilerini korumak ve halkin telsiz geçmiini anlamasina yardimci olmak",
+        "b": "Yabanci ülkelere telsiz haberlemelerini gelitirmelerinde yardimci olmak ve yabanci amatör telsizcilerin ziyaretlerini cesaretlendirmek",
+        "c": "Telsiz elektronik dizaynini modernize etmek ve ematik çizimleri gelitirmek",
+        "d": "Eitimli telsiz operatörleri ile elektronik uzmanlarinin sayisini artirmak ve uluslararasi sayginlii gelitirmek"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 68,
+      "govde": "Amatör bir istasyonun, bilgiyi halka yayinlamasina ne zaman izin verilir?",
+      "siklar": {
+        "a": "Hiçbir zaman",
+        "b": "Yalnizca operatör parasi ödendiinde",
+        "c": "Yalnizca yayin 10 dakikadan fazla sürdüünde",
+        "d": "Yalnizca yayin 15 dakikadan fazla sürdüünde"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 69,
+      "govde": "Amatör bir istasyon ne zaman yanli ve yaniltici sinyaller gönderebilir?",
+      "siklar": {
+        "a": "Hiçbir zaman",
+        "b": "Bir Becaon vericisini çalitirirken",
+        "c": "Yalnizca tanimlanmami yayimlar yapildiinda",
+        "d": "Gizlilik için bir mesajin anlaminin gizlenmesi gerektiinde"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 70,
+      "govde": "Aaidakilerden hangisi amatör telsiz hizmetinde özellikle yasaklanmitir?",
+      "siklar": {
+        "a": "Politik tartimalar",
+        "b": "Yayin istasyonunda programlarin tartiilmasi",
+        "c": "Ahlaksiz ve müstehcen dil",
+        "d": "Mors alfabesi uygulamasi"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 71,
+      "govde": "Kendi amatör istasyonunuzu tanimlamak için neyi yayinlamalisiniz?",
+      "siklar": {
+        "a": "TC kimlik no",
+        "b": "Çari iaretinizi",
+        "c": "lk isminiz ve yerinizi",
+        "d": "Tam isminiz"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 72,
+      "govde": "Amatör bir istasyon tahsis edilmi çari iaretini ne siklikla gönderir?",
+      "siklar": {
+        "a": "Her yayinin bainda ve haberleme sirasinda her 10 dakikada bir",
+        "b": "Haberleme süresince her 10 dakikada bir ve haberlemenin sonunda",
+        "c": "Her yayinin sonunda",
+        "d": "Yalnizca haberlemenin sonunda"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 73,
+      "govde": "Acil durum mesajlari gönderilirken aaidakilerden hangisinin olmasi gerekir?",
+      "siklar": {
+        "a": "Mesaj geçen tüm istasyonlarin çari iaretleri",
+        "b": "Mesaji balatan kiinin ismi",
+        "c": "Durum raporu",
+        "d": "Mesaj balii"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 74,
+      "govde": "Dier istasyonlardan parazit aldiinizi belirtmek için kullanilan \"Q\" sinyali hangisidir?",
+      "siklar": {
+        "a": "QRM",
+        "b": "QRQ",
+        "c": "QTH",
+        "d": "QSB"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 75,
+      "govde": "Frekansi deitirdiinizi belirtmek için kullanilan \"Q\" sinyali hangisidir?",
+      "siklar": {
+        "a": "QRU",
+        "b": "QSY",
+        "c": "QSL",
+        "d": "QRZ"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 76,
+      "govde": "Yürürlükteki yönetmelie göre, Amatör Telsiz çari iaretinde yer alan bölge numaralarindan ADALAR' in bölge numarasi kaçtir?",
+      "siklar": {
+        "a": "0",
+        "b": "1",
+        "c": "2",
+        "d": "3"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 77,
+      "govde": "Eer baka bir istasyonla konuuyorken bir acil durum çarisi duymusaniz, ne yapmalisiniz?",
+      "siklar": {
+        "a": "Frekansin kullanimda olduunu çari istasyonuna söyleyiniz",
+        "b": "Çari istasyonunu en yakin acil durum a frekansina yönlendiriniz",
+        "c": "Çariyi görmezden geliniz ve konumaniza devam ediniz",
+        "d": "Derhal konumayi birakiniz ve acil duruma cevap veriniz"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 78,
+      "govde": "Amatör telsiz hizmetinde hangi tür haberleme her zaman öncelie sahiptir?",
+      "siklar": {
+        "a": "Yineleyici haberlemesi",
+        "b": "Acil durum haberlemesi",
+        "c": "Tek yönlü haberleme",
+        "d": "Üçüncü ahis haberlemesi"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 79,
+      "govde": "Amatör istasyonunuzu ne zaman uçakta çalitirabilirsiniz?",
+      "siklar": {
+        "a": "Her zaman",
+        "b": "Uçak yalnizca yerde olduunda",
+        "c": "Yalnizca uçaa komuta eden pilotun onayi ile ve uçain telsiz teçhizatini kullanmadan",
+        "d": "Yalnizca hava yollarindan yazili izin aldiinizda ve yalnizca uçain telsiz teçhizatini kullanarak"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 80,
+      "govde": "CQ' nun bir çarisina cevap verirken neyi göndermelisiniz?",
+      "siklar": {
+        "a": "Dier istasyonun çari iaretini takiben kendi CQ'nuzu",
+        "b": "Kendi çari iaretinizi takiben dier istasyonunun çari iaretini",
+        "c": "Dier istasyonun çari iaretini takiben kendi çari iaretinizi",
+        "d": "Kendi çari iaretinizi takiben bir iaret raporu"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 81,
+      "govde": "Frekansi kullanan iki istasyon arasindaki konumayi kesmenin uygun yolu aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "Onlarin gönderimleri arasinda kendi çari iaretini söylemek",
+        "b": "Bitirmeleri için onlari bekleyip sonrasinda CQ' yu aramak",
+        "c": "Onlarin gönderimleri arasinda \"break-break\" demek",
+        "d": "Konumaya müdahale etmesi için operatörlerden birisini telefona çairmak"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 82,
+      "govde": "Amatör istasyonundan \"SOS\" veya \"MAYDAY\" sinyali hangi durumlarda gönderilir?",
+      "siklar": {
+        "a": "Sadece denizde bir gemiden iletim yapiyorken",
+        "b": "Sadece bir saatin 15. ve 30. Dakikalarinda",
+        "c": "nsan yaamina ve mala mevcut bir tehdit olmasi durumunda",
+        "d": "Ulusal Meteoroloji Dairesi bir meteoroloji uyarisi açikladii zaman"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    }
+  ],
+  "elle_aktarilmali_sorular": []
+}

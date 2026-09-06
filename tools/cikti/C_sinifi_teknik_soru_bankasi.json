@@ -1,0 +1,1726 @@
+{
+  "kaynak": "C_sinifi_teknik_soru_bankasi.pdf",
+  "soru_sayisi": 140,
+  "anahtar_sayisi": 140,
+  "eksik_harf_uyarisi": "Metin katmaninda i-noktasiz/s-cedilli/g-yumusak yok; tamamlama ayri adimdir ve PDF'e karsi dogrulanmalidir.",
+  "sorular": [
+    {
+      "no": 1,
+      "govde": "Bir kristal osilatörün frekansi öncelikle aaidakilerden hangisine balidir?",
+      "siklar": {
+        "a": "Çiki genliine",
+        "b": "Transistörün kazancina",
+        "c": "Kristalin frekansina",
+        "d": "Osilatörün tipine"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 2,
+      "govde": "10 Mhzde rezonansa gelen çeyrek dalga bir antenin boyu yaklaik olarak aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "7.5 m",
+        "b": "15 m",
+        "c": "20 m",
+        "d": "30 m"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 3,
+      "govde": "ekildeki yayilim hangi anten tipine aittir?",
+      "siklar": {
+        "a": "Yarim dalga dipol",
+        "b": "Çeyrek dalga anten",
+        "c": "8 ekli anten",
+        "d": "Beam anten"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 4,
+      "govde": "Aaidaki antenlerden kazanci en yüksek olan hangisidir?",
+      "siklar": {
+        "a": "zotropik anten",
+        "b": "Yatay dipol",
+        "c": "Çeyrek dalga markoni",
+        "d": "Yagi Kahverengi Kirmizi Turuncu Altin"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 5,
+      "govde": "Yukarida çizimi yapilan direncin deeri ve toleransi aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "120 , %5",
+        "b": "120 K, %10",
+        "c": "10 , %10",
+        "d": "12 K, %5"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 6,
+      "govde": "Paralel bali 12 ohm, 15 ohm ve 20 ohmluk üç direncin toplam deeri (edeer direnç) nedir?",
+      "siklar": {
+        "a": "5 ohm",
+        "b": "47 ohm",
+        "c": "8 ohm",
+        "d": "56 ohm"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 7,
+      "govde": "Paralel bali 12 pf, 15 pf ve 20 pflik üç kondansatörün toplam deeri (edeer kapasitans) nedir?",
+      "siklar": {
+        "a": "5 pf",
+        "b": "47 pf",
+        "c": "8 pf",
+        "d": "56 pf"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 8,
+      "govde": "letim halinde olan bir germanyum diyodun uçlari arasindaki voltaj düümü yaklaik ne kadardir?",
+      "siklar": {
+        "a": "0.3 V",
+        "b": "0.6 V",
+        "c": "0.7 V",
+        "d": "1.3 V"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 9,
+      "govde": "Bir pil devamli olarak 0.5 A çekilmek arti ile bir hafta süre ile kullanilmaktadir. Pilin kapasitesi kaç amper saat (Ah)dir?",
+      "siklar": {
+        "a": "42",
+        "b": "24",
+        "c": "84",
+        "d": "12 5:1 ~+ 250V"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 10,
+      "govde": "Yukaridaki besleme devresinde bulunan dorultucu diyot en az kaç voltluk olmalidir?",
+      "siklar": {
+        "a": "25 V",
+        "b": "71 V",
+        "c": "50 V",
+        "d": "10 V"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 11,
+      "govde": "Aaidaki devrenin adi nedir?",
+      "siklar": {
+        "a": "Basit bir alici",
+        "b": "Basit bir verici",
+        "c": "Dorultucu",
+        "d": "Basit bir alici-verici"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 12,
+      "govde": "Aaidaki elektronik parçalardan hangisi alternatif akimin endüksiyon yolu ile bir devreden baka bir devreye aktarilmasi prensibi ile çaliir?",
+      "siklar": {
+        "a": "Kondansatörler",
+        "b": "Transistörler",
+        "c": "Transformatörler",
+        "d": "Dirençler"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 13,
+      "govde": "ekildeki devrede V2 voltajinin deeri nedir? N1=500 N2 N1 50 ohm N2=5000 V2 V1=2V V1",
+      "siklar": {
+        "a": "2 volt",
+        "b": "200 volt",
+        "c": "20 volt",
+        "d": "Hiçbiri"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 14,
+      "govde": "ekilde görülen devrede I2 akiminin deeri nedir? 50 ohm 50V 50 ohm I2 25 ohm",
+      "siklar": {
+        "a": "1.25 A",
+        "b": "1",
+        "c": "2 A",
+        "d": "0.5 A"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 15,
+      "govde": "ekildeki devrede 27 ohmluk dirençten geçen akimin deeri aaidakilerden hangisidir? 27 ohm 33 ohm 120 ohm",
+      "siklar": {
+        "a": "0.5 A 6V",
+        "c": "0.3 A",
+        "d": "0.1 A",
+        "b": "0.6 A"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 16,
+      "govde": "ekilde görülen devrede, 3 Ohm luk dirençte harcanan güç nedir? 6 ohm 3 ohm 1 ohm 10 V",
+      "siklar": {
+        "a": "10 watt",
+        "b": "1 watt",
+        "c": "5 watt",
+        "d": "3 watt"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 17,
+      "govde": "Bir RF filtrede kullanilacak kondansatör aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "Alüminyum elektrolitik",
+        "b": "Tantalyum elektrolitik",
+        "c": "Seramik",
+        "d": "Polikarbonat dielektrikli"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 18,
+      "govde": "Aaida blok emasi görülen bir CW vericisinde maniple hangi bölümü kontrol etmelidir? A B C D OSC Buffer Driver PA",
+      "siklar": {
+        "a": "A",
+        "b": "B",
+        "c": "C",
+        "d": "D"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 19,
+      "govde": "Zener diyodun kullanilmasinin ana amaci nedir?",
+      "siklar": {
+        "a": "RF deteksiyonu",
+        "b": "Kazanç elde etme",
+        "c": "Gürültüyü azaltma",
+        "d": "Sabit gerilim elde etme"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 20,
+      "govde": "Toprak (yer) dalgalari hangi tür haberlemede kullanilir?",
+      "siklar": {
+        "a": "Yüksek frekans - kisa mesafe",
+        "b": "Yüksek frekans - uzun mesafe",
+        "c": "Alçak frekans - kisa mesafe",
+        "d": "Alçak frekans - uzun mesafe"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 21,
+      "govde": "Geni bandli bir güç kuvvetlendirici çikiinda aaidakilerden hangisi kullanilir?",
+      "siklar": {
+        "a": "Yüksek geçiren filtre",
+        "b": "Alçak geçiren filtre",
+        "c": "Dirençli bastirici",
+        "d": "ebeke filtresi"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 22,
+      "govde": "Çikiinda band geçiren filtre ile donatilmi bir VHF verici:",
+      "siklar": {
+        "a": "Üretilen tüm frekanslari keser.",
+        "b": "Üretilen tüm harmonikleri geçirir.",
+        "c": "Üretilen tüm alt harmonikleri geçirir.",
+        "d": "Sadece istenilen frekanslari en az kayipla geçirir."
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 23,
+      "govde": "Bir amatör telsizcinin komusu, telsiz istasyonunun müzik setine yaptii enterferanstan ikâyetçidir. Mümkün olan çözüm aaidakilerden hangisi olabilir?",
+      "siklar": {
+        "a": "Verici çikiina ferrit filtre konulmasi.",
+        "b": "Verici çiki uçlari arasina bir kondansatör balanmasi.",
+        "c": "Müzik setinin hoparlör balantilarinin ekranli kablo ile yapilmasi",
+        "d": "Vericinin çikiinin çiplak iki telli hat ile yapilmasi."
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 24,
+      "govde": "AGC katinin ilevi aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "Amplifikatör güç kontrolü",
+        "b": "Alt-geçirgen dorulma",
+        "c": "Otomatik çiki kontrolü",
+        "d": "Otomatik kazanç kontrolü"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 25,
+      "govde": "Bir çiki katinin airi sürülmesi;",
+      "siklar": {
+        "a": "Yüksek SWR ye neden olur",
+        "b": "Çiki gücünü arttirir",
+        "c": "Yüksek seviyeli harmonik üretir",
+        "d": "Çiki transistörünü yakar"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 26,
+      "govde": "Bir thermocouple elemani ile;",
+      "siklar": {
+        "b": "Sicaklik ölçülür",
+        "d": "Manyetik alan ölçülür",
+        "a": "Direnç ölçülür",
+        "c": "Elektrik alani ölçülür"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 27,
+      "govde": "Harici antenler daima tercih edilir, çünkü;",
+      "siklar": {
+        "a": "Daha az harmonik üretirler",
+        "b": "Yayilimlari daha azdir",
+        "c": "Yayilimlari daha çoktur",
+        "d": "Daha geni bandli çaliirlar"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 28,
+      "govde": "Mili (m) kisaltmasi aaidakilerden hangisine e deerdedir?",
+      "siklar": {
+        "a": "1000000",
+        "b": "10",
+        "c": "1/1000",
+        "d": "1000"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 29,
+      "govde": "Bir tümleik devre;",
+      "siklar": {
+        "a": "Pasif bir elemandir",
+        "b": "Bir kondansatör takimidir",
+        "c": "Birçok aktif ve pasif elemanin birlemesinden oluur",
+        "d": "Tek bir aktif elemandir"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 30,
+      "govde": "Bir CW vericisinin çiki gücü 100 watttir, bu deer aaidakilerden hangisine eittir?",
+      "siklar": {
+        "a": "10 dBW",
+        "b": "20 dBW",
+        "c": "22 dBW",
+        "d": "26 dBW"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 31,
+      "govde": "QUAD antenin bir kenari;",
+      "siklar": {
+        "b": "Yarim dalgadir",
+        "d": "Tam dalgadir",
+        "a": "Çeyrek dalgadir",
+        "c": "5/8 dalgadir"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 32,
+      "govde": "Telsiz cihazlari arasinda haberlemeyi kolaylatirmak amaciyla bir verici istasyonundan aldii sinyalleri otomatik olarak baka bir frekansta alicilara yayinlayan aktaricilara ne ad verilir?",
+      "siklar": {
+        "a": "Trafo",
+        "b": "Tekrarlayici",
+        "c": "El telsizi",
+        "d": "Mobil telsiz"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 33,
+      "govde": "Bir amatör telsizcinin cihazi, kendisinin ve komusunun telefonunu enterfere etmektedir. Her iki telefonda ayni model olduuna göre, enterferansin oluma sebebi en yüksek olasilikla aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "Elektrik ebeke hatlarinin RF taimasi",
+        "b": "Direk telefon cihazinin içyapisi ve telefon kablaji",
+        "c": "Vericinin lokal osilatörü",
+        "d": "Vericinin AGCsinin ayarsiz olmasi"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 34,
+      "govde": "0.1 volt, mV cinsinden nasil gösterilir?",
+      "siklar": {
+        "a": "1 mV",
+        "b": "10 mV",
+        "c": "100 mV",
+        "d": "1000 mV"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 35,
+      "govde": "ekilde görülen sembol;",
+      "siklar": {
+        "a": "PNP transistördür",
+        "b": "NPN transistördür",
+        "c": "P tip FET transistördür",
+        "d": "N tip FET transistördür"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 36,
+      "govde": "Direnç renkleri sirasiyla Sari, Turuncu, Kahverengi, Altin olan bir direncin deeri hangi sinirlar içindedir?",
+      "siklar": {
+        "a": "425-435 ohm",
+        "b": "387-473 ohm",
+        "c": "4085-4515 ohm",
+        "d": "408,5-451,5 ohm"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 37,
+      "govde": "Bazen transistörlerin bacaina küçük ferrit yüzükler takilir, bunun nedeni aaidakilerden hangisi olabilir?",
+      "siklar": {
+        "a": "Transistör bacaini ekranlamak.",
+        "b": "Transistör ile baski devre arasinda mesafe birakmak.",
+        "c": "Parazit osilasyonlari önlemek.",
+        "d": "50 ohma ayarlamak."
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 38,
+      "govde": "Bir transformatörün primer sargisi sekonder sargisinin be katidir. Primer sargilarina 250V verilirse sekonderinden kaç volt çikar?",
+      "siklar": {
+        "a": "10 V",
+        "b": "25 V",
+        "c": "50 V",
+        "d": "1250 V"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 39,
+      "govde": "Üç farkli deerde kondansatör paralel balandiinda toplam kapasite ne olur?",
+      "siklar": {
+        "a": "En yüksek deerli kapasiteden daha büyük.",
+        "b": "Üçünün aritmetiksel ortalamasi.",
+        "c": "En düük deerli kapasiteden daha küçük.",
+        "d": "En yüksek ve düük kapasiteli kondansatörler arasinda herhangi bir deer."
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 40,
+      "govde": "Periyodu 50 s olan frekans nedir?",
+      "siklar": {
+        "a": "2 Khz",
+        "b": "20 Khz",
+        "c": "200 Khz",
+        "d": "2 Mhz"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 41,
+      "govde": "1 W ve 1 Mohm ,,luk bir dirençten geçirilebilecek maksimum akim aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "10-6 A",
+        "b": "10-3 A",
+        "c": "0.1 mA",
+        "d": "10-12 A"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 42,
+      "govde": "ekilde bir beam anteni görülmektedir. Bu antenden gönderilen sinyaller:",
+      "siklar": {
+        "a": "Düey polarizelidir",
+        "b": "Yatay polarizelidir",
+        "c": "Eliptik polarizelidir",
+        "d": "Polarizeli deildir XC XL R 10ohm 22ohm 5ohm"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 43,
+      "govde": "ekildeki RLC devresinin empedansini bulunuz?",
+      "siklar": {
+        "a": "32",
+        "b": ".33",
+        "c": "13",
+        "d": "14"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 44,
+      "govde": "ekilde görülen sinyal hakkinda ne söylenebilir?",
+      "siklar": {
+        "a": "% 100 modülelidir",
+        "b": "% 50 modülelidir",
+        "c": "Modülasyon yüzdesi çok düüktür",
+        "d": "Airi modüleli sinyaldir"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 45,
+      "govde": "Ülkemizde kullanilan ehir ebekesi frekansi nedir?",
+      "siklar": {
+        "a": "60 Hz",
+        "b": "50 Hz",
+        "c": "20 Hz",
+        "d": "400 Hz"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 46,
+      "govde": "ki tane direnç seri balandiinda edeer direnç 10 ohm, paralel balandiinda 2,4 ohmdur. Bu dirençlerin deerleri aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "5 ve 5 ohm",
+        "b": "2 ve 8 ohm",
+        "c": "3 ve 7 ohm",
+        "d": "4 ve 6 ohm"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 47,
+      "govde": "Kapasitans biriminin farad olduu bilinmektedir. 1 Farad aaidakilerden hangisi ile edeerdedir?",
+      "siklar": {
+        "a": "103 mikrofarad",
+        "b": "106 pikofarad",
+        "c": "1012 mikrofarad",
+        "d": "1012 pikofarad A 5 220V B 10 C 15 D n1 = 22000 sarim VAB = 5V VAC = 10V VAD = 15V"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 48,
+      "govde": "ekildeki devrede A ve C uçlari arasindaki sarim sayisi kaçtir?",
+      "siklar": {
+        "a": "1100",
+        "b": "2200",
+        "c": "1000",
+        "d": "2000"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 49,
+      "govde": "Delta-loop antenin tarifi aaidakilerden hangisine uyar?",
+      "siklar": {
+        "a": "Üçgen elemanli bir çeit quad antenidir",
+        "b": "Dikey antendir",
+        "c": "Yatay antendir",
+        "d": "Kamçi antendir"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 50,
+      "govde": "3000 Khz üzerinden yayin yapan bir istasyon, ara frekansi 350 Khz olan bir alicida hayal olarak duyulmaktadir. Dinlenmesi istenen istasyonunun frekansi aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "3450 Khz",
+        "b": "3700 Khz",
+        "c": "2300 Khz",
+        "d": "3350 Khz"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 51,
+      "govde": "Bir telsiz alicisinin seçicilii;",
+      "siklar": {
+        "a": "Ayarlandii frekansin diindaki frekanslarda ali kabiliyetidir.",
+        "b": "Ayarlandii frekansin diindaki frekanslari almama kabiliyetidir.",
+        "c": "Isiya kari duyarliliidir.",
+        "d": "Çarpmaya kari duyarliliidir."
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 52,
+      "govde": "SSB verici blok emasinda X ile iaretli kat aaidakilerden hangisidir? X OSC VFO",
+      "siklar": {
+        "a": "Dengeli modülatör",
+        "b": "Kenar band filitre",
+        "c": "Taiyici dalga osilatörü",
+        "d": "Konvertör"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 53,
+      "govde": "Bir paralel rezonans devresinde rezonans halinde devreden geçen toplam akim: Empedans Z f",
+      "siklar": {
+        "a": "Minimumdur",
+        "b": "Maksimumdur",
+        "c": "Endüktiftir",
+        "d": "Kapasitiftir"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 54,
+      "govde": "Aaidaki devrede toplam akim I kaç amperdir? 1A 2A 0.5A 0.5A I",
+      "siklar": {
+        "a": "1 A",
+        "b": "1,5 A",
+        "c": "3 A",
+        "d": "4 A"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 55,
+      "govde": "Aaidaki devrede R5 direnci uçlari arasindaki voltmetre kaç voltu gösterir? R1 5ohm 5ohm R2 5ohm 50V R5 V R2 R3 5ohm 5ohm",
+      "siklar": {
+        "a": "1 V",
+        "b": "5 V",
+        "c": "10 V",
+        "d": "50 V"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 56,
+      "govde": "Tipik amatör radyo kurulumlarinda koaksiyel kablonun en yaygin olarak kullanilan empedansi nedir?",
+      "siklar": {
+        "a": "8 ohm",
+        "b": "50 ohm",
+        "c": "600 ohm",
+        "d": "12 ohm"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 57,
+      "govde": "Gündüz ve gece HF bandinda çaliirken frekans seçiminde genel olarak aaidakilerden hangisine uyulur?",
+      "siklar": {
+        "a": "Gece alçak, gündüz yüksek frekans kullanilir",
+        "b": "Gece yüksek, gündüz alçak frekans kullanilir",
+        "c": "Gece, gündüz frekansinin yarisi kullanilir",
+        "d": "Gündüz, gece frekansinin yarisi kullanilir"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 58,
+      "govde": "Bir antenin fiziki elemanlari aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "Kondansatör, transformatör, self, bobin",
+        "b": "Kondansatör, bobin, direnç",
+        "c": "Kondansatör, transistör, self, bobin",
+        "d": "Kondansatör, transistör, direnç"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 59,
+      "govde": "Taiyici dalganin frekansi bir ses frekans sinyalinin genliine bali olarak deiirse bu modülasyon;",
+      "siklar": {
+        "a": "Genlik modülasyonudur",
+        "b": "Frekans modülasyonudur",
+        "c": "Pals modülasyonudur",
+        "d": "Diversite modülasyonudur"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 60,
+      "govde": "Aaidaki ekli verilmi genlik bindiriminin modülasyon endeksi kaçtir? 1.5 1.0 0.5",
+      "siklar": {
+        "a": "2",
+        "b": "1",
+        "c": "0.5",
+        "d": "1.75"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 61,
+      "govde": "Bir anten sisteminde empedans uyumazliini gösterebilen alet aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "Alan gerilim ölçer",
+        "b": "Wattmetre",
+        "c": "Dalgametre",
+        "d": "Reflektometre 6ohm R A 12ohm -+ 100V"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 62,
+      "govde": "Yukaridaki devrede ampermetre 10 A gösterdiine göre R direncinin deerini hesaplayiniz?",
+      "siklar": {
+        "a": "6 ohm",
+        "b": "12 ohm",
+        "c": "10 ohm",
+        "d": "8 ohm"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 63,
+      "govde": "ekilde görülen devre elemani aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "Zener diyot",
+        "b": "Triyak",
+        "c": "Tünel diyot",
+        "d": "Kapasitif diyot"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 64,
+      "govde": "ekilde görülen iki sinyal arasindaki faz farki kaç derecedir?",
+      "siklar": {
+        "a": "90 º",
+        "b": "45 º",
+        "c": "60 º",
+        "d": "180 º"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 65,
+      "govde": "Yukaridaki sembolleri verilen diyot çeitlerinin doru sirasi ile adlari aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "Tünel diyot, Varikap, Zener diyot, Tristör",
+        "b": "Tünel diyot, Varikap, Tristör, Zener diyot",
+        "c": "Tünel diyot, Tristör, Zener diyot, Varikap",
+        "d": "Tristör, Varikap, Zener diyot, Tünel diyot"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 66,
+      "govde": "Bir transformatörün 4 volt olan sekonderi 20 turdur. Sekonderi 6,2 volta tamamlamak için kaç tur daha sarilmalidir? 20 tur 4 V 6.2 V",
+      "siklar": {
+        "a": "15",
+        "b": "3",
+        "c": "11",
+        "d": "110"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 67,
+      "govde": "Paket data gönderen amatör telsiz istasyonunda aaidakilerden hangisi kullanilmaz?",
+      "siklar": {
+        "a": "Anten",
+        "b": "Güç Kaynai",
+        "c": "Alici - Verici",
+        "d": "Mikrofon 5ohm 5ohm 10ohm 3ohm 4ohm 4ohm"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 68,
+      "govde": "ekildeki devrede (Re) edeer direncin deeri nedir?",
+      "siklar": {
+        "a": "2",
+        "b": "4",
+        "c": "6",
+        "d": "8"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 69,
+      "govde": "Varaktör diyot ne tip diyottur?",
+      "siklar": {
+        "a": "Deiken voltaj deerleri ile kapasite deerini deitiren diyottur.",
+        "b": "Voltaj regülatör devrelerinde kullanilir.",
+        "c": "Osilatör akimi kararliini salamak için kullanilir.",
+        "d": "Üç yönlü olup kontrol devrelerinde kullanilir."
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 70,
+      "govde": "ki iletken plaka ve bunlarin arasinda yalitkan bir malzemeden meydana gelen elemana ne ad verilir?",
+      "siklar": {
+        "a": "Direnç",
+        "b": "Transistör",
+        "c": "Kondansatör",
+        "d": "Diyot"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 71,
+      "govde": "Kondansatörlerin kapasite deerleri hangi birim ile ifade edilir?",
+      "siklar": {
+        "a": "Ohm",
+        "b": "Farad",
+        "c": "Henry",
+        "d": "Watt"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 72,
+      "govde": "ki kondansatör paralel balandii takdirde toplam kapasite deeri ne olur?",
+      "siklar": {
+        "a": "Büyük kondansatörün kapasitesine eit olur",
+        "b": "Küçük kondansatörün kapasitesine eit olur",
+        "c": "Kapasite deerleri toplanir",
+        "d": "Büyük kapasite deerinden küçük çikarilir"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 73,
+      "govde": "ekildeki devreden geçen I akiminin deeri nedir? 4ohm 2ohm 10 ohm 6ohm 9ohm I",
+      "siklar": {
+        "b": "2 A V=12",
+        "a": "1 A",
+        "c": "4 A",
+        "d": "6 A"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 74,
+      "govde": "ekildeki devrenin uçlarindaki gerilim deeri nedir? 4 ohm 4 ohm 10 ohm 8 A 6 ohm V 3 ohm",
+      "siklar": {
+        "a": "4 V",
+        "b": "6 V",
+        "c": "12 V",
+        "d": "24 V"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 75,
+      "govde": "\"Reosta\" nedir?",
+      "siklar": {
+        "a": "Ayarli dirençtir",
+        "b": "Devredeki akimin deerini ölçen ölçü aletidir",
+        "c": "Devredeki gerilim deerini ölçen ölçü aletidir",
+        "d": "Devrenin direncini ölçen ölçü aletidir"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 76,
+      "govde": "Faz modülasyonlu bir elektromanyetik dalgada, emisyonu gösteren üç karakterli sembollerden ilki, hangi harf ile gösterilir?",
+      "siklar": {
+        "a": "B",
+        "b": "D",
+        "c": "F",
+        "d": "P"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 77,
+      "govde": "Genlik modülasyonlu bir elektromanyetik dalgada, emisyonu gösteren üç karakterli sembollerden ilki, hangi harf ile gösterilir?",
+      "siklar": {
+        "a": "A",
+        "b": "B",
+        "c": "F",
+        "d": "G"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 78,
+      "govde": "Ses frekansinin, yüksek frekans üzerine yüklenerek uzak mesafelere gönderilebilmesi amaciyla yapilan ileve ne isim verilir?",
+      "siklar": {
+        "a": "Modülasyon",
+        "b": "Kuplaj",
+        "c": "Osilasyon",
+        "d": "Demodülasyon"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 79,
+      "govde": "Modülatör devresi, aaidakilerden hangi devrede bulunur?",
+      "siklar": {
+        "a": "Alici devresi",
+        "b": "Verici devresi",
+        "c": "Osilatör devresi",
+        "d": "Filtre devresi"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 80,
+      "govde": "\"Duran Dalga Orani\" hangi sembol ile gösterilir?",
+      "siklar": {
+        "a": "DDO",
+        "b": "SCO",
+        "c": "CSO",
+        "d": "SWR"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 81,
+      "govde": "Bir transistorlü devrede \"ara frekans kati\" hangi sembol ile ifade edilir?",
+      "siklar": {
+        "a": "AF",
+        "b": "MF",
+        "c": "IF",
+        "d": "HF"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 82,
+      "govde": "Silisyumdan yapilmi bir transistör devresinde \"Beyz-Emiter\" gerilim deeri nedir?",
+      "siklar": {
+        "a": "0.2 V",
+        "b": "0.7 V",
+        "c": "0.5 V",
+        "d": "1 V"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 83,
+      "govde": "Aaidakilerden hangileri transistörün elemanlaridir? I- Emiter II- Gate III- Kollektör IV- Konnektör V- Beyz VI- Osilatör",
+      "siklar": {
+        "a": "I-III-V",
+        "b": "I-II-IV",
+        "c": "II-VI",
+        "d": "II-III-V"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 84,
+      "govde": "\" SCR\" olarak da tanimlanan yari iletken devre elemaninin adi nedir?",
+      "siklar": {
+        "a": "Transistör",
+        "b": "Diyot",
+        "c": "Tristör",
+        "d": "Triyak"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 85,
+      "govde": "Elektromanyetik dalgalarin yayilma hizi nedir?",
+      "siklar": {
+        "a": "3x106 m/sn",
+        "b": "3x103 m/sn",
+        "c": "3x108 km/sn",
+        "d": "3x108 m/sn"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 86,
+      "govde": "Elektromanyetik dalgalarin bir saniyede aldii yola ne ad verilir?",
+      "siklar": {
+        "a": "Peryot",
+        "b": "Frekans",
+        "c": "Genlik",
+        "d": "Dalga Boyu"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 87,
+      "govde": "Heterodin nedir?",
+      "siklar": {
+        "a": "ki ayri frekansin karitirilarak farkli frekans elde edilmesidir",
+        "b": "Temel frekansin katlarindaki frekanslarin tümü",
+        "c": "Küçük sinyallerde etkisini gösteren istenmeyen parazit durumu",
+        "d": "Hiçbiri"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 88,
+      "govde": "ekildeki devre elemaninin adi aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "Transistör",
+        "b": "Diyot",
+        "c": "Direnç",
+        "d": "Tristör"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 89,
+      "govde": "Duran Dalga ölçümü nerede yapilir?",
+      "siklar": {
+        "a": "Yüksüz alici çikiinda",
+        "b": "Verici çikiinda",
+        "c": "Yüksüz verici çikiinda",
+        "d": "Yükte verici-anten arasina"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 90,
+      "govde": "Elektronik devrelerde \"Phase Locked Loop\" (PLL) devresi hangi amaçla kullanilir?",
+      "siklar": {
+        "a": "Dengeli modülatör",
+        "b": "Frekans sentezleme",
+        "c": "Faz sinirlayici",
+        "d": "Demodülatör"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 91,
+      "govde": "ekildeki genlik modülasyonlu bir iarette Vmax= 70V Vmin = 30V olduuna göre bu iaretin modülasyon yüzdesi nedir? Vmax V(t) Vmin t",
+      "siklar": {
+        "a": "% 20",
+        "b": "% 30",
+        "c": "% 40",
+        "d": "% 50"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 92,
+      "govde": "ekildeki devrede akim kazanci 10 olduuna göre, transistörü doyuma götüren en küçük Beyz akiminin deeri nedir? 10V 2Kohm I",
+      "siklar": {
+        "a": "0.5 mA",
+        "b": "0.05 mA",
+        "c": "5 mA",
+        "d": "20"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 93,
+      "govde": "Aaidaki ifadelerden hangileri dorudur? I ) Dalga boyu büyürse, frekansta büyür. II ) Ses dalgalarinin havadaki hizi 300km/sn dir. III ) Dalga boyu büyürse, frekans küçülür. IV ) Dalga boyu büyürse, anten boyu büyür. V ) Frekans ve dalga boyunun çarpimi elektromanyetik dalganin hizini verir.",
+      "siklar": {
+        "a": "I-II-III",
+        "b": "I-III-V",
+        "c": "II-IV-V",
+        "d": "III-IV-V"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 94,
+      "govde": "ekildeki devrenin çikiindaki gerilim ve akim deeri nedir? (Diyot eik deeri 0.5V) 6V Vç 5Kohm Iç",
+      "siklar": {
+        "a": "6 V, 5 ma",
+        "b": "5 V, 5 ma",
+        "c": "5 V, 1 ma",
+        "d": "12 V, 5 ma"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 95,
+      "govde": "ekildeki ilemsel amplifikatörde gerilim kazanci neye eittir? R2 R1 - Vg + Vç",
+      "siklar": {
+        "a": "A = R1+R2",
+        "b": "A = R2 / R1",
+        "c": "A = - R1 / R2",
+        "d": "A = - R2 / R1"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 96,
+      "govde": "Maksimum 10 Amp. ölçebilen bir Ampermetre ile 50 Amp. akim ölçülmek isteniyor. Ampermetrenin iç direnci 20 ohm olduuna göre yapilmasi gereken ilem nedir?",
+      "siklar": {
+        "a": "10 luk direnç seri balanir.",
+        "b": "10 luk direnç paralel balanir.",
+        "c": "15 luk direnç seri balanir.",
+        "d": "5 luk direnç paralel balanir."
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 97,
+      "govde": "Ara frekans (IF) deeri 10.5Mhz olan bir süperheterodin alici 20-27 Mhz bandinda çalimaktadir. Bu cihazin osilatör frekans aralii nedir?",
+      "siklar": {
+        "a": "30.5 - 37.5 Mhz",
+        "b": "20.5 - 27.5 Mhz",
+        "c": "41 - 48 Mhz",
+        "d": "20 - 27 Mhz"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 98,
+      "govde": "RF MXER IF 2 minatör Diskri AMP AMP Veri areti 1 ekilde verilen Frekans Modüleli (FM) alici blok emasinda sirasiyla verilen 1 ve 2 nolu bloklar hangileridir?",
+      "siklar": {
+        "a": "IC - Sürücü",
+        "b": "IF filtre - Osilatör",
+        "c": "Çarpici - Limitör",
+        "d": "Local Osilatör - Limitör"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": true
+    },
+    {
+      "no": 99,
+      "govde": "Aaidakilerden hangisi bir Genlik Modülasyonlu (AM) verici katlarindan deildir?",
+      "siklar": {
+        "a": "Osilatör kati",
+        "b": "Modülatör kati",
+        "c": "RF Amp. kati",
+        "d": "Linear Amp. Kati"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 100,
+      "govde": "Yüksek frekansli devrelerde ve özellikle vericilerin çiki katlarinda kullanilan amplifikatör sinifi aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "A sinifi",
+        "b": "B sinifi",
+        "c": "C sinifi",
+        "d": "AB sinifi"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 101,
+      "govde": "100 Mhz frekansinda çalian bir alicinin çeyrek dalga gerçek anten boyu ne kadardir?",
+      "siklar": {
+        "a": "3 cm",
+        "b": "50 cm",
+        "c": "75 cm",
+        "d": "100 cm"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 102,
+      "govde": "Bir telsiz alicisinin seçicilii:",
+      "siklar": {
+        "a": "Çok geni bandli çalima kabiliyetidir.",
+        "b": "Iia kari duyarlidir.",
+        "c": "Cihazin en yüksek istasyonu algilayabilme",
+        "d": "Ayarladii frekansin diindaki frekanslari bastirabilme kabiliyetidir."
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 103,
+      "govde": "Kapasitif diyotlarin kapasite deeri hangi parametreye göre deiir?",
+      "siklar": {
+        "a": "Gerilim",
+        "b": "Akim",
+        "c": "Frekans",
+        "d": "Güç"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 104,
+      "govde": "Vericinizi test etmek istediinizde havadaki enterferansi azaltmak için ne yapilir?",
+      "siklar": {
+        "a": "Dummy Load (suni yük) kullanilir",
+        "b": "Test aninda verici antenden ayrilir",
+        "c": "Test aninda üst yan band kullanilir",
+        "d": "Test aninda simpleks frekans kullanilir."
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 105,
+      "govde": "Bir elektrik devresinde akimi hangi formül ile hesaplariz?",
+      "siklar": {
+        "a": "I = V x R",
+        "b": "I = V/ R",
+        "c": "I = V + R",
+        "d": "I = V - R"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 106,
+      "govde": "Bir elektrik devresinde gerilimi hangi formül ile hesaplariz?",
+      "siklar": {
+        "a": "V = I x R",
+        "b": "V = I / R",
+        "c": "V = I + R",
+        "d": "V = I - R"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 107,
+      "govde": "Bir elektrik devresinde akimi hangi ölçü aleti ile ölçeriz?",
+      "siklar": {
+        "a": "Voltmetre",
+        "b": "Ampermetre",
+        "c": "Wattmetre",
+        "d": "Frekansmetre"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 108,
+      "govde": "60 Hertz ne anlama gelir?",
+      "siklar": {
+        "a": "Saniyedeki 6000 titreim sayisi",
+        "b": "Saniyedeki 60 titreim sayisi",
+        "c": "Saniyedeki 6000 m dalga uzunluu",
+        "d": "Saniyedeki 60 m dalga uzunluu"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 109,
+      "govde": "10 Wattlik telsizin çikiini 100 Watta hangi cihazla çikaririz?",
+      "siklar": {
+        "a": "Yükselteç",
+        "b": "Besleme Kaynai",
+        "c": "Anten",
+        "d": "Zayiflatici"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 110,
+      "govde": "Frekansin birimi nedir?",
+      "siklar": {
+        "a": "Hertz",
+        "b": "Watt",
+        "c": "Amper",
+        "d": "Voltaj"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 111,
+      "govde": "Direncin birimi nedir?",
+      "siklar": {
+        "a": "Voltaj",
+        "b": "Watt",
+        "c": "Amper",
+        "d": "Ohm"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 112,
+      "govde": "Elektrii aaidakilerden hangisi geçirmez?",
+      "siklar": {
+        "a": "Cam",
+        "b": "Bakir",
+        "c": "Alüminyum",
+        "d": "Civa"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 113,
+      "govde": "Elektrii aaidakilerden hangisi geçirir?",
+      "siklar": {
+        "a": "Cam",
+        "b": "Plastik",
+        "c": "Tahta",
+        "d": "Bakir"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 114,
+      "govde": "Elektrik akiminin birimi nedir?",
+      "siklar": {
+        "a": "Volt",
+        "b": "Watt",
+        "c": "Amper",
+        "d": "Ohm"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 115,
+      "govde": "Elektrik gücünün birimi nedir?",
+      "siklar": {
+        "a": "Volt",
+        "b": "Watt",
+        "c": "Amper",
+        "d": "Ohm"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 116,
+      "govde": "Serbest elektronlarin iletken madde içinde akmasina ne ad verilir?",
+      "siklar": {
+        "a": "Voltaj",
+        "b": "Direnç",
+        "c": "Akim",
+        "d": "Frekans"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 117,
+      "govde": "Serbest elektronlari hareket ettirerek devreden elektrik akiminin akmasina sebep olan kuvvete ne ad verilir?",
+      "siklar": {
+        "a": "Voltaj",
+        "b": "Akim",
+        "c": "Direnç",
+        "d": "Frekans"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 118,
+      "govde": "letken cisimlerin üzerlerinden geçen akima kari gösterdii mukavemete ne ad verilir?",
+      "siklar": {
+        "a": "Akim",
+        "b": "Voltaj",
+        "c": "Frekans",
+        "d": "Direnç"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 119,
+      "govde": "Bir elektrik devresinde direnci hangi formül ile hesaplariz?",
+      "siklar": {
+        "a": "R = V x I",
+        "b": "R = V / I",
+        "c": "R = V + R",
+        "d": "R = V - R"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 120,
+      "govde": "Bir elektrik devresinde voltaj 90 Volt, geçen akim 3 amper ise devrenin direnci kaçtir?",
+      "siklar": {
+        "a": "30 Ohm",
+        "b": "60 Ohm",
+        "c": "90 Ohm",
+        "d": "270 Ohm"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 121,
+      "govde": "Bir elektrik devresinde voltaj 120 Volt, direnç 80 Ohm ise devreden geçen akim kaç amperdir?",
+      "siklar": {
+        "a": "1 Amper",
+        "b": "1.5 Amper",
+        "c": "2 Amper",
+        "d": "3 Amper"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 122,
+      "govde": "Bir elektrik devresinde gücü hangi formül ile hesaplariz?",
+      "siklar": {
+        "a": "P = I2 x R",
+        "b": "V = U x R",
+        "c": "P = U / R",
+        "d": "P = I2 / R"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 123,
+      "govde": "Bir amatör istasyonda mikrofon nereye irtibatlandirilir?",
+      "siklar": {
+        "a": "Vericiye",
+        "b": "Aliciya",
+        "c": "Antene",
+        "d": "Osilatöre"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 124,
+      "govde": "Elektrik sinyalini ses dalgasina çeviren cihazin adi nedir?",
+      "siklar": {
+        "a": "Mikrofon",
+        "b": "Hoparlör",
+        "c": "Suni Yük",
+        "d": "Osilatör"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 125,
+      "govde": "Eer ebeke elektrii kesilmise 12 volt bataryayi yeniden arj etmenin bir yolu nedir?",
+      "siklar": {
+        "a": "Elektrik gelmedikçe bataryayi arj edemezsiniz",
+        "b": "Bataryaya su ekleyiniz",
+        "c": "Bataryayi bir arabanin aküsüne balayiniz ve motoru çalitiriniz",
+        "d": "Bataryanizi arj için kamu hizmeti veren bir irkete götürünüz"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 126,
+      "govde": "Yalnizca bir yöne akan akimin adi nedir?",
+      "siklar": {
+        "a": "Alternatif akim",
+        "b": "Doru akim",
+        "c": "Normal akim",
+        "d": "Düz akim"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 127,
+      "govde": "Bir elektrik devresinde akim iddetini ölçmek için kullanilan araç aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "Frekansmetre",
+        "b": "SWR metre",
+        "c": "Ampermetre",
+        "d": "Voltmetre"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 128,
+      "govde": "Bir radyo dalgasi uzayda ne kadar hizla ilerler?",
+      "siklar": {
+        "a": "Iik hizinda",
+        "b": "Ses hizinda",
+        "c": "Hizi, dalga boyuna ters orantilidir",
+        "d": "Frekans arttikça hizi artar"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 129,
+      "govde": "Radyo sinyallerini, duyabileceimiz seslere dönütürmek için ne kullanilir?",
+      "siklar": {
+        "a": "Verici",
+        "b": "Alici",
+        "c": "Mikrofon",
+        "d": "Anten"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 130,
+      "govde": "Bir yildirim firtinasi bekleniyorken hangi tedbirler alinmalidir?",
+      "siklar": {
+        "a": "stasyonunuzdan anten kablolarinin balantisini kesin ve telsiz ekipmaninizdan uzaa taiyin",
+        "b": "AC çikilarindan tüm güç kablolarini çekin",
+        "c": "Telsiz ekipmanini kullanmayi birakin ve firtina geçene kadar dier odaya geçin",
+        "d": "Hepsi doru"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 131,
+      "govde": "Sesimizi, radyo sinyallerine dönütürmek için ne kullanilir?",
+      "siklar": {
+        "a": "Verici",
+        "b": "Alici",
+        "c": "Mikrofon",
+        "d": "Anten"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 132,
+      "govde": "Birçok antende neden dier metaller yerine paslanmaz çelik malzemesi kullanilir?",
+      "siklar": {
+        "a": "Paslanmaz çelik daha iyi bir elektrik iletkenidir",
+        "b": "Paslanmaz çeliin airlii dier metallerden daha azdir",
+        "c": "Paslanmaz çelik parçalarinin çürüme (korozyon) olasilii çok daha azdir",
+        "d": "Paslanmaz çeliin maliyeti dier metallerden daha azdir"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 133,
+      "govde": "Radyo haberlemelerinde uzak mesafeler ile görüme salanirken atmosferin hangi bölümü radyo dalgalarina yardimci olmaktadir?",
+      "siklar": {
+        "a": "Troposfer",
+        "b": "yonosfer",
+        "c": "Magnetosfer",
+        "d": "Stratosfer"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 134,
+      "govde": "Uygulanan voltajin 12 volt ve akimin 1.5 amper olduu bir devrede direnç ohmdur?",
+      "siklar": {
+        "a": "18 ohm",
+        "b": "0.125 ohm",
+        "c": "8 ohm",
+        "d": "13.5 ohm"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 135,
+      "govde": "10 ohm luk bir rezistansin içinden 1 amperlik bir akim geçerse, voltaj ne olur?",
+      "siklar": {
+        "a": "10 volt",
+        "b": "1 volt",
+        "c": "11 volt",
+        "d": "9 volt"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 136,
+      "govde": "Bir havaalani yakinina anten dikerken, aaidakilerden hangisi göz önünde bulundurulmalidir?",
+      "siklar": {
+        "a": "Yakindaki hava alanlariyla ilgili olarak müsaade edilen maksimum yükseklik",
+        "b": "Uçak telsizlerine karima olasilii",
+        "c": "Ürettii sinyallerin iinim açisi",
+        "d": "Yayilacak sinyalin polarizasyonu"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 137,
+      "govde": "5 amperlik sigorta yerine alici-vericinize 20 amperlik sigorta takarsaniz ne olabilir?",
+      "siklar": {
+        "a": "Daha büyük sigorta alici-vericinizi çok fazla akim kullanmaktan daha iyi koruyacaktir",
+        "b": "Alici-vericiniz daha souk çaliacaktir",
+        "c": "Alici-vericiniz RF çikii kadar üretemeyecektir",
+        "d": "Airi akim bir yangina neden olabilir"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 138,
+      "govde": "Aaidakilerden hangisi bir anten kulesine çikmadan önce alinmasi gereken en iyi tedbirdir?",
+      "siklar": {
+        "a": "Tüm radyo vericilerini açmak",
+        "b": "Tüm kule topraklama balantilarini kaldirmak",
+        "c": "Emniyet kemeri ve koruyucu gözlükleri takmak",
+        "d": "FAA ve FCCyi kule üzerinde çalitiiniza dair bilgilendirmek"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 139,
+      "govde": "Yer yüzeyine dik olarak monte edilmi tek bir unsurdan oluan antene ne denir?",
+      "siklar": {
+        "a": "Konik tek kutup",
+        "b": "Yatay anten",
+        "c": "Dikey anten",
+        "d": "Yürüyen dalga anteni"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 140,
+      "govde": "Suni Yükün balica amaci nedir?",
+      "siklar": {
+        "a": "Testler yaparken karitirici sinyaller yaymaz",
+        "b": "Vericinizin airi modülasyonunu engelleyecektir",
+        "c": "Yayindayken hata yapmanizi önler",
+        "d": "Airi yüklemeleri önlemek üzere yakin çalima için kullanilir"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    }
+  ],
+  "elle_aktarilmali_sorular": [
+    3,
+    5,
+    10,
+    13,
+    14,
+    15,
+    16,
+    18,
+    35,
+    42,
+    43,
+    44,
+    48,
+    52,
+    53,
+    54,
+    55,
+    60,
+    62,
+    63,
+    64,
+    65,
+    66,
+    68,
+    73,
+    74,
+    76,
+    77,
+    83,
+    88,
+    91,
+    92,
+    93,
+    94,
+    95,
+    98
+  ]
+}

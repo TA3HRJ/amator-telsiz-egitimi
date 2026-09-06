@@ -1,0 +1,597 @@
+{
+  "kaynak": "C_sinifi_ulusal_ve_uluslararasi_duzenlemeler_soru_bankasi.pdf",
+  "soru_sayisi": 49,
+  "anahtar_sayisi": 49,
+  "eksik_harf_uyarisi": "Metin katmaninda i-noktasiz/s-cedilli/g-yumusak yok; tamamlama ayri adimdir ve PDF'e karsi dogrulanmalidir.",
+  "sorular": [
+    {
+      "no": 1,
+      "govde": "ERO'nun açilimi nedir?",
+      "siklar": {
+        "a": "Avrupa Haberleme Ofisi",
+        "b": "Avrupa Telgraf Ofisi",
+        "c": "Avrupa Radyo Haberleme Ofisi",
+        "d": "Avrupa Telefon Ofisi"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 2,
+      "govde": "ITU' nun amaci nedir?",
+      "siklar": {
+        "a": "Frekans tahsislerinin yönetiminde yardimci olur",
+        "b": "Sadece Deniz Mobil hizmetlerinde frekans tahsisi yapar",
+        "c": "Çari iaretlerinin planlamasini yapar",
+        "d": "Sadece Hava araçlarina frekans tahsisi yapar"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 3,
+      "govde": "CEPT yönetimleri tarafindan çikarilan ERC 32 raporu neyi düzenler?",
+      "siklar": {
+        "a": "Amatör Telsizcilik Çiraklik Sinifi için yapilacak sinav müfredatini",
+        "b": "Amatör Telsizcilik Harec Sinifi için yapilacak sinav müfredatini",
+        "c": "Amatör Telsizcilie yeni balayanlar için yapilacak sinav müfredatini",
+        "d": "Hiçbiri"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 4,
+      "govde": "Amatör Telsizcilik Belgesi hangi dillerde düzenlenmelidir?",
+      "siklar": {
+        "a": "Belgenin düzenlendii ülkeye ait dilin yanisira ngilizce, Fransizca ve Almanca olarak düzenlenmeli",
+        "b": "Yalniz ngilizce düzenlenmeli",
+        "c": "Yalniz Almanca düzenlenmeli",
+        "d": "Yalniz Fransizca düzenlenmeli"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 5,
+      "govde": "Amatör Telsizcilik Belgesinde hangi bilgiler aranmaz?",
+      "siklar": {
+        "a": "Adi ve Soyadi",
+        "b": "Doum Tarihi",
+        "c": "Adresi",
+        "d": "Anne adi"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 6,
+      "govde": "ITU' nun açilimi nedir?",
+      "siklar": {
+        "a": "Uluslararasi Telekomünikasyon",
+        "b": "Uluslararasi Telekomünikasyon Birlii",
+        "c": "Uluslararasi Teknoloji Birlii",
+        "d": "Uluslararasi Telekomünikasyon Örgütü"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 7,
+      "govde": "CEPT' in açilimi nedir?",
+      "siklar": {
+        "a": "Telekomünikasyon Birlii",
+        "b": "Posta Telekomünikasyon Birlii",
+        "c": "Avrupa Posta ve Telekomünikasyon dareleri Birlii",
+        "d": "Posta dareleri Birlii"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 8,
+      "govde": "Amatör Radyo Planinda aaidakilerden hangisi bulunmaz?",
+      "siklar": {
+        "a": "Dalga boyu",
+        "b": "Verici çiki gücü",
+        "c": "Frekans bandi",
+        "d": "Çari iareti"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 9,
+      "govde": "5809 sayili Elektronik Haberleme Kanunun 43. maddesi gerei Amatör Telsizcilik Sinavini yapma ve belge verme ilemleri hangi kurulua devredilmitir?",
+      "siklar": {
+        "a": "Bilgi Teknolojileri ve letiim Kurumu",
+        "b": "Posta ve Telgraf daresi",
+        "c": "Kiyi Emniyeti Genel Müdürlüü",
+        "d": "Türkiye Radyo ve Televizyon Kurumu"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 10,
+      "govde": "Hiçbir maddi, kiisel veya siyasi çikar gözetmeden, sadece kendi istek ve çabasi ile telsiz iletiim teknikleri alaninda, kendini yetitirmek amaciyla ulusal ve uluslararasi amatör telsizcilik faaliyetinde bulunmak isteyenlere ne denir?",
+      "siklar": {
+        "a": "Afet ve Acil Durum Operatörü",
+        "b": "Amatör Telsizci",
+        "c": "Geçici Amatör Telsizci",
+        "d": "Sorumlu Operatör"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 11,
+      "govde": "Türkiye ile mütekabiliyet anlamasi bulunan ülkelerden alinmi amatör telsizcilik belgesine sahip olup, Türkiye'de üç aydan fazla faaliyette bulunmak isteyen amatör telsizcilere en çok bir yila kadar verilen belgeye ne ad verilir?",
+      "siklar": {
+        "a": "Oturma Belgesi",
+        "b": "SWL Belgesi",
+        "c": "Amatör Telsizcilik Belgesi",
+        "d": "Geçici Amatör Telsizcilik Belgesi"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 12,
+      "govde": "Amatör telsizcilik haberlemesinde izin verilen çiki gücü, emisyon, band genilii ve frekanslari gösteren plana ne ad verilir?",
+      "siklar": {
+        "a": "HF Telefon Frekans Plani",
+        "b": "Amatör Radyo Band Plani",
+        "c": "VHF Frekans Band Plani",
+        "d": "HF Teleks Frekans Plani"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 13,
+      "govde": "Amatör telsiz haberlemesi kayitlarinin tutulmasi amaciyla kullanilan deftere ne denir?",
+      "siklar": {
+        "a": "Haberleme defteri",
+        "b": "Haberleme kayit defteri",
+        "c": "Nöbet defteri",
+        "d": "Hiçbiri"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 14,
+      "govde": "Yürürlükteki yönetmelie göre sorumlu operatör kimdir?",
+      "siklar": {
+        "a": "Organizasyonlar tarafindan kurulan istasyonlardan sorumlu, C sinifi belgeye sahip amatör telsizci",
+        "b": "Organizasyonlar tarafindan kurulan istasyonlardan sorumlu, B sinifi belgeye sahip amatör telsizci",
+        "c": "Organizasyonlar tarafindan kurulan istasyonlardan sorumlu, A sinifi belgeye sahip amatör telsizci",
+        "d": "Hiçbiri"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 15,
+      "govde": "Aralarinda fiziki balanti olmaksizin, elektromanyetik dalgalar yoluyla, açik, kodlu veya kriptolu ses ve veri almaya, vermeye veya yalnizca almaya ya da vermeye yarayan sistemlere ne denir?",
+      "siklar": {
+        "a": "Telli Sistem",
+        "b": "Telsiz Sistem",
+        "c": "Teleks Sistem",
+        "d": "Telgraf Sistem"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 16,
+      "govde": "Yürürlükteki yönetmelie göre, A sinifi amatör telsizcilik belgesine sahip sorumlu operatörü bulunmak kaydiyla amatör telsiz istasyonu kuracak olan amatör telsiz dernekleri, eitim ve öretim kurumlari, afet ve acil durum haberlemesinde görev alan kurulular, izcilik kurululari, aratirma kurumlari ve benzerlerine ne ad verilir?",
+      "siklar": {
+        "a": "Sorumlu Operatör",
+        "b": "Amatör Telsizci",
+        "c": "Amatör Telsiz stasyonu",
+        "d": "Organizasyon"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 17,
+      "govde": "Yürürlükteki yönetmelie göre, Amatör Telsizcilere verilen çari iareti kaç bölümden oluur?",
+      "siklar": {
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 18,
+      "govde": "Yürürlükteki yönetmelie göre, Amatör Telsizcilerin çari iaretinde kullanilan bölge bölge sayisi kaçtir?",
+      "siklar": {
+        "a": "7",
+        "b": "8",
+        "c": "10",
+        "d": "12"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 19,
+      "govde": "Yürürlükteki yönetmelie göre, Amatör Telsiz Dernekleri için verilen çari iaretinde son ekin ilk harfine hangi harf verilir?",
+      "siklar": {
+        "a": "K",
+        "b": "X",
+        "c": "E",
+        "d": "S"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 20,
+      "govde": "Yürürlükteki yönetmelie göre, Amatör Telsizcilere verilen çari iaretlerinde son ekin ilk harfinde hangi harf kullanilmaz?",
+      "siklar": {
+        "a": "Q",
+        "b": "Z",
+        "c": "E",
+        "d": "X"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 21,
+      "govde": "Yürürlükteki yönetmelie göre, ikamet adresi deien amatör telsizciler ile organizasyonlar yeni adreslerini kaç ay içinde Kiyi Emniyeti Genel Müdürlüüne bildirmek zorundadir?",
+      "siklar": {
+        "a": "1 ay",
+        "b": "2 ay",
+        "c": "3 ay",
+        "d": "4 ay"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 22,
+      "govde": "Yürürlükteki yönetmelie göre, Afet ve Acil durum haberlemesinde görev alan kurululara verilen çari iaretinin son ekin ilk harfi aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "K",
+        "b": "X",
+        "c": "E",
+        "d": "S"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 23,
+      "govde": "Yürürlükteki yönetmelie göre, Amatör Telsizcilik Belgesinin yenilenmemesi, organizasyonun feshi, tasfiyesi veya yetkilisinin müracaati üzerine iptal edilmesi, bölge deiiklii gibi durumlarda çari iareti kaç yil süre ile tahsis edilemez?",
+      "siklar": {
+        "a": "5 yil",
+        "b": "10 yil",
+        "c": "15 yil",
+        "d": "20 yil"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 24,
+      "govde": "Yürürlükteki yönetmelie göre, Amatör Telsizcilerin özel etkinliklerinde kullanilmak üzere çari iareti kaç gün tahsis edilir?",
+      "siklar": {
+        "a": "20 gün",
+        "b": "30 gün",
+        "c": "40 gün",
+        "d": "60 gün"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 25,
+      "govde": "Yürürlükteki yönetmelie göre, Amatör Telsizcilik Sinavina girme yai kaçtir?",
+      "siklar": {
+        "a": "7 ya",
+        "b": "12 ya",
+        "c": "16 ya",
+        "d": "18 ya"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 26,
+      "govde": "Yürürlükteki yönetmelie göre, Lisans düzeyinde hangi bölüm de okuyan adaylar teknik konulardan sinava tabi olurlar?",
+      "siklar": {
+        "a": "Fizik",
+        "b": "Elektrik",
+        "c": "Haberleme",
+        "d": "Kimya"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 27,
+      "govde": "Amatör Telsiz stasyonunun frekansini, gücünü ve emisyonunu gösteren ulusal yönetmelik hangisidir?",
+      "siklar": {
+        "a": "Özel Telsiz Sistemleri Yönetmelii",
+        "b": "Amatör Telsiz Yönetmelii",
+        "c": "2813 sayili Telsiz Kanunu",
+        "d": "Spektrum Yönetimi Yönetmelii"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 28,
+      "govde": "Yürürlükteki yönetmelie göre, Amatör Telsizcilik Belgesi kimlere verilmez?",
+      "siklar": {
+        "a": "Sinavda baarili olan T.C. vatandalarina",
+        "b": "Mütekabiliyet anlamasi olan ülkelerden Amatör Telsizcilik Belgesi olan T.C. vatandalarina",
+        "c": "Mütekabiliyet anlamasi olan ülkelerden Amatör Telsizcilik Belgesi olan yabancilara",
+        "d": "Kamu hizmetinden yasaklananlara"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 29,
+      "govde": "Yürürlükteki yönetmelie göre, Amatör Telsizcilik Belgesi almaya hak kazananlardan belge düzenlemesi sirasinda aaidakilerden hangisi istenmez?",
+      "siklar": {
+        "a": "Fotoraf",
+        "b": "T.C. kimlik numarasi beyani",
+        "c": "Sabika kaydi olmadiina dair beyan",
+        "d": "Oturma belgesi"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 30,
+      "govde": "Yürürlükteki yönetmelie göre, yönetmeliin yayimi tarihinden önce alinmi ve geçerlilik süresi dolduu halde yenilenmeyen amatör telsizcilik belgelerinin, yönetmeliin yayimi tarihinden itibaren kaç ay içinde yenilenmesi zorunludur?",
+      "siklar": {
+        "a": "3 ay",
+        "b": "6 ay",
+        "c": "9 ay",
+        "d": "12 ay"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 31,
+      "govde": "Yürürlükteki yönetmelie göre, yabancilara geçici olarak tahsis edilen çari iaretinin süresi ne kadardir?",
+      "siklar": {
+        "a": "3 ay",
+        "b": "6 ay",
+        "c": "Oturma belge süresi kadar",
+        "d": "9 ay"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 32,
+      "govde": "Yürürlükteki yönetmelie göre, Amatör Telsizcilik Belgesinin süresinin dolmasi halinde yenilenmesi sirasinda T.C. vatandalarindan hangi belge istenmez?",
+      "siklar": {
+        "a": "Süresi dolan belgenin asli",
+        "b": "Fotoraf",
+        "c": "Yenileme ücretinin ödendiine dair belge asli",
+        "d": "Oturma belgesi"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 33,
+      "govde": "Yürürlükteki yönetmelie göre, SWL belgesinin süresi ne kadardir?",
+      "siklar": {
+        "a": "3 yil",
+        "b": "5 yil",
+        "c": "10 yil",
+        "d": "Süresiz"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 34,
+      "govde": "Yürürlükteki yönetmelie göre, Amatör Telsizcilik Haberlemesinde aaidakilerden hangisi yasaklanan uygulamalardan deildir?",
+      "siklar": {
+        "a": "Amatör Telsiz stasyonunun herhangi bir maddi çikar, vaat veya bir bedel karilii kullanilmasi",
+        "b": "Amatörlere ayrilan frekans bandlarinda radyo ve televizyon yayinlarinin yapilmasi",
+        "c": "Üçüncü ahis mesajlarin para, ücret, veya maddi çikar kariliinda aktarilmasi",
+        "d": "letme kurallarina uyulmasi"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 35,
+      "govde": "Yürürlükteki yönetmelie göre, Türkiye'de 3 aydan fazla geçici amatör telsizcilik faaliyetinde bulunacak olan yabancilardan belge düzenlemesi sirasinda aaidakilerden hangisi istenmez?",
+      "siklar": {
+        "a": "Vekâletname",
+        "b": "Oturma belgesi",
+        "c": "Pasaport fotokopisi",
+        "d": "Fotoraf"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 36,
+      "govde": "Yürürlükteki yönetmelie göre, C sinifi için oluturulan 50 sorudan en az kaç puan alanlar C sinifi Amatör Telsizcilik Belgesi almaya hak kazanir?",
+      "siklar": {
+        "a": "50 puan",
+        "b": "60 puan",
+        "c": "55 puan",
+        "d": "80 puan"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 37,
+      "govde": "Türkiye, ITU' ya göre hangi bölge içinde yer almaktadir?",
+      "siklar": {
+        "a": "21",
+        "b": "20",
+        "c": "3",
+        "d": "1"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 38,
+      "govde": "Yürürlükteki yönetmelie göre, Amatör Telsizcilik sinavlari yilda en az kaç kez yapilir?",
+      "siklar": {
+        "a": "1 kez",
+        "b": "2 kez",
+        "c": "3 kez",
+        "d": "4 kez"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 39,
+      "govde": "Yürürlükteki yönetmelie göre, Amatör Telsizcilik Belgesi kaç yilda bir yenilenir?",
+      "siklar": {
+        "a": "5 yil",
+        "b": "10 yil",
+        "c": "3 yil",
+        "d": "Süresiz"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 40,
+      "govde": "Yürürlükteki yönetmelie göre, aaidakilerden hangileri Amatör Telsizci olamazlar?",
+      "siklar": {
+        "a": "Devlet memurlari",
+        "b": "Silahli Kuvvetler personeli",
+        "c": "12 yaindan küçük ve kamu hizmetlerinden yasakli olanlar",
+        "d": "Telsiz ithalatçi ve imalatçi firma sahipleri"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 41,
+      "govde": "Yasa ve yönetmeliklere uygun olarak salanan her türlü haberleme hizmetini engelleyen, haberlemede kesinti douran veya kalitelerini bozan her türlü yayin veya elektromanyetik etkiye ne denir?",
+      "siklar": {
+        "a": "Distorsiyon",
+        "b": "Emisyon",
+        "c": "Enterferans",
+        "d": "Vibrasyon"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 42,
+      "govde": "Amatör Telsizcilik sinavi, aaidaki konulardan hangisini kapsamaz?",
+      "siklar": {
+        "a": "Telsiz alici devreleri",
+        "b": "Q kodlarinin anlam ve kullanimlarini",
+        "c": "Telsiz telefon ücret hesaplamasi",
+        "d": "Telsiz iletme kurallari"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 43,
+      "govde": "Erzincan'da deprem afeti sirasinda kurulan bir istasyonda hangi çari iareti kullanilmaz?",
+      "siklar": {
+        "a": "TA9EQ",
+        "b": "TA7EQ",
+        "c": "TA7KA",
+        "d": "YM7EQ"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 44,
+      "govde": "Geçici olarak Almanya'dan ülkemize gelen ve Antalya'da telsiz haberlemesi yapmak isteyen DL5YCQ çari iaretli A sinifi bir amatör telsizci, haberlemesinde hangi çari iaretini kullanir?",
+      "siklar": {
+        "a": "DL5YCQ / TA4",
+        "b": "TA4 / DL5YCQ",
+        "c": "TA4YCQ",
+        "d": "YM4 / DL5YCQ"
+      },
+      "cevap": "B",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 45,
+      "govde": "Amatör Telsizcilik Sinavlari hangi kurulu tarafindan yapilir?",
+      "siklar": {
+        "a": "Telekomünikasyon Kurumu",
+        "b": "TRT Genel Müdürlüü",
+        "c": "Kiyi Emniyeti Genel Müdürlüü",
+        "d": "Radyo Televizyon Yüksek Kurulu"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 46,
+      "govde": "ITU tarafindan Türkiye'ye tahsis edilmi ve amatör telsiz haberlemesinde kullanilan çari iareti ön ekleri aaidakilerden hangisidir?",
+      "siklar": {
+        "a": "TC - TR - YK",
+        "b": "TR - YL - TC",
+        "c": "YM - TA - TB - TC",
+        "d": "TU - YL - TR"
+      },
+      "cevap": "C",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 47,
+      "govde": "Bir Amatör Telsiz stasyonunda aaidaki faaliyetlerden hangisi yapilabilir?",
+      "siklar": {
+        "a": "Amatör Telsiz stasyonu vasitasiyla müzik yayini yapilmasi",
+        "b": "Radyo ve Televizyon yayinlarinin dorudan veya banttan yayinlanmasi",
+        "c": "Olaanüstü hallerde yanli veya yaniltici yayin yapilmasi",
+        "d": "Amatör Telsiz Haberlemesi"
+      },
+      "cevap": "D",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 48,
+      "govde": "Yürürlükteki yönetmelie göre, amatör telsizcilik sinavinda sinav görevlileri tarafindan kopya çektii tespit edilenlerin sinav kâitlari iptal edilir. Kopya çekenler ne zaman tekrar sinava girebilir?",
+      "siklar": {
+        "a": "1 sinav dönemi sonra",
+        "b": "2 sinav dönemi sonra",
+        "c": "3 sinav dönemi sonra",
+        "d": "1 yil sonra"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    },
+    {
+      "no": 49,
+      "govde": "AMPR aaidakilerden hangisini ifade eder?",
+      "siklar": {
+        "a": "Amatör Paket Radyo Sistemini",
+        "b": "Uluslararasi Telsiz Birliini",
+        "c": "Hizli Taramali Televizyon Sistemini",
+        "d": "Yava Taramali Televizyon Sistemini C- SINIFI ULUSAL VE ULUSLARARASI DÜZENLEMELER SORU"
+      },
+      "cevap": "A",
+      "elle_aktarilmali": false
+    }
+  ],
+  "elle_aktarilmali_sorular": []
+}
