@@ -65,6 +65,11 @@ SOL_ZEMIN = RGBColor(0xF7, 0xF9, 0xFB)
 SAG_ZEMIN = RGBColor(0xE2, 0xEF, 0xDA)
 UYARI_ZEMIN = RGBColor(0xFC, 0xE4, 0xD6)
 
+BOLUM_BASLIK_Y = 1005840
+BOLUM_BASLIK = (457200, 164592, 11277295, 731520)
+BOLUM_GOVDE = (640080, 1371600, 10911535, 4114800)
+BOLUM_KAYNAK = (640080, 5623560, 10911535, 914400)
+
 SLAYT_G, SLAYT_Y = 12191695, 6858000
 BASLIK_Y = 640080
 SOL = (457200, 960120, 5608179, 5394960)
@@ -244,6 +249,40 @@ def kapak(prs, baslik, altbaslik):
     return s
 
 
+def bolum_slaydi(prs, konu_adi, bolum):
+    """A-B setindeki 'BÖLÜM n' giris slaydinin ayni yapisi."""
+    s = prs.slides.add_slide(prs.slide_layouts[6])
+    kutu(s, 0, 0, SLAYT_G, BOLUM_BASLIK_Y, LACIVERT)
+
+    bb = yazi_kutusu(s, *BOLUM_BASLIK)
+    kos(bb.text_frame.paragraphs[0],
+        "BÖLÜM %d: %s" % (bolum["no"], bolum["baslik"]), 25, True, BEYAZ)
+
+    gb = yazi_kutusu(s, *BOLUM_GOVDE)
+    tf = gb.text_frame
+    tf.word_wrap = True
+    for i, madde in enumerate(bolum["maddeler"]):
+        para = tf.paragraphs[0] if i == 0 else tf.add_paragraph()
+        para.alignment = PP_ALIGN.LEFT
+        para.space_after = Pt(14)
+        kos(para, "•  " + madde, 17, False, KOYU)
+
+    kb = kutu(s, *BOLUM_KAYNAK, zemin=ACIK_MAVI)
+    tf2 = kb.text_frame
+    tf2.word_wrap = True
+    tf2.margin_left = tf2.margin_right = Emu(228600)
+    tf2.vertical_anchor = MSO_ANCHOR.MIDDLE
+    q = tf2.paragraphs[0]
+    q.alignment = PP_ALIGN.LEFT
+    kos(q, "Bu bölümün kaynağı: ", 13, True, LACIVERT)
+    kos(q, bolum["kaynak"], 13, False, KOYU)
+
+    alt = yazi_kutusu(s, *ALT_YAZI)
+    kos(alt.text_frame.paragraphs[0],
+        "%s — C Sınıfı — Bölüm %d Girişi" % (konu_adi, bolum["no"]), 10, False, GRI)
+    return s
+
+
 def soru_slaydi(prs, konu_adi, kayit):
     s = prs.slides.add_slide(prs.slide_layouts[6])
     kutu(s, 0, 0, SLAYT_G, BASLIK_Y, LACIVERT)
@@ -346,14 +385,18 @@ def main():
         toplam_eksik += [(konu,) + e for e in eksik]
         prs = bos_sunum(KOK / ab_pptx)
         kapak(prs, konu_adi, "Amatör Telsizcilik Sınav Hazırlık Seti — C Sınıfı (%d Soru)" % len(slaytlar))
+        bolumler = json.loads((ICERIK / "C_bolumler.json").read_text(encoding="utf-8"))[konu]
+        girisler = dict((b["ilk_soru"], b) for b in bolumler)
         sekilli = 0
         for kayit in slaytlar:
+            if kayit["no"] in girisler:
+                bolum_slaydi(prs, konu_adi, girisler[kayit["no"]])
             soru_slaydi(prs, konu_adi, kayit)
             sekilli += 1 if kayit.get("sekil") else 0
         hedef = KOK / ("Amator_Telsizcilik_C_%s_Sinav_Hazirlik_%s.pptx" % (konu, SURUM))
         prs.save(str(hedef))
-        print("%-14s %3d soru + kapak = %3d slayt, %2d sekil  ->  %s"
-              % (konu, len(slaytlar), len(prs.slides.__iter__.__self__._sldIdLst), sekilli, hedef.name))
+        print("%-14s %3d soru + %d bolum + kapak = %3d slayt, %2d sekil  ->  %s"
+              % (konu, len(slaytlar), len(bolumler), len(prs.slides._sldIdLst), sekilli, hedef.name))
     if toplam_eksik:
         print("\nEKSIK/UYUMSUZ (%d):" % len(toplam_eksik))
         for e in toplam_eksik:

@@ -307,12 +307,16 @@ Ortak sorularda A-B slaydındaki `DİKKAT` kutusu da taşındı. Böylece C seti
 faz 5'te düzeltme önerisine yazılırken hangi bulgunun hangi sette göründüğü ayrıca
 belirtilecek.
 
-### Bilinçli eksik — bölüm giriş slaytları
+### Bölüm giriş slaytları — yazıldı
 
-A-B sunumlarında her ~10 soruda bir "BÖLÜM n: …" giriş slaydı var ve konuya kısa bir
-metinle giriyor. C sunumlarında bunlar **yok**; sunum kapak + soru slaytlarından oluşuyor.
-Setin ayırt edici özelliği (soru + açıklama + kaynak) eksiksiz, ancak A-B ile tam eşitlik
-için ~27 bölüm girişi yazılması gerekiyor. Yayımlamadan önce karar verilmeli.
+A-B'deki gibi her bölüm bir giriş slaydıyla açılıyor: lacivert başlık şeridi, 3-4 madde ve
+altta açık mavi kutuda "Bu bölümün kaynağı". Metinler `icerik/C_bolumler.json` dosyasında;
+`ilk_soru` alanı girişin hangi sorudan önce geleceğini söyler.
+
+**25 bölüm:** Düzenlemeler 5, İşletme 8, Teknik 12. Bölümleme, soruların banka sırasındaki
+konu etiketlerine göre yapıldı; her bölüm 7-15 soru kapsıyor.
+
+Bölümlerle birlikte sunumlar: Düzenlemeler 55 slayt, İşletme 91, Teknik 153.
 
 ## Yol üstünde düzeltilecekler
 

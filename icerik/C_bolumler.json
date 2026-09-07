@@ -1,0 +1,292 @@
+{
+  "_hakkinda": [
+    "C sinifi sunumlarindaki bolum giris slaytlari. A-B setinde her ~10 soruda bir",
+    "bolum girisi var; C sunumlari da ayni yapiyi izler.",
+    "'ilk_soru' bolumun hangi sorudan once girecegini soyler.",
+    "Bolumleme, sorularin banka sirasindaki konu etiketlerine gore yapildi."
+  ],
+
+  "Duzenlemeler": [
+    {
+      "no": 1, "ilk_soru": 1,
+      "baslik": "Uluslararası Kuruluşlar ve CEPT Çerçevesi",
+      "maddeler": [
+        "Amatör telsizcilik dünya çapında ortak kurallarla yürütülür: ITU (Uluslararası Telekomünikasyon Birliği), Birleşmiş Milletler'e bağlı olarak frekans ve çağrı işareti düzenini belirler.",
+        "Avrupa ülkeleri CEPT (Avrupa Posta ve Telekomünikasyon İdareleri Birliği) çatısı altında ek anlaşmalar yapar; T/R 61-01 amatörlerin başka ülkelerde geçici çalışmasını, T/R 61-02 ise uyumlaştırılmış sınav belgesini (HAREC) düzenler.",
+        "CEPT'te üç sınav seviyesi vardır: en üstte HAREC, ortada çıraklık (novice) sınıfı — ERC Report 32 — ve en altta giriş sınıfı — ECC Report 89. C sınıfı bu ailenin alt basamaklarına karşılık gelir.",
+        "Amatörler kendi aralarında IARU (Uluslararası Amatör Telsizciler Birliği) çatısı altında örgütlenir; IARU bant planlarını önerir, ancak yasal düzenlemeyi devletler yapar."
+      ],
+      "kaynak": "CEPT T/R 61-01, T/R 61-02, ERC Report 32, ECC Report 89; ITU Radyo Tüzüğü Madde 25."
+    },
+    {
+      "no": 2, "ilk_soru": 10,
+      "baslik": "Temel Tanımlar",
+      "maddeler": [
+        "Yönetmeliğin 4 üncü maddesi, sınavda doğrudan sorulan tanımları verir: amatör telsizci, amatör telsiz istasyonu, çağrı işareti, belge sınıfları ve yetkili idare.",
+        "Amatör telsizciliğin yasal tanımı 5809 sayılı Kanun'un 43 üncü maddesindedir: hiçbir maddî, kişisel veya siyasî çıkar gözetmeden, kendini yetiştirmek amacıyla yürütülen faaliyet.",
+        "Bu tanım yalnızca sözlük bilgisi değildir; yayıncılık yasağı, ticari kullanım yasağı ve üçüncü şahıs haberleşmesinin sınırları hep bu tanımdan türer.",
+        "Tanım sorularında şıklar birbirine çok benzer; ayırt edici sözcüğe (\"yalnızca\", \"en az\", \"zorunlu\") dikkat edilmelidir."
+      ],
+      "kaynak": "KEGM Sınav ve Belgelendirme Yönetmeliği (RG 27482), Madde 4; 5809 sayılı Elektronik Haberleşme Kanunu, Madde 43."
+    },
+    {
+      "no": 3, "ilk_soru": 17,
+      "baslik": "Çağrı İşareti Yapısı",
+      "maddeler": [
+        "Çağrı işareti üç bölümden oluşur: ülkeyi gösteren ön ek, bölge numarası ve istasyonu ayıran son ek. Türkiye'ye ITU tarafından TA-TC serileri tahsis edilmiştir.",
+        "Bölge numaraları 1'den 9'a kadar il gruplarını, 0 ise tüm adaları gösterir; bunların listesi Yönetmeliğin Ek-1'indedir.",
+        "Çağrı işareti istasyonun resmî kimliğidir: tanımlama ad-soyadla değil, çağrı işaretiyle yapılır.",
+        "Bölge dışına çıkan amatör, çağrı işaretine bulunduğu bölgeyi ekleyerek çalışır; bu ek, dinleyenin istasyonun nerede olduğunu anlamasını sağlar."
+      ],
+      "kaynak": "KEGM Sınav ve Belgelendirme Yönetmeliği (RG 27482), çağrı işareti hükümleri ve Ek-1; ITU Radyo Tüzüğü Ek 42."
+    },
+    {
+      "no": 4, "ilk_soru": 24,
+      "baslik": "Sınav Şartları, Belge Süreçleri ve Geçiş Hükümleri",
+      "maddeler": [
+        "Sınav çoktan seçmeli elli sorudan oluşur ve tek oturumda yapılır; C sınıfı için geçme barajı 60 puandır.",
+        "Haberleşme, elektrik, elektronik ve fizik dallarından birinde en az lisans düzeyinde öğrenim görenler teknik konulardan sınava tabi tutulmaz; bu muafiyet listesi tahdididir.",
+        "Belge alma, yenileme ve yabancılara geçici tahsis süreçlerinin her biri ayrı maddelerde düzenlenmiştir; süreler ve merciler karıştırılmamalıdır.",
+        "Geçici maddelere dayanan sorular dikkat ister: bu hükümlerin bir kısmı sonradan değiştirilmiş, öngördükleri tarihler geçmiş ve uygulama alanı kalmamıştır."
+      ],
+      "kaynak": "KEGM Sınav ve Belgelendirme Yönetmeliği (RG 27482), Madde 16 ve Geçici Madde 1-3 (20/2/2011 tarihli ve 27852 sayılı RG ile değişik)."
+    },
+    {
+      "no": 5, "ilk_soru": 37,
+      "baslik": "Yetki, Yasaklar ve Pratik Senaryolar",
+      "maddeler": [
+        "Amatör telsizcilik sınavını yapma ve belge verme yetkisi Kıyı Emniyeti Genel Müdürlüğü'ndedir; BTK frekans ve spektrum düzenlemesinden sorumludur, sınavdan değil.",
+        "Amatör istasyondan yapılamayacak işler nettir: yayıncılık, ticarî mesaj taşıma, şifreli veya yanıltıcı yayın, müstehcen dil.",
+        "Bu bölümdeki sorular çoğunlukla bir durum anlatıp \"ne yapılır\" diye sorar; cevap hemen her zaman yönetmeliğin genel ilkesine geri gider.",
+        "Şıklarda yer alan yabancı kurum adları (FCC, FAA gibi) soruların bir bölümünün çeviri olduğunu gösterir; Türkiye'de karşılıkları farklıdır."
+      ],
+      "kaynak": "5809 sayılı Kanun, Madde 43; KEGM Sınav ve Belgelendirme Yönetmeliği (RG 27482), Madde 11 ve 13; ITU Radyo Tüzüğü Madde 25."
+    }
+  ],
+
+  "Isletme": [
+    {
+      "no": 1, "ilk_soru": 1,
+      "baslik": "Q-Kodları, Kısaltmalar ve Fonetik Alfabe",
+      "maddeler": [
+        "Q-kodları, dil farkını aşmak için üretilmiş üç harfli kısaltmalardır: soru biçiminde de yanıt biçiminde de kullanılır (QRM? / QRM).",
+        "Sık karışan çiftler ayrı ayrı öğrenilmelidir: QRM başka istasyondan gelen karışma, QRN doğal gürültü; QRQ daha hızlı, QRS daha yavaş göndermeyi ister.",
+        "Uluslararası fonetik alfabenin kelimeleri sabittir; aynı harfle başlayan başka bir kelimeyle değiştirilemez, çünkü amaç kelimenin bozuk kanalda bütün olarak tanınmasıdır.",
+        "Türkiye'de ayrıca millî (Türkçe il adlarına dayanan) fonetik alfabe kullanılır; sorularda hangi alfabenin istendiğine dikkat edilmelidir."
+      ],
+      "kaynak": "ITU Radyo Tüzüğü Ek 14 — Q kodları, fonetik alfabe; millî fonetik alfabe."
+    },
+    {
+      "no": 2, "ilk_soru": 14,
+      "baslik": "Raporlama, Zaman Hesabı ve Çağrı Bölgeleri",
+      "maddeler": [
+        "RST raporunda R (okunabilirlik) 1-5, S (sinyal şiddeti) ve T (ton) 1-9 arasında derecelendirilir; yalnızca R'nin tavanı 5'tir.",
+        "Amatör haberleşmede saat UTC ile verilir; böylece farklı zaman dilimlerindeki istasyonlar aynı anı kasteder.",
+        "Boylam-saat hesabında her 15 derece 1 saate karşılık gelir; doğuya gidildikçe saat ilerler, batıya gidildikçe geri kalır.",
+        "Çağrı işaretindeki bölge numarası istasyonun hangi il grubunda olduğunu söyler; bu bölgeler Yönetmeliğin Ek-1'inde listelenmiştir."
+      ],
+      "kaynak": "RST raporlama sistemi; UTC zaman ölçeği; KEGM Sınav ve Belgelendirme Yönetmeliği Ek-1."
+    },
+    {
+      "no": 3, "ilk_soru": 25,
+      "baslik": "Ülke Ön Ekleri ve Çağrı Bölgeleri",
+      "maddeler": [
+        "ITU, çağrı işareti serilerini ülkelere blok blok tahsis eder; ön ek tek harfe göre değil, iki karakterlik seriye göre okunur.",
+        "Sınavda sık geçen seriler: Türkiye TA-TC, Kanada VE, Avustralya VK, İsveç SM, Finlandiya OH, İngiltere G ve M, Japonya JA-JS.",
+        "Benzer görünen seriler ayrı ülkelere aittir; VE ile VK ya da TA ile TL karıştırılmamalıdır.",
+        "Yurt içinde ise bölge numarası ile ilin eşleşmesi sorulur; adalar için ayrılan 0 numarası bu listede tek satırdır."
+      ],
+      "kaynak": "ITU Radyo Tüzüğü Ek 42 — çağrı işareti serilerinin ülkelere tahsisi; KEGM Yönetmeliği Ek-1."
+    },
+    {
+      "no": 4, "ilk_soru": 37,
+      "baslik": "Fonetik Alfabe Uygulamaları",
+      "maddeler": [
+        "Heceleme sorularında yanlış şıklar genellikle alfabede yeri olmayan uydurma kelimeler taşır (Egg, Piano, Rival gibi); doğru şıkta bütün kelimeler aynı listeden gelir.",
+        "İki alfabeyi karıştıran şıklara dikkat: \"Alpha - Lima - Trabzon\" gibi bir dizi, ne uluslararası ne millî alfabeye uyar.",
+        "Türkçe kelimeler hecelenirken Türkçeye özgü harflerin karşılığı sorulabilir; bu durumda hangi alfabenin istendiği soruda yazar.",
+        "Rakamların okunuşu da fonetik alfabenin parçasıdır ve harflerle aynı disiplinle kullanılır."
+      ],
+      "kaynak": "ITU Radyo Tüzüğü Ek 14 — fonetik alfabe ve rakamların okunuşu; millî fonetik alfabe."
+    },
+    {
+      "no": 5, "ilk_soru": 49,
+      "baslik": "Zaman, Emisyon ve Log Defteri",
+      "maddeler": [
+        "Emisyon tanımının ilk karakteri modülasyon türünü verir: A genlik, F frekans, G faz modülasyonu, J tek yan bant, K ise darbe modülasyonudur.",
+        "Her bant için izin verilen emisyon türleri Millî Frekans Planı'nın amatör arayüz belgesinde sayılmıştır; listede olmayan bir emisyon o bantta kullanılamaz.",
+        "Log defteri, yapılan haberleşmelerin kaydıdır: tarih, saat (UTC), frekans, mod, karşı istasyon ve rapor bilgilerini taşır.",
+        "Zaman hesabı soruları bu bölümde de sürer; yön (doğu/batı) belirlenmeden yapılan hesap kolayca ters çıkar."
+      ],
+      "kaynak": "ITU Radyo Tüzüğü Ek 1 — emisyonların sınıflandırılması; BTK Millî Frekans Planı, Amatör TAD08-01."
+    },
+    {
+      "no": 6, "ilk_soru": 59,
+      "baslik": "Q-Kodları II ve Amatör Bantlar",
+      "maddeler": [
+        "Q-kodlarının ikinci grubu işletme akışını yönetir: QSY frekans değiştirme, QRZ \"beni kim çağırıyor\", QRV \"hazır mısın\", QSL \"aldım / onaylıyorum\".",
+        "QSL aynı zamanda haberleşmenin onayı için gönderilen kartın adıdır; kart, çağrı işareti ve haberleşme bilgilerini taşır.",
+        "Amatör bantlar dalga boyuyla anılır: 144-146 MHz 2 metre, 50 MHz 6 metre, 28 MHz 10 metre. Bağıntı λ = 300 / f (MHz).",
+        "Bir aralığın amatör bandı olup olmadığı Millî Frekans Planı'ndaki amatör tahsis listesine bakılarak belirlenir."
+      ],
+      "kaynak": "ITU Radyo Tüzüğü Ek 14 — Q kodları; BTK Millî Frekans Planı, Amatör TAD08-01 frekans bandı listesi."
+    },
+    {
+      "no": 7, "ilk_soru": 68,
+      "baslik": "İşletme Kuralları ve İstasyon Tanımlama",
+      "maddeler": [
+        "Amatör istasyondan yapılamayacaklar sayılıdır: halka yayın, ticarî mesaj, şifreleme, yanlış veya yanıltıcı sinyal, müstehcen dil.",
+        "Bu yasakların ortak dayanağı amatör telsizciliğin tanımıdır: maddî, kişisel veya siyasî çıkar gözetmeden yürütülen kişisel yetişme faaliyeti.",
+        "Tanımlama çağrı işaretiyle yapılır ve haberleşme boyunca on dakikada bir, ayrıca haberleşmenin sonunda tekrarlanır.",
+        "Kişisel bilgilerin (ad, soyad, kimlik numarası) yayımlanması ne gerekli ne de doğrudur."
+      ],
+      "kaynak": "5809 sayılı Kanun, Madde 43; ITU Radyo Tüzüğü Madde 19 ve Madde 25."
+    },
+    {
+      "no": 8, "ilk_soru": 78,
+      "baslik": "Acil Durum Haberleşmesi",
+      "maddeler": [
+        "Trafik türleri sabit bir öncelik sırasına dizilidir: acil durum (tehlike), öncelik (ivedilik), sağlık ve sosyal yardım, en sonda rutin trafik.",
+        "Acil durum çağrısı duyulduğunda sürmekte olan görüşme derhal bırakılır ve frekans boşaltılır.",
+        "SOS (mors) ve MAYDAY (sesli) yalnızca insan yaşamına veya mala yönelik gerçek ve o an var olan bir tehdit hâlinde gönderilir; denizde olma şartı yoktur.",
+        "Acil durum mesajı, mesajı başlatan kişinin adını taşımalıdır; kaynağı belirsiz bir bildirim müdahale edenler için kullanılamaz."
+      ],
+      "kaynak": "ITU Radyo Tüzüğü Madde 53 (öncelik sırası) ve tehlike/emniyet haberleşmesi hükümleri (Madde 30-33)."
+    }
+  ],
+
+  "Teknik": [
+    {
+      "no": 1, "ilk_soru": 1,
+      "baslik": "Osilatör, Anten ve Temel Devre Hesapları",
+      "maddeler": [
+        "Kristal osilatörde frekansı belirleyen, kuvars kristalinin kendi titreşim frekansıdır; devrenin kazancı veya çıkış genliği frekansı belirlemez.",
+        "Anten boyu dalga boyundan türetilir: λ = 300 / f (MHz); çeyrek dalga anten bunun dörtte biridir.",
+        "Seri bağlamada dirençler toplanır; paralel bağlamada terslerin toplamı alınır ve sonuç en küçük dirençten de küçük çıkar.",
+        "Direnç renk kodunda ilk iki bant rakamları, üçüncü çarpanı, dördüncü toleransı verir."
+      ],
+      "kaynak": "Kuvars kristal rezonatör ilkesi; λ = 300/f bağıntısı; seri-paralel direnç bağıntıları; direnç renk kodu."
+    },
+    {
+      "no": 2, "ilk_soru": 12,
+      "baslik": "Transformatör, Güç Hesabı ve Filtreler",
+      "maddeler": [
+        "İdeal transformatörde gerilim oranı sarım oranına eşittir: Vp/Vs = Np/Ns. Sarımı çok olan taraf gerilimi yüksek olan taraftır.",
+        "Sarım başına düşen gerilim her sargıda aynıdır; ara uçlu transformatör soruları bu tek bilgiyle çözülür.",
+        "Güç üç biçimde yazılır: P = V × I = I² × R = V² / R. Akımın karesiyle orantılı olması, kablo kesiti ve sigorta seçiminin sebebidir.",
+        "Filtreler frekansa göre ayırır: alçak geçiren, yüksek geçiren, bant geçiren ve bant durduran."
+      ],
+      "kaynak": "Transformatör sarım-gerilim oranı; güç bağıntıları; filtre türleri."
+    },
+    {
+      "no": 3, "ilk_soru": 23,
+      "baslik": "Enterferans, Ölçüm ve İstasyon Donanımı",
+      "maddeler": [
+        "Enterferans her zaman vericinin kusuru değildir; komşu cihazın giriş katı ve kablolaması da kaynak olabilir.",
+        "Ölçü aletleri görevlerine göre bağlanır: ampermetre seri, voltmetre paralel. Ampermetrenin paralel bağlanması kısa devredir.",
+        "İstasyon zinciri sabittir: mikrofon ve verici gönderme tarafında, alıcı ve hoparlör alma tarafında, anten ikisinin ortak ucunda.",
+        "Paket data çalışmasında ses yoktur; mikrofon yerini modem/TNC alır."
+      ],
+      "kaynak": "Ölçü aletlerinin bağlanma biçimleri; amatör istasyon blok yapısı."
+    },
+    {
+      "no": 4, "ilk_soru": 34,
+      "baslik": "Birimler, Renk Kodu ve Modülasyon",
+      "maddeler": [
+        "SI ön ekleri şaşırtmamalı: mili 10⁻³, mikro 10⁻⁶, piko 10⁻¹². Daha küçük birime geçilirken sayı büyür.",
+        "Kapasitans faradla ölçülür ama pratikte µF, nF ve pF kullanılır; köprü bağıntısı 1 µF = 10⁶ pF.",
+        "Modülasyon, bilginin yüksek frekanslı taşıyıcıya bindirilmesidir; alıcıdaki ters işlem demodülasyondur.",
+        "Antenin polarizasyonunu ışıyan elemanın konumu belirler: elemanlar düşeyse yayın düşey polarizelidir."
+      ],
+      "kaynak": "SI ön ekleri; modülasyon ve demodülasyon tanımları; anten polarizasyonu."
+    },
+    {
+      "no": 5, "ilk_soru": 45,
+      "baslik": "Devre Hesapları II ve Alıcı-Verici Katları",
+      "maddeler": [
+        "İki bilinmeyenli direnç soruları seri toplamı ve paralel çarpım-bölüm bağıntısının birlikte kullanılmasıyla çözülür.",
+        "Paralel bağlı elemanların uçlarındaki gerilim ortaktır ve kaynak gerilimine eşittir; seri bağlamada ise gerilim bölünür.",
+        "Süperheterodin alıcıda gelen sinyal yerel osilatörle karıştırılır, sabit ara frekansa (IF) indirilir; kazancın ve seçiciliğin çoğu bu katta sağlanır.",
+        "SSB verici blok şemasında dengeli modülatör taşıyıcıyı bastırır, kenar bant filtresi istenmeyen yan bandı atar."
+      ],
+      "kaynak": "Seri-paralel devre bağıntıları; süperheterodin alıcı ve SSB verici blok yapısı."
+    },
+    {
+      "no": 6, "ilk_soru": 56,
+      "baslik": "Besleme Hattı, Yayılım ve Transformatör II",
+      "maddeler": [
+        "Amatör donanımında koaksiyel kablo standardı 50 ohmdur; uyumsuzluk duran dalga oranını (SWR) yükseltir.",
+        "SWR ölçümü verici ile anten arasında, sistem yüklüyken yapılır; yüksüz çıkışta ölçüm anlamsızdır ve vericiye zarar verebilir.",
+        "İyonosfer kısa dalga sinyallerini yeryüzüne geri kırar; uzak mesafe (DX) haberleşmesi bu yansımalarla yapılır.",
+        "Anten elektriksel olarak direnç, bobin ve kondansatörün birleşimi gibi davranır; transistör gibi etkin eleman içermez."
+      ],
+      "kaynak": "Koaksiyel hat empedans standardı; SWR ölçüm düzeneği; iyonosferik yayılım; antenin eşdeğer devresi."
+    },
+    {
+      "no": 7, "ilk_soru": 67,
+      "baslik": "Devre Hesapları III ve Emisyon Tipleri",
+      "maddeler": [
+        "Karışık direnç ağları içten dışa sadeleştirilir: önce seriler toplanır, sonra paraleller alınır.",
+        "Köprü (Wheatstone) devrelerinde basit sadeleştirme geçmez; denge koşulu sağlanmıyorsa üçgen-yıldız dönüşümü gerekir.",
+        "Emisyon tanımının ilk karakteri modülasyon türünü verir: A genlik, F frekans, G faz, J tek yan bant.",
+        "Kondansatörler paralel bağlandığında kapasiteler toplanır — bu, dirençlerin davranışının tersidir."
+      ],
+      "kaynak": "Seri-paralel sadeleştirme; Wheatstone köprüsü ve üçgen-yıldız dönüşümü; ITU Radyo Tüzüğü Ek 1."
+    },
+    {
+      "no": 8, "ilk_soru": 78,
+      "baslik": "Modülasyon, Yarı İletkenler ve Dalga Yayılımı",
+      "maddeler": [
+        "Modülatör verici tarafında bulunur; SWR, IF, AF gibi kısaltmalar sınavda doğrudan sorulur.",
+        "Yarı iletken sembolleri ayırt edici işaretlerinden tanınır: zenerde katot çubuğunun uçları kıvrık, varikapta kondansatör plakası, tristörde üçüncü uç (kapı) vardır.",
+        "Bipolar transistörde emiter okunun yönü türü belirler: ok tabana doğruysa PNP, dışarıysa NPN.",
+        "Elektromanyetik dalgalar boşlukta ışık hızıyla ilerler; hız frekanstan bağımsızdır, c = f × λ."
+      ],
+      "kaynak": "Yarı iletken sembolleri; bipolar transistör okunun yönü; c = f × λ bağıntısı."
+    },
+    {
+      "no": 9, "ilk_soru": 89,
+      "baslik": "Ölçü Aletleri, Devre Çözümleme ve Alıcı Blokları",
+      "maddeler": [
+        "AM'de modülasyon derinliği m = (Vmax − Vmin) / (Vmax + Vmin) ile bulunur; %100'ün aşılması kırpılmaya ve komşu kanala karışmaya yol açar.",
+        "PLL (faz kilitlemeli çevrim) frekans sentezlemede kullanılır; modern telsizlerde kanal üretimi bu yolla yapılır.",
+        "FM alıcıyı AM alıcıdan ayıran kat limitör-diskriminatör ikilisidir: limitör genlik değişimlerini kırpar, diskriminatör frekans değişimini sese çevirir.",
+        "Ampermetre şöntü, ölçme sınırını genişletmek için ölçü aletine paralel bağlanan düşük dirençtir."
+      ],
+      "kaynak": "AM modülasyon derinliği; PLL frekans sentezi; süperheterodin FM alıcı blok yapısı."
+    },
+    {
+      "no": 10, "ilk_soru": 100,
+      "baslik": "Yükselteç Sınıfları, Ohm Kanunu ve Birimler",
+      "maddeler": [
+        "Yükselteç sınıfı iletim açısıyla tanımlanır: C sınıfı verimi yüksektir ve verici çıkış katlarında kullanılır, ama doğrusal değildir; SSB gibi genliği değişen yayınlarda AB sınıfı gerekir.",
+        "Ohm Kanunu üç biçimde yazılır ve sınavın en çok soru üreten bağıntısıdır: V = I × R, I = V / R, R = V / I.",
+        "Birimler karıştırılmamalı: hertz frekansın, amper akımın, volt gerilimin, ohm direncin, watt gücün birimidir.",
+        "Suni yük (dummy load), vericiyi normal yükünde çalıştırırken enerjiyi ısıya çevirir ve havaya sinyal çıkmasını önler."
+      ],
+      "kaynak": "Yükselteç sınıfları ve iletim açısı; Ohm Kanunu; SI birimleri; suni yük kullanımı."
+    },
+    {
+      "no": 11, "ilk_soru": 112,
+      "baslik": "İletkenlik, Temel Kavramlar ve Güç Kaynağı",
+      "maddeler": [
+        "İletken ile yalıtkanın farkı serbest elektrondur: bakır ve alüminyum iletir, cam ve plastik iletmez. Kuru tahta yalıtkandır ama ıslanınca iletken hâle gelebilir.",
+        "Üç temel büyüklük birbirinden türer: voltaj elektronları harekete geçiren kuvvet, akım bu hareketin kendisi, direnç ise harekete gösterilen karşı koymadır.",
+        "Doğru akım (DC) yönünü değiştirmez; alternatif akım (AC) düzenli olarak değiştirir. Türkiye'de şebeke frekansı 50 Hz'dir.",
+        "Şebeke yokken 12 V batarya, aracın aküsüne bağlanıp motor çalıştırılarak şarj edilebilir; acil durum çalışmalarında sık başvurulan yöntemdir."
+      ],
+      "kaynak": "İletken-yalıtkan ayrımı; Ohm Kanunu büyüklükleri; Türkiye şebeke standardı (230 V / 50 Hz)."
+    },
+    {
+      "no": 12, "ilk_soru": 126,
+      "baslik": "Anten Pratiği, Yayılım ve Güvenlik",
+      "maddeler": [
+        "Antenlerde paslanmaz çelik iletkenliği için değil korozyona dayanıklılığı için kullanılır; ışıyan elemanlar genellikle alüminyumdandır.",
+        "Havaalanı çevresinde direk yüksekliği sınırlıdır; anten dikilmeden önce bu sınıra uyulup uyulmadığı incelenmelidir.",
+        "Sigorta cihazı ve kabloyu korur; değerinin üstünde sigorta takmak korumayı devre dışı bırakır ve yangına yol açabilir.",
+        "Yıldırım fırtınasında anten kablosu cihazdan ayrılıp uzaklaştırılır, şebeke bağlantısı kesilir ve donanımdan uzak durulur; öncelik can güvenliğidir."
+      ],
+      "kaynak": "Anten malzemeleri ve korozyon; havaalanı çevresi yükseklik sınırlamaları; sigorta koruma işlevi; yıldırımdan korunma."
+    }
+  ]
+}
