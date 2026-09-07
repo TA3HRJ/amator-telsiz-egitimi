@@ -1,9 +1,9 @@
 # Amatör Telsizcilik — Sınav Hazırlık Seti
 
-**Sürüm 1.1 · 7 Ağustos 2026**
+**A/B Sınıfı v1.1 · C Sınıfı v1.0 · 7 Eylül 2026**
 
 Türkiye'de Amatör Telsizcilik Belgesi (A/B/C sınıfı) sınavına hazırlananlar için, KEGM'nin resmî
-soru bankalarına dayanan, **soru + açıklama + kaynak** formatında üç sunum seti.
+soru bankalarına dayanan, **soru + açıklama + kaynak** formatında altı sunum seti (A/B sınıfı üç, C sınıfı üç).
 
 Mevcut hazır soru bankalarının çoğu yalnızca "doğru şık" işaretler; gerekçe veya kaynak göstermez.
 Bu set, her sorunun **neden** doğru olduğunu, ilgili yönetmelik maddesine veya fiziksel/teknik
@@ -25,8 +25,23 @@ doğrudan tarayıcıda (Chrome/Safari) açın.
 | **A/B Sınıfı — İşletme (v1.1)** | 151 soru — Q-kodları, fonetik alfabe, mors, çağrı işareti kuralları, işletme adabı |
 | **A/B Sınıfı — Teknik (v1.1)** | 172 soru — devre analizi, anten, propagasyon, temel elektrik/elektronik formülleri |
 | **A/B Sınıfı — Tüm Konular (PDF, v1.1)** | Yukarıdaki üç sunumun tamamı tek PDF'te (429 sayfa) — PowerPoint gerektirmeden görüntüleme/yazdırma için |
+| **C Sınıfı — Ulusal ve Uluslararası Düzenlemeler (v1.0)** | 49 soru — KEGM Sınav ve Belgelendirme Yönetmeliği (RG 27482), CEPT/ITU |
+| **C Sınıfı — İşletme (v1.0)** | 82 soru — Q-kodları, fonetik alfabe, çağrı işareti bölgeleri, acil durum haberleşmesi |
+| **C Sınıfı — Teknik (v1.0)** | 140 soru — devre hesabı, anten, yayılım, temel elektrik/elektronik; çizime bağlı sorularda şekil slaytta |
+| **C Sınıfı — Tüm Konular (PDF, v1.0)** | Üç C sunumunun tamamı tek PDF'te (299 sayfa) |
 | **Soru_Bankalari/** | Orijinal KEGM soru bankaları (cevap anahtarsız) — pratik sınav olarak kullanılabilir |
-| **Soru Bankası Düzeltme Önerisi (v1.1)** | KEGM Telsiz İşletme Müdürlüğü'ne sunulmak üzere hazırlanmış, 9 bulgu içeren düzeltme önerisi (bkz. aşağıda) |
+| **Soru Bankası Düzeltme Önerisi (v1.2)** | KEGM Telsiz İşletme Müdürlüğü'ne sunulmak üzere hazırlanmış, **16 bulgu** içeren düzeltme önerisi (bkz. aşağıda) |
+
+> **C sınıfı eklendi (Eylül 2026):** Set artık C sınıfı sınavını da kapsıyor. C bankalarındaki
+> 271 sorunun tamamı, A/B setiyle aynı biçimde — soru, işaretli doğru şık, gerekçeli açıklama ve
+> kaynak — üç ayrı sunuma dökülmüştür. Soruların %61'i A/B setinde zaten açıklanmış olduğundan o
+> slaytlar taşınmış, kalan 115 soru için açıklama sıfırdan yazılmıştır. C Teknik'te çizime bağlı
+> soruların şekilleri, A/B setinde olduğu gibi, slayta gömülüdür.
+>
+> Mevzuat güncelliği denetimi C bankalarına da uygulanmış ve **yedi yeni bulgu** çıkmıştır
+> (C Düzenlemeler 30; C İşletme 34, 50; C Teknik 73, 74, 76, 86). Düzeltme önerisi 9 bulgudan
+> **16 bulguya** çıkmıştır. A/B setindeki iki bulgunun soruları C bankasında da aynı hâliyle
+> bulunmaktadır.
 
 > **Sürüm 1.1'de ne değişti:** Soruların dayandığı yönetmelik hükümlerinin bugün yürürlükte olup
 > olmadığı Resmî Gazete metinleri üzerinden denetlendi. Bu denetimden çıkan **beş yeni bulgu**
@@ -54,7 +69,7 @@ belirtilmiştir — gerçek sınavda resmî anahtarın ne diyebileceği not edil
 
 ## KEGM'ye sunulacak düzeltme önerisi
 
-`KEGM_Soru_Bankasi_Duzeltme_Onerisi_v1.1.pptx`, üç bankada tespit edilen **9 bulguyu** — orijinal soru,
+`KEGM_Soru_Bankasi_Duzeltme_Onerisi_v1.2.pptx`, altı bankada tespit edilen **16 bulguyu** — orijinal soru,
 resmî işaretli cevap, gerekçe/hesap ve önerilen düzeltmeyle — KEGM Telsiz İşletme Müdürlüğü'ne
 sunulmak üzere derler. Bulgular iki ayrı denetimden gelir:
 

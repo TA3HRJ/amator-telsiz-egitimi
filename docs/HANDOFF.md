@@ -70,7 +70,7 @@ Bu ayrım yapılmazsa set yanlış cevap gösterir.
 3. **115 yeni açıklama** — **tamamlandı**, bkz. aşağıdaki "Faz 3 sonucu".
 4. **Ortak soruların taşınması / sunum üretimi** — **tamamlandı**, bkz. "Faz 4 sonucu".
 5. **Mevzuat denetimi ve düzeltme önerisi** — **tamamlandı**, bkz. "Faz 5 sonucu".
-6. **Paketleme** — C toplu PDF, `index.html`, README, sürüm.
+6. **Paketleme** — **tamamlandı**, bkz. "Faz 6 sonucu".
 
 ## Faz 1 sonucu — çıkarım hattı kuruldu
 
@@ -354,11 +354,46 @@ yeniden yazıldı.
   son satır **başlık** satırı olduğu için yeni satırların hepsi başlık biçimi (lacivert zemin,
   beyaz yazı) alıyordu. Veri satırı biçimi silmeden önce örnek olarak saklanıyor.
 
-### Kalan iş — faz 6 (paketleme)
+(Paketleme faz 6'da tamamlandı.)
 
-`index.html` ve README hâlâ eski durumu gösteriyor: üç C sunumu ve düzeltme önerisi v1.2
-sitede yok, düzeltme önerisi bağlantısı hâlâ v1.1'e gidiyor. C toplu PDF de üretilmedi.
-v1.1 dosyası bu yüzden depoda bırakıldı; faz 6'da site güncellenince kaldırılabilir.
+## Faz 6 sonucu — paketleme
+
+- **`KEGM_Amator_Telsizcilik_C_Sinav_Hazirlik_Tum_Konular_v1.0.pdf`** üretildi: 299 sayfa
+  (55 + 91 + 153). Üç C sunumu PowerPoint üzerinden PDF'e aktarılıp pymupdf ile birleştirildi;
+  belge üstverisi (başlık, yazar, konu) ayrıca yazıldı.
+- **`index.html`**: sunumlar "A/B Sınıfı" ve "C Sınıfı" olarak ikiye ayrıldı, üç C sunumu ve C
+  toplu PDF eklendi, sürüm rozeti "A/B Sınıfı v1.1 · C Sınıfı v1.0" oldu, düzeltme önerisi
+  bağlantısı v1.2'ye alındı. Bağlantı verilen 15 dosyanın tamamının diskte olduğu doğrulandı.
+- **README**: C sunumları ve C PDF'i içindekiler tablosuna eklendi; başa "C sınıfı eklendi"
+  kutusu kondu; düzeltme önerisi 16 bulguya güncellendi.
+- **`KEGM_Soru_Bankasi_Duzeltme_Onerisi_v1.1.pptx` depodan kaldırıldı** — yerini v1.2 aldı.
+  Setin sürüm disiplini (bkz. CLAUDE.md) dosya adının sürüm taşımasını gerektiriyor; eski sürümü
+  bırakmak hangisinin güncel olduğunu belirsizleştirirdi.
+
+### Setin son durumu
+
+| | A/B Sınıfı | C Sınıfı |
+|---|---|---|
+| Düzenlemeler | 67 soru (v1.1) | 49 soru (v1.0) |
+| İşletme | 151 soru (v1.1) | 82 soru (v1.0) |
+| Teknik | 172 soru (v1.1) | 140 soru (v1.0) |
+| Toplu PDF | 429 sayfa | 299 sayfa |
+
+Düzeltme önerisi: 16 bulgu, altı bankayı kapsıyor — **henüz KEGM'ye iletilmedi**.
+
+### Üretim zinciri
+
+Sunumlar elle düzenlenmez, dört betikten yeniden üretilir:
+
+```
+python tools/cikarim.py          # banka PDF'lerinden soru/sik/cevap
+python tools/esleme.py           # C sorularini A-B ile eslestir
+python tools/sekil_cikar.py      # cizime bagli sorularin sekilleri
+python tools/sunum_uret.py       # uc C sunumu
+python tools/duzeltme_guncelle.py  # duzeltme onerisi v1.2
+```
+
+İçerik `icerik/*.json` altında; sunum değil, içerik düzenlenir.
 
 ## Yol üstünde düzeltilecekler
 
