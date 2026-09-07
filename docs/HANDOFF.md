@@ -68,7 +68,7 @@ Bu ayrım yapılmazsa set yanlış cevap gösterir.
 1. **Çıkarım hattı** — **tamamlandı**, bkz. aşağıdaki "Faz 1 sonucu".
 2. **Eşleme tablosu** — **tamamlandı**, bkz. aşağıdaki "Faz 2 sonucu".
 3. **115 yeni açıklama** — **tamamlandı**, bkz. aşağıdaki "Faz 3 sonucu".
-4. **Ortak soruların taşınması** — yukarıdaki tuzak kuralına göre.
+4. **Ortak soruların taşınması / sunum üretimi** — **tamamlandı**, bkz. "Faz 4 sonucu".
 5. **Mevzuat denetimi** — v1.1'de A-B'ye uygulanan yürürlük denetimi C'ye taşınır. Mevcut beş
    bulgunun C karşılıkları aranır; C'ye özgü 105 sorudan çıkacak yeni bulgular düzeltme önerisine
    eklenir (9 bulgudan yukarı çıkar).
@@ -250,6 +250,69 @@ Teknik 73 ve 74'ün ikisi de dengesiz köprü ve ikisinin de eşdeğer direnci 4
 
 Teknik 138'in şıklarında FAA ve FCC geçiyor — soru yabancı bir havuzdan çevrilmiş. Cevabı
 etkilemediği için bulgu değil; slayta aktarım notu olarak düşüldü.
+
+## Faz 4 sonucu — üç C sunumu üretildi
+
+| Dosya | Slayt | Şekil |
+|---|---|---|
+| `Amator_Telsizcilik_C_Duzenlemeler_Sinav_Hazirlik_v1.0.pptx` | 50 (kapak + 49 soru) | — |
+| `Amator_Telsizcilik_C_Isletme_Sinav_Hazirlik_v1.0.pptx` | 83 (kapak + 82 soru) | — |
+| `Amator_Telsizcilik_C_Teknik_Sinav_Hazirlik_v1.0.pptx` | 141 (kapak + 140 soru) | 31 |
+
+Üretici: `tools/sunum_uret.py` (biçim) ve `tools/sekil_cikar.py` (şekiller). Sunumlar
+her çalıştırmada eşleme tablosundan yeniden üretilir; elle düzenlenmez.
+
+**Doğrulama:** 271 sorunun tamamı slayta düştü, işaretli şık resmî cevap anahtarıyla
+birebir tutuyor, açıklaması veya kaynağı boş slayt yok. Örnek slaytlar PowerPoint COM
+üzerinden PNG'ye aktarılıp gözle kontrol edildi.
+
+### Neden klonlama değil, sıfırdan üretim
+
+A-B slaytlarını kopyalayıp metnini değiştirmek ilk akla gelen yoldu; vazgeçildi. Slaytlarda
+gömülü resim ilişkileri var (A-B Teknik'te 49 slayt) ve python-pptx slayt kopyalamayı
+desteklemiyor; XML düzeyinde kopyalama ilişkileri kırıyor. Sıfırdan üretim ayrıca eşleme
+tablosunu tek doğruluk kaynağı yapıyor: içerik değişince sunum yeniden üretiliyor.
+
+Görsel dil A-B setinden birebir alındı: lacivert başlık şeridi (1F3864), açık zeminli soru
+paneli (F7F9FB), yeşil açıklama paneli (E2EFDA), uyarı varsa turuncu panel (FCE4D6) ve
+`DİKKAT —` paragrafı, aynı puntolar ve kutu konumları.
+
+### Şekiller
+
+C Teknik'in çizime bağlı sorularında şekil, bankadan PNG olarak kesilip slayta gömülüyor —
+A-B setindeki yöntemin aynısı. Ayrıca faz 3'te yazılan sözel şekil tarifi gövdenin içinde
+duruyor, yani slayt şekil olmadan da anlaşılıyor.
+
+`tools/sekil_cikar.py` üç denemede oturdu. Vektör çizimlerin sınır kutusu tek başına
+yetmedi (soru çerçevesi ayrı çizgi parçaları hâlinde çiziliyor, kenarlar şekle karışıyordu);
+metin boşluğu da yetmedi (şekil üzerindeki etiketler metin bloğu olarak geliyor, boşluk
+görünmüyordu). Çalışan yöntem: çerçeve çizgilerinden kutu sınırları çıkarılır, şekil o
+kutunun içindeki çizimlerden bulunur, yalnızca çizime bitişik etiketler bandı genişletir,
+kırpma kutu dışına taşmaz. Sekiz soruda kırpma dikdörtgeni elle verildi
+(`ELLE_KIRPMA` tablosu). 31 şeklin tamamı görüntü olarak gözden geçirildi.
+
+### Yol üstünde çıkan iki hata
+
+- A-B Teknik 129'un slaydında AÇIKLAMA kutusu XML sırasında "Soru 129" başlığından
+  **önce** geliyor. Başlıktan sonrasını okuyan ilk sürüm bu sorunun açıklamasını ve
+  kaynağını boş bırakıyordu. Okuyucu, başlığın sırasına bakmayacak biçimde yazıldı.
+- Kapakta `.upper()` "Teknik" kelimesini **TEKNIK** yapıyordu; Python'un upper() metodu
+  'i' harfini 'I'ya çeviriyor. Türkçe büyük harf dönüşümü eklendi.
+
+### A-B'den devralınan uyarılar
+
+Ortak sorularda A-B slaydındaki `DİKKAT` kutusu da taşındı. Böylece C setine
+**beş uyarı devretti**: Düzenlemeler 27 ve 37, İşletme 34 ve 50'nin yanında… (Düzenlemeler
+27/37 ile İşletme'nin ilgili soruları A-B'deki v1.1 bulgularının C karşılıkları.) Bunlar
+faz 5'te düzeltme önerisine yazılırken hangi bulgunun hangi sette göründüğü ayrıca
+belirtilecek.
+
+### Bilinçli eksik — bölüm giriş slaytları
+
+A-B sunumlarında her ~10 soruda bir "BÖLÜM n: …" giriş slaydı var ve konuya kısa bir
+metinle giriyor. C sunumlarında bunlar **yok**; sunum kapak + soru slaytlarından oluşuyor.
+Setin ayırt edici özelliği (soru + açıklama + kaynak) eksiksiz, ancak A-B ile tam eşitlik
+için ~27 bölüm girişi yazılması gerekiyor. Yayımlamadan önce karar verilmeli.
 
 ## Yol üstünde düzeltilecekler
 

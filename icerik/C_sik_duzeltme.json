@@ -1,0 +1,81 @@
+{
+  "_hakkinda": [
+    "Esleme tablosunda 'KOPYALA + SIKLARI C'DEN AL' isaretli sorular (12 adet).",
+    "Soru govdesi A-B ile ayni, aciklama A-B slaydindan tasinir; ancak sik kumesi",
+    "farkli oldugu icin siklar ve isaretli harf C bankasindan gelir. Buradaki metinler",
+    "C bankasindan alinip eksik harfleri (i-noktasiz, s-cedilli, g-yumusak, buyuk I)",
+    "tamamlanmis hallerdir; cikarim sirasinda son sikka sizan artiklar temizlenmistir.",
+    "Anahtar bicimi: '<Konu>/<C soru no>'."
+  ],
+
+  "Duzenlemeler/31": {
+    "cevap": "C",
+    "siklar": {"a": "3 ay", "b": "6 ay", "c": "Oturma belge süresi kadar", "d": "9 ay"}
+  },
+  "Duzenlemeler/46": {
+    "cevap": "C",
+    "siklar": {"a": "TC - TR - YK", "b": "TR - YL - TC", "c": "YM - TA - TB - TC", "d": "TU - YL - TR"}
+  },
+  "Duzenlemeler/47": {
+    "cevap": "D",
+    "siklar": {
+      "a": "Amatör Telsiz İstasyonu vasıtasıyla müzik yayını yapılması",
+      "b": "Radyo ve Televizyon yayınlarının doğrudan veya banttan yayınlanması",
+      "c": "Olağanüstü hallerde yanlış veya yanıltıcı yayın yapılması",
+      "d": "Amatör Telsiz Haberleşmesi"
+    }
+  },
+  "Duzenlemeler/49": {
+    "cevap": "A",
+    "siklar": {
+      "a": "Amatör Paket Radyo Sistemini",
+      "b": "Uluslararası Telsiz Birliğini",
+      "c": "Hızlı Taramalı Televizyon Sistemini",
+      "d": "Yavaş Taramalı Televizyon Sistemini"
+    }
+  },
+
+  "Isletme/17": {
+    "cevap": "B",
+    "siklar": {"a": "Şırnak", "b": "Erzincan", "c": "Bingöl", "d": "Mardin"}
+  },
+  "Isletme/35": {
+    "cevap": "C",
+    "siklar": {
+      "a": "2. Bölgede çalışan bir amatör istasyonun çağrı işaretidir",
+      "b": "C sınıfı amatör telsizciye ait bir istasyonun çağrı kodudur",
+      "c": "5. Bölgeden 2. Bölgeye geçen amatör telsizcinin çağrı işaretidir",
+      "d": "Hiçbiri"
+    }
+  },
+
+  "Teknik/4": {
+    "cevap": "D",
+    "siklar": {"a": "İzotropik anten", "b": "Yatay dipol", "c": "Çeyrek dalga markoni", "d": "Yagi"}
+  },
+  "Teknik/14": {
+    "cevap": "D",
+    "siklar": {"a": "1,25 A", "b": "1 A", "c": "2 A", "d": "0,5 A"}
+  },
+  "Teknik/41": {
+    "cevap": "B",
+    "siklar": {"a": "10⁻⁶ A", "b": "10⁻³ A", "c": "0,1 mA", "d": "10⁻¹² A"}
+  },
+  "Teknik/43": {
+    "cevap": "C",
+    "siklar": {"a": "32 Ω", "b": "0,33 Ω", "c": "13 Ω", "d": "14 Ω"}
+  },
+  "Teknik/54": {
+    "cevap": "C",
+    "siklar": {"a": "1 A", "b": "1,5 A", "c": "3 A", "d": "4 A"}
+  },
+  "Teknik/102": {
+    "cevap": "D",
+    "siklar": {
+      "a": "Çok geniş bandlı çalışma kabiliyetidir.",
+      "b": "Işığa karşı duyarlıdır.",
+      "c": "Cihazın en yüksek istasyonu algılayabilme kabiliyetidir.",
+      "d": "Ayarlandığı frekansın dışındaki frekansları bastırabilme kabiliyetidir."
+    }
+  }
+}
