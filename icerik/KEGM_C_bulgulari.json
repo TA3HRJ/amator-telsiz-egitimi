@@ -1,0 +1,86 @@
+{
+  "_hakkinda": [
+    "KEGM duzeltme onerisine C SETI icin eklenecek bulgular (faz 5).",
+    "Mevcut dokumandaki 9 A-B bulgusu korunur; bunlar 10-16 numaralari alir.",
+    "'ozet' alani, ozet tablosuna eklenecek satirdir."
+  ],
+  "bulgular": [
+    {
+      "no": 10, "banka": "C — Düzenlemeler", "soru_no": 30,
+      "baslik": "Mülga Geçiş Hükmüne Dayanan Süre Sorusu",
+      "soru": "Yürürlükteki yönetmeliğe göre, yönetmeliğin yayımı tarihinden önce alınmış ve geçerlilik süresi dolduğu hâlde yenilenmeyen amatör telsizcilik belgelerinin, yönetmeliğin yayımı tarihinden itibaren kaç ay içinde yenilenmesi zorunludur?",
+      "siklar": {"a": "3 ay", "b": "6 ay", "c": "9 ay", "d": "12 ay"},
+      "resmi": "A",
+      "gerekce": "Soru, Yönetmeliğin Geçici 1 inci maddesinin ikinci fıkrasına dayanmaktadır. Bu fıkra 20/2/2011 tarihli ve 27852 sayılı Resmî Gazete'de yayımlanan değişiklikle yeniden yazılmış; süre ölçüsü kaldırılıp yerine sabit bir tarih konmuştur: yenileme zorunluluğu \"1/3/2012 tarihine kadar\" şeklindedir. Yürürlükteki metinde \"kaç ay\" biçiminde bir ölçü bulunmamaktadır. Ayrıca Geçici 3 üncü madde, bu tarihe kadar yenilenmeyen belgelerin resen iptal edilmiş sayılacağını hükme bağlamıştır; 1/3/2012 tarihi geçtiğinden hüküm tükenmiş, uygulanabilir bir yenileme süresi kalmamıştır.",
+      "duzeltme": "Sorunun yayımdan kaldırılmasını veya yürürlükteki metne göre yeniden yazılmasını öneririz. Şıkların hiçbiri bugünkü düzenlemeyi karşılamamaktadır.",
+      "ozet": ["C — Düzenlemeler", "30", "Geçiş hükmü — süre yerine sabit tarih", "(a)", "şıklarda yok"]
+    },
+    {
+      "no": 11, "banka": "C — İşletme", "soru_no": 34,
+      "baslik": "Amatör Olmayan Bant — İki Doğru Cevap",
+      "soru": "Aşağıdakilerden hangisi amatör frekans bandı değildir?",
+      "siklar": {"a": "142 - 144 GHz", "b": "5150 - 5450 MHz", "c": "144 - 146 MHz", "d": "430 - 440 MHz"},
+      "resmi": "B",
+      "gerekce": "Resmî cevap olan 5150-5450 MHz aralığı gerçekten amatör hizmete tahsisli değildir; bu bant kablosuz erişim sistemlerinin kullanımındadır. Ancak (a) şıkkındaki 142-144 GHz de amatör bant değildir: BTK Millî Frekans Planı'nın Amatör Sistemleri Telsiz Arayüzü Özellikleri belgesinde (TAD08-01) 100 GHz üzerindeki amatör tahsisleri 134-136 GHz ve 136-142 GHz aralıklarıyla sona ermekte, 142-144 GHz listede yer almamaktadır. Böylece soruda iki doğru cevap bulunmaktadır.",
+      "duzeltme": "(a) şıkkının, amatör tahsisi bulunan bir aralıkla — örneğin 136-142 GHz — değiştirilmesini öneririz. Böylece sorunun tek doğru cevabı kalır.",
+      "ozet": ["C — İşletme", "34", "Amatör bant — iki doğru cevap", "(b)", "(a) da doğru"]
+    },
+    {
+      "no": 12, "banka": "C — İşletme", "soru_no": 50,
+      "baslik": "Boylam-Saat Hesabında Yön Hatası",
+      "soru": "90 derece batı boylamında yerel saat 14:10 iken 30 derece batı boylamında saat kaç olur?",
+      "siklar": {"a": "20:10", "b": "19:10", "c": "10:10", "d": "18:10"},
+      "resmi": "C",
+      "gerekce": "Yerel saat doğuya gidildikçe ilerler, batıya gidildikçe geri kalır; her 15 derece boylam 1 saate karşılık gelir. 90° batı ile 30° batı arasında 60 derece, yani 4 saatlik fark vardır. 30° batı boylamı, 90° batıya göre doğuda kaldığından oradaki saat 4 saat ileridir: 14:10 + 4:00 = 18:10. Resmî cevap anahtarının işaretlediği 10:10 değeri, farkın ters yönde alınmasıyla elde edilmektedir. Aynı bankanın diğer soruları yönü doğru uygulamaktadır: A-B sınıfı İşletme 70'te 90° batıdan 90° doğuya geçilirken saat ileri, İşletme 49'da 30° doğudan 30° batıya geçilirken geri alınmaktadır.",
+      "duzeltme": "Cevap anahtarının (d) 18:10 olarak düzeltilmesini öneririz.",
+      "ozet": ["C — İşletme", "50", "Boylam-saat — yön ters alınmış", "(c)", "(d)"]
+    },
+    {
+      "no": 13, "banka": "C — Teknik", "soru_no": 73,
+      "baslik": "Dengesiz Wheatstone Köprüsü — Sonuç Şıklarda Yok",
+      "soru": "Şekildeki devreden (12 V kaynak köprünün sol ve sağ köşelerinde; kollar 4, 2, 6 ve 9 ohm, üst ile alt düğüm arasında köprü direnci 10 ohm) geçen I akımının değeri nedir?",
+      "siklar": {"a": "1 A", "b": "2 A", "c": "4 A", "d": "6 A"},
+      "resmi": "B",
+      "gerekce": "Devre bir Wheatstone köprüsüdür ve dengede değildir: denge için karşılıklı kolların çarpımlarının eşit olması gerekirdi (4 × 9 = 36, 2 × 6 = 12). Bu nedenle köprüdeki 10 ohmluk direnç üzerinden akım geçer ve basit seri-paralel sadeleştirme uygulanamaz. Üçgen-yıldız dönüşümüyle çözüldüğünde (4, 6 ve 10 ohmluk üçgen 1,2 / 2 / 3 ohma çevrilir; üst dal 4 ohm, alt dal 12 ohm, paralelleri 3 ohm, seri 1,2 ohm eklenir) eşdeğer direnç 4,2 ohm, akım ise 12 / 4,2 ≈ 2,86 amper bulunur. Bu değer şıklar arasında yoktur. Resmî cevap olan 2 amper, ancak üstteki 4 + 2 = 6 ohmluk yol tek başına hesaba katılırsa elde edilir.",
+      "duzeltme": "Sorunun direnç değerlerinin, köprü dengede olacak ve sonuç şıklardan birine denk gelecek biçimde yeniden seçilmesini öneririz. Dengeli köprüde köprü direnci devre dışı kalacağından çözüm C sınıfı düzeyine de uygun olur.",
+      "ozet": ["C — Teknik", "73", "Dengesiz köprü — sonuç ≈2,86 A", "(b)", "şıklarda yok"]
+    },
+    {
+      "no": 14, "banka": "C — Teknik", "soru_no": 74,
+      "baslik": "Dengesiz Wheatstone Köprüsü — Gerilim Şıklarda Yok",
+      "soru": "Şekildeki devrenin (8 A kaynak; üst kolda seri 4 + 4 ohm, alt kolda seri 6 + 3 ohm, iki kolun orta düğümleri arasında köprü direnci 10 ohm) uçlarındaki gerilim değeri nedir?",
+      "siklar": {"a": "4 V", "b": "6 V", "c": "12 V", "d": "24 V"},
+      "resmi": "D",
+      "gerekce": "Bu devre de dengesiz bir Wheatstone köprüsüdür (4/4 oranı ile 6/3 oranı eşit değildir), dolayısıyla köprüdeki 10 ohm üzerinden akım geçer. Üçgen-yıldız dönüşümüyle eşdeğer direnç 4,2 ohm bulunur ve uçlardaki gerilim V = 8 × 4,2 = 33,6 volt olur. Bu değer şıklar arasında yoktur. Resmî cevap olan 24 volt, üç kol (8 ohm, 9 ohm ve 10 ohm) devrenin uçları arasında paralelmiş gibi alındığında çıkmaktadır (eşdeğer ≈ 3 ohm, 8 × 3 = 24 V). Oysa 10 ohmluk direnç uçlara değil, iki kolun orta düğümleri arasına bağlıdır.",
+      "duzeltme": "Sorunun ya köprü direncinin uçlara paralel olduğu bir şemayla yeniden çizilmesini ya da direnç değerlerinin köprüyü dengeye getirecek biçimde seçilmesini öneririz.",
+      "ozet": ["C — Teknik", "74", "Dengesiz köprü — sonuç 33,6 V", "(d)", "şıklarda yok"]
+    },
+    {
+      "no": 15, "banka": "C — Teknik", "soru_no": 76,
+      "baslik": "Faz Modülasyonunun Emisyon Harfi Şıklarda Yok",
+      "soru": "Faz modülasyonlu bir elektromanyetik dalgada, emisyonu gösteren üç karakterli sembollerin ilki, hangi harf ile gösterilir?",
+      "siklar": {"a": "B", "b": "D", "c": "F", "d": "P"},
+      "resmi": "C",
+      "gerekce": "ITU Radyo Tüzüğü Ek 1'de emisyon tanımının ilk karakteri taşıyıcının modülasyon türünü gösterir. Faz modülasyonunun karşılığı G, frekans modülasyonunun karşılığı ise F harfidir. Soru faz modülasyonunu sorduğu hâlde doğru karşılık olan G şıklar arasında bulunmamakta, resmî cevap olarak frekans modülasyonunun harfi olan F işaretlenmektedir. BTK Millî Frekans Planı'nın amatör arayüz belgesinde 144-146 MHz için izin verilen emisyonlar arasında yer alan G3E de bunu doğrular: G ile başlayan emisyon faz modülasyonludur.",
+      "duzeltme": "İki yoldan biri seçilebilir: soru gövdesinin \"frekans modülasyonlu\" olarak düzeltilmesi (bu hâlde resmî cevap F doğru olur) ya da şıklardan birinin G ile değiştirilerek cevabın G yapılması.",
+      "ozet": ["C — Teknik", "76", "Faz modülasyonu — doğru harf G", "(c)", "şıklarda yok"]
+    },
+    {
+      "no": 16, "banka": "C — Teknik", "soru_no": 86,
+      "baslik": "Tanım Hatası — Bir Saniyede Alınan Yol",
+      "soru": "Elektromanyetik dalgaların bir saniyede aldığı yola ne ad verilir?",
+      "siklar": {"a": "Peryot", "b": "Frekans", "c": "Genlik", "d": "Dalga Boyu"},
+      "resmi": "A",
+      "gerekce": "Bir dalganın belirli bir sürede aldığı yol, o dalganın hızıdır; bir saniyede alınan yol sayıca ışık hızına, yaklaşık 300 000 kilometreye eşittir. Şıklar arasında hız seçeneği bulunmamaktadır. Resmî cevap olarak işaretlenen periyot ise bir tam salınımın süresidir; birimi saniyedir, metre değildir — yani bir yol değil, bir süredir. Soru büyük olasılıkla \"bir periyotta aldığı yol\" demek istemektedir; bu okumada doğru cevap (d) dalga boyu olurdu.",
+      "duzeltme": "Soru gövdesinin \"bir periyotta aldığı yol\" olarak düzeltilmesini ve cevap anahtarının (d) dalga boyu yapılmasını öneririz.",
+      "ozet": ["C — Teknik", "86", "\"Bir saniyede alınan yol\" — hız", "(a)", "(d) †"]
+    }
+  ],
+
+  "ortak_bulgular": [
+    {"a_b_bulgu": 2, "c_soru": "C — Düzenlemeler 27",
+     "not": "A-B Düzenlemeler 42 ile aynı soru; C bankasında da aynı resmî cevapla yer almaktadır."},
+    {"a_b_bulgu": 3, "c_soru": "C — Düzenlemeler 37",
+     "not": "A-B Düzenlemeler 60 ile aynı soru; C bankasında da aynı resmî cevapla yer almaktadır."}
+  ]
+}

@@ -69,9 +69,7 @@ Bu ayrım yapılmazsa set yanlış cevap gösterir.
 2. **Eşleme tablosu** — **tamamlandı**, bkz. aşağıdaki "Faz 2 sonucu".
 3. **115 yeni açıklama** — **tamamlandı**, bkz. aşağıdaki "Faz 3 sonucu".
 4. **Ortak soruların taşınması / sunum üretimi** — **tamamlandı**, bkz. "Faz 4 sonucu".
-5. **Mevzuat denetimi** — v1.1'de A-B'ye uygulanan yürürlük denetimi C'ye taşınır. Mevcut beş
-   bulgunun C karşılıkları aranır; C'ye özgü 105 sorudan çıkacak yeni bulgular düzeltme önerisine
-   eklenir (9 bulgudan yukarı çıkar).
+5. **Mevzuat denetimi ve düzeltme önerisi** — **tamamlandı**, bkz. "Faz 5 sonucu".
 6. **Paketleme** — C toplu PDF, `index.html`, README, sürüm.
 
 ## Faz 1 sonucu — çıkarım hattı kuruldu
@@ -317,6 +315,50 @@ altta açık mavi kutuda "Bu bölümün kaynağı". Metinler `icerik/C_bolumler.
 konu etiketlerine göre yapıldı; her bölüm 7-15 soru kapsıyor.
 
 Bölümlerle birlikte sunumlar: Düzenlemeler 55 slayt, İşletme 91, Teknik 153.
+
+## Faz 5 sonucu — mevzuat denetimi ve düzeltme önerisi v1.2
+
+### C bankalarının mevzuat denetimi
+
+C bankalarında "yürürlükteki yönetmeliğe göre" diyen 26 soru tarandı (Düzenlemeler 25,
+İşletme 1). Bunların çoğu A-B ile birebir aynı soru olduğu için v1.1 denetimi geçerli;
+C'ye özgü olanlar Resmî Gazete metni üzerinden tek tek doğrulandı. Mülga mevzuata atıf
+taraması ayrıca yapıldı (Özel Telsiz Sistemleri Yönetmeliği, Amatör Telsiz Yönetmeliği,
+Telekomünikasyon Kurumu) — C'ye özgü tek bulgu **Düzenlemeler 30**'dur.
+
+A-B'nin dokuz bulgusundan **ikisinin** C'de karşılığı var: Bulgu 2 (A-B Düzenlemeler 42
+↔ C Düzenlemeler 27) ve Bulgu 3 (A-B Düzenlemeler 60 ↔ C Düzenlemeler 37). Diğer yedi
+bulgunun soruları C bankalarında yok.
+
+### `KEGM_Soru_Bankasi_Duzeltme_Onerisi_v1.2.pptx` — 9 bulgudan 16'ya
+
+Üretici: `tools/duzeltme_guncelle.py`, içerik `icerik/KEGM_C_bulgulari.json`.
+
+**Belge sıfırdan üretilmez, v1.1 üzerinde düzenlenir.** Sebep: mevcut dokuz bulgunun
+gerekçe ve talep metinleri kuruma sunulmak üzere özenle yazılmış; yeniden üretim o metni
+kaybetme riski taşır. Betik kapak/özet/kök neden/talep metinlerini günceller ve yedi yeni
+bulgu slaydını Bulgu 9'dan sonra ekler.
+
+Yeni bulgular (10-16): C Düzenlemeler 30, C İşletme 34 ve 50, C Teknik 73, 74, 76, 86.
+
+Belge 14 slayttan **22 slayta** çıktı. Özet tablosu 16 satıra sığmadığı için ikiye bölündü:
+"(1/2) — A-B Sınıfı" ve "(2/2) — C Sınıfı". Kök neden slaydındaki "Kapsam sınırı: C sınıfı
+bankaları bu incelemeye dâhil değildir" notu, kapsamın genişlediğini söyleyecek biçimde
+yeniden yazıldı.
+
+### Yol üstünde iki hata
+
+- Paragraf nesneleri python-pptx'te her erişimde yeniden üretiliyor; `.index()` ile konum
+  aramak `ValueError` veriyor. Konum baştan sayılarak bulunuyor.
+- Boşaltılmış tabloya satır eklerken biçim "son satırdan" kopyalanıyordu; tablo boşalınca
+  son satır **başlık** satırı olduğu için yeni satırların hepsi başlık biçimi (lacivert zemin,
+  beyaz yazı) alıyordu. Veri satırı biçimi silmeden önce örnek olarak saklanıyor.
+
+### Kalan iş — faz 6 (paketleme)
+
+`index.html` ve README hâlâ eski durumu gösteriyor: üç C sunumu ve düzeltme önerisi v1.2
+sitede yok, düzeltme önerisi bağlantısı hâlâ v1.1'e gidiyor. C toplu PDF de üretilmedi.
+v1.1 dosyası bu yüzden depoda bırakıldı; faz 6'da site güncellenince kaldırılabilir.
 
 ## Yol üstünde düzeltilecekler
 
