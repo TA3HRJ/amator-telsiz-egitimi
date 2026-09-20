@@ -240,7 +240,7 @@ def kapak(prs, baslik, altbaslik):
     kos(ab.text_frame.paragraphs[0], altbaslik, 20, False, ACIK_MAVI)
     yb = yazi_kutusu(s, 914400, 4343400, 10360152, 457200)
     kos(yb.text_frame.paragraphs[0],
-        "Yazar: Claude Opus 5 (Anthropic)  —  Editör / Hata kontrolü: H. Erhan Özkan, TA3HX",
+        "Yazar: Claude Sonnet 5 ve Claude Opus 5 (Anthropic)  —  Editör / Hata kontrolü: H. Erhan Özkan, TA3HX",
         13, False, ACIK_MAVI)
     kk = yazi_kutusu(s, 914400, 6035040, 10362895, 457200)
     kos(kk.text_frame.paragraphs[0],

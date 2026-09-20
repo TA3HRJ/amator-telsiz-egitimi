@@ -92,7 +92,7 @@ beklenebileceği ayrıca belirtilir.
 Sorular, resmî KEGM soru bankalarından; açıklamalar ilgili yönetmelik maddelerinden (Düzenlemeler)
 ve genel elektrik/elektronik/telsiz işletme referanslarından (İşletme, Teknik) türetilmiştir.
 
-**Yazar:** Claude Sonnet 5 (Anthropic) · **Editör / Hata Kontrolü:** H. Erhan Özkan, TA3HX
+**Yazar:** Claude Sonnet 5 ve Claude Opus 5 (Anthropic) · **Editör / Hata Kontrolü:** H. Erhan Özkan, TA3HX
 
 ## İlgili çalışma
 
