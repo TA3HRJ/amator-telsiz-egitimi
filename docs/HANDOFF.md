@@ -1,14 +1,59 @@
 # HANDOFF
 
-Son güncelleme: 6 Eylül 2026 (ikinci tur)
+Son güncelleme: 24 Eylül 2026
 
 ## Nerede kalındı
 
-C sınıfı sorularının sete dahil edilmesi **planlandı, henüz uygulanmadı**. Repoda C ile ilgili
-hiçbir çıktı üretilmedi; `Soru_Bankalari/` altındaki üç C bankası zaten duruyordu.
+**C sınıfı genişlemesi bitti ve yayında.** Altı faz 7 Eylül'de tamamlandı (ayrıntı aşağıda);
+19-20 Eylül'de çağrı işareti değişikliği bütün çıktılara işlendi (bkz. "Künye düzeltmesi").
+Depo `origin/main` ile eşit, çalışma ağacı temiz.
 
-Bu oturumda yapılan tek dosya değişikliği README'ye indirme sayfası bağlantısının eklenmesi
-(`c2fdcfd`) ve fazla gelen doğrudan dosya bağlantılarının geri alınmasıdır (`f9e1730`).
+Tek açık iş kullanıcıya ait: **düzeltme önerisi v1.2 henüz KEGM'ye iletilmedi.**
+
+24 Eylül oturumunda yalnızca belgeler güncellendi: bu dosya ve CLAUDE.md (CLAUDE.md hâlâ
+"üç sunum, tek PDF, düzeltme önerisi v1.1 / 9 bulgu" diyordu; v1.1 depodan kaldırılmıştı).
+Çıktılar denetlendi, hiçbirine dokunulmadı.
+
+## Künye düzeltmesi — 19-20 Eylül 2026
+
+Editörün çağrı işareti 16 Eylül 2026'da **TA3HRJ → TA3HX** oldu. Yazar satırı da
+"Claude Sonnet 5 ve Claude Opus 5 (Anthropic)" olarak birleştirildi (A-B seti yalnız Sonnet,
+C seti yalnız Opus diyordu; içerik iki modelle dönüşümlü üretildi).
+
+- README, `index.html`, `tools/sunum_uret.py` güncellendi (`db4594e`, `121bd43`).
+- Altı sunumun kapağı **yerinde** düzeltildi: arşivde yalnızca `slide1.xml` değişti, geri
+  kalan slaytlara dokunulmadı (`80e4e98`, `b65d85d` — A-B Teknik'in kapağı üretildiği gün
+  ASCII'ye düşmüştü, o da Türkçe harflere döndü).
+- İki toplu PDF yeniden aktarıldı (`94d2440`). Sayfa sayıları aynı (429 / 299).
+- **Sürüm atlatılmadı** — künye içerik sayılmadı. Bu kural CLAUDE.md'ye yazıldı.
+
+24 Eylül denetimi: altı sunumun kapağında ve iki PDF'in metin katmanında yalnızca TA3HX var.
+`TA3HRJ` artık yalnızca GitHub hesap adında geçiyor (depo adresleri, noreply e-posta) — o
+değişmedi, değişmemeli. Düzeltme önerisinde çağrı işareti yok ("Hazırlayan: Amatör telsiz
+camiası — gönüllü katkı").
+
+### A-B PDF'inin yeniden aktarılmasının yan kazancı
+
+Eski A-B PDF'inde doğru cevap işareti her sayfaya gömülü görseldi ve üs/alt simgeli
+formüllerin metin katmanı bozuktu ("P=I²R" kopyalanınca "P=I<R"). Yeniden aktarımla ikisi de
+düzeldi; dosya 19,6 MB'tan 17,8 MB'a indi.
+
+## Ortam tuzağı — bu makinede Python paketleri yok
+
+24 Eylül'de ölçüldü: makinedeki tek yorumlayıcı
+`C:\Users\Admin\AppData\Local\Programs\Python\Python313\python.exe` ve **yalnızca pip kurulu**;
+`python-pptx` ve `pymupdf` yok. Üstelik PATH'teki `python` Microsoft Store kısayoluna
+düşüyor ("Python was not found"); `py` başlatıcısı da Git Bash'in PATH'inde değil. Üretim
+zincirini çalıştırmadan önce yorumlayıcıyı tam yoluyla çağır:
+
+```
+PY=/c/Users/Admin/AppData/Local/Programs/Python/Python313/python.exe
+$PY -m pip install python-pptx pymupdf
+$PY tools/cikarim.py --rapor
+```
+
+`pdftotext` Git Bash'in mingw64'ünde var; `pdfinfo` yok. PDF aktarımı PowerPoint COM ile
+yapılıyordu (faz 6), yani PowerPoint kurulu bir Windows makinesi gerekir.
 
 ## Ölçüm sonuçları — planın dayanağı
 
@@ -399,8 +444,8 @@ python tools/duzeltme_guncelle.py  # duzeltme onerisi v1.2
 
 - `index.html` sürüm rozeti **1.0** diyordu ama v1.1 dosyalarına link veriyordu — 1.1 olarak
   düzeltildi.
-- `index.html` alt başlığı hâlâ "A/B ve C Sınıfı" diyor. Şu an yalnızca C **soru bankaları**
-  sunuluyor, C sunumu yok; C çıktıları yayımlanana kadar bu ifade fazla iddialı.
+- `index.html` alt başlığının "A/B ve C Sınıfı" demesi C sunumu yokken fazla iddialıydı;
+  faz 6'da C sunumları yayımlanınca doğru hâle geldi, değiştirilmedi.
 - `Soru_Bankalari/` ad tutarsızlığı giderildi: iki dosya küçük `c_sinifi...` idi, üçü de büyük
   `C_sinifi...` yapıldı (`A-B_sinifi...` kuralıyla uyumlu olsun diye). `index.html` bağlantıları
   da güncellendi. Git `core.ignorecase=true` olduğu için yeniden adlandırma ara ad üzerinden
@@ -432,4 +477,11 @@ doğrulanmalıdır** — sette kaynak sadakati temel iddiadır.
 
 ## Açık kalanlar
 
-Şu an yok — plan uygulanmayı bekliyor (bkz. Fazlar).
+- **Düzeltme önerisi v1.2'nin KEGM Telsiz İşletme Müdürlüğü'ne iletilmesi** — kullanıcının işi.
+  İletildiğinde tarih ve kanal buraya yazılmalı; iletildikten sonra bulunan hatalar v1.3'e
+  girer.
+- Bilinen sınır, iş değil: `cikarim.py`'nin çizim algılama ölçütü sezgisel (bkz. faz 1). C
+  Teknik slaytları tek tek gözden geçirildiği için C setinde etkisi yok; yalnızca yeni bir
+  banka sürümü gelirse yeniden önem kazanır.
+- KEGM yeni bir soru bankası yayımlarsa: altı PDF'i `Soru_Bankalari/` altında değiştir,
+  `cikarim.py --rapor` ile ayrıştırmayı doğrula, sonra eşleme tablosunun farkına bak.
