@@ -45,8 +45,13 @@ düzeldi; dosya 19,6 MB'tan 17,8 MB'a indi.
 `python-pptx 1.0.2` ve `pymupdf 1.28.2` aynı gün kuruldu; `cikarim.py --rapor` temiz çalıştı
 (ayrıştırma hatası 0, elle aktarılacak 101 — faz 1 sayılarıyla aynı).
 
-PATH'teki `python` hâlâ Microsoft Store kısayoluna düşüyor ("Python was not found"); `py`
-başlatıcısı da Git Bash'in PATH'inde değil. Yorumlayıcıyı tam yoluyla çağır:
+`python` komutu önce Microsoft Store kısayoluna düşüyordu ("Python was not found"). Kullanıcı
+24 Eylül'de Windows'un "Uygulama yürütme takma adları" ayarından `python.exe` / `python3.exe`
+kısayollarını kapattı. Kullanıcı PATH'inde Python313, Scripts ve Launcher WindowsApps'ten
+önce geliyor; yeni açılan terminalde `python` ve `py` doğrudan 3.13.15'i açıyor.
+
+**Tuzak:** Ayar değişmeden önce açılmış süreçler (Claude uygulaması dahil) eski PATH'i taşır
+ve `python`'u bulamaz. Uygulamayı yeniden başlat ya da tam yolu kullan:
 
 ```
 PY=/c/Users/Admin/AppData/Local/Programs/Python/Python313/python.exe
