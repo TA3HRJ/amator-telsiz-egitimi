@@ -38,19 +38,26 @@ Eski A-B PDF'inde doğru cevap işareti her sayfaya gömülü görseldi ve üs/a
 formüllerin metin katmanı bozuktu ("P=I²R" kopyalanınca "P=I<R"). Yeniden aktarımla ikisi de
 düzeldi; dosya 19,6 MB'tan 17,8 MB'a indi.
 
-## Ortam tuzağı — bu makinede Python paketleri yok
+## Ortam — Python kurulumu
 
-24 Eylül'de ölçüldü: makinedeki tek yorumlayıcı
-`C:\Users\Admin\AppData\Local\Programs\Python\Python313\python.exe` ve **yalnızca pip kurulu**;
-`python-pptx` ve `pymupdf` yok. Üstelik PATH'teki `python` Microsoft Store kısayoluna
-düşüyor ("Python was not found"); `py` başlatıcısı da Git Bash'in PATH'inde değil. Üretim
-zincirini çalıştırmadan önce yorumlayıcıyı tam yoluyla çağır:
+24 Eylül'de makinedeki tek yorumlayıcıda
+(`C:\Users\Admin\AppData\Local\Programs\Python\Python313\python.exe`) yalnızca pip vardı.
+`python-pptx 1.0.2` ve `pymupdf 1.28.2` aynı gün kuruldu; `cikarim.py --rapor` temiz çalıştı
+(ayrıştırma hatası 0, elle aktarılacak 101 — faz 1 sayılarıyla aynı).
+
+PATH'teki `python` hâlâ Microsoft Store kısayoluna düşüyor ("Python was not found"); `py`
+başlatıcısı da Git Bash'in PATH'inde değil. Yorumlayıcıyı tam yoluyla çağır:
 
 ```
 PY=/c/Users/Admin/AppData/Local/Programs/Python/Python313/python.exe
-$PY -m pip install python-pptx pymupdf
-$PY tools/cikarim.py --rapor
+PYTHONIOENCODING=utf-8 $PY tools/cikarim.py --rapor
 ```
+
+**Tuzak — `pip install --user` kullanma.** Claude masaüstü uygulaması MSIX paketi olduğu için
+içinden yapılan `--user` kurulumu gerçek `%APPDATA%`'ya değil
+`AppData\Local\Packages\Claude_…\LocalCache\Roaming\Python` altına yazılıyor; uygulama dışındaki
+terminal o paketleri görmez. Paketler `--user` olmadan, doğrudan `Python313\Lib\site-packages`
+altına kuruldu ve sanal klasörde kopyaları olmadığı doğrulandı.
 
 `pdftotext` Git Bash'in mingw64'ünde var; `pdfinfo` yok. PDF aktarımı PowerPoint COM ile
 yapılıyordu (faz 6), yani PowerPoint kurulu bir Windows makinesi gerekir.
