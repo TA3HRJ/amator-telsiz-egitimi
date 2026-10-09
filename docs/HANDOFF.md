@@ -1,6 +1,6 @@
 # HANDOFF
 
-Son güncelleme: 24 Eylül 2026
+Son güncelleme: 10 Ekim 2026
 
 ## Nerede kalındı
 
@@ -8,11 +8,50 @@ Son güncelleme: 24 Eylül 2026
 19-20 Eylül'de çağrı işareti değişikliği bütün çıktılara işlendi (bkz. "Künye düzeltmesi").
 Depo `origin/main` ile eşit, çalışma ağacı temiz.
 
+10 Ekim'de indirme sayfası `sinav.aprsagent.com`'a taşındı ve aprsagent.com aile standardına
+getirildi (bkz. "aprsagent.com aile standardı").
+
 Tek açık iş kullanıcıya ait: **düzeltme önerisi v1.2 henüz KEGM'ye iletilmedi.**
 
 24 Eylül oturumunda yalnızca belgeler güncellendi: bu dosya ve CLAUDE.md (CLAUDE.md hâlâ
 "üç sunum, tek PDF, düzeltme önerisi v1.1 / 9 bulgu" diyordu; v1.1 depodan kaldırılmıştı).
 Çıktılar denetlendi, hiçbirine dokunulmadı.
+
+## aprsagent.com aile standardı — 10 Ekim 2026
+
+İndirme sayfası 9 Ekim'de `sinav.aprsagent.com` adresine taşındı (`CNAME`, GitHub Pages) ve
+10 Ekim'de aile standardına getirildi. Standart: `_shared/aprsagent-site-standardi/` (README,
+`family.css`, `snippets.html`).
+
+- `family.css` ve `assets/aprsagent-mark.svg` ortak klasörden **kopyalandı** (çalışma anında
+  aprsagent.com'dan çekilmez). `family.css`'e dokunma; standart değişirse yeniden kopyala.
+  Siteye özgü stiller `index.html` içindeki `<style>`'da ve yalnızca family değişkenlerini kullanır.
+- Başlık çubuğu (APRS-Agent işareti → `aprsagent.com/#tools`, site adı **SINAV**, GitHub ↗),
+  alt bilgide "Telsizci araçları" satırı (Sınav `aria-current`), `İşleten: TA3HX`, kısa yasal not.
+- Eski sarı sorumluluk kutusu iki bölüme ayrıldı: `#hazirlanis` (yazar/editör satırı, geri
+  bildirim) ve `#legal` (ticari markalar + sorumluluk reddi + standarttaki "sinav" maddesi).
+  README'deki bölüm "Ticari markalar ve sorumluluk reddi (Trademarks and disclaimer)" oldu.
+- **® hiçbir yerde yok:** PowerPoint, Claude, Anthropic, AnyTone için sahibinin belgesinden kanıt
+  toplanmadı; genel "olabilir" cümlesi kullanıldı. Sitede APRS adı geçmediği için APRS cümlesi
+  gerekmiyor.
+- **Depoda lisans yok.** Standart örnek alt bilgi "Kod MIT · veri CC BY 4.0" diyor; uydurulmadı,
+  yerine sürüm satırı ("A/B Sınıfı v1.1 · C Sınıfı v1.0") kondu. Lisans seçilirse alt bilgiye ve
+  README'ye "markalar üzerinde hak vermez" cümlesiyle eklenmeli.
+- Yol üstünde: "orijinal soru bankaları **(cevapsız)**" / "cevap anahtarsız" ifadesi sayfada ve
+  README'de yanlıştı — altı bankanın sonunda resmî anahtar var. "(açıklamasız)" yapıldı.
+- Service worker yok; önbellek adımı uygulanmadı.
+
+**Tuzak — `class="wrap legal"`.** Standarttaki snippet `.legal`'i `.wrap` ile aynı öğeye koyuyor;
+`.legal{max-width:78ch}` kabı daraltıp ortaladığı için yasal bölümler diğer bölümlerden sağa
+kayıyordu. Çözüm: `<div class="wrap"><div class="legal">`. Diğer aile sitelerinde de aynı kayma
+olabilir; standarda bildirilmeye değer.
+
+**Doğrulama:** 1280px ve 375px'te ekran görüntüsüyle aprsagent.com ile karşılaştırıldı; 375px'te
+yatay taşma yok, bölümlerin sol kenarı hizalı, 17 yerel bağlantının hepsi diskte var. Önizleme için
+`.claude/launch.json` (python http.server :8765) kullanıldı — depoya girmez.
+
+**Depo dışı not:** aprsagent.com ana sayfasındaki "Sınav hazırlık" kartı "açıklamalı 390 soru"
+diyor; bu yalnızca A/B toplamı. C ile set 661 soru (390 + 271). Ana sayfa sunucuda, bu depoda değil.
 
 ## Künye düzeltmesi — 19-20 Eylül 2026
 

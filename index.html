@@ -4,169 +4,260 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Amatör Telsizcilik — Sınav Hazırlık Seti</title>
+<meta name="description" content="KEGM Amatör Telsizcilik Belgesi (A/B ve C sınıfı) sınavı için soru, açıklama ve kaynak formatında hazırlık sunumları.">
+<link rel="stylesheet" href="family.css">
 <style>
-  :root{ --navy:#1f3864; --blue:#2e75b6; --bg:#f6f8fb; --card:#fff; --line:#e2e8f0; --ink:#1f2933; --muted:#66727f; }
-  *{ box-sizing:border-box; }
-  body{ margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; background:var(--bg); color:var(--ink); line-height:1.6; }
-  .wrap{ max-width:780px; margin:0 auto; padding:32px 20px 64px; }
-  header{ text-align:center; }
-  .kicker{ letter-spacing:.14em; text-transform:uppercase; font-size:.72rem; color:var(--muted); margin:0 0 6px; }
-  h1{ color:var(--navy); font-size:1.7rem; margin:.1rem 0 .3rem; }
-  .sub{ color:var(--blue); font-size:1rem; margin:0 0 6px; }
-  .badge{ display:inline-block; background:var(--navy); color:#fff; font-size:.75rem; font-weight:600; padding:3px 12px; border-radius:20px; }
-  .intro{ background:var(--card); border:1px solid var(--line); border-radius:12px; padding:18px 20px; margin:24px 0; font-size:.96rem; }
-  h2{ font-size:1.05rem; color:var(--navy); border-bottom:2px solid var(--blue); padding-bottom:6px; margin:32px 0 14px; }
-  .files{ display:grid; gap:12px; }
-  a.file{ display:flex; align-items:center; gap:14px; text-decoration:none; color:inherit; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; transition:.15s; }
-  a.file:hover{ border-color:var(--blue); box-shadow:0 3px 12px rgba(46,117,182,.12); transform:translateY(-1px); }
-  .tag{ flex:0 0 auto; width:44px; height:44px; border-radius:9px; display:grid; place-items:center; font-weight:700; font-size:.72rem; color:#fff; }
-  .ppt{ background:#c43e1c; } .pdf{ background:#8a1f11; }
-  .file .t{ font-weight:600; } .file .d{ color:var(--muted); font-size:.83rem; }
-  .file .arrow{ margin-left:auto; color:var(--blue); font-size:1.2rem; }
-  .note{ background:#eef4fb; border:1px solid #cfe0f3; border-radius:12px; padding:16px 18px; margin:18px 0; font-size:.9rem; }
-  .disclaimer{ background:#fff8ec; border:1px solid #f0d9a8; border-radius:12px; padding:18px 20px; margin-top:34px; font-size:.9rem; }
-  .disclaimer h3{ margin:0 0 10px; color:#8a5a00; font-size:1rem; }
-  .disclaimer ul{ margin:10px 0 0; padding-left:20px; } .disclaimer li{ margin:5px 0; }
-  footer{ text-align:center; color:var(--muted); font-size:.8rem; margin-top:40px; }
-  a{ color:var(--blue); }
+  /* yalnızca bu sitenin bileşenleri; renk ve yazı family.css değişkenlerinden */
+  .hero{padding-top:56px;padding-bottom:42px}
+  .kicker{font:600 12px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 12px}
+  /* kenarlar öğede, -1px bindirme: şerit hangi genişlikte kırılırsa kırılsın ortak kenarlı kalır */
+  .meta{display:flex;flex-wrap:wrap;margin:0;padding:0 1px 1px 0;list-style:none;width:fit-content;max-width:100%}
+  .meta li{padding:7px 14px;margin:0 -1px -1px 0;border:1px solid var(--line);background:var(--card);
+    font:600 12px var(--mono);letter-spacing:.06em;color:var(--fg2)}
+  .meta b{color:var(--fg)}
+
+  .files{border:1px solid var(--line);border-bottom:0;background:var(--card)}
+  a.file{display:flex;align-items:center;gap:16px;padding:14px 18px;border-bottom:1px solid var(--line);
+    text-decoration:none;color:var(--fg)}
+  a.file:hover{background:var(--bg2)}
+  a.file:hover .arrow{color:var(--accent)}
+  .tag{flex:0 0 auto;width:52px;padding:5px 0;text-align:center;border:1px solid currentColor;border-radius:var(--r);
+    font:700 11px var(--mono);letter-spacing:.08em}
+  .tag.ppt{color:var(--accent)}
+  .tag.pdf{color:var(--accent2)}
+  .file .t{font-weight:600;font-size:15.5px}
+  .file .d{display:block;color:var(--fg2);font-size:14px;line-height:1.5;margin-top:2px}
+  .file .arrow{margin-left:auto;padding-left:6px;font:700 16px var(--mono);color:var(--fg2)}
+
+  .note{margin-top:30px;border:1px solid var(--line);border-left:3px solid var(--accent2);
+    background:var(--card);padding:20px 22px;border-radius:var(--r)}
+  .note h3{margin:0 0 10px;font:700 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent2)}
+  .note p{margin:0;font-size:14.5px;line-height:1.55;color:var(--fg2)}
+  .legal h2+p,.legal h2+ul{margin-top:0}
+  .legal h2:not(:first-child){margin-top:34px}
+  .fam-line .sp{flex:1}
+
+  @media (max-width:600px){
+    a.file{gap:12px;padding:13px 14px}
+    .tag{width:46px}
+    .meta li{padding:6px 10px}
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
+<header class="fam-bar">
+  <div class="wrap bar">
+    <a class="fam-home" href="https://aprsagent.com/#tools" title="aprsagent.com — Telsizci araçları">
+      <img src="assets/aprsagent-mark.svg" alt=""><span class="t">aprsagent.com</span>
+    </a>
+    <span class="fam-sep" aria-hidden="true"></span>
+    <a class="fam-site" href="./">SINAV</a>
+    <span class="sp"></span>
+    <a class="ghl" href="https://github.com/TA3HRJ/amator-telsiz-egitimi" rel="noopener">GitHub ↗</a>
+  </div>
+</header>
+
+<main>
+  <div class="wrap hero">
     <p class="kicker">Amatör Telsizcilik</p>
     <h1>Sınav Hazırlık Seti</h1>
-    <p class="sub">Soru · Açıklama · Kaynak — A/B ve C Sınıfı</p>
-    <p><span class="badge">A/B Sınıfı v1.1 · C Sınıfı v1.0 · 7 Eylül 2026</span></p>
-  </header>
-
-  <div class="intro">
-    Türkiye'de Amatör Telsizcilik Belgesi sınavına hazırlananlar için hazırlanmış, KEGM'nin resmî
-    soru bankalarına dayanan altı sunum seti: A/B sınıfı için üç, C sınıfı için üç.
-    Mevcut soru bankaları genellikle yalnızca doğru şıkkı
-    işaretler, gerekçe göstermez — bu set her sorunun <strong>neden</strong> doğru olduğunu ilgili
-    yönetmelik maddesine veya teknik formüle atıfla açıklar. Kısaltmalar ve teknik terimler sade
-    Türkçe ile açıklanmıştır; amatör olmayan biri de takip edebilir.
-  </div>
-
-  <h2>Sunumlar — A/B Sınıfı</h2>
-  <div class="files">
-    <a class="file" href="Amator_Telsizcilik_A-B_Duzenlemeler_Sinav_Hazirlik_v1.1.pptx">
-      <span class="tag ppt">PPTX</span>
-      <span><span class="t">A/B Sınıfı — Ulusal ve Uluslararası Düzenlemeler (v1.1)</span><br><span class="d">67 soru — KEGM Sınav ve Belgelendirme Yönetmeliği, CEPT/ITU</span></span>
-      <span class="arrow">↓</span>
-    </a>
-    <a class="file" href="Amator_Telsizcilik_A-B_Isletme_Sinav_Hazirlik_v1.1.pptx">
-      <span class="tag ppt">PPTX</span>
-      <span><span class="t">A/B Sınıfı — İşletme (v1.1)</span><br><span class="d">151 soru — Q-kodları, fonetik alfabe, mors, çağrı işareti, işletme adabı</span></span>
-      <span class="arrow">↓</span>
-    </a>
-    <a class="file" href="Amator_Telsizcilik_A-B_Teknik_Sinav_Hazirlik_v1.1.pptx">
-      <span class="tag ppt">PPTX</span>
-      <span><span class="t">A/B Sınıfı — Teknik (v1.1)</span><br><span class="d">172 soru — devre analizi, anten, propagasyon, temel formüller</span></span>
-      <span class="arrow">↓</span>
-    </a>
-  </div>
-
-  <h2>Sunumlar — C Sınıfı</h2>
-  <div class="files">
-    <a class="file" href="Amator_Telsizcilik_C_Duzenlemeler_Sinav_Hazirlik_v1.0.pptx">
-      <span class="tag ppt">PPTX</span>
-      <span><span class="t">C Sınıfı — Ulusal ve Uluslararası Düzenlemeler (v1.0)</span><br><span class="d">49 soru — KEGM Sınav ve Belgelendirme Yönetmeliği, CEPT/ITU</span></span>
-      <span class="arrow">↓</span>
-    </a>
-    <a class="file" href="Amator_Telsizcilik_C_Isletme_Sinav_Hazirlik_v1.0.pptx">
-      <span class="tag ppt">PPTX</span>
-      <span><span class="t">C Sınıfı — İşletme (v1.0)</span><br><span class="d">82 soru — Q-kodları, fonetik alfabe, çağrı işareti bölgeleri, acil durum haberleşmesi</span></span>
-      <span class="arrow">↓</span>
-    </a>
-    <a class="file" href="Amator_Telsizcilik_C_Teknik_Sinav_Hazirlik_v1.0.pptx">
-      <span class="tag ppt">PPTX</span>
-      <span><span class="t">C Sınıfı — Teknik (v1.0)</span><br><span class="d">140 soru — devre hesabı, anten, yayılım, temel elektrik/elektronik; çizime bağlı sorularda şekil slaytta</span></span>
-      <span class="arrow">↓</span>
-    </a>
-  </div>
-
-  <h2>Toplu dosyalar (PDF)</h2>
-  <div class="files">
-    <a class="file" href="KEGM_Amator_Telsizcilik_A-B_Sinav_Hazirlik_Tum_Konular_v1.1.pdf">
-      <span class="tag pdf">PDF</span>
-      <span><span class="t">A/B Sınıfı — Tüm Konular: Düzenlemeler + İşletme + Teknik (v1.1)</span><br><span class="d">Üç sunumun tamamı tek PDF'te (429 sayfa) — PowerPoint açmadan görüntülemek, indirmek veya yazdırmak için</span></span>
-      <span class="arrow">↓</span>
-    </a>
-    <a class="file" href="KEGM_Amator_Telsizcilik_C_Sinav_Hazirlik_Tum_Konular_v1.0.pdf">
-      <span class="tag pdf">PDF</span>
-      <span><span class="t">C Sınıfı — Tüm Konular: Düzenlemeler + İşletme + Teknik (v1.0)</span><br><span class="d">Üç C sunumunun tamamı tek PDF'te (299 sayfa)</span></span>
-      <span class="arrow">↓</span>
-    </a>
-  </div>
-
-  <h2>Eşlikçi kaynak — orijinal soru bankaları (cevapsız)</h2>
-  <div class="files">
-    <a class="file" href="Soru_Bankalari/A-B_sinifi_ulusal_ve_uluslararasi_duzenlemeler_soru_bankasi.pdf">
-      <span class="tag pdf">PDF</span>
-      <span><span class="t">A-B Sınıfı — Düzenlemeler</span><br><span class="d">Pratik sınav olarak kullanılabilir</span></span>
-      <span class="arrow">↓</span>
-    </a>
-    <a class="file" href="Soru_Bankalari/A-B_sinifi_isletme_soru_bankasi.pdf">
-      <span class="tag pdf">PDF</span>
-      <span><span class="t">A-B Sınıfı — İşletme</span></span>
-      <span class="arrow">↓</span>
-    </a>
-    <a class="file" href="Soru_Bankalari/A-B_sinifi_teknik_soru_bankasi.pdf">
-      <span class="tag pdf">PDF</span>
-      <span><span class="t">A-B Sınıfı — Teknik</span></span>
-      <span class="arrow">↓</span>
-    </a>
-    <a class="file" href="Soru_Bankalari/C_sinifi_ulusal_ve_uluslararasi_duzenlemeler_soru_bankasi.pdf">
-      <span class="tag pdf">PDF</span>
-      <span><span class="t">C Sınıfı — Düzenlemeler</span></span>
-      <span class="arrow">↓</span>
-    </a>
-    <a class="file" href="Soru_Bankalari/C_sinifi_isletme_soru_bankasi.pdf">
-      <span class="tag pdf">PDF</span>
-      <span><span class="t">C Sınıfı — İşletme</span></span>
-      <span class="arrow">↓</span>
-    </a>
-    <a class="file" href="Soru_Bankalari/C_sinifi_teknik_soru_bankasi.pdf">
-      <span class="tag pdf">PDF</span>
-      <span><span class="t">C Sınıfı — Teknik</span></span>
-      <span class="arrow">↓</span>
-    </a>
-  </div>
-
-  <div class="note">
-    <strong>Kaynak doğruluğu:</strong> Cevaplar, görsel işaretlerden değil her soru bankasının
-    sonundaki <em>resmî cevap anahtarı tablosundan</em> programatik olarak çıkarılmış ve
-    doğrulanmıştır. Hesaba dayalı sorular (Ohm Kanunu, rezonans, güç/dB, anten boyu vb.) bağımsız
-    olarak yeniden hesaplanmıştır. Bu süreçte kaynak bankasında bulunan birkaç gerçek hata, ilgili
-    slaytta turuncu bir uyarı kutusuyla ayrıca belirtilmiştir.
-  </div>
-
-  <h2>KEGM'ye sunulacak düzeltme önerisi</h2>
-  <div class="files">
-    <a class="file" href="KEGM_Soru_Bankasi_Duzeltme_Onerisi_v1.2.pptx">
-      <span class="tag ppt">PPTX</span>
-      <span><span class="t">Soru Bankası Düzeltme Önerisi (v1.2)</span><br><span class="d">Altı bankada (A/B ve C sınıfı) tespit edilen 16 bulgu; gerekçe, hesap, birincil mevzuat dayanağı ve önerilen düzeltmelerle — KEGM Telsiz İşletme Müdürlüğü'ne sunulmak üzere hazırlanmıştır</span></span>
-      <span class="arrow">↓</span>
-    </a>
-  </div>
-
-  <div class="disclaimer">
-    <h3>Bilgilendirme / Sorumluluk Reddi</h3>
-    <p>Bu set, amatör telsiz camiasına katkı amacıyla gönüllü olarak hazırlanmıştır.
-    <strong>Sınav hazırlık amaçlıdır; resmî bir KEGM yayını değildir.</strong></p>
-    <ul>
-      <li>İçerik <strong>Claude Sonnet 5</strong> ve <strong>Claude Opus 5</strong> (Anthropic) desteğiyle üretilmiş; editör ve hata kontrolleri <strong>H. Erhan Özkan, TA3HX</strong> tarafından yapılmıştır.</li>
-      <li>Hata veya eksik içerebilir; gerçek sınavda resmî cevap anahtarı esas alınır (yukarıda belirtilen istisnalar hariç).</li>
-      <li>İçerik ticari amaç taşımaz, herhangi bir kurumun resmî görüşünü temsil etmez.</li>
-      <li>Katkı, düzeltme ve geri bildirimler memnuniyetle karşılanır: <a href="https://github.com/TA3HRJ/amator-telsiz-egitimi">github.com/TA3HRJ/amator-telsiz-egitimi</a></li>
+    <p class="lede">Soru · Açıklama · Kaynak — A/B ve C Sınıfı</p>
+    <ul class="meta">
+      <li><b>A/B Sınıfı</b> v1.1</li>
+      <li><b>C Sınıfı</b> v1.0</li>
+      <li>7 Eylül 2026</li>
     </ul>
   </div>
 
-  <footer>
-    Amatör telsiz camiasına açık katkı · Bireysel gönüllü çalışma · Sürüm 1.0
-  </footer>
-</div>
+  <section>
+    <div class="wrap">
+      <p class="sub">
+        Türkiye'de Amatör Telsizcilik Belgesi sınavına hazırlananlar için hazırlanmış, KEGM'nin resmî
+        soru bankalarına dayanan altı sunum seti: A/B sınıfı için üç, C sınıfı için üç.
+        Mevcut soru bankaları genellikle yalnızca doğru şıkkı
+        işaretler, gerekçe göstermez — bu set her sorunun <strong>neden</strong> doğru olduğunu ilgili
+        yönetmelik maddesine veya teknik formüle atıfla açıklar. Kısaltmalar ve teknik terimler sade
+        Türkçe ile açıklanmıştır; amatör olmayan biri de takip edebilir.
+      </p>
+
+      <h2>Sunumlar — A/B Sınıfı</h2>
+      <div class="files">
+        <a class="file" href="Amator_Telsizcilik_A-B_Duzenlemeler_Sinav_Hazirlik_v1.1.pptx">
+          <span class="tag ppt">PPTX</span>
+          <span><span class="t">A/B Sınıfı — Ulusal ve Uluslararası Düzenlemeler (v1.1)</span><span class="d">67 soru — KEGM Sınav ve Belgelendirme Yönetmeliği, CEPT/ITU</span></span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+        <a class="file" href="Amator_Telsizcilik_A-B_Isletme_Sinav_Hazirlik_v1.1.pptx">
+          <span class="tag ppt">PPTX</span>
+          <span><span class="t">A/B Sınıfı — İşletme (v1.1)</span><span class="d">151 soru — Q-kodları, fonetik alfabe, mors, çağrı işareti, işletme adabı</span></span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+        <a class="file" href="Amator_Telsizcilik_A-B_Teknik_Sinav_Hazirlik_v1.1.pptx">
+          <span class="tag ppt">PPTX</span>
+          <span><span class="t">A/B Sınıfı — Teknik (v1.1)</span><span class="d">172 soru — devre analizi, anten, propagasyon, temel formüller</span></span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Sunumlar — C Sınıfı</h2>
+      <div class="files">
+        <a class="file" href="Amator_Telsizcilik_C_Duzenlemeler_Sinav_Hazirlik_v1.0.pptx">
+          <span class="tag ppt">PPTX</span>
+          <span><span class="t">C Sınıfı — Ulusal ve Uluslararası Düzenlemeler (v1.0)</span><span class="d">49 soru — KEGM Sınav ve Belgelendirme Yönetmeliği, CEPT/ITU</span></span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+        <a class="file" href="Amator_Telsizcilik_C_Isletme_Sinav_Hazirlik_v1.0.pptx">
+          <span class="tag ppt">PPTX</span>
+          <span><span class="t">C Sınıfı — İşletme (v1.0)</span><span class="d">82 soru — Q-kodları, fonetik alfabe, çağrı işareti bölgeleri, acil durum haberleşmesi</span></span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+        <a class="file" href="Amator_Telsizcilik_C_Teknik_Sinav_Hazirlik_v1.0.pptx">
+          <span class="tag ppt">PPTX</span>
+          <span><span class="t">C Sınıfı — Teknik (v1.0)</span><span class="d">140 soru — devre hesabı, anten, yayılım, temel elektrik/elektronik; çizime bağlı sorularda şekil slaytta</span></span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Toplu dosyalar (PDF)</h2>
+      <div class="files">
+        <a class="file" href="KEGM_Amator_Telsizcilik_A-B_Sinav_Hazirlik_Tum_Konular_v1.1.pdf">
+          <span class="tag pdf">PDF</span>
+          <span><span class="t">A/B Sınıfı — Tüm Konular: Düzenlemeler + İşletme + Teknik (v1.1)</span><span class="d">Üç sunumun tamamı tek PDF'te (429 sayfa) — PowerPoint açmadan görüntülemek, indirmek veya yazdırmak için</span></span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+        <a class="file" href="KEGM_Amator_Telsizcilik_C_Sinav_Hazirlik_Tum_Konular_v1.0.pdf">
+          <span class="tag pdf">PDF</span>
+          <span><span class="t">C Sınıfı — Tüm Konular: Düzenlemeler + İşletme + Teknik (v1.0)</span><span class="d">Üç C sunumunun tamamı tek PDF'te (299 sayfa)</span></span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Eşlikçi kaynak — orijinal soru bankaları (açıklamasız)</h2>
+      <div class="files">
+        <a class="file" href="Soru_Bankalari/A-B_sinifi_ulusal_ve_uluslararasi_duzenlemeler_soru_bankasi.pdf">
+          <span class="tag pdf">PDF</span>
+          <span><span class="t">A-B Sınıfı — Düzenlemeler</span><span class="d">Pratik sınav olarak kullanılabilir</span></span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+        <a class="file" href="Soru_Bankalari/A-B_sinifi_isletme_soru_bankasi.pdf">
+          <span class="tag pdf">PDF</span>
+          <span><span class="t">A-B Sınıfı — İşletme</span></span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+        <a class="file" href="Soru_Bankalari/A-B_sinifi_teknik_soru_bankasi.pdf">
+          <span class="tag pdf">PDF</span>
+          <span><span class="t">A-B Sınıfı — Teknik</span></span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+        <a class="file" href="Soru_Bankalari/C_sinifi_ulusal_ve_uluslararasi_duzenlemeler_soru_bankasi.pdf">
+          <span class="tag pdf">PDF</span>
+          <span><span class="t">C Sınıfı — Düzenlemeler</span></span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+        <a class="file" href="Soru_Bankalari/C_sinifi_isletme_soru_bankasi.pdf">
+          <span class="tag pdf">PDF</span>
+          <span><span class="t">C Sınıfı — İşletme</span></span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+        <a class="file" href="Soru_Bankalari/C_sinifi_teknik_soru_bankasi.pdf">
+          <span class="tag pdf">PDF</span>
+          <span><span class="t">C Sınıfı — Teknik</span></span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+      </div>
+
+      <div class="note">
+        <h3>Kaynak doğruluğu</h3>
+        <p>Cevaplar, görsel işaretlerden değil her soru bankasının
+        sonundaki <em>resmî cevap anahtarı tablosundan</em> programatik olarak çıkarılmış ve
+        doğrulanmıştır. Hesaba dayalı sorular (Ohm Kanunu, rezonans, güç/dB, anten boyu vb.) bağımsız
+        olarak yeniden hesaplanmıştır. Bu süreçte kaynak bankasında bulunan birkaç gerçek hata, ilgili
+        slaytta turuncu bir uyarı kutusuyla ayrıca belirtilmiştir.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>KEGM'ye sunulacak düzeltme önerisi</h2>
+      <div class="files">
+        <a class="file" href="KEGM_Soru_Bankasi_Duzeltme_Onerisi_v1.2.pptx">
+          <span class="tag ppt">PPTX</span>
+          <span><span class="t">Soru Bankası Düzeltme Önerisi (v1.2)</span><span class="d">Altı bankada (A/B ve C sınıfı) tespit edilen 16 bulgu; gerekçe, hesap, birincil mevzuat dayanağı ve önerilen düzeltmelerle — KEGM Telsiz İşletme Müdürlüğü'ne sunulmak üzere hazırlanmıştır</span></span>
+          <span class="arrow" aria-hidden="true">↓</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="hazirlanis">
+    <div class="wrap"><div class="legal">
+      <h2>Hazırlanış</h2>
+      <p>Bu set, amatör telsiz camiasına katkı amacıyla gönüllü olarak hazırlanmıştır.
+      <strong>Sınav hazırlık amaçlıdır; resmî bir KEGM yayını değildir.</strong></p>
+      <ul>
+        <li>İçerik <strong>Claude Sonnet 5</strong> ve <strong>Claude Opus 5</strong> (Anthropic) desteğiyle üretilmiş; editör ve hata kontrolleri <strong>H. Erhan Özkan, TA3HX</strong> tarafından yapılmıştır.</li>
+        <li>Katkı, düzeltme ve geri bildirimler memnuniyetle karşılanır: <a href="https://github.com/TA3HRJ/amator-telsiz-egitimi">github.com/TA3HRJ/amator-telsiz-egitimi</a></li>
+      </ul>
+    </div></div>
+  </section>
+
+  <section id="legal">
+    <div class="wrap"><div class="legal">
+      <h2>Ticari markalar</h2>
+      <p>Bu sitede geçen marka, ürün, kurum ve şirket adları sahiplerinin ticari markaları ya da tescilli ticari
+        markalarıdır ve yalnızca tanımlama amacıyla kullanılır. Microsoft PowerPoint, Claude, Anthropic ve AnyTone de
+        sahiplerinin ticari markaları ya da tescilli ticari markaları olabilir. Bu proje adı geçen hiçbir kurum ya da
+        üreticiyle bağlantılı değildir; onlar tarafından desteklenmez, onaylanmaz ya da sponsor edilmez.</p>
+
+      <h2>Sorumluluk reddi</h2>
+      <ul>
+        <li>Resmî bir sınav kaynağı değildir ve sınavı düzenleyen kurumla bağlantısı yoktur. Sorular ve açıklamalar
+          hazırlık amaçlıdır; güncel mevzuat ve resmî soru bankası esastır.</li>
+        <li>Bilgiler KEGM'nin resmî soru bankalarından ve Resmî Gazete'de yayımlanmış mevzuattan derlenmiştir. Aktarım
+          hatası olabilir ve kaynaklar haber vermeden değişebilir; kullanmadan önce birincil kaynaktan doğrulayın.</li>
+        <li>Hata veya eksik içerebilir; gerçek sınavda resmî cevap anahtarı esas alınır (yukarıda belirtilen istisnalar hariç).</li>
+        <li>İçerik ticari amaç taşımaz, herhangi bir kurumun resmî görüşünü temsil etmez.</li>
+        <li>Dış bağlantılar üçüncü taraf sitelere gider; içeriklerinden bu site sorumlu değildir.</li>
+        <li>Bilgiler "olduğu gibi" sunulur. Doğruluk, eksiksizlik ya da belirli bir amaca uygunluk konusunda hiçbir
+          garanti verilmez ve kullanımdan doğabilecek zararlardan sorumluluk kabul edilmez.</li>
+      </ul>
+    </div></div>
+  </section>
+</main>
+
+<footer class="fam-foot">
+  <div class="wrap">
+    <nav class="fam-tools" aria-label="Telsizci araçları">
+      <b>Telsizci araçları</b>
+      <a href="https://aprsagent.com/">aprsagent.com</a>
+      <a href="https://coax.aprsagent.com/">Kablo veritabanı</a>
+      <a href="https://repeaters.aprsagent.com/">Röleler</a>
+      <a href="https://sinav.aprsagent.com/" aria-current="page">Sınav hazırlık</a>
+      <a href="https://contacts.aprsagent.com/">AnyTone rehber</a>
+    </nav>
+    <div class="fam-line">
+      <span>A/B Sınıfı v1.1 · C Sınıfı v1.0</span>
+      <a href="#hazirlanis">Hazırlanış</a>
+      <a href="https://github.com/TA3HRJ/amator-telsiz-egitimi" rel="noopener">GitHub</a>
+      <span class="sp"></span>
+      <span>İşleten: TA3HX</span>
+    </div>
+    <p class="fam-legal">Marka ve ürün adları sahiplerinindir; bu site hiçbir kurum ya da üreticiyle bağlantılı değildir. Bilgiler bilgi amaçlıdır, garanti verilmez.
+      <a href="#legal">Ticari markalar ve sorumluluk reddi</a></p>
+  </div>
+</footer>
 </body>
 </html>

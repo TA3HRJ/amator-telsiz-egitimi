@@ -29,7 +29,7 @@ doğrudan tarayıcıda (Chrome/Safari) açın.
 | **C Sınıfı — İşletme (v1.0)** | 82 soru — Q-kodları, fonetik alfabe, çağrı işareti bölgeleri, acil durum haberleşmesi |
 | **C Sınıfı — Teknik (v1.0)** | 140 soru — devre hesabı, anten, yayılım, temel elektrik/elektronik; çizime bağlı sorularda şekil slaytta |
 | **C Sınıfı — Tüm Konular (PDF, v1.0)** | Üç C sunumunun tamamı tek PDF'te (299 sayfa) |
-| **Soru_Bankalari/** | Orijinal KEGM soru bankaları (cevap anahtarsız) — pratik sınav olarak kullanılabilir |
+| **Soru_Bankalari/** | Orijinal KEGM soru bankaları (açıklamasız; resmî cevap anahtarı her bankanın sonunda) — pratik sınav olarak kullanılabilir |
 | **Soru Bankası Düzeltme Önerisi (v1.2)** | KEGM Telsiz İşletme Müdürlüğü'ne sunulmak üzere hazırlanmış, **16 bulgu** içeren düzeltme önerisi (bkz. aşağıda) |
 
 > **C sınıfı eklendi (Eylül 2026):** Set artık C sınıfı sınavını da kapsıyor. C bankalarındaki
@@ -101,11 +101,32 @@ Aynı camiaya yönelik mevzuat analizi ve kurumlara talep çalışması ayrı bi
 
 İndirme sayfası: <https://ta3hrj.github.io/amator-telsiz-mevzuat/>
 
-## Sorumluluk Reddi
+## Ticari markalar ve sorumluluk reddi (Trademarks and disclaimer)
 
 Bu set, amatör telsiz camiasına katkı amacıyla gönüllü olarak hazırlanmıştır. **Sınav hazırlık
-amaçlıdır; resmî bir KEGM yayını değildir.** Hata veya eksik içerebilir; gerçek sınavda resmî
-cevap anahtarı esas alınır (yukarıda açıklanan istisnalar hariç). Ticari amaç taşımaz.
+amaçlıdır; resmî bir KEGM yayını değildir.**
+
+**Ticari markalar.** Bu belgede ve indirme sayfasında geçen marka, ürün, kurum ve şirket adları
+sahiplerinin ticari markaları ya da tescilli ticari markalarıdır ve yalnızca tanımlama amacıyla
+kullanılır. Microsoft PowerPoint, Claude, Anthropic ve AnyTone de sahiplerinin ticari markaları ya
+da tescilli ticari markaları olabilir. Bu proje adı geçen hiçbir kurum ya da üreticiyle bağlantılı
+değildir; onlar tarafından desteklenmez, onaylanmaz ya da sponsor edilmez. Bu set ve deposu, bu
+adlar üzerinde herhangi bir hak vermez.
+
+**Sorumluluk reddi.**
+
+- Resmî bir sınav kaynağı değildir ve sınavı düzenleyen kurumla bağlantısı yoktur. Sorular ve
+  açıklamalar hazırlık amaçlıdır; güncel mevzuat ve resmî soru bankası esastır.
+- Bilgiler KEGM'nin resmî soru bankalarından ve Resmî Gazete'de yayımlanmış mevzuattan
+  derlenmiştir. Aktarım hatası olabilir ve kaynaklar haber vermeden değişebilir; kullanmadan önce
+  birincil kaynaktan doğrulayın.
+- Hata veya eksik içerebilir; gerçek sınavda resmî cevap anahtarı esas alınır (yukarıda
+  açıklanan istisnalar hariç).
+- Ticari amaç taşımaz, herhangi bir kurumun resmî görüşünü temsil etmez.
+- Dış bağlantılar üçüncü taraf sitelere gider; içeriklerinden bu proje sorumlu değildir.
+- Bilgiler "olduğu gibi" sunulur. Doğruluk, eksiksizlik ya da belirli bir amaca uygunluk
+  konusunda hiçbir garanti verilmez ve kullanımdan doğabilecek zararlardan sorumluluk kabul
+  edilmez.
 
 Katkı, düzeltme ve geri bildirimler memnuniyetle karşılanır:
 [github.com/TA3HRJ/amator-telsiz-egitimi](https://github.com/TA3HRJ/amator-telsiz-egitimi)
