@@ -11,7 +11,7 @@ formüle atıfla açıklar.
 
 ## İndirme
 
-**İndirme sayfası:** <https://ta3hrj.github.io/amator-telsiz-egitimi/>
+**İndirme sayfası:** <https://sinav.aprsagent.com/>
 
 GitHub'ın mobil uygulamasında ve mobil tarayıcı görünümünde "Deployments" sekmesi
 gösterilmediği için bu adrese oradan ulaşılamaz; telefondan indirmek için yukarıdaki adresi
