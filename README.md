@@ -38,9 +38,9 @@ doğrudan tarayıcıda (Chrome/Safari) açın.
 > slaytlar taşınmış, kalan 115 soru için açıklama sıfırdan yazılmıştır. C Teknik'te çizime bağlı
 > soruların şekilleri, A/B setinde olduğu gibi, slayta gömülüdür.
 >
-> Mevzuat güncelliği denetimi C bankalarına da uygulanmış ve **yedi yeni bulgu** çıkmıştır
-> (C Düzenlemeler 30; C İşletme 34, 50; C Teknik 73, 74, 76, 86). Düzeltme önerisi 9 bulgudan
-> **16 bulguya** çıkmıştır. A/B setindeki iki bulgunun soruları C bankasında da aynı hâliyle
+> Cevap anahtarı/hesap ve mevzuat güncelliği denetimleri C bankalarına da uygulanmış ve **yedi
+> yeni bulgu** çıkmıştır (C Düzenlemeler 30; C İşletme 34, 50; C Teknik 73, 74, 76, 86). Düzeltme
+> önerisi 9 bulgudan **16 bulguya** çıkmıştır. A/B setindeki iki bulgunun soruları C bankasında da aynı hâliyle
 > bulunmaktadır.
 
 > **Sürüm 1.1'de ne değişti:** Soruların dayandığı yönetmelik hükümlerinin bugün yürürlükte olup
@@ -75,16 +75,16 @@ sunulmak üzere derler. Bulgular iki ayrı denetimden gelir:
 
 | Denetim | Bulgu |
 |---|---|
-| **Cevap anahtarı ve hesap** | İşletme 43 (CQ mod zorunluluğu); Teknik 46 (RMS → tepeden tepeye), 66 (LC rezonans), 120 (dipol kısalma sebebi) |
-| **Mevzuat güncelliği** | Düzenlemeler 17 ve 42 (mülga Özel Telsiz Sistemleri Yönetmeliği'ne atıf); Düzenlemeler 60 ve İşletme 22 (ITU Region / CQ Zone / ITU Zone karışıklığı); İşletme 89 (dernek çağrı işareti ön eki — 20/2/2011 Yönetmelik değişikliği) |
+| **Cevap anahtarı ve hesap** | A/B: İşletme 43 (CQ mod zorunluluğu); Teknik 46 (RMS → tepeden tepeye), 66 (LC rezonans), 120 (dipol kısalma sebebi). C: İşletme 34 (amatör olmayan bant — iki doğru cevap), 50 (boylam-saat hesabında yön hatası); Teknik 73 ve 74 (dengesiz Wheatstone köprüsü — sonuç şıklarda yok), 76 (faz modülasyonunun emisyon harfi şıklarda yok), 86 (tanım hatası — bir saniyede alınan yol) |
+| **Mevzuat güncelliği** | A/B: Düzenlemeler 17 ve 42 (mülga Özel Telsiz Sistemleri Yönetmeliği'ne atıf); Düzenlemeler 60 ve İşletme 22 (ITU Region / CQ Zone / ITU Zone karışıklığı); İşletme 89 (dernek çağrı işareti ön eki — 20/2/2011 Yönetmelik değişikliği). C: Düzenlemeler 30 (mülga geçiş hükmüne dayanan süre sorusu) |
 
 Mevzuat güncelliği denetimi, soruların dayandığı hükümlerin bugün yürürlükte olup olmadığını Resmî
 Gazete metinleri üzerinden kontrol eder. En belirgin bulgu, Özel Telsiz Sistemleri Yönetmeliği'nin
 (RG 27292) FTM Yönetmeliği (RG 30608) Md.9/2 ile **27/11/2018'de yürürlükten kaldırılmış** olmasına
 rağmen iki sorunun hâlâ bu yönetmeliği doğru cevap olarak göstermesidir.
 
-Bu bulguların dokuzu da eğitim sunumlarında ilgili soru slaytına **turuncu uyarı kutusu** olarak
-işlenmiştir: slaytta doğru bilgi/hesap gösterilir, resmî anahtarın ne dediği ve gerçek sınavda ne
+On altı bulgunun hepsi eğitim sunumlarında ilgili soru slaytına **turuncu uyarı kutusu** olarak
+işlenmiştir — A/B'deki iki bulgunun C bankasındaki karşılıkları (C Düzenlemeler 27 ve 37) dahil: slaytta doğru bilgi/hesap gösterilir, resmî anahtarın ne dediği ve gerçek sınavda ne
 beklenebileceği ayrıca belirtilir.
 
 ## Hazırlanış
